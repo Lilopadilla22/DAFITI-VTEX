@@ -1,3 +1,7 @@
 .headerRowContainer--header__desktop {
     justify-content: center;
 }
+
+.vtex-store-components-13-x-infoCardContainer--info-card-example {
+    height: 100%;
+}

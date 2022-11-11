@@ -1,71 +1,114 @@
 .paragraph--anuncio {
-    font-size: 16px;
-    text-align: center;
-    color: #8a8a8a;
+    font-size     : 16px;
+    text-align    : center;
+    color         : #8a8a8a;
     text-transform: uppercase;
-    padding: 0 0 30px 0;
+    padding       : 0 0 30px 0;
     letter-spacing: 1px;
-    line-height: 2;
-    font-weight: 500;
-    margin: 0px auto; 
+    line-height   : 2;
+    font-weight   : 500;
+    margin        : 0px auto;
 }
 
-.paragraph--anuncio::before{
-    content: '';
-    width: 100%;
+.paragraph--anuncio::before {
+    content      : '';
+    width        : 100%;
     border-bottom: 1px solid #d8d8d8;
-    display: inline-block;
-    position: relative;
-    top: 40px
+    display      : inline-block;
+    position     : relative;
+    top          : 40px
 }
 
 .paragraph--todomarca {
-    margin: 64px auto 40px;
-    display: table;
+    margin     : 64px auto 40px;
+    display    : table;
     white-space: nowrap;
-    font-family: Poppins,sans-serif;
-    color: #20281F;
-    font-size: 2rem;
+    font-family: Poppins, sans-serif;
+    color      : #20281F;
+    font-size  : 2rem;
     font-weight: 600;
 }
 
 .paragraph--descriptiontitle {
-    font-size: 30px;
+    font-size  : 30px;
     font-family: "Poppins", sans-serif;
-    margin: 40px auto;
-    text-align: center;
-    color: #20281f;
+    margin     : 40px auto;
+    text-align : center;
+    color      : #20281f;
     font-weight: 700;
 }
 
 .strong--description {
-    font-size: 16px;
-    color: #20281F;
+    font-size  : 16px;
+    color      : #20281F;
     line-height: 2.4rem;
-    text-align: center;
-    max-width: 90%;
-    margin: 12px auto;
+    text-align : center;
+    max-width  : 90%;
+    margin     : 12px auto;
 }
 
 .paragraph--descriptioninfor {
-    font-size: 15px;
-    color: #20281F;
-    line-height: 1,5rem;
-    text-align: center;
-    max-width: 90%;
-    margin: 12px auto;
+    font-size  : 15px;
+    color      : #20281F;
+    line-height: 1, 5rem;
+    text-align : center;
+    max-width  : 90%;
+    margin     : 12px auto;
 }
 
 .paragraph--tittle__menu {
     font-size: 8px;
-    padding: 2px 0;
+    padding  : 2px 0;
 }
 
 .link--text__description {
-    color: black;
+    color          : black;
     text-decoration: none;
-    font-size: 12px;
-    padding: 2px 0;
-    height: 10%;
-    width: 10%;
+    font-size      : 12px;
+    padding        : 2px 0;
+    height         : 10%;
+    width          : 10%;
+}
+
+.link--pruebadetexto {
+    color          : white;
+    text-decoration: none;
+    font-size      : 15px;
+}
+
+.container--pruebadetexto {
+    font-size    : 6px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.strong--pruebadetextitle {
+    color    : white;
+    font-size: 65px;
+}
+
+.paragraph--pruebadebotton {
+    border    : 5px solid gray;
+    background: white;
+}
+
+.paragraph--pruebadebotton:hover {
+    border    : 5px solid white;
+    background: black;
+}
+
+.link--pruebadebotton {
+    color          : black;
+    text-decoration: none;
+    margin         : 50px;
+}
+
+.link--pruebadebotton:hover {
+    color          : white;
+    text-decoration: none;
+    margin         : 50px;
+}
+
+.container--pruebadebotton {
+    padding-top: 70px;
 }

@@ -53,7 +53,7 @@
         "menu#departament__mujer"
       ],
       "props":{
-        "blockClass": "container__category",
+        "blockClass": "container__submenu",
         "onMountBehavior": "open"        
       }
   },
@@ -83,7 +83,8 @@
       "borderWidth": 0,
       "borderColor": "red",
       "border": "all",
-      "blockClass": "departament__mujer__navbar"
+      "blockClass": "departament__mujer__navbar",
+      "width": "80%"
     } 
   
   },

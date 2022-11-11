@@ -19,7 +19,7 @@
         "children": [ 
           "flex-layout.row#bannerplayer",
           "flex-layout.row#textfirst",
-          "flex-layout.row#section__home",
+          "flex-layout.row#prueba",
           "flex-layout.row#section__home__two",
           "flex-layout.row#marcas", 
           "slider-layout#marcasbanner",
@@ -27,6 +27,7 @@
           "flex-layout.row#favoritos",
           "flex-layout.row#description",
           "responsive-layout.desktop"
+          
           
         ],
         "props": {
