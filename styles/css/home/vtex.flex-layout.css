@@ -1,0 +1,21 @@
+.flexColChild--bannerayuda {
+    padding-top: 10px;
+    color: red;
+    background-color: aquamarine;
+}
+
+.flexRowContent--bannerSectionTwo {
+    padding: 20px 0px;
+}
+
+.flexRowContent--bannerayuda {
+    padding: 80px 0 ;
+}
+
+.flexRowContent {
+    align-items: baseline;
+}
+
+.flexColChild--bannerpromocional {
+    padding: 30px;
+}

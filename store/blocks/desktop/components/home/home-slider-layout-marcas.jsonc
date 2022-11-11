@@ -1,0 +1,172 @@
+{
+
+  //SLIDER DE MARCAS PERTENECIENTES A LA TIENDA 
+
+  "slider-layout#marcasbanner": {
+    "title": "slidermarcas",
+    "children": [
+      "image#adidas","image#asics", "image#calvin", 
+      "image#guess", "image#levis", "image#mng", 
+      "image#nautica", "image#parus","image#poloclub", 
+      "image#quiksilver", "image#reebok", "image#tommy", 
+      "image#under" ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 2000
+      },
+      "infinite": true,
+      "showPaginationDots": "never"
+    }
+  },
+
+  "image#adidas": {
+      "props": {
+        "src": "assets/carrousel/adidas.png",
+        "maxWidth": 200,
+        "maxHeight": 200,
+        "link": {
+          "url": "/#"
+        }
+      } 
+  },
+
+  "image#asics": {
+    "props": {
+      "src": "assets/carrousel/asics.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#calvin": {
+    "props": {
+       "src": "assets/carrousel/calvin.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+          "url": "/#"
+      }
+    }
+  },
+
+  "image#guess": {
+    "props": {
+      "src": "assets/carrousel/guess.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#levis": {
+    "props": {
+      "src": "assets/carrousel/levis.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#mng": {
+    "props": {
+      "src": "assets/carrousel/MNG.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#nautica": {
+    "props": {
+      "src": "assets/carrousel/nautica.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#parus": {
+    "props": {
+      "src": "assets/carrousel/parus.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#poloclub": {
+    "props": {
+      "src": "assets/carrousel/poloclub.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#quiksilver": {
+    "props": {
+      "src": "assets/carrousel/quiksilver.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+         "url": "/#"
+      }
+    }
+  },
+
+  "image#reebok": {
+    "props": {
+      "src": "assets/carrousel/reebok.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#tommy": {
+    "props": {
+      "src": "assets/carrousel/tommy.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#under": {
+    "props": {
+      "src": "assets/carrousel/under.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+       "link": {
+        "url": "/#"
+      }
+    }
+  }
+
+    
+
+}

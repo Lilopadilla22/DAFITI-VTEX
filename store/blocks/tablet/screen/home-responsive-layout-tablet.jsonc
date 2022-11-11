@@ -1,0 +1,30 @@
+{
+
+    "responsive-layout.mobile#home":{
+        "title": "Component desktop",
+        "children":[
+            "flex-layout.row#mobile--tablet"
+        ]
+    },
+
+    "flex-layout.row#mobile--tablet": {
+        "children": [
+            "flex-layout.col#mobile"
+        ],
+        "props":{
+          "horizontalAlign": "center",
+          "colSizing": "auto"
+        }
+      },
+
+      "flex-layout.col#mobile": {
+        "children": [
+            "flex-layout.row#section_mobile",
+            "flex-layout.row#section_mobile__two",
+            "slider-layout#marcasbanner"          
+        ],
+        "props": {
+          "width":"100%"
+        }
+      }
+}

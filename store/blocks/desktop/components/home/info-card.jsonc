@@ -1,0 +1,83 @@
+{
+    "responsive-layout.desktop":{
+        "children":[
+            "flex-layout.row#seccion__home__two"
+        ]
+    },
+
+    "flex-layout.row#seccion__home__two": {
+    "children":[
+      "flex-layout.col#section__home__two__one--infocard",
+      "flex-layout.col#section__home__two__two--infocard",
+      "flex-layout.col#section__home__two__three--infocard"
+    ], 
+    "props":{
+        "colSizing": "auto",
+        "colGap": 7,
+        "horizontalAlign": "center",
+        "blockClass": "bannerSectionTwo"
+      }
+    },
+
+    "flex-layout.col#section__home__two__one--infocard": {
+        "children": [
+            "info-card#section__home__two__one--infocard"
+        ]
+    },
+
+    "info-card#section__home__two__one--infocard": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/bannerhome1.jpg",
+          "callToActionText": "KIDS",
+          "callToActionMode": "link",
+          "callToActionUrl": "/#",
+          "textAlignment": "left",
+          "blockClass": "info-card-example"
+          
+        }
+      },
+
+    "flex-layout.col#section__home__two__two--infocard": {
+        "children": [
+            "info-card#section__home__two__two--infocard"
+        ]
+    },
+
+    "info-card#section__home__two__two--infocard": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/bannerhome2.jpg",
+          "callToActionText": "SNAKER",
+          "callToActionMode": "link",
+          "callToActionUrl": "/#",
+          "blockClass": "info-card-example",
+          "textAlignment": "left"
+        }
+      },
+
+    "flex-layout.col#section__home__two__three--infocard": {
+        "children": [
+            "info-card#section__home__two__three--infocard"
+        ]
+    },
+
+    "info-card#section__home__two__three--infocard": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/img/bannerhome3.jpg",
+          "callToActionText": "PREMIUM",
+          "callToActionMode": "link",
+          "callToActionUrl": "/#",
+          "blockClass": "info-card-example",
+          "textAlignment": "left"
+        }
+      }
+
+}
