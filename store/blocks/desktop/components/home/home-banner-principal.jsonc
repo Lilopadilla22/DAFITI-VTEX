@@ -1,130 +1,130 @@
 {
-"flex-layout.row#prueba": {
+"flex-layout.row#bannerprincipal": {
     "children":[
-        "flex-layout.col#prueba",
+        "flex-layout.col#bannerfemeninoprincipal",
         "flex-layout.col#bannermasculinoprincipal"
     ],
     "props": {
-        "blockClass": "pruebaimagen",
+        "blockClass": "banner_femenino_principal",
         "colSizing": "auto",
         "colGap": 7,
         "horizontalAlign": "center"
     }
 },
 
-"flex-layout.col#prueba":{
+"flex-layout.col#bannerfemeninoprincipal":{
     "children": [
-        "rich-text#link1",
-        "rich-text#link2",
-        "rich-text#link3",
-        "rich-text#link4",
-        "rich-text#link5",
-        "rich-text#link6",
-        "rich-text#link7",
-        "rich-text#link8",
-        "rich-text#button",
-        "rich-text#title"
+        "rich-text#femenino1",
+        "rich-text#femenino2",
+        "rich-text#femenino3",
+        "rich-text#femenino4",
+        "rich-text#femenino5",
+        "rich-text#femenino6",
+        "rich-text#femenino7",
+        "rich-text#femenino8",
+        "rich-text#femeninobutton",
+        "rich-text#femeninotitle"
     ],
     "props": {
-        "blockClass": "pruebaimagen1",
+        "blockClass": "banner_femenino_principal1",
         "width": "50%"
       }
 },
 
-"rich-text#link1":{
+"rich-text#femenino1":{
     "props":{
         "text":"[Zapatos](/)",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
         "font": "t-heading-2"
       }
 },
 
-"rich-text#link2":{
+"rich-text#femenino2":{
     "props":{
         "text":"[Jeans](/)",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
         "font": "t-heading-3"
       }
 },
 
-"rich-text#link3":{
+"rich-text#femenino3":{
     "props":{
         "text":"[Blusas](/)",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
         "font": "t-heading-3"
       }
 },
 
-"rich-text#link4":{
+"rich-text#femenino4":{
     "props":{
         "text":"[Sneakers](/)",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
         "font": "t-heading-3"
       }
 },
 
-"rich-text#link5":{
+"rich-text#femenino5":{
     "props":{
         "text":"[Vestidos](/)",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
         "font": "t-heading-3"
       }
 },
 
-"rich-text#link6":{
+"rich-text#femenino6":{
     "props":{
         "text":"**[Pantalones](/)**",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
         "font": "t-heading-3"
       }
 },
 
-"rich-text#link7": {
+"rich-text#femenino7": {
     "props":{
         "text":"**[Botas](/)**",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
         "font": "t-heading-3"
       }
 },
 
-"rich-text#link8": {
+"rich-text#femenino8": {
     "props":{
         "text":"**[Deportes](/)**",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
         "font": "t-heading-3"
       }
 },
 
-"rich-text#button":{
+"rich-text#femeninobutton":{
     "props":{
         "text":"[Ver más](/)",
-        "blockClass":"pruebadebotton",
+        "blockClass":"buttom_banner_principal",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "font": "t-heading-4"
       }
 },
 
-"rich-text#title": {
+"rich-text#femeninotitle": {
     "props":{
         "text":"**MUJER**",
-        "blockClass":"pruebadetextitle",
+        "blockClass":"text_banner_title",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "font": "t-heading-1"
@@ -153,7 +153,7 @@
 "rich-text#masculino1":{
     "props":{
         "text":"[Tennis](/)",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "font": "t-heading-2"
@@ -163,7 +163,7 @@
 "rich-text#masculino2":{
     "props":{
         "text":"[Camisas](/)",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "font": "t-heading-3"
@@ -173,7 +173,7 @@
 "rich-text#masculino3":{
     "props":{
         "text":"[Pantalones](/)",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "font": "t-heading-3"
@@ -183,7 +183,7 @@
 "rich-text#masculino4":{
     "props":{
         "text":"[Jeans](/)",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "font": "t-heading-3"
@@ -193,7 +193,7 @@
 "rich-text#masculino5":{
     "props":{
         "text":"[Zapatos](/)",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "font": "t-heading-3"
@@ -203,7 +203,7 @@
 "rich-text#masculino6":{
     "props":{
         "text":"**[Polos](/)**",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "font": "t-heading-3"
@@ -213,7 +213,7 @@
 "rich-text#masculino7": {
     "props":{
         "text":"**[Sneakers](/)**",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "font": "t-heading-3"
@@ -223,7 +223,7 @@
 "rich-text#masculino8": {
     "props":{
         "text":"**[Deportes](/)**",
-        "blockClass":"pruebadetexto",
+        "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "font": "t-heading-3"
@@ -233,7 +233,7 @@
 "rich-text#masculinobutton":{
     "props":{
         "text":"[Ver más](/)",
-        "blockClass":"pruebadebotton",
+        "blockClass":"buttom_banner_principal",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "font": "t-heading-4"
@@ -243,7 +243,7 @@
 "rich-text#masculinotitle": {
     "props":{
         "text":"**HOMBRE**",
-        "blockClass":"pruebadetextitle",
+        "blockClass":"text_banner_title",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "font": "t-heading-1"

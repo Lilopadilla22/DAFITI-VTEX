@@ -644,12 +644,14 @@
       "props":{
         "id": "departament__eco",
         "type": "custom",
-        "blockClass":"department_name",  
+        "blockClass":"department_name", 
+        "ecoIcon": "icon-cart", 
         "itemProps": {
           "href": "/",
           "noFollow": true,
           "tagTitle": "Eco",
           "text": "ECO"
+        
         }
       }
     },

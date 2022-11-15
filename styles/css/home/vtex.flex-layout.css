@@ -32,34 +32,53 @@
     height: 100%;
 }
 
-.flexCol--pruebaimagen1 {
+.flexCol--banner_femenino_principal1 {
     background-image: url('assets/img/bannerprincipal.jpg');
     background-size : cover;
+    padding-top: 200px;
 
 }
 
-.flexFlexContent--pruebaimagen1 {
+/* .flexFlexContent--banner_femenino_principal1 {
     padding-top: 400px;
-}
+} */
 
-.flexCol--pruebaimagen1 {
-    padding-top: 200px ;
-}
+/* .flexCol--banner_femenino_principal1 {
+    padding-top: 200px;
+} */
 
 .flexCol--banner_masculino_principal {
     background-image: url('assets/img/bannerprincipal1.jpg');
     background-size : cover;
-
+    padding-top: 200px;
 }
 
-.flexFlexContent--banner_masculino_principal {
-    padding-top: 400px;
+/* .flexFlexContent--banner_masculino_principal {
+    padding-top: 100px;
+} */
+
+/* .flexCol--banner_masculino_principal {
+    padding-top: 200px;
+} */
+
+.flexCol--banner_secundario_kids {
+    background-image: url('assets/img/bannerhome1.jpg');
+    background-size : cover;
+    padding-bottom: 250px;
 }
 
-.flexCol--banner_masculino_principal {
-    padding-top: 200px ;
+.flexCol--banner_secundario_premium {
+    background-image: url('assets/img/bannerhome3.jpg');
+    background-size : cover;
+    padding-bottom: 250px;
 }
 
+.flexCol--banner_secundario_sneaker {
+    background-image: url('assets/img/bannerhome2.jpg');
+    background-size : cover;
+    padding-bottom: 250px;
+}
 
-
-
+.flexRow--banner_secundario_premium {
+    padding-top: 25px;
+}

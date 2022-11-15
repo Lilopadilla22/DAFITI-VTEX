@@ -17,23 +17,35 @@
     
       "flex-layout.col": {
         "children": [ 
-          "flex-layout.row#bannerplayer",
+          "flex-layout.row#bannerpublicitario",
           "flex-layout.row#textfirst",
-          "flex-layout.row#prueba",
-          "flex-layout.row#section__home__two",
+          "flex-layout.row#bannerprincipal",
+          "flex-layout.row#bannersecundario",
+          // "flex-layout.row#section__home__two",
           "flex-layout.row#marcas", 
           "slider-layout#marcasbanner",
           "flex-layout.row#bannerayuda",
           "flex-layout.row#favoritos",
-          "flex-layout.row#description",
-          "responsive-layout.desktop"
+          "flex-layout.row#description"
+          //"responsive-layout.desktop",
+          //"icon#homeprueba"
+          
           
           
         ],
         "props": {
-          "width":"80%"
+          "width":"90%"
+        }
+      },
+
+      "icon#homeprueba": {
+        "props":{
+          "id": "mpa-globe",
+          "size": 20
         }
       }
+
+      
     
 
 }

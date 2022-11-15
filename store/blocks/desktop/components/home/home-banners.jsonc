@@ -2,10 +2,10 @@
 
   //PRIMER BANNER PROMOCIONAL 
 
-  "flex-layout.row#bannerplayer":{
+  "flex-layout.row#bannerpublicitario":{
     "title": "banner de promociones",
     "children":  [
-      "flex-layout.col#bannerplayer--image"
+      "flex-layout.col#bannerpublicitario--image"
     ],
     "props":{
       "horizontalAlign": "center",
@@ -13,22 +13,22 @@
     }
   },
     
-  "flex-layout.col#bannerplayer--image": {
+  "flex-layout.col#bannerpublicitario--image": {
     "title": "banner de promociones",
     "children":[
-      "image#bannerplayer"
+      "image#bannerpublicitario"
     ],
     "props": {
       "blockClass": "bannerpromocional"
     }
   },
       
-  "image#bannerplayer": {
+  "image#bannerpublicitario": {
     "props": {
-      "src": "assets/img/bannerplayer.png",
+      "src": "assets/img/bannerpublicitario.jpg",
       "maxHeight": 350,
       "maxWidth": "100%",
-      "sizes": 100,
+      "sizes": 150,
       "link": {
         "url": "/#",
         "newTab": true,
