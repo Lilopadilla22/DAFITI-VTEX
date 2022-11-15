@@ -1,38 +1,41 @@
 {
+  "responsive-layout.desktop#home": {
+    "title": "Component desktop",
+    "children": ["flex-layout.row"]
+  },
 
-    "responsive-layout.desktop#home":{
-        "title": "Component desktop",
-        "children":[
-            "flex-layout.row"
-        ]
-    },
+  "flex-layout.row": {
+    "children": ["flex-layout.col"],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto"
+    }
+  },
 
-    "flex-layout.row": {
-        "children": ["flex-layout.col"],
-        "props":{
-          "horizontalAlign": "center",
-          "colSizing": "auto"
-        }
-      },
-    
-      "flex-layout.col": {
-        "children": [ 
-          "flex-layout.row#bannerplayer",
-          "flex-layout.row#textfirst",
-          "flex-layout.row#section__home",
-          "flex-layout.row#section__home__two",
-          "flex-layout.row#marcas", 
-          "slider-layout#marcasbanner",
-          "flex-layout.row#bannerayuda",
-          "flex-layout.row#favoritos",
-          "flex-layout.row#description",
-          "responsive-layout.desktop"
-          
-        ],
-        "props": {
-          "width":"80%"
-        }
-      }
-    
+  "flex-layout.col": {
+    "children": [
+      "flex-layout.row#bannerpublicitario",
+      "flex-layout.row#textfirst",
+      "flex-layout.row#bannerprincipal",
+      "flex-layout.row#bannersecundario",
+      // "flex-layout.row#section__home__two",
+      "flex-layout.row#marcas",
+      "slider-layout#marcasbanner",
+      "flex-layout.row#bannerayuda",
+      "flex-layout.row#favoritos",
+      "flex-layout.row#description"
+      //"responsive-layout.desktop",
+      //"icon#homeprueba"
+    ],
+    "props": {
+      "width": "90%"
+    }
+  },
 
+  "icon#homeprueba": {
+    "props": {
+      "id": "mpa-globe",
+      "size": 20
+    }
+  }
 }

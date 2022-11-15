@@ -2,7 +2,10 @@
     "responsive-layout.desktop":{
         "children":[
             "flex-layout.row#seccion__home__two"
-        ]
+        ],
+        "props": {
+        "blockClass": "bannerSectioninfocard"
+        }
     },
 
     "flex-layout.row#seccion__home__two": {
@@ -15,7 +18,7 @@
         "colSizing": "auto",
         "colGap": 7,
         "horizontalAlign": "center",
-        "blockClass": "bannerSectionTwo"
+        "blockClass": "bannerSectioninfocard"
       }
     },
 

@@ -1,0 +1,11 @@
+.flexRow--main-header-mobile {
+    background: black;
+}
+
+.flexRow--search-main-phone {
+    background: black;
+}
+
+.flexRowContent--main-header-mobile {
+    height: 40px;
+}
