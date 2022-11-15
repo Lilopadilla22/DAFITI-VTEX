@@ -16,4 +16,9 @@
 
 .submenuWrapper--container__submenu--isOpen{
     width: 1110px;
+    height: 1110px;
+}
+
+.submenu--container__submenu {
+    height: 40px;
 }

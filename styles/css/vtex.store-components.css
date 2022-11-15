@@ -1,7 +1,9 @@
-.headerRowContainer--header__desktop {
+/* .headerRowContainer--header__desktop {
     justify-content: center;
-}
+} */
 
-.vtex-store-components-13-x-infoCardContainer--info-card-example {
-    height: 100%;
+/*HEARD*/
+
+.searchBarContainer {
+    background: black;
 }

@@ -1,0 +1,10 @@
+{
+  "logo#tablet": {
+    "props": {
+      "title": "Logo#tablet",
+      "href": "/",
+      "url": "assets/img/dafiti-logo-white.webp",
+      "width": "70"
+    }
+  }
+}

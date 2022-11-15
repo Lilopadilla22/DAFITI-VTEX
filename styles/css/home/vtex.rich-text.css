@@ -56,24 +56,10 @@
     margin     : 12px auto;
 }
 
-.paragraph--tittle__menu {
-    font-size: 8px;
-    padding  : 2px 0;
-}
-
-.link--text__description {
-    color          : black;
-    text-decoration: none;
-    font-size      : 12px;
-    padding        : 2px 0;
-    height         : 10%;
-    width          : 10%;
-}
-
 .link--text_banner_principal {
     color          : white;
     text-decoration: none;
-    font-size      : 15px;
+    font-size      : 20px;
 }
 
 .container--text_banner_principal {

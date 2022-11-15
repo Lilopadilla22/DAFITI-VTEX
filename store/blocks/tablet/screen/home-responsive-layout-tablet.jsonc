@@ -1,15 +1,15 @@
 {
 
-    "responsive-layout.mobile#home":{
-        "title": "Component desktop",
+    "responsive-layout.tablet#home":{
+        "title": "Component tablet",
         "children":[
-            "flex-layout.row#mobile--tablet"
+            "flex-layout.row#tablet--tablet"
         ]
     },
 
-    "flex-layout.row#mobile--tablet": {
+    "flex-layout.row#tablet--tablet": {
         "children": [
-            "flex-layout.col#mobile"
+            "flex-layout.col#tablet"
         ],
         "props":{
           "horizontalAlign": "center",
@@ -17,10 +17,10 @@
         }
       },
 
-      "flex-layout.col#mobile": {
+      "flex-layout.col#tablet": {
         "children": [
-            "flex-layout.row#section_mobile",
-            "flex-layout.row#section_mobile__two",
+            "flex-layout.row#section_tablet",
+            "flex-layout.row#section_tablet__two",
             "slider-layout#marcasbanner"          
         ],
         "props": {

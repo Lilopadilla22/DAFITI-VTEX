@@ -1,20 +1,17 @@
 {
+  "flex-layout.row#notificationbar": {
+    "children": ["notification.bar"],
 
-    "flex-layout.row#notificationbar": {
-        "children":  [
-          "notification.bar"
-        ],
-    
-        "props":{
-          "horizontalAlign": "center",
-          "borderWidth": 1,
-          "paddingTop": 2      
-        }
-      },
-    
-      "notification.bar":{
-        "props":{
-          "content": "*Envios gratis desde $179000*"
-        }
-      }
+    "props": {
+      "horizontalAlign": "center",
+      "borderWidth": 1,
+      "paddingTop": 2
+    }
+  },
+
+  "notification.bar": {
+    "props": {
+      "content": "*Envios gratis desde $179000*"
+    }
+  }
 }

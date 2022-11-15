@@ -11,13 +11,6 @@
       "header-layout.desktop", 
       "header-layout.mobile"
     ]
-  },
-
-  "header-layout.desktop": {
-    "children": [
-      "flex-layout.row#notificationbar",
-      "sticky-layout#desktop",
-      "header-row#header__menu"
-    ]
   }
+  
 }
