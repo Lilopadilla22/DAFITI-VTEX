@@ -3,15 +3,12 @@
     "title": "Header__menu",
     "children": ["vtex.menu@2.x:menu#header__menu"],
     "props": {
-      "sticky": true,
       "blockClass": "header__desktop--menu",
       "fullWidth": true,
       "horizontalAlign": "center",
       "verticalAlign": "center"
     }
   },
-
-  
 
   "vtex.menu@2.x:menu#header__menu": {
     "children": [

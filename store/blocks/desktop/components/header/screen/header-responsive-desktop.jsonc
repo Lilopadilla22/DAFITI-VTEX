@@ -2,7 +2,7 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#notificationbar",
-      "sticky-layout#desktop",
+      "flex-layout.row#desktop",
       "header-row#header__menu"
     ]
   }

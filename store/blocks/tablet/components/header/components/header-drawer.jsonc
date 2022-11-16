@@ -1,0 +1,968 @@
+{
+  "drawer": {
+    "title": "Drawer to header middle Mobile",
+    "children": [
+        "vtex.menu@2.x:menu#menumobile"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#menumobile": {
+    "title": "Menu Drawer",
+    "children": [
+        "vtex.menu@2.x:menu#menumobiledrawer"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "vtex.menu@2.x:menu#menumobiledrawer": {
+    "title": "Menu categories",
+    "children": [
+      "login#loginmobile",
+      "menu-item#menumobilehome", 
+      "menu-item#menumobilemujer",
+      "menu-item#menumobilehombre",
+      "menu-item#menumobileninos",
+      "menu-item#menumobiledeports",
+      "menu-item#menumobilebellezaycuidado",
+      "menu-item#menumobilehogar",
+      "menu-item#menumobileofertas",
+      "menu-item#menumobileeco",
+      "menu-item#menumobileservicioalcliente"
+       
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#menumobilehome": {
+    "title": "Departmento Mujer",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "href": "/",
+        "type": "internal",
+        "tagTitle": "home",
+        "text": "Home"
+      }
+    }
+  },
+
+  "menu-item#menumobilemujer": {
+    "title": "Departmento Mujer",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilemujer"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#menumobilemujer": {
+    "title": "Submenu categories",
+    "children": ["vtex.menu@2.x:menu#submenumobilemujer"]
+  },
+
+  "vtex.menu@2.x:menu#submenumobilemujer": {
+    "title": "Categories categories",
+    "children": [
+      "menu-item#category__categories-home",
+      "menu-item#category__categories--zapatos",
+      "menu-item#category__categories--ropa",
+      "menu-item#category__categories--accesorios",
+      "menu-item#category__categories--deportes",
+      "menu-item#category__categories--belleza"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  //HOME
+  "menu-item#category__categories-home": {
+    "title": "Category home",
+    "props": {
+      "id": "menu-item-makeup",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "home",
+        "text": "HOME"
+      }
+    }
+  },
+  //Zapato
+  "menu-item#category__categories--zapatos": {
+    "title": "Departmento zapatos",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "zapatos",
+        "text": "Zapatos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilezapatos"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#menumobilezapatos": {
+    "title": "Submenu categories zapatos",
+    "children": ["vtex.menu@2.x:menu#submenumobilezapatos"]
+  },
+
+  "vtex.menu@2.x:menu#submenumobilezapatos": {
+    "title": "Categories categories zapatos",
+    "children": [
+      "menu-item#category__categories-tennis",
+      "menu-item#category__categories--botas",
+      "menu-item#category__categories--sandalias",
+      "menu-item#category__categories--tacones",
+      "menu-item#category__categories--baletas",
+      "menu-item#category__categories--vermas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#category__categories-tennis": {
+    "title": "Departmento Mujer",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "tennis",
+        "text": "Tennis"
+      }
+    }
+  },
+
+  "menu-item#category__categories--botas": {
+    "title": "Departmento Mujer",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "botas",
+        "text": "Botas"
+      }
+    }
+  },
+
+  "menu-item#category__categories--sandalias": {
+    "title": "Departmento Mujer",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "sandalias",
+        "text": "Sandalias"
+      }
+    }
+  },
+
+  "menu-item#category__categories--tacones": {
+    "title": "Departmento Mujer",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "tacones",
+        "text": "Tacones"
+      }
+    }
+  },
+
+  "menu-item#category__categories--baletas": {
+    "title": "Departmento Mujer",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "baletas",
+        "text": "Baletas"
+      }
+    }
+  },
+
+  "menu-item#category__categories--vermas": {
+    "title": "Departmento Mujer",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "vermas",
+        "text": "Ver más"
+      }
+    }
+  },
+
+  //ropa
+  "menu-item#category__categories--ropa": {
+    "title": "Departmento Mujer",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "ropa",
+        "text": "Ropa"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobileropa"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#menumobileropa": {
+    "title": "Submenu categories",
+    "children": ["vtex.menu@2.x:menu#submenumobileropa"]
+  },
+
+  "vtex.menu@2.x:menu#submenumobileropa": {
+    "title": "Categories categories ropa",
+    "children": [
+      "menu-item#category__categories-blusasycamisas",
+      "menu-item#category__categories--sacosbuzosycardigan",
+      "menu-item#category__categories--vestidos",
+      "menu-item#category__categories--jeans",
+      "menu-item#category__categories--camisetas",
+      "menu-item#category__categories--ropainterior",
+      "menu-item#category__categories--chaquetas",
+      "menu-item#category__categories--ropadedormir",
+      "menu-item#category__categories--pantalones",
+      "menu-item#category__categoriesropa--vermas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#category__categories-blusasycamisas": {
+    "title": "subcategoria ropa",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "blusas y camisas",
+        "text": "Blusas y Camisas"
+      }
+    }
+  },
+
+  "menu-item#category__categories--sacosbuzosycardigan": {
+    "title": "subcategoria ropa",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "sacos",
+        "text": "Scos, Cardigans y Buzos"
+      }
+    }
+  },
+
+  "menu-item#category__categories--vestidos": {
+    "title": "subcategoria ropa",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "vestidos",
+        "text": "Vestidos"
+      }
+    }
+  },
+
+  "menu-item#category__categories--jeans": {
+    "title": "subcategoria ropa",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "jeans",
+        "text": "Jeans"
+      }
+    }
+  },
+
+  "menu-item#category__categories--camisetas": {
+    "title": "subcategoria ropa",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "camisetas",
+        "text": "Camisetas"
+      }
+    }
+  },
+
+  "menu-item#category__categories--ropainterior": {
+    "title": "subcategoria ropa",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "ropainterior",
+        "text": "Ropa interior"
+      }
+    }
+  },
+
+  "menu-item#category__categories--chaquetas": {
+    "title": "subcategoria ropa",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "caquetas",
+        "text": "Chaquetas y Chalecos"
+      }
+    }
+  },
+
+  "menu-item#category__categories--ropadedormir": {
+    "title": "subcategoria ropa",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "ropadedormir",
+        "text": "Ropa de dormir"
+      }
+    }
+  },
+
+  "menu-item#category__categories--pantalones": {
+    "title": "subcategoria ropa",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "pantalones",
+        "text": "Pantalones"
+      }
+    }
+  },
+
+  "menu-item#category__categoriesropa--vermas": {
+    "title": "subcategoria ropa",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "vermas",
+        "text": "Ver más"
+      }
+    }
+  },
+
+  //accesorios
+  "menu-item#category__categories--accesorios": {
+    "title": "categoria accesorios",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobileaccesorio"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#menumobileaccesorio": {
+    "title": "Submenu categories",
+    "children": ["vtex.menu@2.x:menu#submenumobileaccesorio"]
+  },
+
+  "vtex.menu@2.x:menu#submenumobileaccesorio": {
+    "title": "Categories categories accesorios",
+    "children": [
+      "menu-item#category__categories-bolsosycarteras",
+      "menu-item#category__categories--relojes",
+      "menu-item#category__categories--maletasymorrales",
+      "menu-item#category__categories--gafas",
+      "menu-item#category__categories--joyeria",
+      "menu-item#category__categories--billeteras",
+      "menu-item#category__categories--cinturones",
+      "menu-item#category__categories--cosmetiqueras",
+      "menu-item#category__categoriesaccesorios--vermas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#category__categories-bolsosycarteras": {
+    "title": "subcategoria accesorios",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "bolsos y carteras",
+        "text": "Bolsos y carteras"
+      }
+    }
+  },
+
+  "menu-item#category__categories--relojes": {
+    "title": "subcategoria accesorios",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "relojes",
+        "text": "Relojes"
+      }
+    }
+  },
+
+  "menu-item#category__categories--maletasymorrales": {
+    "title": "subcategoria accesorios",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "maletas y morrales",
+        "text": "Maletas y morrales"
+      }
+    }
+  },
+
+  "menu-item#category__categories--gafas": {
+    "title": "subcategoria accesorios",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "gafas",
+        "text": "Gafas"
+      }
+    }
+  },
+
+  "menu-item#category__categories--joyeria": {
+    "title": "subcategoria accesorios",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "joyeria y bisuteria",
+        "text": "Joyería y bisutería"
+      }
+    }
+  },
+
+  "menu-item#category__categories--billeteras": {
+    "title": "subcategoria accesorios",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "billeteras",
+        "text": "Billeteras"
+      }
+    }
+  },
+
+  "menu-item#category__categories--cinturones": {
+    "title": "subcategoria accesorios",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "cinturones",
+        "text": "Cinturones"
+      }
+    }
+  },
+
+  "menu-item#category__categories--cosmetiqueras": {
+    "title": "subcategoria accesorios",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Cosmetiqueas",
+        "text": "Cosmetiqueras y estuches"
+      }
+    }
+  },
+
+  "menu-item#category__categoriesaccesorios--vermas": {
+    "title": "subcategoria accesorios",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "vermas",
+        "text": "Ver más"
+      }
+    }
+  },
+
+  //deportes
+  "menu-item#category__categories--deportes": {
+    "title": "categoria deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "deportes",
+        "text": "Deportes"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobiledeporte"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#menumobiledeporte": {
+    "title": "Submenu categories",
+    "children": ["vtex.menu@2.x:menu#submenumobiledeporte"]
+  },
+
+  "vtex.menu@2.x:menu#submenumobiledeporte": {
+    "title": "Categories categories deportes",
+    "children": [
+      "menu-item#category__categories-ciclismo",
+      "menu-item#category__categories--running",
+      "menu-item#category__categories--trainning",
+      "menu-item#category__categories--baloncesto",
+      "menu-item#category__categories--futbol",
+      "menu-item#category__categories--tenis",
+      "menu-item#category__categories--yoga",
+      "menu-item#category__categories--fitness",
+      "menu-item#category__categoriesdeprotes--vermas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#category__categories-ciclismo": {
+    "title": "subcategoria deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "ciclismo",
+        "text": "Ciclismo"
+      }
+    }
+  },
+
+  "menu-item#category__categories--running": {
+    "title": "subcategoria deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "running",
+        "text": "Running"
+      }
+    }
+  },
+
+  "menu-item#category__categories--trainning": {
+    "title": "subcategoria deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "trainning",
+        "text": "Trainning"
+      }
+    }
+  },
+
+  "menu-item#category__categories--baloncesto": {
+    "title": "subcategoria deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "baloncesto",
+        "text": "Baloncesto"
+      }
+    }
+  },
+
+  "menu-item#category__categories--futbol": {
+    "title": "subcategoria deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "futbol",
+        "text": "Fútbol"
+      }
+    }
+  },
+
+  "menu-item#category__categories--tenis": {
+    "title": "subcategoria deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "tenis",
+        "text": "Tenis"
+      }
+    }
+  },
+
+  "menu-item#category__categories--yoga": {
+    "title": "subcategoria deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "yoga",
+        "text": "Yoga"
+      }
+    }
+  },
+
+  "menu-item#category__categories--fitness": {
+    "title": "subcategoria deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "fitness",
+        "text": "Fitness"
+      }
+    }
+  },
+
+  "menu-item#category__categoriesdeprotes--vermas": {
+    "title": "subcategoria deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "vermas",
+        "text": "Ver más"
+      }
+    }
+  },
+
+  //belleza
+  "menu-item#category__categories--belleza": {
+    "title": "categoria belleza",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "belleza",
+        "text": "Belleza"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilebelleza"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#menumobilebelleza": {
+    "title": "Submenu categories belleza",
+    "children": ["vtex.menu@2.x:menu#submenumobilebelleza"]
+  },
+
+  "vtex.menu@2.x:menu#submenumobilebelleza": {
+    "title": "Categories categories bellza",
+    "children": [
+      "menu-item#category__categories-perfumes",
+      "menu-item#category__categories--maquillaje",
+      "menu-item#category__categories--cuidadofacial",
+      "menu-item#category__categories--cuidadocuerpo",
+      "menu-item#category__categories--cuidadocapilar",
+      "menu-item#category__categoriesbelleza--vermas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#category__categories-perfumes": {
+    "title": "subcategoria belleza",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "perfumes",
+        "text": "Perfumes"
+      }
+    }
+  },
+
+  "menu-item#category__categories--maquillaje": {
+    "title": "subcategoria belleza",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "maquillaje",
+        "text": "Maquillaje"
+      }
+    }
+  },
+
+  "menu-item#category__categories--cuidadofacial": {
+    "title": "subcategoria belleza",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "cuidadofacial",
+        "text": "Cuidado Facial"
+      }
+    }
+  },
+
+  "menu-item#category__categories--cuidadocuerpo": {
+    "title": "subcategoria belleza",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "cuidadocorporal",
+        "text": "Cuidado Corporal"
+      }
+    }
+  },
+
+  "menu-item#category__categories--cuidadocapilar": {
+    "title": "subcategoria belleza",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "cuidadocapilar",
+        "text": "Cuidado capilar"
+      }
+    }
+  },
+
+  "menu-item#category__categoriesbelleza--vermas": {
+    "title": "subcategoria belleza",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "vermas",
+        "text": "Ver más"
+      }
+    }
+  },
+
+  //Otras secciones
+
+    "menu-item#menumobilehombre":{
+    "title": "Departmento hombrer",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "hombre",
+        "text": "Hombre"
+      }
+    }
+    },
+
+    "menu-item#menumobileninos":{
+        "title": "Departmento niños",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "niños",
+        "text": "Niños"
+      }
+    }
+    },
+
+    "menu-item#menumobiledeports":{
+        "title": "Departmento deportes",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "deportes",
+        "text": "Deportes"
+      }
+    }
+    },
+
+    "menu-item#menumobilebellezaycuidado":{
+        "title": "Departmento belleza",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "belleza y cuidado",
+        "text": "Belleza y cuidado"
+      }
+    }
+    },
+
+    "menu-item#menumobilehogar":{
+        "title": "Departmento hogar",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "hogar",
+        "text": "Hogar"
+      }
+    }
+    },
+
+    "menu-item#menumobileofertas":{
+        "title": "Departmento ofertas",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "ofertas",
+        "text": "OFERTAS"
+      }
+    }
+    },
+
+    "menu-item#menumobileeco":{
+        "title": "Departmento eco",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "eco",
+        "text": "ECO"
+      }
+    }
+    },
+
+    "menu-item#menumobileservicioalcliente":{
+        "title": "Departmento servicio",
+    "props": {
+      "blockClass": "menu-item__mobile",
+      "id": "menu-item-categories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "servicio al cliente",
+        "text": "Servicio al cliente"
+      }
+    }
+    }
+
+}

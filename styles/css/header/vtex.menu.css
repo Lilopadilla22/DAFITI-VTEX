@@ -22,3 +22,7 @@
 .submenu--container__submenu {
     height: 40px;
 }
+
+.styledLinkContainer--menu-item__mobile {
+    padding: 20px 0;
+}

@@ -96,3 +96,7 @@
     height: 30px;
 
 }
+
+.flexRowContent--main-header-mobile {
+    align-items: center;
+}

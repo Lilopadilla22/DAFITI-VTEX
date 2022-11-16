@@ -2,8 +2,7 @@
     justify-content: center;
 } */
 
-/*HEARD*/
-
-.searchBarContainer {
-    background: black;
+.logoContainer--header-icon {
+    padding-right: 0;
 }
+

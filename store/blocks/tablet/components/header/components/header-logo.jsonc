@@ -6,5 +6,26 @@
       "url": "assets/img/dafiti-logo-white.webp",
       "width": "70"
     }
+  },
+
+  "logo#heard": {
+    "props": {
+      "title": "Heart",
+      "href": "/",
+      "url": "assets/svg/heard.svg",
+      "width": "24",
+      "blockClass": "header-icon"
   }
+},
+
+  "logo#bagcart": {
+    "props": {
+      "title": "Heart",
+      "href": "/",
+      "url": "assets/svg/cart.svg",
+      "width": "24",
+      "blockClass": "header-icon"
+    }
+  }
+
 }

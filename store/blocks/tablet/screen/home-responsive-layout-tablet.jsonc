@@ -1,30 +1,29 @@
 {
+  "responsive-layout.tablet#home": {
+    "title": "Component tablet",
+    "children": [
+      "flex-layout.row#tablet--tablet"
+    ]
+  },
 
-    "responsive-layout.tablet#home":{
-        "title": "Component tablet",
-        "children":[
-            "flex-layout.row#tablet--tablet"
-        ]
-    },
+  "flex-layout.row#tablet--tablet": {
+    "children": [
+      "flex-layout.col#tablet"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto"
+    }
+  },
 
-    "flex-layout.row#tablet--tablet": {
-        "children": [
-            "flex-layout.col#tablet"
-        ],
-        "props":{
-          "horizontalAlign": "center",
-          "colSizing": "auto"
-        }
-      },
-
-      "flex-layout.col#tablet": {
-        "children": [
-            "flex-layout.row#section_tablet",
-            "flex-layout.row#section_tablet__two",
-            "slider-layout#marcasbanner"          
-        ],
-        "props": {
-          "width":"100%"
-        }
-      }
+  "flex-layout.col#tablet": {
+    "children": [
+      "flex-layout.row#section_tablet",
+      "flex-layout.row#section_tablet__two"
+      //"slider-layout#marcasbanner"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  }
 }

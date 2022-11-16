@@ -1,4 +1,8 @@
-.flexRow--main-header-mobile {
+.flexRowContent--main-header-mobile {
+    height: 40px;
+}
+
+.flexRowContent--main-header-mobile {
     background: black;
 }
 
@@ -7,5 +11,5 @@
 }
 
 .flexRowContent--main-header-mobile {
-    height: 40px;
+    align-items: center;
 }

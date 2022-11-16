@@ -1,0 +1,8 @@
+{
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon-cart",
+      "blockClass": "minicartedit"
+    }
+  }
+}

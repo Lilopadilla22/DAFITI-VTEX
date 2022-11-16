@@ -1,13 +1,4 @@
 {
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": [
-      "flex-layout.row#desktop"
-    ]
-  },
-
   "flex-layout.row#desktop": {
     "props": {
       "horizontalAlign": "center",
