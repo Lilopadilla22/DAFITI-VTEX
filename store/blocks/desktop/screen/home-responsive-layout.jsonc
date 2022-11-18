@@ -23,7 +23,8 @@
       "slider-layout#marcasbanner",
       "flex-layout.row#bannerayuda",
       "flex-layout.row#favoritos",
-      "flex-layout.row#description"
+      "flex-layout.row#description",
+      "search-result-layout.customQuery#desktop_home"
       //"responsive-layout.desktop",
       //"icon#homeprueba"
     ],

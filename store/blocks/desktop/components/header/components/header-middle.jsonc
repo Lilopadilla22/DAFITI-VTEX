@@ -7,38 +7,20 @@
       "preventVerticalStretch": true,
       "fullWidth": true
     },
-
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      // "locale-switcher",
-      "login",
-      "minicart.v2"
+      //"flex-layout.col#spacer",
+      "flex-layout.col#mdesktop__search",
+      "flex-layout.col#mdesktop__login",
+      "flex-layout.col#desktop__cart"
+      //"login",
+      //"minicart.v2"
     ]
   },
 
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
-    }
-  },
-
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "logo#desktop"
-    ]
-  },
-
-  "logo#desktop": {
-    "props": {
-      "title": "Logo#desktop",
-      "href": "/",
-      "url": "assets/img/logo.webp",
-      "width": "100"
     }
   }
 

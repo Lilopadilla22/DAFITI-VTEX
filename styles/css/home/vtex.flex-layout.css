@@ -62,7 +62,8 @@
 } */
 
 .flexCol--banner_secundario_kids {
-    background-image: url('assets/img/bannerhome1.jpg');
+    /*background-image: url('assets/img/bannerhome1.jpg');*/
+    background-image: url('/arquivos/bannerhome1.jpg');
     background-size : cover;
     padding-bottom  : 250px;
 }
@@ -98,5 +99,9 @@
 }
 
 .flexRowContent--main-header-mobile {
+    align-items: center;
+}
+
+.flexRowContent {
     align-items: center;
 }

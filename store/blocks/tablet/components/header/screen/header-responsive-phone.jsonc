@@ -7,7 +7,6 @@
     "children": [
       "flex-layout.row#mobile", 
       "flex-layout.row#mobile__two"
-      
     ]
   },
 
@@ -17,7 +16,7 @@
       "logo#tablet",
       "flex-layout.col#spacer",
       "logo#heard",
-      "minicart.v2"
+      "minicart.v2#mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",

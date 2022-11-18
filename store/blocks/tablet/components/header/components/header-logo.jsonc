@@ -1,6 +1,7 @@
 {
   "logo#tablet": {
     "props": {
+      "blockClass": "logo#mobile",
       "title": "Logo#tablet",
       "href": "/",
       "url": "assets/img/dafiti-logo-white.webp",
@@ -13,7 +14,7 @@
       "title": "Heart",
       "href": "/",
       "url": "assets/svg/heard.svg",
-      "width": "24",
+      "width": "28",
       "blockClass": "header-icon"
   }
 },
@@ -23,8 +24,8 @@
       "title": "Heart",
       "href": "/",
       "url": "assets/svg/cart.svg",
-      "width": "24",
-      "blockClass": "header-icon"
+      "width": "28",
+      "blockClass": "bagcart-icon"
     }
   }
 

@@ -1,9 +1,55 @@
+
 {
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#notificationbar",
-      "flex-layout.row#desktop",
-      "header-row#header__menu"
-    ]
+      //"flex-layout.row#notificationbar",
+      "flex-layout.row#header"
+    ],
+    "props":{
+      "blockClass": "headerDesktop"
+    }
+  },
+
+  "flex-layout.row#header": {
+    "children": [
+      "flex-layout.col#header"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header_Row_Desktop"
+    }
+  },
+
+  "flex-layout.col#header": {
+    "children": [
+      "flex-layout.col#header__m",
+      "flex-layout.col#header__menu"
+
+      ],
+    "props": {
+      "blockClass": "header_Col_Desktop"
+    }
+  },
+
+  "flex-layout.col#header__m": {
+    "children": [
+      "flex-layout.row#desktop"],
+    "props": {
+      "width": "80%",
+      "blockClass": "header_Col_Desktop_lsc"
+    }
+  },
+
+
+  "flex-layout.col#header__menu": {
+    "children": [
+      "header-row#header__menu"],
+    "props": {
+      "width": "100%",
+      "blockClass": "header_col_Desktop_menu"
+    }
   }
+
 }
+
+ 

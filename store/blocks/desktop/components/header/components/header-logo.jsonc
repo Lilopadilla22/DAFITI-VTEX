@@ -1,0 +1,21 @@
+{
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "paddin-left": 10,
+      "marginLeft":10,
+      "rowGap": 1,
+      "width": 20
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo#desktop",
+      "href": "/",
+      "url": "assets/img/logo.webp",
+      "width": "150"
+    }
+  }
+}

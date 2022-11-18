@@ -6,3 +6,29 @@
     padding-right: 0;
 }
 
+
+/*mobile*/
+
+.sizeMobile {
+    padding-left: 70px;
+}
+
+.logoContainer--bagcart-icon {
+    padding-left: 15px;
+}
+
+/* .logoLink--header-icon {
+    padding-left: 35px;
+} */
+
+
+/*desktop barra navegacion*/
+
+.autoCompleteOuterContainer--search__desktop__input {
+    width: 550px;
+}
+
+.searchBarIcon--search__desktop__input {
+    background: black;
+    color: white;
+}

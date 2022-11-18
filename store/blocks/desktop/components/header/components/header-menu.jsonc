@@ -6,7 +6,8 @@
       "blockClass": "header__desktop--menu",
       "fullWidth": true,
       "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "verticalAlign": "center",
+      "highlight": true
     }
   },
 
@@ -34,7 +35,7 @@
     "props": {
       "id": "departament__mujer",
       "type": "custom",
-      "blockClass": "department_name",
+      "blockClass": "department_name__mujer",
       "itemProps": {
         "href": "/",
         "noFollow": true,
@@ -101,7 +102,7 @@
 
   "rich-text#departament__mujer--zapato--title": {
     "props": {
-      "text": "ZAPATOS",
+      "text": "[**ZAPATOS**](/)",
       "blockClass": "title__menu"
     }
   },
@@ -195,7 +196,7 @@
 
   "rich-text#departament__mujer--ropa--title": {
     "props": {
-      "text": "ROPA",
+      "text": "[**ROPA**](/)",
       "blockClass": "title__menu"
     }
   },
@@ -310,7 +311,7 @@
 
   "rich-text#departament__mujer--accesorios--title": {
     "props": {
-      "text": "ACCESORIOS",
+      "text": "[**ACCESORIOS**](/)",
       "blockClass": "title__menu"
     }
   },
@@ -412,7 +413,7 @@
 
   "rich-text#departament__mujer--deportes--title": {
     "props": {
-      "text": "DEPORTES",
+      "text": "[**DEPORTES**](/)",
       "blockClass": "title__menu"
     }
   },
@@ -492,7 +493,7 @@
 
   "rich-text#departament__mujer--marcas--title": {
     "props": {
-      "text": "MARCAS",
+      "text": "[**MARCAS**](/)",
       "blockClass": "title__menu"
     }
   },

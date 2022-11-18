@@ -69,7 +69,10 @@
 
   "vtex.menu@2.x:submenu.accordion#menumobilemujer": {
     "title": "Submenu categories",
-    "children": ["vtex.menu@2.x:menu#submenumobilemujer"]
+    "children": ["vtex.menu@2.x:menu#submenumobilemujer"],
+    "props": {
+      "blockClass": "menu-accordion__mobile"
+    }
   },
 
   "vtex.menu@2.x:menu#submenumobilemujer": {
