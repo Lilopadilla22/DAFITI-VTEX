@@ -2,6 +2,7 @@
 {
   "header-layout.desktop": {
     "children": [
+      "flex-layout.row#header__anuncio",
       //"flex-layout.row#notificationbar",
       "flex-layout.row#header"
     ],

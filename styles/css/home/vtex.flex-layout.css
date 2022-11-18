@@ -105,3 +105,13 @@
 .flexRowContent {
     align-items: center;
 }
+
+.flexCol--header__anuncios_col {
+    width: 80%;
+    height: 50%;
+}
+
+.flexRowContent--header__anuncios_row { 
+    height: 30px;
+
+}

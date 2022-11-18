@@ -17,3 +17,7 @@
 /* .flexRowContent {
     align-items: center;
 } */
+
+.flexRow--header__anuncios_row {
+    background: #ececec;
+}

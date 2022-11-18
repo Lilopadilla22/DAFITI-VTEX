@@ -1,0 +1,282 @@
+{
+  "flex-layout.row#header__anuncio": {
+    "children": [
+        "flex-layout.col#header__anuncio"
+    ],
+    "props": {
+        "blockClass": "header__anuncios_row",
+        "horizontalAlign": "center"
+    }
+},
+
+"flex-layout.col#header__anuncio": {
+    "children": [
+        "flex-layout.row#header__anuncio__anuncios"
+    ],
+    "props": {
+        "width": "70%",
+        "blockClass": "header__anuncios_col"
+    }
+},
+
+"flex-layout.row#header__anuncio__anuncios": {
+    "children": [
+        "flex-layout.col#header__anuncio--envios",
+        "flex-layout.col#header__anuncio--cambios",
+        "flex-layout.col#header__anuncio--sigue",
+        "flex-layout.col#header__anuncio--nuevo",
+        "flex-layout.row#header__anuncio--conocenos"
+    ],
+    "props": {
+        "blockClass": "header__anuncios",
+        "horizontalAlign": "center"
+    }
+},
+
+"flex-layout.col#header__anuncio--envios": {
+    "children": [
+        "flex-layout.row#header__anuncio--envios"
+    ],
+    "props": {
+        "blockClass": "header__anuncios__one"
+    }
+},
+
+"flex-layout.row#header__anuncio--envios": {
+    "children": [
+        "flex-layout.col#anuncios_envios-icono",
+        "flex-layout.col#anuncios_envios-text"
+    ],
+    "props": {
+        "blockClass": "header__anuncios__envios__ejemplo"
+    }
+},
+
+"flex-layout.col#anuncios_envios-icono": {
+    "children": [
+        "logo#header__anuncio--envios"
+    ],
+    "props": {
+        "width": "20%"
+    }
+},
+
+"logo#header__anuncio--envios": {
+    "props": {
+        "title": "Heart",
+        "href": "/",
+        "url": "assets/svg/truck.svg",
+        "width": "11",
+        "blockClass": "truck-icon"
+    }
+},
+
+"flex-layout.col#anuncios_envios-text": {
+    "children": [
+        "rich-text#header__anuncio--envios"
+    ],
+    "props": {
+        "width": "80%"
+    }
+},
+
+"rich-text#header__anuncio--envios": {
+    "props": {
+        "text": "[Envios gratis desde $179.999*](/)",
+        "blockClass": "text__description__anuncio__ocho"
+    }
+},
+
+"flex-layout.col#header__anuncio--cambios": {
+    "children": [
+        "flex-layout.row#header__anuncio--cambios"
+    ],
+    "props": {
+        "width": 20,
+        "blockClass": "header__anuncios__two"
+    }
+},
+
+"flex-layout.row#header__anuncio--cambios": {
+    "children": [
+        "flex-layout.col#header__anuncio--cambios-icono",
+        "flex-layout.col#header__anuncio--cambios-texto"
+    ],
+    "props": {
+        "blockClass": "header__anuncios__cambios"
+    }
+},
+
+"flex-layout.col#header__anuncio--cambios-icono": {
+    "children": [
+        "logo#header__anuncio--cambios"
+    ],
+    "props": {
+        "width": "20%"
+    }
+},
+
+"logo#header__anuncio--cambios": {
+    "props": {
+        "title": "arrow",
+        "href": "/",
+        "url": "assets/svg/arrow.svg",
+        "width": "11",
+        "blockClass": "arrow-icon"
+    }
+},
+
+"flex-layout.col#header__anuncio--cambios-texto": {
+    "children": [
+        "rich-text#header__anuncio--cambios"
+    ],
+    "props": {
+        "width": "80%"
+    }
+},
+
+"rich-text#header__anuncio--cambios": {
+    "props": {
+        "text": "[90 Días de cambio GRATIS](/)",
+        "blockClass": "text__description__anuncio__ocho"
+    }
+},
+
+"flex-layout.col#header__anuncio--sigue": {
+    "children": [
+        "flex-layout.row#header__anuncio--sigue"
+    ],
+    "props": {
+        "width": 20,
+        "blockClass": "header__anuncios__three"
+    }
+},
+
+"flex-layout.row#header__anuncio--sigue": {
+    "children": [
+        "flex-layout.col#header__anuncio--sigue-icono",
+        "flex-layout.col#header__anuncio--sigue-texto"
+    ],
+    "props": {
+        "blockClass": "header__anuncios__sigue"
+    }
+},
+
+"flex-layout.col#header__anuncio--sigue-icono": {
+    "children": [
+        "logo#header__anuncio--envios"
+    ],
+    "props": {
+        "width": "20%"
+    }
+},
+
+"flex-layout.col#header__anuncio--sigue-texto": {
+    "children": [
+        "rich-text#header__anuncio--sigue"
+    ],
+    "props": {
+        "width": "80%"
+    }
+},
+
+"rich-text#header__anuncio--sigue": {
+    "props": {
+        "text": "[Sigue tu pedido](/)",
+        "blockClass": "text__description__anuncio"
+    }
+},
+
+"flex-layout.col#header__anuncio--nuevo": {
+    "children": [
+        "flex-layout.row#header__anuncio--nuevo"
+    ],
+    "props": {
+        "width": 20,
+        "blockClass": "header__anuncios__four"
+    }
+},
+
+"flex-layout.row#header__anuncio--nuevo": {
+    "children": [
+        "rich-text#header__anuncio--nuevo"
+    ]
+},
+
+"rich-text#header__anuncio--nuevo": {
+    "props": {
+        "text": "[¡NUEVO! centros de experiencias](/)",
+        "blockClass": "text__description__anuncio"
+    }
+},
+
+"flex-layout.col#header__anuncio--conocenos": {
+    "children": [
+        "flex-layout.row#header__anuncio--sigue"
+    ],
+    "props": {
+        "width": 20,
+        "blockClass": "header__anuncios__five"
+    }
+},
+
+"flex-layout.row#header__anuncio--conocenos": {
+    "children": [
+        "flex-layout.col#header__anuncio--conocenos-text",
+        "flex-layout.col#header__anuncio--conocenos-ico",
+        "flex-layout.col#header__anuncio--conocenos-textdos"
+    ]
+},
+
+"flex-layout.col#header__anuncio--conocenos-text": {
+    "children": [
+        "rich-text#header__anuncio--conocenos"
+    ],
+    "props": {
+        "width": "20%"
+    }
+},
+
+"flex-layout.col#header__anuncio--conocenos-ico": {
+    "children": [
+        "logo#header__anuncio--conocenos"
+    ],
+    "props": {
+        "width": "20%"
+    }
+},
+
+"flex-layout.col#header__anuncio--conocenos-textdos": {
+    "children": [
+        "rich-text#header__anuncio--servicio"
+    ],
+    "props": {
+        "width": "60%"
+    }
+},
+
+"rich-text#header__anuncio--conocenos": {
+    "props": {
+        "text": "[Conocenos](/)",
+        "blockClass": "text__description__anuncio"
+    }
+},
+
+"logo#header__anuncio--conocenos": {
+    "props": {
+        "title": "phone",
+        "href": "/",
+        "url": "assets/svg/phone.svg",
+        "width": "11",
+        "blockClass": "phone-icon"
+    }
+},
+
+"rich-text#header__anuncio--servicio": {
+    "props": {
+        "text": "[Servicio al Cliente](/)",
+        "blockClass": "text__description__anuncio"
+    }
+}
+
+}
