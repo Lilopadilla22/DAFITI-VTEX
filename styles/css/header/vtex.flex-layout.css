@@ -1,4 +1,8 @@
-.flexRow--main-header-mobile {
+.flexRowContent--main-header-mobile {
+    height: 40px;
+}
+
+.flexRowContent--main-header-mobile {
     background: black;
 }
 
@@ -7,5 +11,55 @@
 }
 
 .flexRowContent--main-header-mobile {
-    height: 40px;
+    align-items: center;
 }
+
+
+.flexRow--header__anuncios_row {
+    background: #ececec;
+}
+
+.flexCol--departament__mujer__zapatos,
+.flexCol--departament__mujer__ropa,
+.flexCol--departament__mujer__accesorios,
+.flexCol--departament__mujer__marcas,
+.flexCol--departament__mujer__deportes {
+    height: 30px;
+}
+
+.flexRowContent--main-header-mobile {
+    align-items: center;
+}
+
+.flexRowContent {
+    align-items: center;
+}
+
+.flexCol--header__anuncios_col {
+    width: 80%;
+    height: 50%;
+}
+
+.flexRowContent--header__anuncios_row { 
+    height: 30px;
+
+}
+
+.flexColChild--login__mobile__inicio :global(.vtex-login-2-x-label) {
+    color         : black;
+    display       : block;
+    text-transform: none;
+    font-size: 14px;
+}
+
+.flexCol--login__mobile__inicio {
+    align-items: baseline;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    padding: 15px 0;
+}
+
+.flexRowContent--main-header-mobile :global(.vtex-flex-layout-0-x-flexRowContent) {
+    align-items: center;
+}
+

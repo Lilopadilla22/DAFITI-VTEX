@@ -1,13 +1,13 @@
 {
   "header-row#header__menu": {
-    "title": "Header__menu",
+    "title": "Header__menu__completo",
     "children": ["vtex.menu@2.x:menu#header__menu"],
     "props": {
-      "sticky": true,
       "blockClass": "header__desktop--menu",
-      "fullWidth": true,
+      //"fullWidth": true,
       "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "verticalAlign": "center",
+      "highlight": true
     }
   },
 
@@ -25,7 +25,7 @@
     ],
     "props": {
       "orientation": "horizontal",
-      "blockClass": "Container__menu",
+      "blockClass": "Container__menu--desktop",
       "horizontalAlign": "center",
       "verticalAlign": "center"
     }
@@ -35,7 +35,7 @@
     "props": {
       "id": "departament__mujer",
       "type": "custom",
-      "blockClass": "department_name",
+      "blockClass": "department_name__mujer",
       "itemProps": {
         "href": "/",
         "noFollow": true,
@@ -96,13 +96,14 @@
       "rich-text#departament__mujer--zapato--ofertas"
     ],
     "props": {
-      "blockClass": "departament__mujer__zapatos"
+      "blockClass": "departament__mujer__zapatos",
+      "colSizing":"auto" //nuevo
     }
   },
 
   "rich-text#departament__mujer--zapato--title": {
     "props": {
-      "text": "ZAPATOS",
+      "text": "[**ZAPATOS**](/)",
       "blockClass": "title__menu"
     }
   },
@@ -196,7 +197,7 @@
 
   "rich-text#departament__mujer--ropa--title": {
     "props": {
-      "text": "ROPA",
+      "text": "[**ROPA**](/)",
       "blockClass": "title__menu"
     }
   },
@@ -311,7 +312,7 @@
 
   "rich-text#departament__mujer--accesorios--title": {
     "props": {
-      "text": "ACCESORIOS",
+      "text": "[**ACCESORIOS**](/)",
       "blockClass": "title__menu"
     }
   },
@@ -413,7 +414,7 @@
 
   "rich-text#departament__mujer--deportes--title": {
     "props": {
-      "text": "DEPORTES",
+      "text": "[**DEPORTES**](/)",
       "blockClass": "title__menu"
     }
   },
@@ -493,7 +494,7 @@
 
   "rich-text#departament__mujer--marcas--title": {
     "props": {
-      "text": "MARCAS",
+      "text": "[**MARCAS**](/)",
       "blockClass": "title__menu"
     }
   },
@@ -588,6 +589,15 @@
         "tagTitle": "Hombre",
         "text": "HOMBRE"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__hombre"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__hombre": {
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
     }
   },
 
@@ -602,6 +612,15 @@
         "tagTitle": "Deportes",
         "text": "DEPORTES"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__deportes"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__deportes": {
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
     }
   },
 
@@ -616,6 +635,15 @@
         "tagTitle": "Niños",
         "text": "NIÑOS"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__ninos"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__ninos": {
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
     }
   },
 
@@ -630,6 +658,15 @@
         "tagTitle": "Belleza",
         "text": "BELLEZA"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__belleza"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__belleza": {
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
     }
   },
 
@@ -644,6 +681,15 @@
         "tagTitle": "Marcas",
         "text": "MARCAS"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__marcas"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__marcas": {
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
     }
   },
 
@@ -658,6 +704,15 @@
         "tagTitle": "Hogar",
         "text": "HOGAR"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__hogar"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__hogar": {
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
     }
   },
 
@@ -673,6 +728,15 @@
         "tagTitle": "Eco",
         "text": "ECO"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__eco"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__eco": {
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
     }
   },
 
@@ -687,6 +751,15 @@
         "tagTitle": "Ofertas",
         "text": "OFERTAS"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__ofertas"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__ofertas": {
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
     }
   }
 }

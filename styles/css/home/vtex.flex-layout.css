@@ -17,7 +17,7 @@
 }
 
 .flexRowContent {
-    align-items: baseline;
+    align-items: center;
 }
 
 .flexRow--bannerSectioninfocard {
@@ -39,30 +39,15 @@
 
 }
 
-/* .flexFlexContent--banner_femenino_principal1 {
-    padding-top: 400px;
-} */
-
-/* .flexCol--banner_femenino_principal1 {
-    padding-top: 200px;
-} */
-
 .flexCol--banner_masculino_principal {
     background-image: url('assets/img/bannerprincipal1.jpg');
     background-size : cover;
     padding-top     : 200px;
 }
 
-/* .flexFlexContent--banner_masculino_principal {
-    padding-top: 100px;
-} */
-
-/* .flexCol--banner_masculino_principal {
-    padding-top: 200px;
-} */
-
 .flexCol--banner_secundario_kids {
-    background-image: url('assets/img/bannerhome1.jpg');
+    /*background-image: url('assets/img/bannerhome1.jpg');*/
+    background-image: url('/arquivos/bannerhome1.jpg');
     background-size : cover;
     padding-bottom  : 250px;
 }
@@ -83,16 +68,3 @@
     padding-top: 25px;
 }
 
-/* .stretchChildrenWidth {
-    width: auto;
-    height: 40px;
-} */
-
-.flexCol--departament__mujer__zapatos,
-.flexCol--departament__mujer__ropa,
-.flexCol--departament__mujer__accesorios,
-.flexCol--departament__mujer__marcas,
-.flexCol--departament__mujer__deportes {
-    height: 30px;
-
-}

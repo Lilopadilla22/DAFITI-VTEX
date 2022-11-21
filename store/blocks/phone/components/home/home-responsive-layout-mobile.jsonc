@@ -47,7 +47,7 @@
       }
     }
   },
-
+  
  //LLAMADO 
  
   "flex-layout.row#section_phone__two": {
@@ -82,7 +82,10 @@
   "title": "banner phone seccion 2",
   "children":[
     "image#section__phone__four"
-  ]
+  ],
+  "props": {
+    "whidth": 50
+  }
 },
   
 "image#section__phone__four":{

@@ -1,0 +1,22 @@
+{
+  "flex-layout.col#desktop__search": {
+    "children": ["search-bar#desktop"],
+    "props": {
+      "verticalAlign": "middle",
+      "width": "50%",
+      "blockClass": "search__desktop"
+    }
+  },
+
+  "search-bar#desktop": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "displayMode": "search-and-clear-buttons",
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment": "right",
+      "autocompleteFullWidth": false,
+      "emptyPlaceholder": "Buscar más",
+      "blockClass": "search__desktop__input"
+    }
+  }
+}

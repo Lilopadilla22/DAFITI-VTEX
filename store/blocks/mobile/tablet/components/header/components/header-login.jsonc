@@ -1,0 +1,100 @@
+{
+
+  "flex-layout.col#phone__login--login": {
+    "children": [
+      "login#loginmobile"
+    ],
+    "props":{
+      "blockClass": "login__mobile__inicio"
+    }
+  },
+
+
+  "login#loginmobile": {
+    "title": "Login",
+    "props": {
+      "title": "MI CUENTA",
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresa con código",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Ingresa",
+      "labelClasses": "login__label_icon"
+    }
+  },
+
+  "flex-layout.row#drawer__marcas":{
+    "children":[ 
+    "flex-layout.col#drawer__marcas--icono",
+    "flex-layout.col#drawer__marcas--text"
+    ],
+    "props": {
+    "preserveLayoutOnMobile": true,
+    "preventHorizontalStretch": true
+    }
+},
+
+"flex-layout.col#drawer__marcas--icono":{
+    "children": [
+        "logo#drawer__marcas--icono"
+    ],
+    "props": {
+        "width": "20%"
+    }
+},
+
+"flex-layout.col#drawer__marcas--text":{
+    "children": [
+        "rich-text#drawer__marcas--text"
+    ],
+    "props": {
+        "width": "80%"
+    } 
+},
+
+"rich-text#drawer__marcas--text": {
+    "props": {
+        "text": "Marcas",
+        "blockClass": "drawer__text--finish"
+    }
+},
+
+"flex-layout.row#drawer__ayuda":{
+    "children":[ 
+    "flex-layout.col#drawer__ayuda--icono",
+    "flex-layout.col#drawer__ayuda--text"
+    ],
+    "props": {
+    "preserveLayoutOnMobile": true,
+    "preventHorizontalStretch": true
+    }
+},
+
+"flex-layout.col#drawer__ayuda--icono":{
+    "children": [
+        "logo#drawer__ayuda--icono"
+    ],
+    "props": {
+        "width": "20%"
+    }
+},
+
+"flex-layout.col#drawer__ayuda--text":{
+    "children": [
+        "rich-text#drawer__ayuda--text"
+    ],
+    "props": {
+        "width": "80%"
+    } 
+},
+
+"rich-text#drawer__ayuda--text": {
+    "props": {
+        "text": "Ayuda",
+        "blockClass": "drawer__text--finish"
+    }
+}
+
+}

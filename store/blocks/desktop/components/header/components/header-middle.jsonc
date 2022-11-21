@@ -1,14 +1,5 @@
 {
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": [
-      "flex-layout.row#desktop"
-    ]
-  },
-
-  "flex-layout.row#desktop": {
+  "flex-layout.row#desktop__middle": {
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -16,14 +7,11 @@
       "preventVerticalStretch": true,
       "fullWidth": true
     },
-
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      // "locale-switcher",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#desktop__search",
+      "flex-layout.col#desktop__login",
+      "flex-layout.col#desktop__cart"
     ]
   },
 
@@ -31,25 +19,5 @@
     "props": {
       "width": "grow"
     }
-  },
-
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "logo#desktop"
-    ]
-  },
-
-  "logo#desktop": {
-    "props": {
-      "title": "Logo#desktop",
-      "href": "/",
-      "url": "assets/img/logo.webp",
-      "width": "100"
-    }
   }
-
-  
 }
