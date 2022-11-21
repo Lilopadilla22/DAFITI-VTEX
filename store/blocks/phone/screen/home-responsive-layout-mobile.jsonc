@@ -1,6 +1,6 @@
 {
   "responsive-layout.phone#home": {
-    "title": "Component desktop",
+    "title": "Component phone",
     "children": ["flex-layout.row#phone--phone"]
   },
 
@@ -14,8 +14,8 @@
 
   "flex-layout.col#phone": {
     "children": [
-      //"flex-layout.row#section_phone", 
-      //"slider-layout#marcasbanner"
+      "flex-layout.row#section_phone", 
+      "slider-layout#marcasbanner"
     ],
     "props": {
       "width": "100%"

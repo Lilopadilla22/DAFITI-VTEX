@@ -1,16 +1,7 @@
 {
-  "drawer": {
-    "title": "Drawer to header middle Mobile",
-    "children": [
-        "vtex.menu@2.x:menu#menumobile"
-    ]
-  },
-
   "vtex.menu@2.x:menu#menumobile": {
     "title": "Menu Drawer",
-    "children": [
-        "vtex.menu@2.x:menu#menumobiledrawer"
-    ],
+    "children": ["vtex.menu@2.x:menu#menumobiledrawer"],
     "props": {
       "orientation": "vertical"
     }
@@ -19,8 +10,7 @@
   "vtex.menu@2.x:menu#menumobiledrawer": {
     "title": "Menu categories",
     "children": [
-      "login#loginmobile",
-      "menu-item#menumobilehome", 
+      "menu-item#menumobilehome",
       "menu-item#menumobilemujer",
       "menu-item#menumobilehombre",
       "menu-item#menumobileninos",
@@ -29,8 +19,10 @@
       "menu-item#menumobilehogar",
       "menu-item#menumobileofertas",
       "menu-item#menumobileeco",
-      "menu-item#menumobileservicioalcliente"
-       
+      "menu-item#menumobileservicioalcliente",
+      "flex-layout.col#phone__login--login",
+      "flex-layout.row#drawer__marcas",
+      "flex-layout.row#drawer__ayuda"
     ],
     "props": {
       "orientation": "vertical"
@@ -40,7 +32,7 @@
   "menu-item#menumobilehome": {
     "title": "Departmento Mujer",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -55,7 +47,7 @@
   "menu-item#menumobilemujer": {
     "title": "Departmento Mujer",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -93,6 +85,7 @@
   "menu-item#category__categories-home": {
     "title": "Category home",
     "props": {
+      "blockClass": ["accordion-active"],
       "id": "menu-item-makeup",
       "type": "custom",
       "itemProps": {
@@ -108,7 +101,7 @@
   "menu-item#category__categories--zapatos": {
     "title": "Departmento zapatos",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -143,7 +136,7 @@
   "menu-item#category__categories-tennis": {
     "title": "Departmento Mujer",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -157,7 +150,7 @@
   "menu-item#category__categories--botas": {
     "title": "Departmento Mujer",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -171,7 +164,7 @@
   "menu-item#category__categories--sandalias": {
     "title": "Departmento Mujer",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -185,7 +178,7 @@
   "menu-item#category__categories--tacones": {
     "title": "Departmento Mujer",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -199,7 +192,7 @@
   "menu-item#category__categories--baletas": {
     "title": "Departmento Mujer",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -213,7 +206,7 @@
   "menu-item#category__categories--vermas": {
     "title": "Departmento Mujer",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -228,7 +221,7 @@
   "menu-item#category__categories--ropa": {
     "title": "Departmento Mujer",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -267,7 +260,7 @@
   "menu-item#category__categories-blusasycamisas": {
     "title": "subcategoria ropa",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -281,7 +274,7 @@
   "menu-item#category__categories--sacosbuzosycardigan": {
     "title": "subcategoria ropa",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -295,7 +288,7 @@
   "menu-item#category__categories--vestidos": {
     "title": "subcategoria ropa",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -309,7 +302,7 @@
   "menu-item#category__categories--jeans": {
     "title": "subcategoria ropa",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -323,7 +316,7 @@
   "menu-item#category__categories--camisetas": {
     "title": "subcategoria ropa",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -337,7 +330,7 @@
   "menu-item#category__categories--ropainterior": {
     "title": "subcategoria ropa",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -351,7 +344,7 @@
   "menu-item#category__categories--chaquetas": {
     "title": "subcategoria ropa",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -365,7 +358,7 @@
   "menu-item#category__categories--ropadedormir": {
     "title": "subcategoria ropa",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -379,7 +372,7 @@
   "menu-item#category__categories--pantalones": {
     "title": "subcategoria ropa",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -393,7 +386,7 @@
   "menu-item#category__categoriesropa--vermas": {
     "title": "subcategoria ropa",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -408,7 +401,7 @@
   "menu-item#category__categories--accesorios": {
     "title": "categoria accesorios",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -446,7 +439,7 @@
   "menu-item#category__categories-bolsosycarteras": {
     "title": "subcategoria accesorios",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -460,7 +453,7 @@
   "menu-item#category__categories--relojes": {
     "title": "subcategoria accesorios",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -474,7 +467,7 @@
   "menu-item#category__categories--maletasymorrales": {
     "title": "subcategoria accesorios",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -488,7 +481,7 @@
   "menu-item#category__categories--gafas": {
     "title": "subcategoria accesorios",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -502,7 +495,7 @@
   "menu-item#category__categories--joyeria": {
     "title": "subcategoria accesorios",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -516,7 +509,7 @@
   "menu-item#category__categories--billeteras": {
     "title": "subcategoria accesorios",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -530,7 +523,7 @@
   "menu-item#category__categories--cinturones": {
     "title": "subcategoria accesorios",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -544,7 +537,7 @@
   "menu-item#category__categories--cosmetiqueras": {
     "title": "subcategoria accesorios",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -558,7 +551,7 @@
   "menu-item#category__categoriesaccesorios--vermas": {
     "title": "subcategoria accesorios",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -573,7 +566,7 @@
   "menu-item#category__categories--deportes": {
     "title": "categoria deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -611,7 +604,7 @@
   "menu-item#category__categories-ciclismo": {
     "title": "subcategoria deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -625,7 +618,7 @@
   "menu-item#category__categories--running": {
     "title": "subcategoria deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -639,7 +632,7 @@
   "menu-item#category__categories--trainning": {
     "title": "subcategoria deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -653,7 +646,7 @@
   "menu-item#category__categories--baloncesto": {
     "title": "subcategoria deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -667,7 +660,7 @@
   "menu-item#category__categories--futbol": {
     "title": "subcategoria deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -681,7 +674,7 @@
   "menu-item#category__categories--tenis": {
     "title": "subcategoria deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -695,7 +688,7 @@
   "menu-item#category__categories--yoga": {
     "title": "subcategoria deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -709,7 +702,7 @@
   "menu-item#category__categories--fitness": {
     "title": "subcategoria deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -723,7 +716,7 @@
   "menu-item#category__categoriesdeprotes--vermas": {
     "title": "subcategoria deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -738,7 +731,7 @@
   "menu-item#category__categories--belleza": {
     "title": "categoria belleza",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -773,7 +766,7 @@
   "menu-item#category__categories-perfumes": {
     "title": "subcategoria belleza",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -787,7 +780,7 @@
   "menu-item#category__categories--maquillaje": {
     "title": "subcategoria belleza",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -801,7 +794,7 @@
   "menu-item#category__categories--cuidadofacial": {
     "title": "subcategoria belleza",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -815,7 +808,7 @@
   "menu-item#category__categories--cuidadocuerpo": {
     "title": "subcategoria belleza",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -829,7 +822,7 @@
   "menu-item#category__categories--cuidadocapilar": {
     "title": "subcategoria belleza",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -843,7 +836,7 @@
   "menu-item#category__categoriesbelleza--vermas": {
     "title": "subcategoria belleza",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -856,10 +849,10 @@
 
   //Otras secciones
 
-    "menu-item#menumobilehombre":{
+  "menu-item#menumobilehombre": {
     "title": "Departmento hombrer",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -867,13 +860,16 @@
         "tagTitle": "hombre",
         "text": "Hombre"
       }
-    }
     },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilemujer"]
+  },
 
-    "menu-item#menumobileninos":{
-        "title": "Departmento niños",
+ 
+
+  "menu-item#menumobileninos": {
+    "title": "Departmento niños",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -881,13 +877,14 @@
         "tagTitle": "niños",
         "text": "Niños"
       }
-    }
     },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilemujer"]
+  },
 
-    "menu-item#menumobiledeports":{
-        "title": "Departmento deportes",
+  "menu-item#menumobiledeports": {
+    "title": "Departmento deportes",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -895,13 +892,14 @@
         "tagTitle": "deportes",
         "text": "Deportes"
       }
-    }
     },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilemujer"]
+  },
 
-    "menu-item#menumobilebellezaycuidado":{
-        "title": "Departmento belleza",
+  "menu-item#menumobilebellezaycuidado": {
+    "title": "Departmento belleza",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -909,13 +907,14 @@
         "tagTitle": "belleza y cuidado",
         "text": "Belleza y cuidado"
       }
-    }
     },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilemujer"]
+  },
 
-    "menu-item#menumobilehogar":{
-        "title": "Departmento hogar",
+  "menu-item#menumobilehogar": {
+    "title": "Departmento hogar",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -923,13 +922,14 @@
         "tagTitle": "hogar",
         "text": "Hogar"
       }
-    }
     },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilemujer"]
+  },
 
-    "menu-item#menumobileofertas":{
-        "title": "Departmento ofertas",
+  "menu-item#menumobileofertas": {
+    "title": "Departmento ofertas",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -937,13 +937,14 @@
         "tagTitle": "ofertas",
         "text": "OFERTAS"
       }
-    }
     },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilemujer"]
+  },
 
-    "menu-item#menumobileeco":{
-        "title": "Departmento eco",
+  "menu-item#menumobileeco": {
+    "title": "Departmento eco",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -951,13 +952,14 @@
         "tagTitle": "eco",
         "text": "ECO"
       }
-    }
     },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilemujer"]
+  },
 
-    "menu-item#menumobileservicioalcliente":{
-        "title": "Departmento servicio",
+  "menu-item#menumobileservicioalcliente": {
+    "title": "Departmento servicio",
     "props": {
-      "blockClass": "menu-item__mobile",
+      "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -965,7 +967,7 @@
         "tagTitle": "servicio al cliente",
         "text": "Servicio al cliente"
       }
-    }
-    }
-
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilemujer"]
+  }
 }

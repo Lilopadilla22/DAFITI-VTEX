@@ -1,9 +1,9 @@
 {
-    "flex-layout.col#mdesktop__login": {
-        "props": {
-          "verticalAlign": "middle",
-          "width": 30
-        },
-        "children": ["login"]
-      }
+  "flex-layout.col#desktop__login": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "15%"
+    },
+    "children": ["login"]
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#desktop": {
+  "flex-layout.row#desktop__middle": {
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -9,12 +9,9 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      //"flex-layout.col#spacer",
-      "flex-layout.col#mdesktop__search",
-      "flex-layout.col#mdesktop__login",
+      "flex-layout.col#desktop__search",
+      "flex-layout.col#desktop__login",
       "flex-layout.col#desktop__cart"
-      //"login",
-      //"minicart.v2"
     ]
   },
 
@@ -23,6 +20,4 @@
       "width": "grow"
     }
   }
-
-  
 }

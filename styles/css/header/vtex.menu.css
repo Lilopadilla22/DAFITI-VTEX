@@ -13,14 +13,6 @@
     width: 100vw;
 }
 
-/* .styledLinkContent--department_name {
-    font-size: 11px;
-}
-
-.styledLinkContainer--department_name {
-    margin-left: 3rem;
-} */
-
 .submenuWrapper--container__submenu--isOpen{
     width: 1410px;
     height: 500px;
@@ -42,6 +34,6 @@
     background: gainsboro;
 }
 
-.menuContainerNav--Container__menu {
+.menuContainerNav--Container__menu--desktop {
     width: 100%;
 }

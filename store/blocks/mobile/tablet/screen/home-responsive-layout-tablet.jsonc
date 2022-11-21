@@ -19,8 +19,8 @@
   "flex-layout.col#tablet": {
     "children": [
       "flex-layout.row#section_tablet",
-      "flex-layout.row#section_tablet__two"
-      //"slider-layout#marcasbanner"
+      "flex-layout.row#section_tablet__two",
+      "slider-layout#marcasbanner"
     ],
     "props": {
       "width": "100%"

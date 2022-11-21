@@ -1,0 +1,34 @@
+{
+  "drawer#phone": {
+    "title": "Drawer to header middle Phone",
+    "blocks": [
+        "drawer-header#phone__welcome"
+    ],
+    "children": [
+        "vtex.menu@2.x:menu#menumobile"
+    ],
+    "props": {
+        "slideDirection": "leftToRight",
+        "blockClass": "drawer__phone"
+      }
+  },
+
+  "drawer-header#phone__welcome": {
+    "children": [
+        "rich-text#phone--welcome"
+    ],
+    "props": {
+        "blockClass": "button-close-drawer"
+    }
+  },
+
+  "rich-text#phone--welcome":{
+    "props": {
+        "text": "Bienvenidos",
+        "textPosition": "center",
+        "blockClass": "phone_text_welcome"
+    }
+  } 
+  
+  
+}
