@@ -4,7 +4,7 @@
     "children": ["vtex.menu@2.x:menu#header__menu"],
     "props": {
       "blockClass": "header__desktop--menu",
-      //"fullWidth": true,
+      "fullWidth": true,
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "highlight": true

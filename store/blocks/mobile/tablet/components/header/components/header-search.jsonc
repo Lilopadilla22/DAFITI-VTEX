@@ -12,7 +12,9 @@
       "openAutocompleteOnFocus": true,
       "autocompleteAlignment": "right",
       "autocompleteFullWidth": false,
-      "emptyPlaceholder": "Buscá por producto, marca, categorías..."
+      "emptyPlaceholder": "",
+      "hasIconLeft": false,
+      "placeholder": "Buscá por producto, marca, categorías..."
     }
   }
 }

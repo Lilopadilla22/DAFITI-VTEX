@@ -4,9 +4,9 @@
     margin-left: 3rem;
 }
 
-.styledLinkContent--department_name__mujer {
+/* .styledLinkContent--department_name__mujer {
     padding-left: 200px;
-}
+} */
 
 
 .submenuWrapper--category-container--isOpen {
@@ -14,13 +14,13 @@
 }
 
 .submenuWrapper--container__submenu--isOpen{
-    width: 1410px;
-    height: 500px;
+    width: 1300px;
+    /* height: 500px; */
 }
 
-.submenu--container__submenu {
+/* .submenu--container__submenu {
     height: 40px;
-}
+} */
 
 .styledLinkContainer--menu-item__mobile {
     padding: 20px 0;
@@ -34,6 +34,10 @@
     background: gainsboro;
 }
 
-.menuContainerNav--Container__menu--desktop {
-    width: 100%;
+.submenuContainer--container__submenu {
+    position: static; 
 }
+
+/* .menuContainerNav--Container__menu--desktop {
+    width: 100%;
+} */

@@ -2,16 +2,6 @@
     padding-right: 0;
 }
 
-/*mobile*/
-
-.sizeMobile {
-    padding-left: 70px;
-}
-
-.logoContainer--bagcart-icon {
-    padding-left: 15px;
-}
-
 /*desktop barra navegacion*/
 
 .autoCompleteOuterContainer--search__desktop__input {
@@ -25,4 +15,27 @@
 
 .logoContainer--marcas-icon-drawer {
     padding-left: 20px;
+}
+
+
+/*mobile*/
+
+/* .sizeMobile {
+    padding-left: 70px;
+} */
+
+.logoLink--header-icon {
+    padding-left: 70px;
+}
+
+.logoImage--logo-mobile {
+    padding-left: 50px;
+}
+
+.logoContainer--bagcart-icon {
+    padding-left: 15px;
+}
+
+.searchBarIcon--search :global(.vtex-store-components-3-x-searchIcon) {
+    color: rgb(133, 133, 133)
 }
