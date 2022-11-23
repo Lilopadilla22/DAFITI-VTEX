@@ -1,13 +1,18 @@
-.styledLinkContent--department_name .styledLinkContent--department_name__mujer {
+.styledLinkContent--department_name,
+.styledLinkContent--department_name__mujer {
     color: black;
     font-size: 11px;
     margin-left: 3rem;
 }
 
-/* .styledLinkContent--department_name__mujer {
-    padding-left: 200px;
-} */
+.styledLinkContainer--menu-item__mobile {
+    padding: 20px 0;
+}
 
+.styledLinkContainer--department_name {
+    margin-left: 0px; 
+    margin-right: 0px;
+}
 
 .submenuWrapper--category-container--isOpen {
     width: 100vw;
@@ -15,18 +20,12 @@
 
 .submenuWrapper--container__submenu--isOpen{
     width: 1300px;
-    /* height: 500px; */
+    margin-left: 30px;
+    margin-top: 15px;
 }
 
-/* .submenu--container__submenu {
-    height: 40px;
-} */
 
-.styledLinkContainer--menu-item__mobile {
-    padding: 20px 0;
-}
-
-.menuItemInnerDiv--menu-item__mobile:hover {
+.menuItemInnerDiv--accordion-active:hover {
     background: gainsboro;
 }
 
@@ -38,6 +37,3 @@
     position: static; 
 }
 
-/* .menuContainerNav--Container__menu--desktop {
-    width: 100%;
-} */

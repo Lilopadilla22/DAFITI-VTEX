@@ -14,7 +14,7 @@
 }
 
 .link--text__description {
-    color          : black;
+    color          : #858585;
     text-decoration: none;
     font-size      : 12px;
     padding        : 2px 0;
@@ -53,8 +53,12 @@
     font-size: 14px;
 }
 
+.wrapper--anuncio {
+    width: 100%;
+}
+
 .container--text__description {
-    height: 30px;
+    height: 25px;
 }
 
 .container--text__description_ofer_nove {

@@ -2,51 +2,18 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#header__anuncio", 
-      "flex-layout.row#header__middle"
+      "flex-layout.row#header__middle",
+      "flex-layout.row#header__desktop--menu"
     ]
     ,
     "props": {
-      "blockClass": "headerDesktop"
-    }
-  },
-
-  "flex-layout.row#header__middle": {
-    "children": [
-      "flex-layout.col#header--middle"
-    ],
-    "props": {
-      "horizontalAlign": "center",
-      "blockClass": "header_Row_Desktop"
-    }
-  },
-
-  "flex-layout.col#header--middle": {
-    "children": [
-      "flex-layout.col#header__middle", 
-      "flex-layout.col#header__menu"
-    ],
-    "props": {
-      "blockClass": "header_Col_Desktop"
-    }
-  },
-
-  "flex-layout.col#header__middle": {
-    "children": [
-      "flex-layout.row#desktop__middle"
-    ],
-    "props": {
-      "width": "80%",
-      "blockClass": "header_Col_Desktop_lsc"
-    }
-  },
-
-  "flex-layout.col#header__menu": {
-    "children": [
-      "header-row#header__menu"
-    ],
-    "props": {
-      "width": "100%",
-      "blockClass": "header_col_Desktop_menu"
+      "blockClass": "header__desktop"
     }
   }
+
+ 
+
+ 
+
+  
 }

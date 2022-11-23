@@ -1,17 +1,17 @@
 {
   "flex-layout.col#desktop__cart": {
     "props": {
-      "verticalAlign": "middle",
-      "width": "15%"
+      "width": "10%",
+      "verticalAlign": "middle"
     },
     "children": ["minicart.v2#desktop"]
   },
 
   "minicart.v2#desktop": {
     "props": {
-      "variation": "popup",
-      "itemCountMode": "Total",
-      "quantityDisplay": "always"
+      "variation": "popup"
+      // "itemCountMode": "Total",
+      // "quantityDisplay": "always"
     },
     "children": ["minicart-base-content"]
   },

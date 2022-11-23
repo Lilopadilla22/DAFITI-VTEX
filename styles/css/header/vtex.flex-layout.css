@@ -18,7 +18,7 @@
 .flexRow--header__anuncios_row {
     background: #ececec;
 }
-    
+
 
 .flexRowContent--main-header-mobile {
     align-items: center;
@@ -35,7 +35,6 @@
 
 .flexRowContent--header__anuncios_row {
     height: 30px;
-
 }
 
 .flexColChild--login__mobile__inicio :global(.vtex-login-2-x-label) {
@@ -43,6 +42,12 @@
     display       : block;
     text-transform: none;
     font-size     : 14px;
+}
+
+.flexColChild--login__desktop :global(.vtex-login-2-x-label){
+    text-transform: none;
+    color: black;
+
 }
 
 .flexCol--login__mobile__inicio {
@@ -58,4 +63,9 @@
 
 .flexRowContent--departament__mujer__navbar {
     align-items: flex-start;
+}
+
+.flexRow--header_col_Desktop {
+    border-bottom: 1px solid gainsboro;
+    border-top   : 1px solid gainsboro;
 }

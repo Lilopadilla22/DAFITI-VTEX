@@ -31,12 +31,12 @@
     "props": {
       "width": "90%"
     }
-  },
-
-  "icon#homeprueba": {
-    "props": {
-      "id": "mpa-globe",
-      "size": 20
-    }
   }
+
+//   "icon#homeprueba": {
+//     "props": {
+//       "id": "mpa-globe",
+//       "size": 20
+//     }
+//   }
 }

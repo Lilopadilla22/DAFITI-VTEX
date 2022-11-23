@@ -1,4 +1,26 @@
 {
+  "flex-layout.row#header__desktop--menu": {
+    "children": [
+      "flex-layout.col#header__menu"
+    ],
+    "props": {
+      "blockClass": "header_col_Desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+      
+    }
+  },  
+
+  "flex-layout.col#header__menu": {
+    "children": [
+      "header-row#header__menu"
+    ],
+    "props": {
+      "width": "80%",
+      "blockClass": "header_col_desktop_menu"
+    }
+  },
+
   "header-row#header__menu": {
     "title": "Header__menu__completo",
     "children": ["vtex.menu@2.x:menu#header__menu"],
@@ -72,11 +94,10 @@
     "props": {
       "colSizing": "auto",
       "horizontalAlign": "center",
-      "colGap": 4,
-      "rowGap": 2,
+      "colGap": 6,
+      "rowGap": 0,
       "borderWidth": 0,
-      "blockClass": "departament__mujer__navbar",
-      "width": "80%"
+      "blockClass": "departament__mujer__navbar"
     }
   },
 

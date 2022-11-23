@@ -1,4 +1,14 @@
-{
+{  
+  "flex-layout.col#logo__phone":{
+    "children":[
+      "logo#tablet"
+    ],
+    "props":{
+      "width": "40%",
+      "horizontalAlign": "center"
+    }
+  },
+
   "logo#tablet": {
     "props": {
       "blockClass": "logo-mobile",
@@ -6,6 +16,16 @@
       "href": "/",
       "url": "assets/img/dafiti-logo-white.webp",
       "width": "70"
+    }
+  },
+
+  "flex-layout.col#megusta__phone":{
+    "children":[
+      "logo#heard"
+    ],
+    "props":{
+      "width": "20%",
+      "horizontalAlign": "center"
     }
   },
 

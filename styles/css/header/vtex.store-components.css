@@ -13,6 +13,10 @@
     color     : white;
 }
 
+.autoCompleteOuterContainer--search__desktop__input :global(.vtex-input-prefix__group) {
+    height: 30px;
+}
+
 .logoContainer--marcas-icon-drawer {
     padding-left: 20px;
 }
@@ -20,9 +24,6 @@
 
 /*mobile*/
 
-/* .sizeMobile {
-    padding-left: 70px;
-} */
 
 .logoLink--header-icon {
     padding-left: 70px;

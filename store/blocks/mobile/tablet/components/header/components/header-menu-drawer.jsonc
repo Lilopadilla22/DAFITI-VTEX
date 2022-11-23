@@ -1,4 +1,15 @@
 {
+
+  "flex-layout.col#drawer__phone":{
+    "children":[
+      "drawer#phone"
+    ],
+    "props":{
+      "width": "20%",
+      "horizontalAlign": "center"
+    }
+  },
+  
   "drawer#phone": {
     "title": "Drawer to header middle Phone",
     "blocks": [

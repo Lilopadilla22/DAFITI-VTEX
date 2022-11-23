@@ -1,4 +1,14 @@
 {
+  "flex-layout.col#minicart__phone":{
+    "children":[
+      "minicart.v2#mobile"
+    ],
+    "props":{
+      "width": "20%",
+      "horizontalAlign": "center"
+    }
+  },
+
   "minicart.v2#mobile": {
     "props": {
       "MinicartIcon":"logo#bagcart",
