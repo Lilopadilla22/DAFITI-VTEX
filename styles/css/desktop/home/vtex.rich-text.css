@@ -1,4 +1,4 @@
-.paragraph--anuncio {
+.paragraph--anuncio-desktop {
     font-size     : 16px;
     text-align    : center;
     color         : #8a8a8a;
@@ -10,7 +10,7 @@
     margin        : 0px auto;
 }
 
-.paragraph--anuncio::before {
+.paragraph--anuncio-desktop::before {
     content      : '';
     width        : 100%;
     border-bottom: 1px solid #d8d8d8;
@@ -19,11 +19,15 @@
     top          : 40px
 }
 
+.wrapper--anuncio-desktop {
+    width: 100%;
+}
+
 .paragraph--todomarca {
     margin     : 64px auto 40px;
     display    : table;
     white-space: nowrap;
-    font-family: Poppins, sans-serif;
+    font-family: sans-serif;
     color      : #20281F;
     font-size  : 2rem;
     font-weight: 600;
@@ -31,7 +35,7 @@
 
 .paragraph--descriptiontitle {
     font-size  : 30px;
-    font-family: "Poppins", sans-serif;
+    font-family: sans-serif;
     margin     : 40px auto;
     text-align : center;
     color      : #20281f;
@@ -102,4 +106,5 @@
 .paragraph--text_banner_principal {
     padding-top: 20px;
 }
+
 

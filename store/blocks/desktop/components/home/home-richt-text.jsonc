@@ -12,7 +12,7 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-1",
-            "blockClass": "anuncio"
+            "blockClass": "anuncio-desktop"
         }
     },
 

@@ -11,7 +11,7 @@
       "colGap": 7,
       "horizontalAlign": "center",
       "rowGap": 5,
-      "blockClass": "banner_secundario_premium"
+      "blockClass": "banner_secundario__home"
     }
   },
 

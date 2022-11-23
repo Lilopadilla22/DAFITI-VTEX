@@ -1,0 +1,11 @@
+.styledLinkContainer--menu-item__mobile {
+    padding: 20px 0;
+}
+
+.menuItemInnerDiv--accordion-active:hover {
+    background: gainsboro;
+}
+
+.submenuAccordion--menu-accordion__mobile {
+    background: gainsboro;
+}

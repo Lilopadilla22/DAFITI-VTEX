@@ -43,24 +43,18 @@
     font-size      : 11px;
 }
 
-.wrapper--phone_text_welcome {
-    color    : white;
-    font-size: 14px;
-    padding  : 16px;
-}
-
-.wrapper--drawer__text--finish {
-    font-size: 14px;
-}
-
-.wrapper--anuncio {
-    width: 100%;
-}
-
 .container--text__description {
-    height: 25px;
+    height: 30px;
 }
 
 .container--text__description_ofer_nove {
     height: 30px;
+}
+
+.container--title__menu {
+    border-bottom: 1px solid gainsboro;
+}
+
+.paragraph--text__description:hover {
+    border-bottom: 1px solid gainsboro;
 }
