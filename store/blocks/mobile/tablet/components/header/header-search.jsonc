@@ -9,6 +9,7 @@
   "search-bar#mobile": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
+      "blockClass": "search__main__phone",
       "openAutocompleteOnFocus": true,
       "autocompleteAlignment": "right",
       "autocompleteFullWidth": false,
