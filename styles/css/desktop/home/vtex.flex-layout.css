@@ -21,43 +21,59 @@
 } */
 
 
-.pb0 {
+/* .pb0 {
     height: 350px
-}
+} */
 
 .flexCol--banner_femenino_principal1 {
     background-image: url('assets/img/bannerprincipal.jpg');
     background-size : cover;
-    padding-top     : 200px;
+    padding-top: 150px;
+    padding-bottom: 50px;
 
 }
 
 .flexCol--banner_masculino_principal {
     background-image: url('assets/img/bannerprincipal1.jpg');
     background-size : cover;
-    padding-top     : 200px;
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 .flexCol--banner_secundario_kids {
     /*background-image: url('assets/img/bannerhome1.jpg');*/
     background-image: url('/arquivos/bannerhome1.jpg');
+    height          : 356px;
     background-size : cover;
-    padding-bottom  : 250px;
+    ;
 }
 
 .flexCol--banner_secundario_premium {
-    background-image: url('assets/img/bannerhome3.jpg');
-    background-size : cover;
-    padding-bottom  : 250px;
+    background-image   : url('assets/img/bannerhome3.jpg');
+    height             : 356px;
+    background-size    : cover;
+    /* padding-bottom  : 320px; */
 }
 
 .flexCol--banner_secundario_sneaker {
-    background-image: url('assets/img/bannerhome2.jpg');
-    background-size : cover;
-    padding-bottom  : 250px;
+    background-image    : url('assets/img/bannerhome2.jpg');
+    height              : 356px;
+    background-size     : cover;
+    /* padding-bottom   : 320px; */
+    /* background-repeat: no-repeat;
+    background-size     : contain;
+    padding-bottom      : 320px; */
 }
 
 .flexRow--banner_secundario__home {
     padding-top: 25px;
 }
 
+/* 
+.flexColChild--banner_femenino_principal1 {
+    height: 30px;
+}
+
+.flexColChild--banner_masculino_principal {
+    height: 30px;
+} */

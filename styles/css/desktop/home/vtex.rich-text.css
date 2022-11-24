@@ -63,13 +63,17 @@
 .link--text_banner_principal {
     color          : white;
     text-decoration: none;
-    font-size      : 20px;
+    font-size      : 18px;
 }
 
 .container--text_banner_principal {
     font-size    : 6px;
     padding-right: 80px;
-    padding-left : 80px;
+    padding-left : 40px;
+}
+
+.paragraph--text__banner__second {
+    padding-top: 40px;
 }
 
 .strong--text_banner_title {
@@ -78,13 +82,17 @@
 }
 
 .paragraph--buttom_banner_principal {
-    border    : 5px solid gray;
     background: white;
+    padding: 5px;
+
 }
 
 .paragraph--buttom_banner_principal:hover {
-    border    : 5px solid white;
     background: black;
+}
+
+.paragraph--buttom_banner_principal:hover .link--buttom_banner_principal {
+    color: white
 }
 
 .link--buttom_banner_principal {
@@ -93,18 +101,37 @@
     margin         : 50px;
 }
 
-.link--buttom_banner_principal:hover {
-    color          : white;
-    text-decoration: none;
-    margin         : 50px;
+.menuItem--department_name:hover {
+    background: #979797;
+}
+
+.menuItem--department_name:hover .styledLinkContent--department_name {
+    color: #fff;
 }
 
 .container--buttom_banner_principal {
-    padding-top: 70px;
+    padding-top: 150px;
 }
+
+.container--buttom_banner_principal__masculino {
+    padding-top: 200px;
+}
+/* .paragraph--text_banner_principal {
+    padding-top: 20px;
+} */
+
+/* .lh-copy {
+    line-height: 0;
+}
+
+.paragraph--text_banner_title .paragraph--text_banner_principal {
+    line-height: 0;
+} */
 
 .paragraph--text_banner_principal {
-    padding-top: 20px;
+    line-height: 1;
 }
 
-
+.paragraph--text_banner_title {
+    margin: 0;
+}

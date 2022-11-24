@@ -37,7 +37,7 @@
         "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
-        "font": "t-heading-2"
+        "font": "t-heading-1"
       }
 },
 
@@ -47,7 +47,7 @@
         "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
@@ -57,7 +57,7 @@
         "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
@@ -67,7 +67,7 @@
         "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
@@ -77,37 +77,37 @@
         "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
 "rich-text#femenino6":{
     "props":{
-        "text":"**[Pantalones](/)**",
+        "text":"[Pantalones](/)",
         "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
 "rich-text#femenino7": {
     "props":{
-        "text":"**[Botas](/)**",
+        "text":"[Botas](/)",
         "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
 "rich-text#femenino8": {
     "props":{
-        "text":"**[Deportes](/)**",
+        "text":"[Deportes](/)",
         "blockClass":"text_banner_principal",
         "textAlignment": "RIGHT",
         "textPosition": "RIGHT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
@@ -116,8 +116,7 @@
         "text":"[Ver más](/)",
         "blockClass":"buttom_banner_principal",
         "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-4"
+        "textPosition": "CENTER"
       }
 },
 
@@ -156,7 +155,7 @@
         "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "font": "t-heading-2"
+        "font": "t-heading-1"
       }
 },
 
@@ -166,7 +165,7 @@
         "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
@@ -176,7 +175,7 @@
         "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
@@ -186,7 +185,7 @@
         "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
@@ -196,47 +195,46 @@
         "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
 "rich-text#masculino6":{
     "props":{
-        "text":"**[Polos](/)**",
+        "text":"[Polos](/)",
         "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
 "rich-text#masculino7": {
     "props":{
-        "text":"**[Sneakers](/)**",
+        "text":"[Sneakers](/)",
         "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
 "rich-text#masculino8": {
     "props":{
-        "text":"**[Deportes](/)**",
+        "text":"[Deportes](/)",
         "blockClass":"text_banner_principal",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "font": "t-heading-3"
+        "font": "t-heading-1"
       }
 },
 
 "rich-text#masculinobutton":{
     "props":{
         "text":"[Ver más](/)",
-        "blockClass":"buttom_banner_principal",
+        "blockClass":["buttom_banner_principal", "buttom_banner_principal__masculino"],
         "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-4"
+        "textPosition": "CENTER"
       }
 },
 
