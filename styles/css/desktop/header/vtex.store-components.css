@@ -38,3 +38,7 @@
 .searchBarIcon--search__desktop__input--clear {
     visibility: hidden;
 }
+
+.logoContainer--truck-icon {
+    padding-left: 0.5rem;
+}

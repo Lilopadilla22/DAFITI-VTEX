@@ -8,12 +8,14 @@
   },
 
   "minicart.v2#desktop": {
+    "children": ["minicart-base-content"],
     "props": {
-      "variation": "popup"
+      "variation": "popup",
+      "blockClass": "minicart__desktop"
       // "itemCountMode": "Total",
       // "quantityDisplay": "always"
-    },
-    "children": ["minicart-base-content"]
+    }
+    
   },
   "minicart-base-content": {
     "blocks": ["minicart-empty-state"],

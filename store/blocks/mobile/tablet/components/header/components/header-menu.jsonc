@@ -950,7 +950,7 @@
       "itemProps": {
         "type": "internal",
         "tagTitle": "eco",
-        "text": "ECO"
+        "text": "ECO ♻"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#menumobilemujer"]

@@ -41,3 +41,22 @@
 .flexColChild--departament__mujer__marcas :global(.vtex-rich-text-0-x-wrapper--title__menu):hover {
     border-bottom: 1px solid black;
 }
+
+.flexColChild--logo-desktop-home {
+    padding-right: 60px;
+}
+
+
+.flexColChild--login__desktop  :global(.vtex-button){
+    background-color: transparent;
+    border-color: none;
+}
+
+.flexColChild--login__desktop :global(.vtex-login-2-x-label):hover {
+    text-decoration: underline;
+}
+
+/* .hover-bg-action-secondary:hover {
+    background-color: none;
+    border-color: none;
+} */

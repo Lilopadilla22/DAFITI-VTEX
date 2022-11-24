@@ -57,7 +57,7 @@
     "props": {
       "id": "departament__mujer",
       "type": "custom",
-      "blockClass": "department_name__mujer",
+      "blockClass": "department_name",
       "itemProps": {
         "href": "/",
         "noFollow": true,
@@ -742,12 +742,16 @@
       "id": "departament__eco",
       "type": "custom",
       "blockClass": "department_name",
-      "ecoIcon": "icon-cart",
+      "iconPosition": "right",
+      "iconProps":{
+        "id": "hpa-arrow-back",
+        "size": 14
+      },
       "itemProps": {
         "href": "/",
         "noFollow": true,
         "tagTitle": "Eco",
-        "text": "ECO"
+        "text": "ECO ♻"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#departament__eco"]
