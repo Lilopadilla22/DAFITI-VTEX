@@ -1,0 +1,24 @@
+{
+  "flex-layout.col#desktop__search": {
+    "children": ["search-bar#desktop"],
+    "props": {
+      "width": "50%",
+      "verticalAlign": "middle",
+      "rowGap": 1,
+      "blockClass": "search__desktop"
+    }
+  },
+
+  "search-bar#desktop": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "displayMode": "search-and-clear-buttons",
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment": "right",
+      "autocompleteFullWidth": false,
+      "emptyPlaceholder": "Buscar más",
+      "placeholder": "Buscá por producto, marca, categorías...",
+      "blockClass": "search__desktop__input"
+    }
+  }
+}

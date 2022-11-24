@@ -28,46 +28,6 @@
       "horizontalAlign": "center",
       "verticalAlign": "center"
     }
-  },
-
-  "flex-layout.col#drawer__phone":{
-    "children":[
-      "drawer#phone"
-    ],
-    "props":{
-      "width": "20%",
-      "horizontalAlign": "center"
-    }
-  },
-
-  "flex-layout.col#logo__phone":{
-    "children":[
-      "logo#tablet"
-    ],
-    "props":{
-      "width": "40%",
-      "horizontalAlign": "center"
-    }
-  },
-
-  "flex-layout.col#megusta__phone":{
-    "children":[
-      "logo#heard"
-    ],
-    "props":{
-      "width": "20%",
-      "horizontalAlign": "center"
-    }
-  },
-
-  "flex-layout.col#minicart__phone":{
-    "children":[
-      "minicart.v2#mobile"
-    ],
-    "props":{
-      "width": "20%",
-      "horizontalAlign": "center"
-    }
-  }
+  }  
 
 }

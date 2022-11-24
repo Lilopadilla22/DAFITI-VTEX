@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#mobile__two": {
+    "children": ["search-bar#mobile"],
+    "props": {
+      "blockClass": "search-main-phone"
+    }
+  },
+
+  "search-bar#mobile": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "blockClass": "search__main__phone",
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment": "right",
+      "autocompleteFullWidth": false,
+      "emptyPlaceholder": "",
+      "hasIconLeft": false,
+      "placeholder": "Buscá por producto, marca, categorías..."
+    }
+  }
+}

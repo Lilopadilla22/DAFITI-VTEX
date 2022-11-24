@@ -1,0 +1,25 @@
+{
+  "flex-layout.col#desktop__login": {
+    "props": {
+      "width": "50%",
+      "verticalAlign": "middle",
+      "marginLeft": 7,
+      "blockClass": "login__desktop"
+    },
+    "children": ["login#desktop"]
+  },
+
+  "login#desktop": {
+    "title": "Login",
+    "props": {
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresa con código",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": false,
+      "iconLabel": "Registrate ENTRA",
+      "labelClasses": "login__label_desktop"
+    }
+  }
+}
