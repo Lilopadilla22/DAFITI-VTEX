@@ -1,29 +1,31 @@
 {
     "flex-layout.row#textfirst":{
-        "title": "Titulo de página",
+        "title": "Containe del titulo de página",
         "children": [
           "rich-text#textfirst"
         ]
     },
       
     "rich-text#textfirst": { 
+        "title": "titulo de página principal desktop",
         "props": { 
             "text": "ROPA DE MODA, ZAPATOS Y ACCESORIOS | DAFITI OFERTAS Y REBAJAS",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-1",
-            "blockClass": "anuncio"
+            "blockClass": "anuncio-desktop"
         }
     },
 
     "flex-layout.row#marcas":{
-        "title": "titulo slider",
+        "title": "container titulacion del slider de marcas",
         "children": [
             "rich-text#marcas"
         ]
     },
 
     "rich-text#marcas": { 
+        "title": "titulo de slider de marcas favoritas desktop",
         "props": { 
             "text": "Tus marcas favoritas",
             "textAlignment": "CENTER",
@@ -34,13 +36,14 @@
     },
     
     "flex-layout.row#favoritos":{
-        "title": "titulo de favoritos",
+        "title": "container de titulos de favoritos",
         "children": [
             "rich-text#favoritos"
         ]
     },
 
-    "rich-text#favoritos": { 
+    "rich-text#favoritos": {
+        "title": "titulos de favoritos de la semana",
         "props": { 
             "text": "Los favoritos de la semana",
             "textAlignment": "CENTER",
@@ -51,13 +54,14 @@
     },
 
     "flex-layout.row#description":{
-        "title": "titulo de descripcion",
+        "title": "container de titulo descripciones de la tienda",
         "children": [
             "flex-layout.col#description"
         ]
     },
 
     "flex-layout.col#description":{
+        "title": "container de titulo descripciones de la tienda-desktop",
         "children": [
             "rich-text#descriptiontitle",
             "rich-text#descriptioninfor",
@@ -66,6 +70,7 @@
     },
 
     "rich-text#descriptiontitle": { 
+        "title": "titulo de moda dafiti",
         "props": { 
             "text": "La moda como ***tú quieres*** que sea",
             "textAlignment": "CENTER",
@@ -76,6 +81,7 @@
     },
 
     "rich-text#descriptioninfor": { 
+        "title": "titulo de moda dafiti descripcion",
         "props": { 
             "text": "Estamos revolucionando el mundo de la moda con inteligencia. Pide todo lo que quieras y necesitas para tu look perfecto, encuéntralo en pocos clics y las 24 horas del día, con servicio de entrega nacional. Dafiti #SmartFashion es el mayor e-commerce de moda y estilo de vida en Latinoamérica, contamos con mas de 100 mil productos divididos en 5 categorías: ropa, zapatos, accesorios, deportes y belleza.",
             "textAlignment": "CENTER",
@@ -86,6 +92,7 @@
     },
     
     "rich-text#description": { 
+        "title": "titulo de moda dafiti descripcion",
         "props": { 
             "text": "**¡Ahora es el momento de refrescar tu look! Regístrate y descubre el mundo de la moda con Dafiti.**",
             "textAlignment": "CENTER",

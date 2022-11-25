@@ -1,0 +1,44 @@
+.logoContainer--header-icon {
+    padding-right: 0;
+}
+
+/*desktop barra navegacion*/
+
+.autoCompleteOuterContainer--search__desktop__input {
+    width: 400px;
+}
+
+.searchBarIcon--search__desktop__input {
+    background: black;
+    color     : white;
+}
+
+.autoCompleteOuterContainer--search__desktop__input :global(.vtex-input-prefix__group) {
+    height: 25px;
+}
+
+.autoCompleteOuterContainer--search__desktop__input :global(.vtex-styleguide-9-x-input) {
+    font-size: 11px;
+}
+
+.autoCompleteOuterContainer--search__desktop__input :global(.vtex-input):hover {
+    border       : 2px solid black;
+    border-radius: 0.25rem;
+}
+
+
+.earchBarInnerContainer--search__desktop__input:hover {
+    border: 13px solid black
+}
+
+.logoContainer--marcas-icon-drawer {
+    padding-left: 20px;
+}
+
+.searchBarIcon--search__desktop__input--clear {
+    visibility: hidden;
+}
+
+.logoContainer--truck-icon {
+    padding-left: 0.5rem;
+}

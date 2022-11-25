@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#bannersecundario": {
+    "title": "container de banner secundario-desktop",
+    "children": [
+      "flex-layout.col#bannerkids",
+      "flex-layout.col#bannerpremium",
+      "flex-layout.col#bannersneaker"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "colGap": 7,
+      "horizontalAlign": "center",
+      "rowGap": 5,
+      "blockClass": "banner_secundario__home"
+    }
+  },
+
+  "flex-layout.col#bannerkids": {
+    "title": "container kids de banner secundario-desktop",
+    "children": ["rich-text#bannerkids"],
+    "props": {
+      "blockClass": "banner_secundario_kids",
+      "width": "33%"
+    }
+  },
+
+  "rich-text#bannerkids": {
+    "title": " text kids de banner secundario-desktop",
+    "props": {
+      "text": "[KIDS](/)",
+      "blockClass": ["text_banner_principal", "text__banner__second"],
+      "textAlignment": "left",
+      "textPosition": "left",
+      "font": "t-heading-1"
+    }
+  },
+
+  "flex-layout.col#bannerpremium": {
+    "title": "container premium de banner secundario-desktop",
+    "children": ["rich-text#bannerpremium"],
+    "props": {
+      "blockClass": "banner_secundario_premium",
+      "width": "33%"
+    }
+  },
+
+  "rich-text#bannerpremium": {
+    "title": " text premium de banner secundario-desktop",
+    "props": {
+      "text": "[PREMIUM](/)",
+      "blockClass": ["text_banner_principal", "text__banner__second"],
+      "textAlignment": "left",
+      "textPosition": "left",
+      "font": "t-heading-1"
+    }
+  },
+
+  "flex-layout.col#bannersneaker": {
+    "title": "container sneaker de banner secundario-desktop",
+    "children": ["rich-text#bannersneaker"],
+    "props": {
+      "blockClass": "banner_secundario_sneaker",
+      "width": "33%"
+    }
+  },
+
+  "rich-text#bannersneaker": {
+    "title": " text senaker de banner secundario-desktop",
+    "props": {
+      "text": "[SNEAKER](/)",
+      "blockClass": ["text_banner_principal", "text__banner__second"],
+      "textAlignment": "left",
+      "textPosition": "left",
+      "font": "t-heading-1"
+    }
+  }
+}

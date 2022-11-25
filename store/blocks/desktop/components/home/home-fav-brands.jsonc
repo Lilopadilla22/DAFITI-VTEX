@@ -1,0 +1,190 @@
+{
+  //SLIDER DE MARCAS PERTENECIENTES A LA TIENDA
+
+  "slider-layout#marcasbanner": {
+    "title": "slider marcas favoritas",
+    "children": [
+      "image#adidas",
+      "image#asics",
+      "image#calvin",
+      "image#guess",
+      "image#levis",
+      "image#mng",
+      "image#nautica",
+      "image#parus",
+      "image#poloclub",
+      "image#quiksilver",
+      "image#reebok",
+      "image#tommy",
+      "image#under"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 2000
+      },
+      "infinite": true,
+      "showPaginationDots": "never"
+    }
+  },
+
+  "image#adidas": {
+    "title": "slider marcas favoritas imagen uno",
+    "props": {
+      "src": "assets/carrousel/adidas.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#asics": {
+    "title": "slider marcas favoritas imagen dos",
+    "props": {
+      "src": "assets/carrousel/asics.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#calvin": {
+    "title": "slider marcas favoritas imagen tres",
+    "props": {
+      "src": "assets/carrousel/calvin.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#guess": {
+    "title": "slider marcas favoritas imagen cuatro",
+    "props": {
+      "src": "assets/carrousel/guess.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#levis": {
+    "title": "slider marcas favoritas imagen cinco",
+    "props": {
+      "src": "assets/carrousel/levis.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#mng": {
+    "title": "slider marcas favoritas imagen seis",
+    "props": {
+      "src": "assets/carrousel/MNG.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#nautica": {
+    "title": "slider marcas favoritas imagen siete",
+    "props": {
+      "src": "assets/carrousel/nautica.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#parus": {
+    "title": "slider marcas favoritas imagen ocho",
+    "props": {
+      "src": "assets/carrousel/parus.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#poloclub": {
+    "title": "slider marcas favoritas imagen nueve",
+    "props": {
+      "src": "assets/carrousel/poloclub.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#quiksilver": {
+    "title": "slider marcas favoritas imagen diez",
+    "props": {
+      "src": "assets/carrousel/quiksilver.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#reebok": {
+    "title": "slider marcas favoritas imagen once",
+    "props": {
+      "src": "assets/carrousel/reebok.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#tommy": {
+    "title": "slider marcas favoritas imagen doce",
+    "props": {
+      "src": "assets/carrousel/tommy.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  },
+
+  "image#under": {
+    "title": "slider marcas favoritas imagen trece",
+    "props": {
+      "src": "assets/carrousel/under.png",
+      "maxWidth": 200,
+      "maxHeight": 200,
+      "link": {
+        "url": "/#"
+      }
+    }
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "flex-layout.row#header__desktop--menu": {
+    "title": "container de menu principal version desktop",
+    "children": [
+      "flex-layout.col#header__menu"
+    ],
+    "props": {
+      "blockClass": "header_col_Desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+      
+    }
+  },  
+
+  "flex-layout.col#header__menu": {
+    "title": "container de menu principal desktop",
+    "children": [
+      "header-row#header__menu"
+    ],
+    "props": {
+      "width": "80%",
+      "blockClass": "header_col_desktop_menu"
+    }
+  },
+
+  "header-row#header__menu": {
+    "title": "Header__menu__completo",
+    "children": ["vtex.menu@2.x:menu#header__menu"],
+    "props": {
+      "blockClass": "header__desktop--menu",
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "highlight": true
+    }
+  },
+
+  "vtex.menu@2.x:menu#header__menu": {
+    "title": "container de departamentos menu principal desktop",
+    "children": [
+      "menu-item#departament__mujer",
+      "menu-item#departament__hombre",
+      "menu-item#departament__deportes",
+      "menu-item#departament__ninos",
+      "menu-item#departament__belleza",
+      "menu-item#departament__marcas",
+      "menu-item#departament__hogar",
+      "menu-item#departament__eco",
+      "menu-item#departament__ofertas"
+    ],
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "Container__menu--desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
+  },
+
+  "menu-item#departament__mujer": {
+    "title": "departamento mujer menu principal desktop",
+    "props": {
+      "id": "departament__mujer",
+      "type": "custom",
+      "blockClass": "department_name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Mujer",
+        "text": "MUJER"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__mujer"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__mujer": {
+    "title": "departamento mujer submenu principal desktop",
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  },
+
+  "menu#departament__mujer": {
+    "title": "container departamento mujer submenu principal desktop",
+    "children": ["flex-layout.row#departament__mujer"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "flex-layout.row#departament__mujer": {
+    "title": "container categorias del departamento mujer",
+    "children": [
+      "flex-layout.col#departament__mujer--zapato",
+      "flex-layout.col#departament__mujer--ropa",
+      "flex-layout.col#departament__mujer--accesorios",
+      "flex-layout.col#departament__mujer--deportes",
+      "flex-layout.col#departament__mujer--marcas"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "colGap": 6,
+      "rowGap": 0,
+      "borderWidth": 0,
+      "blockClass": "departament__mujer__navbar"
+    }
+  },
+
+  //COLUMNA UNO
+
+  "flex-layout.col#departament__mujer--zapato": {
+    "title": "categorias zapatos del departamento mujer",
+    "children": [
+      "rich-text#departament__mujer--zapato--title",
+      "rich-text#departament__mujer--zapato--tenis",
+      "rich-text#departament__mujer--zapato--botas",
+      "rich-text#departament__mujer--zapato--sandalias",
+      "rich-text#departament__mujer--zapato--tacones",
+      "rich-text#departament__mujer--zapato--zapatoscasuales",
+      "rich-text#departament__mujer--zapato--mocasines",
+      "rich-text#departament__mujer--zapato--vertodos",
+      "rich-text#departament__mujer--zapato--novedades",
+      "rich-text#departament__mujer--zapato--ofertas"
+    ],
+    "props": {
+      "blockClass": "departament__mujer__zapatos",
+      "colSizing":"auto" //nuevo
+    }
+  },
+
+  "rich-text#departament__mujer--zapato--title": {
+    "title": "categorias zapatos-zapatos",
+    "props": {
+      "text": "[**ZAPATOS**](/)",
+      "blockClass": "title__menu"
+    }
+  },
+
+  "rich-text#departament__mujer--zapato--tenis": {
+    "title": "categorias zapatos-tenis",
+    "props": {
+      "text": "[Tenis](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--zapato--botas": {
+    "title": "categorias zapatos-botas",
+    "props": {
+      "text": "[Botas](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--zapato--sandalias": {
+    "title": "categorias zapatos-sandalias",
+    "props": {
+      "text": "[Sandalias](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--zapato--tacones": {
+    "title": "categorias zapatos-tacones",
+    "props": {
+      "text": "[Tacones](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--zapato--zapatoscasuales": {
+    "title": "categorias zapatos-casuales",
+    "props": {
+      "text": "[Zapatos Casuales](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--zapato--mocasines": {
+    "title": "categorias zapatos-mocasines",
+    "props": {
+      "text": "[Mocasiones](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--zapato--vertodos": {
+    "title": "categorias del departamento mujer-vertodo",
+    "props": {
+      "text": "**[Ver Todos](/)**",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--zapato--novedades": {
+    "title": "categorias zapatos-novedades",
+    "props": {
+      "text": "[Novedades](/)",
+      "blockClass": "text__description_ofer_nove",
+      "textColor": "#FFFF00"
+    }
+  },
+
+  "rich-text#departament__mujer--zapato--ofertas": {
+    "title": "categorias zapatos-ofertas",
+    "props": {
+      "text": "[Ofertas](/)",
+      "blockClass": "text__description_ofer_nove"
+    }
+  },
+
+  //COLUMNA DOS
+
+  "flex-layout.col#departament__mujer--ropa": {
+    "title": "categorias ropa del departamento mujer",
+    "children": [
+      "rich-text#departament__mujer--ropa--title",
+      "rich-text#departament__mujer--ropa--polos",
+      "rich-text#departament__mujer--ropa--camisas",
+      "rich-text#departament__mujer--ropa--camisetas",
+      "rich-text#departament__mujer--ropa--jeans",
+      "rich-text#departament__mujer--ropa--chaquetas",
+      "rich-text#departament__mujer--ropa--pantalones",
+      "rich-text#departament__mujer--ropa--sacosycardigan",
+      "rich-text#departament__mujer--ropa--ropainterior",
+      "rich-text#departament__mujer--ropa--bermudasypantalonetas",
+      "rich-text#departament__mujer--ropa--vertodo",
+      "rich-text#departament__mujer--ropa--novedades",
+      "rich-text#departament__mujer--ropa--ofertas"
+    ],
+    "props": {
+      "blockClass": "departament__mujer__ropa"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--title": {
+    "title": "categorias ropa-ropa",
+    "props": {
+      "text": "[**ROPA**](/)",
+      "blockClass": "title__menu"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--camisas": {
+    "title": "categorias ropa-camisas",
+    "props": {
+      "text": "[Camisas](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--polos": {
+    "title": "categorias ropa-polos",
+    "props": {
+      "text": "[Polos](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--camisetas": {
+    "title": "categorias ropa-camisetas",
+    "props": {
+      "text": "[Camisetas](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--jeans": {
+    "title": "categorias ropa-jeans",
+    "props": {
+      "text": "[Jeans](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--chaquetas": {
+    "title": "categorias ropa-chaquetas",
+    "props": {
+      "text": "[Caquetas](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--pantalones": {
+    "title": "categorias ropa-pantalones",
+    "props": {
+      "text": "[Pantalones](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--sacosycardigan": {
+    "title": "categorias ropa-sacos",
+    "props": {
+      "text": "[Sacos y Cardigan](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--ropainterior": {
+    "title": "categorias ropa-ropainterior",
+    "props": {
+      "text": "[Ropa Interior](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--bermudasypantalonetas": {
+    "title": "categorias ropa-bermudas",
+    "props": {
+      "text": "[Bermudas y Pantalonetas](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--vertodo": {
+    "title": "categorias ropa-vertodo",
+    "props": {
+      "text": "**[Ver todo](/)**",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--novedades": {
+    "title": "categorias ropa-novedades",
+    "props": {
+      "text": "[Novedades](/)",
+      "blockClass": "text__description_ofer_nove",
+      "textColor": "red"
+    }
+  },
+
+  "rich-text#departament__mujer--ropa--ofertas": {
+    "title": "categorias ropa-ofertas",
+    "props": {
+      "text": "[Ofertas](/)",
+      "blockClass": "text__description_ofer_nove",
+      "textColor": "red"
+    }
+  },
+
+  //COLUMNA TRES
+
+  "flex-layout.col#departament__mujer--accesorios": {
+    "title": "categorias accesorios del departamento mujer",
+    "children": [
+      "rich-text#departament__mujer--accesorios--title",
+      "rich-text#departament__mujer--accesorios--bolsosycarteras",
+      "rich-text#departament__mujer--accesorios--relojes",
+      "rich-text#departament__mujer--accesorios--maletasymorrales",
+      "rich-text#departament__mujer--accesorios--joyaybisuteria",
+      "rich-text#departament__mujer--accesorios--billeteras",
+      "rich-text#departament__mujer--accesorios--gafas",
+      "rich-text#departament__mujer--accesorios--cinturones",
+      "rich-text#departament__mujer--accesorios--cosmetiquerasyestuches",
+      "rich-text#departament__mujer--accesorios--vertodos",
+      "rich-text#departament__mujer--accesorios--novedades",
+      "rich-text#departament__mujer--accesorios--ofertas"
+    ],
+    "props": {
+      "blockClass": "departament__mujer__accesorios"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--title": {
+    "title": "categorias accesorios-accesorios",
+    "props": {
+      "text": "[**ACCESORIOS**](/)",
+      "blockClass": "title__menu"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--bolsosycarteras": {
+    "title": "categorias accesorios-bolsos",
+    "props": {
+      "text": "[Bolsos y carteras](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--relojes": {
+    "title": "categorias accesorios-relojes",
+    "props": {
+      "text": "[Relojes](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--maletasymorrales": {
+    "title": "categorias accesorios-maletas",
+    "props": {
+      "text": "[Maletas y morrales](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--joyaybisuteria": {
+    "title": "categorias accesorios-joyas",
+    "props": {
+      "text": "[Joya y bisuteria](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--billeteras": {
+    "title": "categorias accesorios-billeteras",
+    "props": {
+      "text": "[Billeteras](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--gafas": {
+    "title": "categorias accesorios-gafas",
+    "props": {
+      "text": "[Gafas](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--cinturones": {
+    "title": "categorias accesorios-cintures",
+    "props": {
+      "text": "[Cinturones](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--cosmetiquerasyestuches": {
+    "title": "categorias accesorios-cosmetiqueras",
+    "props": {
+      "text": "[Cosmetiqueras y estuches](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--vertodos": {
+    "title": "categorias accesorios-vertodo",
+    "props": {
+      "text": "**[Ver todo](/)**",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--novedades": {
+    "title": "categorias accesorios-novedades",
+    "props": {
+      "text": "[Novedades](/)",
+      "blockClass": "text__description_ofer_nove"
+    }
+  },
+
+  "rich-text#departament__mujer--accesorios--ofertas": {
+    "title": "categorias accesorios-ofertas",
+    "props": {
+      "text": "[Ofertas](/)",
+      "blockClass": "text__description_ofer_nove"
+    }
+  },
+
+  //COLUMNA CUATRO
+
+  "flex-layout.col#departament__mujer--deportes": {
+    "title": "categorias deportes del departamento mujer",
+    "children": [
+      "rich-text#departament__mujer--deportes--title",
+      "rich-text#departament__mujer--deportes--tenisyzapatos",
+      "rich-text#departament__mujer--deportes--vestuarios",
+      "rich-text#departament__mujer--deportes--accesorios",
+      "rich-text#departament__mujer--deportes--equipamiento",
+      "rich-text#departament__mujer--deportes--ver todos",
+      "rich-text#departament__mujer--deportes--novedades",
+      "rich-text#departament__mujer--deportes--ofertas"
+    ],
+    "props": {
+      "blockClass": "departament__mujer__deportes"
+    }
+  },
+
+  "rich-text#departament__mujer--deportes--title": {
+    "title": "categorias deportes-deportes",
+    "props": {
+      "text": "[**DEPORTES**](/)",
+      "blockClass": "title__menu"
+    }
+  },
+
+  "rich-text#departament__mujer--deportes--tenisyzapatos": {
+    "title": "categorias deportes-tenis",
+    "props": {
+      "text": "[Tenis y zapatos](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--deportes--vestuarios": {
+    "title": "categorias deportes-vestuarios",
+    "props": {
+      "text": "[Vestuarios](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--deportes--accesorios": {
+    "title": "categorias deportes-accesorios",
+    "props": {
+      "text": "[Accesorios](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--deportes--equipamiento": {
+    "title": "categorias deportes-equipamiento",
+    "props": {
+      "text": "[Equipamiento](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--deportes--ver todos": {
+    "title": "categorias deportes-vertodo",
+    "props": {
+      "text": "**[Ver todos](/)**",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--deportes--novedades": {
+    "title": "categorias deportes-novedades",
+    "props": {
+      "text": "[Novedades](/)",
+      "blockClass": "text__description_ofer_nove"
+    }
+  },
+
+  "rich-text#departament__mujer--deportes--ofertas": {
+    "title": "categorias deportes-ofertas",
+    "props": {
+      "text": "[Ofertas](/)",
+      "blockClass": "text__description_ofer_nove"
+    }
+  },
+
+  //COLUNNA QUINTA
+
+  "flex-layout.col#departament__mujer--marcas": {
+    "title": "categorias marcas del departamento mujer",
+    "children": [
+      "rich-text#departament__mujer--marcas--title",
+      "rich-text#departament__mujer--marcas--royalcounty",
+      "rich-text#departament__mujer--marcas--desigual",
+      "rich-text#departament__mujer--marcas--tommyhilfiger",
+      "rich-text#departament__mujer--marcas--mp",
+      "rich-text#departament__mujer--marcas--levis",
+      "rich-text#departament__mujer--marcas--gap",
+      "rich-text#departament__mujer--marcas--tellenzi",
+      "rich-text#departament__mujer--marcas--gef",
+      "rich-text#departament__mujer--marcas--calvinklein",
+      "rich-text#departament__mujer--marcas--uspoloassn",
+      "rich-text#departament__mujer--marcas--mattelsa"
+    ],
+    "props": {
+      "blockClass": "departament__mujer__marcas",
+      "rowGap": 0,
+      "height": "40px"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--title": {
+    "title": "categorias marcas-marcas",
+    "props": {
+      "text": "[**MARCAS**](/)",
+      "blockClass": "title__menu"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--royalcounty": {
+    "title": "categorias marcas-royal",
+    "props": {
+      "text": "[Royal County](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--desigual": {
+    "title": "categorias marcas-desigual",
+    "props": {
+      "text": "[Desigual](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--tommyhilfiger": {
+    "title": "categorias marcas-tommy",
+    "props": {
+      "text": "[Toomy Hilfiger](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--mp": {
+    "title": "categorias marcas-mp",
+    "props": {
+      "text": "[MP](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--levis": {
+    "title": "categorias marcas-levis",
+    "props": {
+      "text": "[Levi's](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--gap": {
+    "title": "categorias marcas-gap",
+    "props": {
+      "text": "[GAP](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--tellenzi": {
+    "title": "categorias marcas-tellenzi",
+    "props": {
+      "text": "[Tellenzi](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--gef": {
+    "title": "categorias marcas-gef",
+    "props": {
+      "text": "[GEF](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--calvinklein": {
+    "title": "categorias marcas-calvin",
+    "props": {
+      "text": "[Calvin Klein](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--uspoloassn": {
+    "title": "categorias marcas-polo",
+    "props": {
+      "text": "[US Polo Assn](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  "rich-text#departament__mujer--marcas--mattelsa": {
+    "title": "categorias marcas-mattelsa",
+    "props": {
+      "text": "[Mattelsa](/)",
+      "blockClass": "text__description"
+    }
+  },
+
+  //SEGUNDO ITEMS
+
+  
+
+
+  "menu-item#departament__hombre": {
+    "title": "departamento hombre menu principal desktop",
+    "props": {
+      "id": "departament__hombre",
+      "type": "custom",
+      "blockClass": "department_name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Hombre",
+        "text": "HOMBRE"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__hombre"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__hombre": {
+    "title": "departamento hombre submenu principal desktop",
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  },
+
+  "menu-item#departament__deportes": {
+    "title": "departamento deportes menu principal desktop",
+    "props": {
+      "id": "departament__deportes",
+      "type": "custom",
+      "blockClass": "department_name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Deportes",
+        "text": "DEPORTES"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__deportes"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__deportes": {
+    "title": "departamento deportes submenu principal desktop",
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  },
+
+  "menu-item#departament__ninos": {
+    "title": "departamento niños menu principal desktop",
+    "props": {
+      "id": "departament__ninos",
+      "type": "custom",
+      "blockClass": "department_name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Niños",
+        "text": "NIÑOS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__ninos"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__ninos": {
+    "title": "departamento niños submenu principal desktop",
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  },
+
+  "menu-item#departament__belleza": {
+    "title": "departamento belleza menu principal desktop",
+    "props": {
+      "id": "departament__belleza",
+      "type": "custom",
+      "blockClass": "department_name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Belleza",
+        "text": "BELLEZA"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__belleza"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__belleza": {
+    "title": "departamento belleza submenu principal desktop",
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  },
+
+  "menu-item#departament__marcas": {
+    "title": "departamento marcas menu principal desktop",
+    "props": {
+      "id": "departament__marcas",
+      "type": "custom",
+      "blockClass": "department_name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Marcas",
+        "text": "MARCAS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__marcas"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__marcas": {
+    "title": "departamento marcas submenu principal desktop",
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  },
+
+  "menu-item#departament__hogar": {
+    "title": "departamento hogar menu principal desktop",
+    "props": {
+      "id": "departament__hogar",
+      "type": "custom",
+      "blockClass": "department_name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Hogar",
+        "text": "HOGAR"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__hogar"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__hogar": {
+    "title": "departamento hogar submenu principal desktop",
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  },
+
+  "menu-item#departament__eco": {
+    "title": "departamento ECO menu principal desktop",
+    "props": {
+      "id": "departament__eco",
+      "type": "custom",
+      "blockClass": "department_name",
+      "iconPosition": "right",
+      "iconProps":{
+        "id": "hpa-arrow-back",
+        "size": 14
+      },
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Eco",
+        "text": "ECO ♻"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__eco"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__eco": {
+    "title": "departamento ECO submenu principal desktop",
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  },
+
+  "menu-item#departament__ofertas": {
+    "title": "departamento ofertas menu principal desktop",
+    "props": {
+      "id": "departament__ofertas",
+      "type": "custom",
+      "blockClass": "department_name",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Ofertas",
+        "text": "OFERTAS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departament__ofertas"]
+  },
+
+  "vtex.menu@2.x:submenu#departament__ofertas": {
+    "title": "departamento ofertas submenu principal desktop",
+    "children": ["menu#departament__mujer"],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  }
+}

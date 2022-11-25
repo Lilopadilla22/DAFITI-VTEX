@@ -1,0 +1,102 @@
+{
+
+  "flex-layout.row#section_phone": {
+    "children":[
+      "flex-layout.col#section__phone__one",
+      "flex-layout.col#section__phone__two",
+      "flex-layout.col#section__phone__three",
+      "flex-layout.col#section__phone__four"
+    ],
+    "props":{
+      "colSizing": "auto"
+  }
+},
+
+  "flex-layout.col#section__phone__one":{
+      "title": "section phone one",
+      "children":[
+        "image#section__phone__one"
+      ]
+    },
+    
+  "image#section__phone__one":{
+    "props": {
+      "src": "assets/img/kids.jpg",
+      "maxWidth": "100%",
+      "link": {
+        "url": "/#",
+        "newTab": true
+      }
+    }
+  },
+    
+  "flex-layout.col#section__phone__two":{
+    "title": "section phone 2",
+    "children":[
+      "image#section__phone__two"
+    ]
+  },
+    
+  "image#section__phone__two":{
+    "props": {
+      "src": "assets/img/deportes.jpg",
+      "maxWidth": "100%",
+      "link": {
+        "url": "/#",
+        "newTab": true
+      }
+    }
+  },
+  
+ //LLAMADO 
+ 
+  "flex-layout.row#section_phone__two": {
+    "children":[
+      "flex-layout.col#section__phone__three",
+      "flex-layout.col#section__phone__four"
+    ],
+    "props":{
+      "colSizing": "auto"
+  }
+},
+
+"flex-layout.col#section__phone__three":{
+  "title": "banner phone seccion 3",
+  "children":[
+    "image#section__phone__three"
+  ]
+},
+  
+"image#section__phone__three":{
+  "props": {
+    "src": "assets/img/femenino.jpg",
+    "maxWidth": "100%",
+    "link": {
+      "url": "/#",
+      "newTab": true
+    }
+  }
+},
+
+"flex-layout.col#section__phone__four":{
+  "title": "banner phone seccion 2",
+  "children":[
+    "image#section__phone__four"
+  ],
+  "props": {
+    "whidth": 50
+  }
+},
+  
+"image#section__phone__four":{
+  "props": {
+    "src": "assets/img/masculino.jpg",
+    "maxWidth": "100%",
+    "link": {
+      "url": "/#",
+      "newTab": true
+    }
+  }
+}
+
+}

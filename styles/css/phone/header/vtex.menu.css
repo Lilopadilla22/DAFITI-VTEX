@@ -1,0 +1,18 @@
+.styledLinkContainer--menu-item__mobile {
+    padding: 20px 0;
+}
+
+.menuItem--menu-item__mobile--isOpen {
+    background: gainsboro; 
+}
+
+.accordionIcon--isClosed {
+    /* background: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg') no-repeat center center / contain; */
+    content: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg');
+}
+
+.accordionIcon--isOpen {
+    content: url('https://api.iconify.design/material-symbols/baseline-arrow-drop-up.svg');
+    /* background: url('https://api.iconify.design/material-symbols/baseline-arrow-drop-up.svg') no-repeat center center / contain; */
+
+}

@@ -1,0 +1,62 @@
+
+.flexRow--header__anuncios_row {
+    background: #ececec;
+}
+
+
+.flexRowContent {
+    align-items: center;
+}
+
+.flexCol--header__anuncios_col {
+    width : 80%;
+    height: 50%;
+}
+
+.flexRowContent--header__anuncios_row {
+    height: 30px;
+}
+
+/*login desktop*/
+.flexColChild--login__desktop :global(.vtex-login-2-x-label){
+    text-transform: none;
+    color: black;
+
+}
+
+.flexRowContent--departament__mujer__navbar {
+    align-items: flex-start;
+}
+
+.flexRow--header_col_Desktop {
+    border-bottom: 1px solid gainsboro;
+    border-top   : 1px solid gainsboro;
+}
+
+
+.flexColChild--departament__mujer__zapatos :global(.vtex-rich-text-0-x-wrapper--title__menu):hover,
+.flexColChild--departament__mujer__ropa :global(.vtex-rich-text-0-x-wrapper--title__menu):hover,
+.flexColChild--departament__mujer__accesorios :global(.vtex-rich-text-0-x-wrapper--title__menu):hover,
+.flexColChild--departament__mujer__deportes :global(.vtex-rich-text-0-x-wrapper--title__menu):hover,
+.flexColChild--departament__mujer__marcas :global(.vtex-rich-text-0-x-wrapper--title__menu):hover {
+    border-bottom: 1px solid black;
+}
+
+.flexColChild--logo-desktop-home {
+    padding-right: 60px;
+}
+
+
+.flexColChild--login__desktop  :global(.vtex-button){
+    background-color: transparent;
+    border-color: none;
+}
+
+.flexColChild--login__desktop :global(.vtex-login-2-x-label):hover {
+    text-decoration: underline;
+}
+
+/* .hover-bg-action-secondary:hover {
+    background-color: none;
+    border-color: none;
+} */

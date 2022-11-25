@@ -1,0 +1,291 @@
+{
+  "flex-layout.row#header__anuncio": {
+    "title": "Row de anuncios top header",
+    "children": ["flex-layout.col#header__anuncio"],
+    "props": {
+      "blockClass": "header__anuncios_row",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.col#header__anuncio": {
+    "title": "Col de anuncios top header",
+    "children": ["flex-layout.row#header__anuncio__anuncios"],
+    "props": {
+      "width": "70%",
+      "blockClass": "header__anuncios_col"
+    }
+  },
+
+  "flex-layout.row#header__anuncio__anuncios": {
+    "title": "container de anuncios",
+    "children": [
+      "flex-layout.col#header__anuncio--envios",
+      "flex-layout.col#header__anuncio--cambios",
+      "flex-layout.col#header__anuncio--sigue",
+      "flex-layout.col#header__anuncio--nuevo",
+      "flex-layout.row#header__anuncio--conocenos"
+    ],
+    "props": {
+      "blockClass": "header__anuncios",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.col#header__anuncio--envios": {
+    "title": "container anuncios top header de envios",
+    "children": ["flex-layout.row#header__anuncio--envios"],
+    "props": {
+      "width": "22%",
+      "blockClass": "header__anuncios__one"
+    }
+  },
+
+  "flex-layout.row#header__anuncio--envios": {
+    "title": "anuncios top header container de envios",
+    "children": [
+      "flex-layout.col#anuncios_envios-icono",
+      "flex-layout.col#anuncios_envios-text"
+    ],
+    "props": {
+      "blockClass": "header__anuncios__envios"
+    }
+  },
+
+  "flex-layout.col#anuncios_envios-icono": {
+    "title": "anuncios top header container de envios icono",
+    "children": ["logo#header__anuncio--envios"],
+    "props": {
+      "width": "20%"
+    }
+  },
+
+  "logo#header__anuncio--envios": {
+    "title": "icono envios",
+    "props": {
+      "title": "Heart",
+      "href": "/",
+      "url": "assets/svg/truck.svg",
+      "width": "11",
+      "blockClass": "truck-icon-first"
+    }
+  },
+
+  "flex-layout.col#anuncios_envios-text": {
+    "title": "anuncios top header container de envios texto",    
+    "children": ["rich-text#header__anuncio--envios"],
+    "props": {
+      "width": "80%"
+    }
+  },
+
+  "rich-text#header__anuncio--envios": {
+    "title": "texto de envior", 
+    "props": {
+      "text": "[Envios gratis desde $179.999*](/)",
+      "blockClass": "text__description__anuncio"
+    }
+  },
+
+  "flex-layout.col#header__anuncio--cambios": {
+    "title": "container anuncios top header de cambios",
+    "children": ["flex-layout.row#header__anuncio--cambios"],
+    "props": {
+      "width": "22%",
+      "blockClass": "header__anuncios__two"
+    }
+  },
+  "flex-layout.row#header__anuncio--cambios": {
+    "title": "anuncios top header container de cambios",
+    "children": [
+      "flex-layout.col#header__anuncio--cambios-icono",
+      "flex-layout.col#header__anuncio--cambios-texto"
+    ],
+    "props": {
+      "blockClass": "header__anuncios__cambios"
+    }
+  },
+  "flex-layout.col#header__anuncio--cambios-icono": {
+    "title": "anuncios top header container de cambios icono",
+    "children": ["logo#header__anuncio--cambios"],
+    "props": {
+      "width": "20%"
+    }
+  },
+
+  "logo#header__anuncio--cambios": {
+    "title": "icono de cambios",
+    "props": {
+      "title": "arrow",
+      "href": "/",
+      "url": "assets/svg/arrow.svg",
+      "width": "11",
+      "blockClass": "arrow-icon"
+    }
+  },
+
+  "flex-layout.col#header__anuncio--cambios-texto": {
+    "title": "anuncios top header container de cambios texto",
+    "children": [
+      "rich-text#header__anuncio--cambios"
+    ],
+    "props": {
+      "width": "80%"
+    }
+  },
+
+  "rich-text#header__anuncio--cambios": {
+    "title": "texto de cambios",
+    "props": {
+      "text": "[90 Días de cambio GRATIS](/)",
+      "blockClass": "text__description__anuncio"
+    }
+  },
+
+  "flex-layout.col#header__anuncio--sigue": {
+    "title": "container anuncios top header de seguimiento",
+    "children": ["flex-layout.row#header__anuncio--sigue"],
+    "props": {
+      "width": "14%",
+      "blockClass": "header__anuncios__three"
+    }
+  },
+
+  "flex-layout.row#header__anuncio--sigue": {
+    "title": "anuncios top header container de seguimiento",
+    "children": [
+      "flex-layout.col#header__anuncio--sigue-icono",
+      "flex-layout.col#header__anuncio--sigue-texto"
+    ],
+    "props": {
+      "blockClass": "header__anuncios__sigue"
+    }
+  },
+
+  "flex-layout.col#header__anuncio--sigue-icono": {
+    "title": "anuncios top header container de seguimiento icono",
+    "children": ["logo#header__anuncio--sigue-icono"],
+    "props": {
+      "width": "20%"
+    }
+  },
+
+  "logo#header__anuncio--sigue-icono": {
+    "title": "icono de seguimiento",
+    "props": {
+      "title": "Heart",
+      "href": "/",
+      "url": "assets/svg/truck.svg",
+      "width": "11",
+      "blockClass": "truck-icon"
+    }
+  },
+
+  "flex-layout.col#header__anuncio--sigue-texto": {
+    "title": "anuncios top header container de seguimiento texto",
+    "children": [
+      "rich-text#header__anuncio--sigue"
+    ],
+    "props": {
+      "width": "70%"
+    }
+  },
+
+  "rich-text#header__anuncio--sigue": {
+    "title": "texto de seguimiento",
+    "props": {
+      "text": "[Sigue tu pedido](/)",
+      "blockClass": "text__description__anuncio"
+    }
+  },
+
+  "flex-layout.col#header__anuncio--nuevo": {
+    "title": "anuncios top header container de centro de experiencias",
+    "children": ["flex-layout.row#header__anuncio--nuevo"],
+    "props": {
+      "width": "20",
+      "blockClass": "header__anuncios__four"
+    }
+  },
+
+  "flex-layout.row#header__anuncio--nuevo": {
+    "title": "anuncios top header container de centro texto",
+    "children": [
+      "rich-text#header__anuncio--nuevo"
+    ]
+  },
+
+  "rich-text#header__anuncio--nuevo": {
+    "title": "texto de centro de experiencias",
+    "props": {
+      "text": "[¡NUEVO! centros de experiencias](/)",
+      "blockClass": "text__description__anuncio"
+    }
+  },
+
+  "flex-layout.col#header__anuncio--conocenos": {
+    "title": "container anuncios top header conocenos",
+    "children": [
+      "flex-layout.row#header__anuncio--conocenos"
+    ],
+    "props": {
+      "width": "22%",
+      "blockClass": "header__anuncios__five"
+    }
+  },
+
+  "flex-layout.row#header__anuncio--conocenos": {
+    "title": "anuncios top header container de conocenos",
+    "children": [
+      "flex-layout.col#header__anuncio--conocenos-text",
+      "flex-layout.col#header__anuncio--conocenos-ico",
+      "flex-layout.col#header__anuncio--conocenos-textdos"
+    ]
+  },
+
+  "flex-layout.col#header__anuncio--conocenos-text": {
+    "title": "anuncios top header container de conocenos texto",
+    "children": ["rich-text#header__anuncio--conocenos"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#header__anuncio--conocenos-ico": {
+    "title": "anuncios top header container de conocenos icono",
+    "children": ["logo#header__anuncio--conocenos"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#header__anuncio--conocenos-textdos": {
+    "title": "anuncios top header container de conocenos texto dos",
+    "children": ["rich-text#header__anuncio--servicio"],
+    "props": {
+      "width": "60%"
+    }
+  },
+  "rich-text#header__anuncio--conocenos": {
+    "title": "texto conocenos",
+    "props": {
+      "text": "[Conocenos](/)",
+      "blockClass": ["text__description__anuncio", "text__description__anuncio__light"]
+    }
+  },
+  "logo#header__anuncio--conocenos": {
+    "title": "icono de phone conocenos",
+    "props": {
+      "title": "phone",
+      "href": "/",
+      "url": "assets/svg/phone.svg",
+      "width": "11",
+      "blockClass": "phone-icon"
+    }
+  },
+  "rich-text#header__anuncio--servicio": {
+    "title": "texto de servicios",
+    "props": {
+      "text": "[Servicio al Cliente](/)",
+      "blockClass": ["text__description__anuncio", "text__description__anuncio__light"]
+    }
+  }
+}

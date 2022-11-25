@@ -1,0 +1,10 @@
+.openIconContainer--minicartmobile {
+    padding: 0;
+}
+
+.minicartContainer--minicart__desktop :global(.vtex-button){
+    background-color: transparent;
+    border-color: none;
+
+}
+

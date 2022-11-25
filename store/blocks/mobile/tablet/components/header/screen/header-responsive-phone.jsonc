@@ -1,0 +1,33 @@
+{
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile", 
+      "flex-layout.row#mobile__two"
+    ]
+  },
+
+  "flex-layout.row#mobile": {
+    "children": [
+      "flex-layout.col#drawer__phone",
+      "flex-layout.col#logo__phone",
+      "flex-layout.col#megusta__phone",
+      "flex-layout.col#minicart__phone"
+      
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "colJustify": "around",
+      "paddingTop": 3,
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
+  }  
+
+}

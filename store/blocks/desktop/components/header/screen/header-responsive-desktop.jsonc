@@ -1,9 +1,20 @@
 {
   "header-layout.desktop": {
+    "title": "container de todo el heider principal",
     "children": [
-      "flex-layout.row#notificationbar",
-      "sticky-layout#desktop",
-      "header-row#header__menu"
+      "flex-layout.row#header__anuncio", 
+      "flex-layout.row#header__middle",
+      "flex-layout.row#header__desktop--menu"
     ]
+    ,
+    "props": {
+      "blockClass": "header__desktop"
+    }
   }
+
+ 
+
+ 
+
+  
 }

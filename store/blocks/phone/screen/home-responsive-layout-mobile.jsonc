@@ -1,6 +1,6 @@
 {
   "responsive-layout.phone#home": {
-    "title": "Component desktop",
+    "title": "Component phone",
     "children": ["flex-layout.row#phone--phone"]
   },
 

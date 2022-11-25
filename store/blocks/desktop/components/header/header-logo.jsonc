@@ -1,0 +1,23 @@
+{
+  "flex-layout.col#logo-desktop": {
+    "title": "container logo de la tienda",
+    "children": [
+      "logo#desktop"
+    ],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "middle",
+      "rowGap": 1,
+      "blockClass": "logo-desktop-home"
+    }
+  },
+
+  "logo#desktop": {
+    "title": "Logo de la tienda desktop",
+    "props": {
+      "href": "/",
+      "url": "assets/img/logo.webp",
+      "width": "120"
+    }
+  }
+}

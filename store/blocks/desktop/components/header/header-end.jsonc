@@ -1,0 +1,35 @@
+{
+  "flex-layout.col#header__end": {
+    "title": "container final de header middle",
+    "children": ["flex-layout.row#header__end"],
+    "props": {
+      "width": "30%"
+    }
+  },
+
+  "flex-layout.row#header__end": {
+    "title": "container login, logo y cart desktop",
+    "children": [
+      "flex-layout.col#desktop__login",
+      "flex-layout.col#desktop__icone",
+      "flex-layout.col#desktop__cart"
+    ]
+  },
+
+  "flex-layout.col#desktop__icone": {
+    "title": "container de icono-heart",
+    "children": ["icon#heard"],
+    "props": {
+      "width": "10%"
+    }
+  },
+
+  "icon#heard": {
+    "title": "icono-heart-desktop",
+    "props": {
+      "id": "mpa-heart",
+      "size": 20,
+      "blockClass": "icon__desktop--heard"
+    }
+  }
+}

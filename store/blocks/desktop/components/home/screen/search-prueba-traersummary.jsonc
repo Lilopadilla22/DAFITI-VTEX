@@ -1,0 +1,56 @@
+{
+  "search-result-layout.customQuery#desktop_home": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home_search_desktop"
+    ]
+  },
+
+  "search-result-layout.desktop#home_search_desktop": {
+    "children": ["flex-layout.row#home_results_desktop"]
+  },
+
+  "flex-layout.row#home_results_desktop": {
+    "children": ["flex-layout.col#home_results--search"]
+  },
+
+  "flex-layout.col#home_results--search": {
+    "children": ["search-content#home_results--search"]
+  },
+
+  "search-content#home_results--search": {
+    "blocks": ["gallery", "not-found"]
+  },
+
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
+  }
+} // {
+//   "header-layout.desktop": {
+//     "children": [
+//       "flex-layout.row#header",
+//       "flex-layout.row#notificationbar",
+//       "flex-layout.row#desktop",
+//       "header-row#header__menu"
+//     ]
+//   },
+
+//   "responsive-layout.desktop#home": {
+//     "title": "Component desktop",
+//     "children": ["flex-layout.row"]
+//   },
+
+//   "flex-layout.row": {
+//     "children": ["flex-layout.col"],
+//     "props": {
+//       "horizontalAlign": "center",
+//       "colSizing": "auto"
+//     }
+//   }
+
+// }

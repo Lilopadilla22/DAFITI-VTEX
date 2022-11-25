@@ -1,0 +1,63 @@
+.paragraph--title__menu {
+    font-size: 8px;
+    padding  : 2px 0;
+
+}
+
+.link--title__menu {
+    color          : black;
+    text-decoration: none;
+    font-size      : 12px;
+    padding        : 2px 0;
+    height         : 10%;
+    width          : 10%;
+}
+
+.link--text__description {
+    color          : #858585;
+    text-decoration: none;
+    font-size      : 12px;
+    padding        : 2px 0;
+    height         : 10%;
+    width          : 10%;
+}
+
+.link--text__description_ofer_nove {
+    color          : red;
+    text-decoration: none;
+    font-size      : 12px;
+    padding        : 2px 0;
+    height         : 10%;
+    width          : 10%;
+}
+
+.link--text__description__anuncio {
+    color          : black;
+    text-decoration: none;
+    font-size      : 11px;
+}
+
+
+.link--text__description__anuncio__light {
+    color :gray
+}
+
+.container--text__description {
+    height: 30px;
+}
+
+.container--text__description_ofer_nove {
+    height: 30px;
+}
+
+.container--title__menu {
+    border-bottom: 1px solid gainsboro;
+}
+
+.paragraph--text__description:hover {
+    border-bottom: 1px solid gainsboro;
+}
+
+.link--text__description__anuncio:hover {
+    text-decoration: underline;
+}
