@@ -1,5 +1,6 @@
 {
   "flex-layout.row#header__desktop--menu": {
+    "title": "container de menu principal version desktop",
     "children": [
       "flex-layout.col#header__menu"
     ],
@@ -12,6 +13,7 @@
   },  
 
   "flex-layout.col#header__menu": {
+    "title": "container de menu principal desktop",
     "children": [
       "header-row#header__menu"
     ],
@@ -34,6 +36,7 @@
   },
 
   "vtex.menu@2.x:menu#header__menu": {
+    "title": "container de departamentos menu principal desktop",
     "children": [
       "menu-item#departament__mujer",
       "menu-item#departament__hombre",
@@ -54,6 +57,7 @@
   },
 
   "menu-item#departament__mujer": {
+    "title": "departamento mujer menu principal desktop",
     "props": {
       "id": "departament__mujer",
       "type": "custom",
@@ -69,6 +73,7 @@
   },
 
   "vtex.menu@2.x:submenu#departament__mujer": {
+    "title": "departamento mujer submenu principal desktop",
     "children": ["menu#departament__mujer"],
     "props": {
       "blockClass": "container__submenu",
@@ -77,6 +82,7 @@
   },
 
   "menu#departament__mujer": {
+    "title": "container departamento mujer submenu principal desktop",
     "children": ["flex-layout.row#departament__mujer"],
     "props": {
       "orientation": "vertical"
@@ -84,6 +90,7 @@
   },
 
   "flex-layout.row#departament__mujer": {
+    "title": "container categorias del departamento mujer",
     "children": [
       "flex-layout.col#departament__mujer--zapato",
       "flex-layout.col#departament__mujer--ropa",
@@ -104,6 +111,7 @@
   //COLUMNA UNO
 
   "flex-layout.col#departament__mujer--zapato": {
+    "title": "categorias zapatos del departamento mujer",
     "children": [
       "rich-text#departament__mujer--zapato--title",
       "rich-text#departament__mujer--zapato--tenis",
@@ -123,6 +131,7 @@
   },
 
   "rich-text#departament__mujer--zapato--title": {
+    "title": "categorias zapatos-zapatos",
     "props": {
       "text": "[**ZAPATOS**](/)",
       "blockClass": "title__menu"
@@ -130,6 +139,7 @@
   },
 
   "rich-text#departament__mujer--zapato--tenis": {
+    "title": "categorias zapatos-tenis",
     "props": {
       "text": "[Tenis](/)",
       "blockClass": "text__description"
@@ -137,6 +147,7 @@
   },
 
   "rich-text#departament__mujer--zapato--botas": {
+    "title": "categorias zapatos-botas",
     "props": {
       "text": "[Botas](/)",
       "blockClass": "text__description"
@@ -144,6 +155,7 @@
   },
 
   "rich-text#departament__mujer--zapato--sandalias": {
+    "title": "categorias zapatos-sandalias",
     "props": {
       "text": "[Sandalias](/)",
       "blockClass": "text__description"
@@ -151,6 +163,7 @@
   },
 
   "rich-text#departament__mujer--zapato--tacones": {
+    "title": "categorias zapatos-tacones",
     "props": {
       "text": "[Tacones](/)",
       "blockClass": "text__description"
@@ -158,6 +171,7 @@
   },
 
   "rich-text#departament__mujer--zapato--zapatoscasuales": {
+    "title": "categorias zapatos-casuales",
     "props": {
       "text": "[Zapatos Casuales](/)",
       "blockClass": "text__description"
@@ -165,6 +179,7 @@
   },
 
   "rich-text#departament__mujer--zapato--mocasines": {
+    "title": "categorias zapatos-mocasines",
     "props": {
       "text": "[Mocasiones](/)",
       "blockClass": "text__description"
@@ -172,6 +187,7 @@
   },
 
   "rich-text#departament__mujer--zapato--vertodos": {
+    "title": "categorias del departamento mujer-vertodo",
     "props": {
       "text": "**[Ver Todos](/)**",
       "blockClass": "text__description"
@@ -179,6 +195,7 @@
   },
 
   "rich-text#departament__mujer--zapato--novedades": {
+    "title": "categorias zapatos-novedades",
     "props": {
       "text": "[Novedades](/)",
       "blockClass": "text__description_ofer_nove",
@@ -187,6 +204,7 @@
   },
 
   "rich-text#departament__mujer--zapato--ofertas": {
+    "title": "categorias zapatos-ofertas",
     "props": {
       "text": "[Ofertas](/)",
       "blockClass": "text__description_ofer_nove"
@@ -196,11 +214,12 @@
   //COLUMNA DOS
 
   "flex-layout.col#departament__mujer--ropa": {
+    "title": "categorias ropa del departamento mujer",
     "children": [
       "rich-text#departament__mujer--ropa--title",
       "rich-text#departament__mujer--ropa--polos",
       "rich-text#departament__mujer--ropa--camisas",
-      "rich-text#departament__mujer--ropa--casetas",
+      "rich-text#departament__mujer--ropa--camisetas",
       "rich-text#departament__mujer--ropa--jeans",
       "rich-text#departament__mujer--ropa--chaquetas",
       "rich-text#departament__mujer--ropa--pantalones",
@@ -217,6 +236,7 @@
   },
 
   "rich-text#departament__mujer--ropa--title": {
+    "title": "categorias ropa-ropa",
     "props": {
       "text": "[**ROPA**](/)",
       "blockClass": "title__menu"
@@ -224,6 +244,7 @@
   },
 
   "rich-text#departament__mujer--ropa--camisas": {
+    "title": "categorias ropa-camisas",
     "props": {
       "text": "[Camisas](/)",
       "blockClass": "text__description"
@@ -231,13 +252,15 @@
   },
 
   "rich-text#departament__mujer--ropa--polos": {
+    "title": "categorias ropa-polos",
     "props": {
       "text": "[Polos](/)",
       "blockClass": "text__description"
     }
   },
 
-  "rich-text#departament__mujer--ropa--casetas": {
+  "rich-text#departament__mujer--ropa--camisetas": {
+    "title": "categorias ropa-camisetas",
     "props": {
       "text": "[Camisetas](/)",
       "blockClass": "text__description"
@@ -245,6 +268,7 @@
   },
 
   "rich-text#departament__mujer--ropa--jeans": {
+    "title": "categorias ropa-jeans",
     "props": {
       "text": "[Jeans](/)",
       "blockClass": "text__description"
@@ -252,6 +276,7 @@
   },
 
   "rich-text#departament__mujer--ropa--chaquetas": {
+    "title": "categorias ropa-chaquetas",
     "props": {
       "text": "[Caquetas](/)",
       "blockClass": "text__description"
@@ -259,6 +284,7 @@
   },
 
   "rich-text#departament__mujer--ropa--pantalones": {
+    "title": "categorias ropa-pantalones",
     "props": {
       "text": "[Pantalones](/)",
       "blockClass": "text__description"
@@ -266,6 +292,7 @@
   },
 
   "rich-text#departament__mujer--ropa--sacosycardigan": {
+    "title": "categorias ropa-sacos",
     "props": {
       "text": "[Sacos y Cardigan](/)",
       "blockClass": "text__description"
@@ -273,6 +300,7 @@
   },
 
   "rich-text#departament__mujer--ropa--ropainterior": {
+    "title": "categorias ropa-ropainterior",
     "props": {
       "text": "[Ropa Interior](/)",
       "blockClass": "text__description"
@@ -280,6 +308,7 @@
   },
 
   "rich-text#departament__mujer--ropa--bermudasypantalonetas": {
+    "title": "categorias ropa-bermudas",
     "props": {
       "text": "[Bermudas y Pantalonetas](/)",
       "blockClass": "text__description"
@@ -287,6 +316,7 @@
   },
 
   "rich-text#departament__mujer--ropa--vertodo": {
+    "title": "categorias ropa-vertodo",
     "props": {
       "text": "**[Ver todo](/)**",
       "blockClass": "text__description"
@@ -294,6 +324,7 @@
   },
 
   "rich-text#departament__mujer--ropa--novedades": {
+    "title": "categorias ropa-novedades",
     "props": {
       "text": "[Novedades](/)",
       "blockClass": "text__description_ofer_nove",
@@ -302,6 +333,7 @@
   },
 
   "rich-text#departament__mujer--ropa--ofertas": {
+    "title": "categorias ropa-ofertas",
     "props": {
       "text": "[Ofertas](/)",
       "blockClass": "text__description_ofer_nove",
@@ -312,6 +344,7 @@
   //COLUMNA TRES
 
   "flex-layout.col#departament__mujer--accesorios": {
+    "title": "categorias accesorios del departamento mujer",
     "children": [
       "rich-text#departament__mujer--accesorios--title",
       "rich-text#departament__mujer--accesorios--bolsosycarteras",
@@ -332,6 +365,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--title": {
+    "title": "categorias accesorios-accesorios",
     "props": {
       "text": "[**ACCESORIOS**](/)",
       "blockClass": "title__menu"
@@ -339,6 +373,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--bolsosycarteras": {
+    "title": "categorias accesorios-bolsos",
     "props": {
       "text": "[Bolsos y carteras](/)",
       "blockClass": "text__description"
@@ -346,6 +381,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--relojes": {
+    "title": "categorias accesorios-relojes",
     "props": {
       "text": "[Relojes](/)",
       "blockClass": "text__description"
@@ -353,6 +389,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--maletasymorrales": {
+    "title": "categorias accesorios-maletas",
     "props": {
       "text": "[Maletas y morrales](/)",
       "blockClass": "text__description"
@@ -360,6 +397,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--joyaybisuteria": {
+    "title": "categorias accesorios-joyas",
     "props": {
       "text": "[Joya y bisuteria](/)",
       "blockClass": "text__description"
@@ -367,6 +405,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--billeteras": {
+    "title": "categorias accesorios-billeteras",
     "props": {
       "text": "[Billeteras](/)",
       "blockClass": "text__description"
@@ -374,6 +413,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--gafas": {
+    "title": "categorias accesorios-gafas",
     "props": {
       "text": "[Gafas](/)",
       "blockClass": "text__description"
@@ -381,6 +421,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--cinturones": {
+    "title": "categorias accesorios-cintures",
     "props": {
       "text": "[Cinturones](/)",
       "blockClass": "text__description"
@@ -388,6 +429,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--cosmetiquerasyestuches": {
+    "title": "categorias accesorios-cosmetiqueras",
     "props": {
       "text": "[Cosmetiqueras y estuches](/)",
       "blockClass": "text__description"
@@ -395,6 +437,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--vertodos": {
+    "title": "categorias accesorios-vertodo",
     "props": {
       "text": "**[Ver todo](/)**",
       "blockClass": "text__description"
@@ -402,6 +445,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--novedades": {
+    "title": "categorias accesorios-novedades",
     "props": {
       "text": "[Novedades](/)",
       "blockClass": "text__description_ofer_nove"
@@ -409,6 +453,7 @@
   },
 
   "rich-text#departament__mujer--accesorios--ofertas": {
+    "title": "categorias accesorios-ofertas",
     "props": {
       "text": "[Ofertas](/)",
       "blockClass": "text__description_ofer_nove"
@@ -418,6 +463,7 @@
   //COLUMNA CUATRO
 
   "flex-layout.col#departament__mujer--deportes": {
+    "title": "categorias deportes del departamento mujer",
     "children": [
       "rich-text#departament__mujer--deportes--title",
       "rich-text#departament__mujer--deportes--tenisyzapatos",
@@ -434,6 +480,7 @@
   },
 
   "rich-text#departament__mujer--deportes--title": {
+    "title": "categorias deportes-deportes",
     "props": {
       "text": "[**DEPORTES**](/)",
       "blockClass": "title__menu"
@@ -441,6 +488,7 @@
   },
 
   "rich-text#departament__mujer--deportes--tenisyzapatos": {
+    "title": "categorias deportes-tenis",
     "props": {
       "text": "[Tenis y zapatos](/)",
       "blockClass": "text__description"
@@ -448,6 +496,7 @@
   },
 
   "rich-text#departament__mujer--deportes--vestuarios": {
+    "title": "categorias deportes-vestuarios",
     "props": {
       "text": "[Vestuarios](/)",
       "blockClass": "text__description"
@@ -455,6 +504,7 @@
   },
 
   "rich-text#departament__mujer--deportes--accesorios": {
+    "title": "categorias deportes-accesorios",
     "props": {
       "text": "[Accesorios](/)",
       "blockClass": "text__description"
@@ -462,6 +512,7 @@
   },
 
   "rich-text#departament__mujer--deportes--equipamiento": {
+    "title": "categorias deportes-equipamiento",
     "props": {
       "text": "[Equipamiento](/)",
       "blockClass": "text__description"
@@ -469,6 +520,7 @@
   },
 
   "rich-text#departament__mujer--deportes--ver todos": {
+    "title": "categorias deportes-vertodo",
     "props": {
       "text": "**[Ver todos](/)**",
       "blockClass": "text__description"
@@ -476,6 +528,7 @@
   },
 
   "rich-text#departament__mujer--deportes--novedades": {
+    "title": "categorias deportes-novedades",
     "props": {
       "text": "[Novedades](/)",
       "blockClass": "text__description_ofer_nove"
@@ -483,6 +536,7 @@
   },
 
   "rich-text#departament__mujer--deportes--ofertas": {
+    "title": "categorias deportes-ofertas",
     "props": {
       "text": "[Ofertas](/)",
       "blockClass": "text__description_ofer_nove"
@@ -492,6 +546,7 @@
   //COLUNNA QUINTA
 
   "flex-layout.col#departament__mujer--marcas": {
+    "title": "categorias marcas del departamento mujer",
     "children": [
       "rich-text#departament__mujer--marcas--title",
       "rich-text#departament__mujer--marcas--royalcounty",
@@ -514,6 +569,7 @@
   },
 
   "rich-text#departament__mujer--marcas--title": {
+    "title": "categorias marcas-marcas",
     "props": {
       "text": "[**MARCAS**](/)",
       "blockClass": "title__menu"
@@ -521,6 +577,7 @@
   },
 
   "rich-text#departament__mujer--marcas--royalcounty": {
+    "title": "categorias marcas-royal",
     "props": {
       "text": "[Royal County](/)",
       "blockClass": "text__description"
@@ -528,6 +585,7 @@
   },
 
   "rich-text#departament__mujer--marcas--desigual": {
+    "title": "categorias marcas-desigual",
     "props": {
       "text": "[Desigual](/)",
       "blockClass": "text__description"
@@ -535,6 +593,7 @@
   },
 
   "rich-text#departament__mujer--marcas--tommyhilfiger": {
+    "title": "categorias marcas-tommy",
     "props": {
       "text": "[Toomy Hilfiger](/)",
       "blockClass": "text__description"
@@ -542,6 +601,7 @@
   },
 
   "rich-text#departament__mujer--marcas--mp": {
+    "title": "categorias marcas-mp",
     "props": {
       "text": "[MP](/)",
       "blockClass": "text__description"
@@ -549,6 +609,7 @@
   },
 
   "rich-text#departament__mujer--marcas--levis": {
+    "title": "categorias marcas-levis",
     "props": {
       "text": "[Levi's](/)",
       "blockClass": "text__description"
@@ -556,6 +617,7 @@
   },
 
   "rich-text#departament__mujer--marcas--gap": {
+    "title": "categorias marcas-gap",
     "props": {
       "text": "[GAP](/)",
       "blockClass": "text__description"
@@ -563,6 +625,7 @@
   },
 
   "rich-text#departament__mujer--marcas--tellenzi": {
+    "title": "categorias marcas-tellenzi",
     "props": {
       "text": "[Tellenzi](/)",
       "blockClass": "text__description"
@@ -570,6 +633,7 @@
   },
 
   "rich-text#departament__mujer--marcas--gef": {
+    "title": "categorias marcas-gef",
     "props": {
       "text": "[GEF](/)",
       "blockClass": "text__description"
@@ -577,6 +641,7 @@
   },
 
   "rich-text#departament__mujer--marcas--calvinklein": {
+    "title": "categorias marcas-calvin",
     "props": {
       "text": "[Calvin Klein](/)",
       "blockClass": "text__description"
@@ -584,6 +649,7 @@
   },
 
   "rich-text#departament__mujer--marcas--uspoloassn": {
+    "title": "categorias marcas-polo",
     "props": {
       "text": "[US Polo Assn](/)",
       "blockClass": "text__description"
@@ -591,6 +657,7 @@
   },
 
   "rich-text#departament__mujer--marcas--mattelsa": {
+    "title": "categorias marcas-mattelsa",
     "props": {
       "text": "[Mattelsa](/)",
       "blockClass": "text__description"
@@ -599,7 +666,11 @@
 
   //SEGUNDO ITEMS
 
+  
+
+
   "menu-item#departament__hombre": {
+    "title": "departamento hombre menu principal desktop",
     "props": {
       "id": "departament__hombre",
       "type": "custom",
@@ -615,6 +686,7 @@
   },
 
   "vtex.menu@2.x:submenu#departament__hombre": {
+    "title": "departamento hombre submenu principal desktop",
     "children": ["menu#departament__mujer"],
     "props": {
       "blockClass": "container__submenu",
@@ -623,6 +695,7 @@
   },
 
   "menu-item#departament__deportes": {
+    "title": "departamento deportes menu principal desktop",
     "props": {
       "id": "departament__deportes",
       "type": "custom",
@@ -638,6 +711,7 @@
   },
 
   "vtex.menu@2.x:submenu#departament__deportes": {
+    "title": "departamento deportes submenu principal desktop",
     "children": ["menu#departament__mujer"],
     "props": {
       "blockClass": "container__submenu",
@@ -646,6 +720,7 @@
   },
 
   "menu-item#departament__ninos": {
+    "title": "departamento niños menu principal desktop",
     "props": {
       "id": "departament__ninos",
       "type": "custom",
@@ -661,6 +736,7 @@
   },
 
   "vtex.menu@2.x:submenu#departament__ninos": {
+    "title": "departamento niños submenu principal desktop",
     "children": ["menu#departament__mujer"],
     "props": {
       "blockClass": "container__submenu",
@@ -669,6 +745,7 @@
   },
 
   "menu-item#departament__belleza": {
+    "title": "departamento belleza menu principal desktop",
     "props": {
       "id": "departament__belleza",
       "type": "custom",
@@ -684,6 +761,7 @@
   },
 
   "vtex.menu@2.x:submenu#departament__belleza": {
+    "title": "departamento belleza submenu principal desktop",
     "children": ["menu#departament__mujer"],
     "props": {
       "blockClass": "container__submenu",
@@ -692,6 +770,7 @@
   },
 
   "menu-item#departament__marcas": {
+    "title": "departamento marcas menu principal desktop",
     "props": {
       "id": "departament__marcas",
       "type": "custom",
@@ -707,6 +786,7 @@
   },
 
   "vtex.menu@2.x:submenu#departament__marcas": {
+    "title": "departamento marcas submenu principal desktop",
     "children": ["menu#departament__mujer"],
     "props": {
       "blockClass": "container__submenu",
@@ -715,6 +795,7 @@
   },
 
   "menu-item#departament__hogar": {
+    "title": "departamento hogar menu principal desktop",
     "props": {
       "id": "departament__hogar",
       "type": "custom",
@@ -730,6 +811,7 @@
   },
 
   "vtex.menu@2.x:submenu#departament__hogar": {
+    "title": "departamento hogar submenu principal desktop",
     "children": ["menu#departament__mujer"],
     "props": {
       "blockClass": "container__submenu",
@@ -738,6 +820,7 @@
   },
 
   "menu-item#departament__eco": {
+    "title": "departamento ECO menu principal desktop",
     "props": {
       "id": "departament__eco",
       "type": "custom",
@@ -758,6 +841,7 @@
   },
 
   "vtex.menu@2.x:submenu#departament__eco": {
+    "title": "departamento ECO submenu principal desktop",
     "children": ["menu#departament__mujer"],
     "props": {
       "blockClass": "container__submenu",
@@ -766,6 +850,7 @@
   },
 
   "menu-item#departament__ofertas": {
+    "title": "departamento ofertas menu principal desktop",
     "props": {
       "id": "departament__ofertas",
       "type": "custom",
@@ -781,6 +866,7 @@
   },
 
   "vtex.menu@2.x:submenu#departament__ofertas": {
+    "title": "departamento ofertas submenu principal desktop",
     "children": ["menu#departament__mujer"],
     "props": {
       "blockClass": "container__submenu",

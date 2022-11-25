@@ -1,10 +1,11 @@
 {
   "responsive-layout.desktop#home": {
-    "title": "Component desktop",
+    "title": "componente desktop-home",
     "children": ["flex-layout.row"]
   },
 
   "flex-layout.row": {
+    "title": "container del home desktop",
     "children": ["flex-layout.col"],
     "props": {
       "horizontalAlign": "center",
@@ -13,19 +14,18 @@
   },
 
   "flex-layout.col": {
+    "title": "container home",
     "children": [
       "flex-layout.row#bannerpublicitario",
       "flex-layout.row#textfirst",
       "flex-layout.row#bannerprincipal",
       "flex-layout.row#bannersecundario",
-      // "flex-layout.row#section__home__two",
       "flex-layout.row#marcas",
       "slider-layout#marcasbanner",
       "flex-layout.row#bannerayuda",
       "flex-layout.row#favoritos",
       "flex-layout.row#description",
       "search-result-layout.customQuery#desktop_home"
-      //"responsive-layout.desktop",
       //"icon#homeprueba"
     ],
     "props": {

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#bannersecundario": {
-    "title": "banner secundario",
+    "title": "container de banner secundario-desktop",
     "children": [
       "flex-layout.col#bannerkids",
       "flex-layout.col#bannerpremium",
@@ -16,6 +16,7 @@
   },
 
   "flex-layout.col#bannerkids": {
+    "title": "container kids de banner secundario-desktop",
     "children": ["rich-text#bannerkids"],
     "props": {
       "blockClass": "banner_secundario_kids",
@@ -24,6 +25,7 @@
   },
 
   "rich-text#bannerkids": {
+    "title": " text kids de banner secundario-desktop",
     "props": {
       "text": "[KIDS](/)",
       "blockClass": ["text_banner_principal", "text__banner__second"],
@@ -34,6 +36,7 @@
   },
 
   "flex-layout.col#bannerpremium": {
+    "title": "container premium de banner secundario-desktop",
     "children": ["rich-text#bannerpremium"],
     "props": {
       "blockClass": "banner_secundario_premium",
@@ -42,6 +45,7 @@
   },
 
   "rich-text#bannerpremium": {
+    "title": " text premium de banner secundario-desktop",
     "props": {
       "text": "[PREMIUM](/)",
       "blockClass": ["text_banner_principal", "text__banner__second"],
@@ -52,6 +56,7 @@
   },
 
   "flex-layout.col#bannersneaker": {
+    "title": "container sneaker de banner secundario-desktop",
     "children": ["rich-text#bannersneaker"],
     "props": {
       "blockClass": "banner_secundario_sneaker",
@@ -60,6 +65,7 @@
   },
 
   "rich-text#bannersneaker": {
+    "title": " text senaker de banner secundario-desktop",
     "props": {
       "text": "[SNEAKER](/)",
       "blockClass": ["text_banner_principal", "text__banner__second"],

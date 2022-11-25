@@ -1,5 +1,6 @@
 {
   "flex-layout.col#logo-desktop": {
+    "title": "container logo de la tienda",
     "children": [
       "logo#desktop"
     ],
@@ -12,8 +13,8 @@
   },
 
   "logo#desktop": {
+    "title": "Logo de la tienda desktop",
     "props": {
-      "title": "Logo-desktop",
       "href": "/",
       "url": "assets/img/logo.webp",
       "width": "120"

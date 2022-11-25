@@ -1,5 +1,6 @@
 {
   "flex-layout.row#header__middle": {
+    "title": "Container de navbar-middle",
     "children": [
       "flex-layout.col#header__middle"
     ],
@@ -12,6 +13,7 @@
   },
 
   "flex-layout.col#header__middle": {
+    "title": "container de menu desktop-middle",
     "children": [
       "flex-layout.row#header__desktop__middle"
     ],
@@ -22,12 +24,11 @@
   },
 
   "flex-layout.row#header__desktop__middle": {
+    "title": "container de menu desktop-middle-logo-search-login",
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#desktop__search",
       "flex-layout.col#header__end"
-      // "flex-layout.col#desktop__login",
-      // "flex-layout.col#desktop__cart"
     ],
 
     "props": {

@@ -1,5 +1,6 @@
 {
   "flex-layout.col#desktop__search": {
+    "title": "container search-desktop",
     "children": ["search-bar#desktop"],
     "props": {
       "width": "50%",
@@ -10,6 +11,7 @@
   },
 
   "search-bar#desktop": {
+    "title": "search bar desktop",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "displayMode": "search-and-clear-buttons",

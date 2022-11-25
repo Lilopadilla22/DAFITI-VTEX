@@ -1,253 +1,276 @@
 {
-"flex-layout.row#bannerprincipal": {
-    "children":[
-        "flex-layout.col#bannerfemeninoprincipal",
-        "flex-layout.col#bannermasculinoprincipal"
+  "flex-layout.row#bannerprincipal": {
+    "title": "container banner principal desktop",
+    "children": [
+      "flex-layout.col#bannerfemeninoprincipal",
+      "flex-layout.col#bannermasculinoprincipal"
     ],
     "props": {
-        "blockClass": "banner_femenino_principal",
-        "colSizing": "auto",
-        "colGap": 7,
-        "horizontalAlign": "center"
+      "blockClass": "banner_femenino_principal",
+      "colSizing": "auto",
+      "colGap": 7,
+      "horizontalAlign": "center"
     }
-},
+  },
 
-"flex-layout.col#bannerfemeninoprincipal":{
+  "flex-layout.col#bannerfemeninoprincipal": {
+    "title": "container feminino de texto banner principal desktop",
     "children": [
-        "rich-text#femenino1",
-        "rich-text#femenino2",
-        "rich-text#femenino3",
-        "rich-text#femenino4",
-        "rich-text#femenino5",
-        "rich-text#femenino6",
-        "rich-text#femenino7",
-        "rich-text#femenino8",
-        "rich-text#femeninobutton",
-        "rich-text#femeninotitle"
+      "rich-text#femenino1",
+      "rich-text#femenino2",
+      "rich-text#femenino3",
+      "rich-text#femenino4",
+      "rich-text#femenino5",
+      "rich-text#femenino6",
+      "rich-text#femenino7",
+      "rich-text#femenino8",
+      "rich-text#femeninobutton",
+      "rich-text#femeninotitle"
     ],
     "props": {
-        "blockClass": "banner_femenino_principal1",
-        "width": "50%"
-      }
-},
+      "blockClass": "banner_femenino_principal1",
+      "width": "50%"
+    }
+  },
 
-"rich-text#femenino1":{
-    "props":{
-        "text":"[Zapatos](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "RIGHT",
-        "textPosition": "RIGHT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#femenino1": {
+    "title": "texto femenino del container principal desktop-zapatos",
+    "props": {
+      "text": "[Zapatos](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#femenino2":{
-    "props":{
-        "text":"[Jeans](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "RIGHT",
-        "textPosition": "RIGHT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#femenino2": {
+    "title": "texto femenino del container principal desktop-jeans",
+    "props": {
+      "text": "[Jeans](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#femenino3":{
-    "props":{
-        "text":"[Blusas](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "RIGHT",
-        "textPosition": "RIGHT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#femenino3": {
+    "title": "texto femenino del container principal desktop-blusas",
+    "props": {
+      "text": "[Blusas](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#femenino4":{
-    "props":{
-        "text":"[Sneakers](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "RIGHT",
-        "textPosition": "RIGHT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#femenino4": {
+    "title": "texto femenino del container principal desktop-sneakers",
+    "props": {
+      "text": "[Sneakers](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#femenino5":{
-    "props":{
-        "text":"[Vestidos](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "RIGHT",
-        "textPosition": "RIGHT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#femenino5": {
+    "title": "texto femenino del container principal desktop-vestidos",
+    "props": {
+      "text": "[Vestidos](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#femenino6":{
-    "props":{
-        "text":"[Pantalones](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "RIGHT",
-        "textPosition": "RIGHT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#femenino6": {
+    "title": "texto femenino del container principal desktop-pantalonetas",
+    "props": {
+      "text": "[Pantalones](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#femenino7": {
-    "props":{
-        "text":"[Botas](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "RIGHT",
-        "textPosition": "RIGHT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#femenino7": {
+    "title": "texto femenino del container principal desktop-botas",
+    "props": {
+      "text": "[Botas](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#femenino8": {
-    "props":{
-        "text":"[Deportes](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "RIGHT",
-        "textPosition": "RIGHT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#femenino8": {
+    "title": "texto femenino del container principal desktop-deportes",
+    "props": {
+      "text": "[Deportes](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#femeninobutton":{
-    "props":{
-        "text":"[Ver más](/)",
-        "blockClass":"buttom_banner_principal",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
-},
+  "rich-text#femeninobutton": {
+    "title": "texto femenino del container principal desktop-vermas",
+    "props": {
+      "text": "[Ver más](/)",
+      "blockClass": "buttom_banner_principal",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
 
-"rich-text#femeninotitle": {
-    "props":{
-        "text":"**MUJER**",
-        "blockClass":"text_banner_title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#femeninotitle": {
+    "title": "texto principal femenino del container principal desktop-mujer",
+    "props": {
+      "text": "**MUJER**",
+      "blockClass": "text_banner_title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
 
-"flex-layout.col#bannermasculinoprincipal":{
+  "flex-layout.col#bannermasculinoprincipal": {
+    "title": "container masculino de texto banner principal desktop",
     "children": [
-        "rich-text#masculino1",
-        "rich-text#masculino2",
-        "rich-text#masculino3",
-        "rich-text#masculino4",
-        "rich-text#masculino5",
-        "rich-text#masculino6",
-        "rich-text#masculino7",
-        "rich-text#masculino8",
-        "rich-text#masculinobutton",
-        "rich-text#masculinotitle"
+      "rich-text#masculino1",
+      "rich-text#masculino2",
+      "rich-text#masculino3",
+      "rich-text#masculino4",
+      "rich-text#masculino5",
+      "rich-text#masculino6",
+      "rich-text#masculino7",
+      "rich-text#masculino8",
+      "rich-text#masculinobutton",
+      "rich-text#masculinotitle"
     ],
     "props": {
-        "blockClass": "banner_masculino_principal",
-        "width": "50%"
-      }
-},
+      "blockClass": "banner_masculino_principal",
+      "width": "50%"
+    }
+  },
 
-"rich-text#masculino1":{
-    "props":{
-        "text":"[Tennis](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#masculino1": {
+    "title": "texto masculino del container principal desktop-tennis",
+    "props": {
+      "text": "[Tennis](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#masculino2":{
-    "props":{
-        "text":"[Camisas](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#masculino2": {
+    "title": "texto masculino del container principal desktop-camisas",
+    "props": {
+      "text": "[Camisas](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#masculino3":{
-    "props":{
-        "text":"[Pantalones](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#masculino3": {
+    "title": "texto masculino del container principal desktop-pantalonetas",
+    "props": {
+      "text": "[Pantalones](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#masculino4":{
-    "props":{
-        "text":"[Jeans](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#masculino4": {
+    "title": "texto masculino del container principal desktop-jeans",
+    "props": {
+      "text": "[Jeans](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#masculino5":{
-    "props":{
-        "text":"[Zapatos](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#masculino5": {
+    "title": "texto masculino del container principal desktop-zapatos",
+    "props": {
+      "text": "[Zapatos](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#masculino6":{
-    "props":{
-        "text":"[Polos](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#masculino6": {
+    "title": "texto masculino del container principal desktop-poloa",
+    "props": {
+      "text": "[Polos](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#masculino7": {
-    "props":{
-        "text":"[Sneakers](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#masculino7": {
+    "title": "texto masculino del container principal desktop-sneakers",
+    "props": {
+      "text": "[Sneakers](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#masculino8": {
-    "props":{
-        "text":"[Deportes](/)",
-        "blockClass":"text_banner_principal",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "font": "t-heading-1"
-      }
-},
+  "rich-text#masculino8": {
+    "title": "texto masculino del container principal desktop-deportes",
+    "props": {
+      "text": "[Deportes](/)",
+      "blockClass": "text_banner_principal",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1"
+    }
+  },
 
-"rich-text#masculinobutton":{
-    "props":{
-        "text":"[Ver más](/)",
-        "blockClass":["buttom_banner_principal", "buttom_banner_principal__masculino"],
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER"
-      }
-},
+  "rich-text#masculinobutton": {
+    "title": "texto masculino del container principal desktop-vermas",
+    "props": {
+      "text": "[Ver más](/)",
+      "blockClass": [
+        "buttom_banner_principal",
+        "buttom_banner_principal__masculino"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
 
-"rich-text#masculinotitle": {
-    "props":{
-        "text":"**HOMBRE**",
-        "blockClass":"text_banner_title",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-1"
-      }
-}
-
-
-
+  "rich-text#masculinotitle": {
+    "title": "texto principal masculino del container principal desktop-hombre",
+    "props": {
+      "text": "**HOMBRE**",
+      "blockClass": "text_banner_title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
 }
