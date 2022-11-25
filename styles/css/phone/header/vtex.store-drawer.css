@@ -5,3 +5,7 @@
     color          : white;
 
 }
+
+.childrenContainer--drawer__phone :global(.vtex-menu-2-x-menuContainerNav){ 
+    width: 100%;
+}

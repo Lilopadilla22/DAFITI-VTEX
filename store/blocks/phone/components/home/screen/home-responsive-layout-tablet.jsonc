@@ -1,12 +1,13 @@
 {
-  "responsive-layout.tablet#home": {
-    "title": "Component tablet",
+  "responsive-layout.phone#home": {
+    "title": "container version phone",
     "children": [
       "flex-layout.row#tablet--tablet"
     ]
   },
 
   "flex-layout.row#tablet--tablet": {
+    "title": "container home version phone-img-slider",
     "children": [
       "flex-layout.col#tablet"
     ],
@@ -17,9 +18,10 @@
   },
 
   "flex-layout.col#tablet": {
+    "title": "container home version phone-img-slider",
     "children": [
-      "flex-layout.row#section_tablet",
-      "flex-layout.row#section_tablet__two",
+      "flex-layout.row#section_phone",
+      "flex-layout.row#section_phone__two",
       "slider-layout#marcasbanner"
     ],
     "props": {

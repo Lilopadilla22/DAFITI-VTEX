@@ -1,5 +1,6 @@
 {
   "flex-layout.row#mobile__two": {
+    "title": "container search-bar version phone",
     "children": ["search-bar#mobile"],
     "props": {
       "blockClass": "search-main-phone"
@@ -7,6 +8,7 @@
   },
 
   "search-bar#mobile": {
+    "title": "Search-bar version phone",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "blockClass": "search__main__phone",

@@ -1,12 +1,10 @@
 {
-  "store.home": { 
+  "store.home": {
     "title": "container home",
     "blocks": [
       "responsive-layout.desktop#home",
-      "responsive-layout.phone#home",
-      "responsive-layout.tablet#home"
+      "responsive-layout.phone#home"
+      //"responsive-layout.tablet#home"
     ]
   }
- 
-
 }

@@ -1,0 +1,119 @@
+{
+  "flex-layout.col#phone__login--login": {
+    "title": "container login header version phone",
+    "children": ["login#login-phone"],
+    "props": {
+      "blockClass": "login__mobile__inicio"
+    }
+  },
+
+  "login#login-phone": {
+    "title": "Login-phone",
+    "props": {
+      "title": "MI CUENTA",
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresa con código",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Ingresa",
+      "labelClasses": "login__label_icon"
+    }
+  },
+
+  "flex-layout.row#drawer__marcas": {
+    "title": "container drawer header version phone marcas",
+    "children": [
+      "flex-layout.col#drawer__marcas--icono",
+      "flex-layout.col#drawer__marcas--text"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "flex-layout.col#drawer__marcas--icono": {
+    "title": "container drawer marcas-icono",
+    "children": ["logo#drawer__marcas--icono"],
+    "props": {
+      "width": "20%"
+    }
+  },
+
+  "logo#drawer__marcas--icono": {
+    "title": "drawer marcas-icono",
+    "props": {
+      "title": "Heart",
+      "href": "/",
+      "url": "assets/svg/label.svg",
+      "width": "15",
+      "blockClass": "marcas-icon-drawer"
+    }
+  },
+
+  "flex-layout.col#drawer__marcas--text": {
+    "title": "container drawer  marcas-texto",
+    "children": ["rich-text#drawer__marcas--text"],
+    "props": {
+      "width": "80%"
+    }
+  },
+
+  "rich-text#drawer__marcas--text": {
+    "title": "drawer marcas-texto",
+    "props": {
+      "text": "Marcas",
+      "blockClass": "drawer__text--finish"
+    }
+  },
+
+  "flex-layout.row#drawer__ayuda": {
+    "title": "container drawer header version phone ayuda",
+    "children": [
+      "flex-layout.col#drawer__ayuda--icono",
+      "flex-layout.col#drawer__ayuda--text"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "flex-layout.col#drawer__ayuda--icono": {
+    "title": "container drawer ayuda-icono",
+    "children": ["logo#drawer__ayuda--icono"],
+    "props": {
+      "width": "20%"
+    }
+  },
+
+  
+  "logo#drawer__ayuda--icono":{
+    "title": "drawer ayuda-icono",
+    "props": {
+      "title": "Heart",
+      "href": "/",
+      "url": "assets/svg/question.svg",
+      "width": "15",
+      "blockClass": "marcas-icon-drawer"
+    }
+  },
+
+  "flex-layout.col#drawer__ayuda--text": {
+    "title": "container drawer ayuda-texto",
+    "children": ["rich-text#drawer__ayuda--text"],
+    "props": {
+      "width": "80%"
+    }
+  },
+
+  "rich-text#drawer__ayuda--text": {
+    "title": "drawer ayuda-texto",
+    "props": {
+      "text": "Ayuda",
+      "blockClass": "drawer__text--finish"
+    }
+  }
+}

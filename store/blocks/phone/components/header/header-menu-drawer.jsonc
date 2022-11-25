@@ -1,6 +1,7 @@
 {
 
   "flex-layout.col#drawer__phone":{
+    "title": "container drawer version phone",
     "children":[
       "drawer#phone"
     ],
@@ -11,7 +12,7 @@
   },
   
   "drawer#phone": {
-    "title": "Drawer to header middle Phone",
+    "title": "Drawer header middle Phone",
     "blocks": [
         "drawer-header#phone__welcome"
     ],
@@ -25,6 +26,7 @@
   },
 
   "drawer-header#phone__welcome": {
+    "title": "container text-Drawer bienvenida header middle Phone",
     "children": [
         "rich-text#phone--welcome"
     ],
@@ -34,12 +36,11 @@
   },
 
   "rich-text#phone--welcome":{
+    "title": "text-Drawer bienvenida header Phone",
     "props": {
         "text": "Bienvenidos",
         "textPosition": "center",
         "blockClass": "phone_text_welcome"
     }
   } 
-  
-  
 }

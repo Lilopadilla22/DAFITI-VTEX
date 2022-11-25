@@ -1,7 +1,8 @@
 {  
   "flex-layout.col#logo__phone":{
+    "title": "container logo version phone",
     "children":[
-      "logo#tablet"
+      "logo#phone"
     ],
     "props":{
       "width": "40%",
@@ -9,9 +10,10 @@
     }
   },
 
-  "logo#tablet": {
+  "logo#phone": {
+    "title": "logo version phone",
     "props": {
-      "blockClass": "logo-mobile",
+      "blockClass": "logo__phone",
       "title": "Logo#tablet",
       "href": "/",
       "url": "assets/img/dafiti-logo-white.webp",
@@ -20,8 +22,9 @@
   },
 
   "flex-layout.col#megusta__phone":{
+    "title": "container icono-heart version phone",
     "children":[
-      "logo#heard"
+      "logo#heart"
     ],
     "props":{
       "width": "20%",
@@ -29,7 +32,8 @@
     }
   },
 
-  "logo#heard": {
+  "logo#heart": {
+    "title": "icono-heart phone",
     "props": {
       "title": "Heart",
       "href": "/",
@@ -41,31 +45,11 @@
 
   "logo#bagcart": {
     "props": {
-      "title": "Heart",
+      "title": "icono bagcart",
       "href": "/",
       "url": "assets/svg/cart.svg",
       "width": "28",
       "blockClass": "bagcart-icon"
-    }
-  },
-
-  "logo#drawer__marcas--icono":{
-    "props": {
-      "title": "Heart",
-      "href": "/",
-      "url": "assets/svg/label.svg",
-      "width": "15",
-      "blockClass": "marcas-icon-drawer"
-    }
-  },
-
-  "logo#drawer__ayuda--icono":{
-    "props": {
-      "title": "Heart",
-      "href": "/",
-      "url": "assets/svg/question.svg",
-      "width": "15",
-      "blockClass": "marcas-icon-drawer"
     }
   }
 

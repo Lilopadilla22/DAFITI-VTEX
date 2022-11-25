@@ -1,9 +1,11 @@
 {
   "header-layout.mobile": {
+    "title": "header version mobile",
     "children": ["sticky-layout#mobile"]
   },
 
   "sticky-layout#mobile": {
+    "title": "static del header version phone",
     "children": [
       "flex-layout.row#mobile", 
       "flex-layout.row#mobile__two"
@@ -11,6 +13,7 @@
   },
 
   "flex-layout.row#mobile": {
+    "title": "contenedor del header version phone",
     "children": [
       "flex-layout.col#drawer__phone",
       "flex-layout.col#logo__phone",

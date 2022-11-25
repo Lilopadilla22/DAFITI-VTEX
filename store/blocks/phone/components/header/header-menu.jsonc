@@ -1,6 +1,6 @@
 {
   "vtex.menu@2.x:menu#menumobile": {
-    "title": "Menu Drawer",
+    "title": "Menu Drawer version phone",
     "children": ["vtex.menu@2.x:menu#menumobiledrawer"],
     "props": {
       "orientation": "vertical"
@@ -8,7 +8,7 @@
   },
 
   "vtex.menu@2.x:menu#menumobiledrawer": {
-    "title": "Menu categories",
+    "title": "departamentos de menu phone",
     "children": [
       "menu-item#menumobilehome",
       "menu-item#menumobilemujer",
@@ -30,7 +30,7 @@
   },
 
   "menu-item#menumobilehome": {
-    "title": "Departmento Mujer",
+    "title": "departamento home version phone",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -45,7 +45,7 @@
   },
 
   "menu-item#menumobilemujer": {
-    "title": "Departmento Mujer",
+    "title": "departamento mujer version phone",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -60,7 +60,7 @@
   },
 
   "vtex.menu@2.x:submenu.accordion#menumobilemujer": {
-    "title": "Submenu categories",
+    "title": "Container menu categories del departamento mujer",
     "children": ["vtex.menu@2.x:menu#submenumobilemujer"],
     "props": {
       "blockClass": "menu-accordion__mobile"
@@ -68,7 +68,7 @@
   },
 
   "vtex.menu@2.x:menu#submenumobilemujer": {
-    "title": "Categories categories",
+    "title": "categories del departamento mujer",
     "children": [
       "menu-item#category__categories-home",
       "menu-item#category__categories--zapatos",
@@ -81,9 +81,10 @@
       "orientation": "vertical"
     }
   },
+  
   //HOME
   "menu-item#category__categories-home": {
-    "title": "Category home",
+    "title": "Categoria home del departamento mujer",
     "props": {
       "blockClass": ["accordion-active"],
       "id": "menu-item-makeup",
@@ -97,9 +98,10 @@
       }
     }
   },
+  
   //Zapato
   "menu-item#category__categories--zapatos": {
-    "title": "Departmento zapatos",
+    "title": "Categoria zapatos del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -114,12 +116,12 @@
   },
 
   "vtex.menu@2.x:submenu.accordion#menumobilezapatos": {
-    "title": "Submenu categories zapatos",
+    "title": "Submenu de categoria zapatos",
     "children": ["vtex.menu@2.x:menu#submenumobilezapatos"]
   },
 
   "vtex.menu@2.x:menu#submenumobilezapatos": {
-    "title": "Categories categories zapatos",
+    "title": "container de subcategoria de las categorias zapatos del departamento mujer",
     "children": [
       "menu-item#category__categories-tennis",
       "menu-item#category__categories--botas",
@@ -134,7 +136,7 @@
   },
 
   "menu-item#category__categories-tennis": {
-    "title": "Departmento Mujer",
+    "title": "subcategoria tennis de la categoria zapatos del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -148,7 +150,7 @@
   },
 
   "menu-item#category__categories--botas": {
-    "title": "Departmento Mujer",
+    "title": "subcategoria botas de la categoria zapatos del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -162,7 +164,7 @@
   },
 
   "menu-item#category__categories--sandalias": {
-    "title": "Departmento Mujer",
+    "title": "subcategoria sandalias de la categoria zapatos del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -176,7 +178,7 @@
   },
 
   "menu-item#category__categories--tacones": {
-    "title": "Departmento Mujer",
+    "title": "subcategoria tacones de la categoria zapatos del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -190,7 +192,7 @@
   },
 
   "menu-item#category__categories--baletas": {
-    "title": "Departmento Mujer",
+    "title": "subcategoria baletas de la categoria zapatos del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -204,7 +206,7 @@
   },
 
   "menu-item#category__categories--vermas": {
-    "title": "Departmento Mujer",
+    "title": "subcategoria vermas de la categoria zapatos del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -217,9 +219,10 @@
     }
   },
 
-  //ropa
+  //ROPA
+
   "menu-item#category__categories--ropa": {
-    "title": "Departmento Mujer",
+    "title": "Categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -234,12 +237,12 @@
   },
 
   "vtex.menu@2.x:submenu.accordion#menumobileropa": {
-    "title": "Submenu categories",
+    "title": "Submenu de categoria ropa",
     "children": ["vtex.menu@2.x:menu#submenumobileropa"]
   },
 
   "vtex.menu@2.x:menu#submenumobileropa": {
-    "title": "Categories categories ropa",
+    "title": "container de subcategoria de las categorias ropa del departamento mujer",
     "children": [
       "menu-item#category__categories-blusasycamisas",
       "menu-item#category__categories--sacosbuzosycardigan",
@@ -258,7 +261,7 @@
   },
 
   "menu-item#category__categories-blusasycamisas": {
-    "title": "subcategoria ropa",
+    "title": "subcategoria blusas de la categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -272,7 +275,7 @@
   },
 
   "menu-item#category__categories--sacosbuzosycardigan": {
-    "title": "subcategoria ropa",
+    "title": "subcategoria cardigan de la categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -286,7 +289,7 @@
   },
 
   "menu-item#category__categories--vestidos": {
-    "title": "subcategoria ropa",
+    "title": "subcategoria vertidos de la categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -300,7 +303,7 @@
   },
 
   "menu-item#category__categories--jeans": {
-    "title": "subcategoria ropa",
+    "title": "subcategoria jeans de la categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -314,7 +317,7 @@
   },
 
   "menu-item#category__categories--camisetas": {
-    "title": "subcategoria ropa",
+    "title": "subcategoria cemisetas de la categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -328,7 +331,7 @@
   },
 
   "menu-item#category__categories--ropainterior": {
-    "title": "subcategoria ropa",
+    "title": "subcategoria ropainterior de la categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -342,7 +345,7 @@
   },
 
   "menu-item#category__categories--chaquetas": {
-    "title": "subcategoria ropa",
+    "title": "subcategoria chaquetas de la categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -356,7 +359,7 @@
   },
 
   "menu-item#category__categories--ropadedormir": {
-    "title": "subcategoria ropa",
+    "title": "subcategoria ropa de dormir de la categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -370,7 +373,7 @@
   },
 
   "menu-item#category__categories--pantalones": {
-    "title": "subcategoria ropa",
+    "title": "subcategoria pantalones de la categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -384,7 +387,7 @@
   },
 
   "menu-item#category__categoriesropa--vermas": {
-    "title": "subcategoria ropa",
+    "title": "subcategoria vermas de la categoria ropa del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -397,9 +400,10 @@
     }
   },
 
-  //accesorios
+  //ACCESORIOS
+
   "menu-item#category__categories--accesorios": {
-    "title": "categoria accesorios",
+    "title": "Categoria accesorios del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -414,12 +418,12 @@
   },
 
   "vtex.menu@2.x:submenu.accordion#menumobileaccesorio": {
-    "title": "Submenu categories",
+    "title": "Submenu de categoria accesorios",
     "children": ["vtex.menu@2.x:menu#submenumobileaccesorio"]
   },
 
   "vtex.menu@2.x:menu#submenumobileaccesorio": {
-    "title": "Categories categories accesorios",
+    "title": "container de subcategoria de las categorias accesorios del departamento mujer",
     "children": [
       "menu-item#category__categories-bolsosycarteras",
       "menu-item#category__categories--relojes",
@@ -437,7 +441,7 @@
   },
 
   "menu-item#category__categories-bolsosycarteras": {
-    "title": "subcategoria accesorios",
+    "title": "subcategoria bolsos de la categoria accesorios del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -451,7 +455,7 @@
   },
 
   "menu-item#category__categories--relojes": {
-    "title": "subcategoria accesorios",
+    "title": "subcategoria relojes de la categoria accesorios del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -465,7 +469,7 @@
   },
 
   "menu-item#category__categories--maletasymorrales": {
-    "title": "subcategoria accesorios",
+    "title": "subcategoria maletas de la categoria accesorios del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -479,7 +483,7 @@
   },
 
   "menu-item#category__categories--gafas": {
-    "title": "subcategoria accesorios",
+    "title": "subcategoria gafas de la categoria accesorios del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -493,7 +497,7 @@
   },
 
   "menu-item#category__categories--joyeria": {
-    "title": "subcategoria accesorios",
+    "title": "subcategoria joyeria de la categoria accesorios del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -507,7 +511,7 @@
   },
 
   "menu-item#category__categories--billeteras": {
-    "title": "subcategoria accesorios",
+    "title": "subcategoria billetera de la categoria accesorios del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -521,7 +525,7 @@
   },
 
   "menu-item#category__categories--cinturones": {
-    "title": "subcategoria accesorios",
+    "title": "subcategoria cinturones de la categoria accesorios del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -535,7 +539,7 @@
   },
 
   "menu-item#category__categories--cosmetiqueras": {
-    "title": "subcategoria accesorios",
+    "title": "subcategoria cosmtiqueras de la categoria accesorios del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -549,7 +553,7 @@
   },
 
   "menu-item#category__categoriesaccesorios--vermas": {
-    "title": "subcategoria accesorios",
+    "title": "subcategoria vermas de la categoria accesorios del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -562,9 +566,10 @@
     }
   },
 
-  //deportes
+  //DEPORTES
+
   "menu-item#category__categories--deportes": {
-    "title": "categoria deportes",
+    "title": "Categoria deportes del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -579,12 +584,12 @@
   },
 
   "vtex.menu@2.x:submenu.accordion#menumobiledeporte": {
-    "title": "Submenu categories",
+    "title": "Submenu de categoria deportes",
     "children": ["vtex.menu@2.x:menu#submenumobiledeporte"]
   },
 
   "vtex.menu@2.x:menu#submenumobiledeporte": {
-    "title": "Categories categories deportes",
+    "title": "container de subcategoria de las categorias deportes del departamento mujer",
     "children": [
       "menu-item#category__categories-ciclismo",
       "menu-item#category__categories--running",
@@ -602,7 +607,7 @@
   },
 
   "menu-item#category__categories-ciclismo": {
-    "title": "subcategoria deportes",
+    "title": "subcategoria ciclismo de la categoria deportes del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -616,7 +621,7 @@
   },
 
   "menu-item#category__categories--running": {
-    "title": "subcategoria deportes",
+    "title": "subcategoria running de la categoria deportes del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -630,7 +635,7 @@
   },
 
   "menu-item#category__categories--trainning": {
-    "title": "subcategoria deportes",
+    "title": "subcategoria trainning de la categoria deportes del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -644,7 +649,7 @@
   },
 
   "menu-item#category__categories--baloncesto": {
-    "title": "subcategoria deportes",
+    "title": "subcategoria baloncesto de la categoria deportes del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -658,7 +663,7 @@
   },
 
   "menu-item#category__categories--futbol": {
-    "title": "subcategoria deportes",
+    "title": "subcategoria futbol de la categoria deportes del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -672,7 +677,7 @@
   },
 
   "menu-item#category__categories--tenis": {
-    "title": "subcategoria deportes",
+    "title": "subcategoria tenis de la categoria deportes del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -686,7 +691,7 @@
   },
 
   "menu-item#category__categories--yoga": {
-    "title": "subcategoria deportes",
+    "title": "subcategoria yoga de la categoria deportes del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -700,7 +705,7 @@
   },
 
   "menu-item#category__categories--fitness": {
-    "title": "subcategoria deportes",
+    "title": "subcategoria fitness de la categoria deportes del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -714,7 +719,7 @@
   },
 
   "menu-item#category__categoriesdeprotes--vermas": {
-    "title": "subcategoria deportes",
+    "title": "subcategoria vermas de la categoria deportes del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -727,9 +732,10 @@
     }
   },
 
-  //belleza
+  // BELLEZA
+
   "menu-item#category__categories--belleza": {
-    "title": "categoria belleza",
+    "title": "Categoria belleza del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -744,12 +750,12 @@
   },
 
   "vtex.menu@2.x:submenu.accordion#menumobilebelleza": {
-    "title": "Submenu categories belleza",
+    "title": "Submenu de categoria belleza",
     "children": ["vtex.menu@2.x:menu#submenumobilebelleza"]
   },
 
   "vtex.menu@2.x:menu#submenumobilebelleza": {
-    "title": "Categories categories bellza",
+    "title": "container de subcategoria de las categorias belleza del departamento mujer",
     "children": [
       "menu-item#category__categories-perfumes",
       "menu-item#category__categories--maquillaje",
@@ -764,7 +770,7 @@
   },
 
   "menu-item#category__categories-perfumes": {
-    "title": "subcategoria belleza",
+    "title": "subcategoria perfumes de la categoria belleza del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -778,7 +784,7 @@
   },
 
   "menu-item#category__categories--maquillaje": {
-    "title": "subcategoria belleza",
+    "title": "subcategoria maquillaje de la categoria belleza del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -792,7 +798,7 @@
   },
 
   "menu-item#category__categories--cuidadofacial": {
-    "title": "subcategoria belleza",
+    "title": "subcategoria cuidado facial de la categoria belleza del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -806,7 +812,7 @@
   },
 
   "menu-item#category__categories--cuidadocuerpo": {
-    "title": "subcategoria belleza",
+    "title": "subcategoria cuidado del cuerpo de la categoria belleza del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -820,7 +826,7 @@
   },
 
   "menu-item#category__categories--cuidadocapilar": {
-    "title": "subcategoria belleza",
+    "title": "subcategoria cuidado capilar de la categoria belleza del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -834,7 +840,7 @@
   },
 
   "menu-item#category__categoriesbelleza--vermas": {
-    "title": "subcategoria belleza",
+    "title": "subcategoria vermas de la categoria belleza del departamento mujer",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -850,7 +856,7 @@
   //Otras secciones
 
   "menu-item#menumobilehombre": {
-    "title": "Departmento hombrer",
+    "title": "Departamento hombre version phone",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -867,7 +873,7 @@
  
 
   "menu-item#menumobileninos": {
-    "title": "Departmento niños",
+    "title": "Departamento niños version phone",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -882,7 +888,7 @@
   },
 
   "menu-item#menumobiledeports": {
-    "title": "Departmento deportes",
+    "title": "Departamento deportes version phone",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -897,7 +903,7 @@
   },
 
   "menu-item#menumobilebellezaycuidado": {
-    "title": "Departmento belleza",
+    "title": "Departamento belleza version phone",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -912,7 +918,7 @@
   },
 
   "menu-item#menumobilehogar": {
-    "title": "Departmento hogar",
+    "title": "Departamento hogar version phone",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -927,7 +933,7 @@
   },
 
   "menu-item#menumobileofertas": {
-    "title": "Departmento ofertas",
+    "title": "Departamento ofertas version phone",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -942,7 +948,7 @@
   },
 
   "menu-item#menumobileeco": {
-    "title": "Departmento eco",
+    "title": "Departamento eco version phone",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",
@@ -957,7 +963,7 @@
   },
 
   "menu-item#menumobileservicioalcliente": {
-    "title": "Departmento servicio",
+    "title": "Departamento servicio al cliente version phone",
     "props": {
       "blockClass": ["menu-item__mobile", "accordion-active"],
       "id": "menu-item-categories",

@@ -1,11 +1,10 @@
 {
 
   "flex-layout.row#section_phone": {
+    "title": "container primer del bloque-home version phone" ,
     "children":[
       "flex-layout.col#section__phone__one",
-      "flex-layout.col#section__phone__two",
-      "flex-layout.col#section__phone__three",
-      "flex-layout.col#section__phone__four"
+      "flex-layout.col#section__phone__two"
     ],
     "props":{
       "colSizing": "auto"
@@ -13,13 +12,14 @@
 },
 
   "flex-layout.col#section__phone__one":{
-      "title": "section phone one",
+      "title": "container primera imagen de la seccion del home-phone",
       "children":[
         "image#section__phone__one"
       ]
     },
     
   "image#section__phone__one":{
+    "title": "primera imagen de la seccion del home-phone",
     "props": {
       "src": "assets/img/kids.jpg",
       "maxWidth": "100%",
@@ -31,13 +31,14 @@
   },
     
   "flex-layout.col#section__phone__two":{
-    "title": "section phone 2",
+    "title": "container segunda imagen de la seccion del home-phone",
     "children":[
       "image#section__phone__two"
     ]
   },
     
   "image#section__phone__two":{
+    "title": "segunda imagen de la seccion del home-phone",
     "props": {
       "src": "assets/img/deportes.jpg",
       "maxWidth": "100%",
@@ -47,10 +48,9 @@
       }
     }
   },
-  
- //LLAMADO 
- 
+
   "flex-layout.row#section_phone__two": {
+    "title": "container segundo del bloque-home version phone" ,
     "children":[
       "flex-layout.col#section__phone__three",
       "flex-layout.col#section__phone__four"
@@ -61,13 +61,14 @@
 },
 
 "flex-layout.col#section__phone__three":{
-  "title": "banner phone seccion 3",
+  "title": "container tercera imagen de la seccion del home-phone",
   "children":[
     "image#section__phone__three"
   ]
 },
   
 "image#section__phone__three":{
+  "title": "tercera imagen de la seccion del home-phone",
   "props": {
     "src": "assets/img/femenino.jpg",
     "maxWidth": "100%",
@@ -79,16 +80,14 @@
 },
 
 "flex-layout.col#section__phone__four":{
-  "title": "banner phone seccion 2",
+  "title": "container cuarta imagen de la seccion del home-phone",
   "children":[
     "image#section__phone__four"
-  ],
-  "props": {
-    "whidth": 50
-  }
+  ]
 },
   
 "image#section__phone__four":{
+  "title": "cuarta imagen de la seccion del home-phone",
   "props": {
     "src": "assets/img/masculino.jpg",
     "maxWidth": "100%",
