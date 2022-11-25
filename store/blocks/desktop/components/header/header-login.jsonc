@@ -1,5 +1,6 @@
 {
   "flex-layout.col#desktop__login": {
+    "title": "container login en version desktop",
     "props": {
       "width": "50%",
       "verticalAlign": "middle",
@@ -10,7 +11,7 @@
   },
 
   "login#desktop": {
-    "title": "Login",
+    "title": "Login-desktop",
     "props": {
       "emailAndPasswordTitle": "Ingresar",
       "accessCodeTitle": "Ingresa con código",
