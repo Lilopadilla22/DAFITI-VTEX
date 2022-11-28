@@ -1,0 +1,33 @@
+{
+  "footer-layout.desktop": {
+    "title": "component footer desktop",
+    "children": [
+      "flex-layout.row#footer__desktop__complet"
+    ]
+  },
+
+  "flex-layout.row#footer__desktop__complet": {
+    "title": "container del footer desktop",
+    "children": [
+      "flex-layout.col#footer__desktop__complet"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#footer__desktop__complet": {
+    "title": "container footer",
+    "children": [
+      "flex-layout.row#footer__desktop__section--one",
+      "flex-layout.row#footer__desktop__middle",
+      "flex-layout.row#footer__image",
+      "flex-layout.row#footer__desktop__end",
+      "flex-layout.row#footer__desktop__mobile__tablet"
+    ],
+    "props": {
+      "width": "70%"
+    }
+  }
+}
