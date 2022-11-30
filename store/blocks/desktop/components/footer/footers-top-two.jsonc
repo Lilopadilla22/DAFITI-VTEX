@@ -1,0 +1,242 @@
+{
+  "flex-layout.col#footer__desktop__section__two": {
+    "title": "container footer desktop segunda seccion",
+    "children": [
+      "flex-layout.row#footer__desktop__text--sectiontwo"
+    ],
+    "props": {
+      "blockClass": "footer__desktop__text--sectiontwo"
+    }
+  },
+
+  "flex-layout.row#footer__desktop__text--sectiontwo": {
+    "title": "container footer desktop segunda seccion columnas",
+    "children": [
+      "flex-layout.col#footer__sectiontwo--mujer",
+      "flex-layout.col#footer__sectiontwo--hombre",
+      "flex-layout.col#footer__sectiontwo--ninos"
+    ],
+    "props":{
+      "blockClass": "footer__desktop--sectiontwo"
+    }
+  },
+
+  "flex-layout.col#footer__sectiontwo--mujer":{
+    "title": "container footer col Mujer",
+    "children":[
+      "flex-layout.row#footer__sectiontwo--text",
+      "flex-layout.row#footer__sectiontwo--brands"
+    ]
+  },
+
+  "flex-layout.row#footer__sectiontwo--text":{
+    "title": "container footer col Mujer-texto",
+    "children":[
+      "rich-text#footer__sectiontwo--text"
+    ]
+  },
+
+  "rich-text#footer__sectiontwo--text":{
+    "props": {
+      "text": "MUJER",
+      "blockClass": "text__titulos__footer"
+    }
+  },
+
+  "flex-layout.row#footer__sectiontwo--brands":{
+    "title": "container footer row mujer",
+    "children": [
+      "flex-layout.col#footer__sectiontwo--brandscol"
+    ]
+  },
+
+  "flex-layout.col#footer__sectiontwo--brandscol":{
+    "title": "container footer col Mujer-links",
+    "children": [
+      "link#footer__sectiontwo--brandone",
+      "link#footer__sectiontwo--brandtwo",
+      "link#footer__sectiontwo--brandthree",
+      "link#footer__sectiontwo--brandfour"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__sectiontwo--brandone": {
+    "props": {
+      "href": "/",
+      "label": "Tenis"
+    }
+  },
+
+  "link#footer__sectiontwo--brandtwo": {
+    "props": {
+      "href": "/",
+      "label": "Camisas"
+    }
+  },
+
+  "link#footer__sectiontwo--brandthree": {
+    "props": {
+      "href": "/",
+      "label": "Belleza"
+    }
+  },
+
+  "link#footer__sectiontwo--brandfour": {
+    "props": {
+      "href": "/",
+      "label": "Accesorios de Mujer"
+    }
+  },
+
+  //HOMBRE
+
+  "flex-layout.col#footer__sectiontwo--hombre":{
+    "title": "container footer col hombre",
+    "children":[
+      "flex-layout.row#footer__sectiontwo__hombre--text",
+      "flex-layout.row#footer__sectiontwo__hombre--brands"
+    ]
+  },
+
+  "flex-layout.row#footer__sectiontwo__hombre--text":{
+    "title": "container footer row hombre",
+    "children":[
+      "rich-text#footer__sectiontwo__hombre--text"
+    ]
+  },
+
+  "rich-text#footer__sectiontwo__hombre--text":{
+    "title": "texto footer row hombre",
+    "props": {
+      "text": "HOMBRE",
+      "blockClass": "text__titulos__footer"
+    }
+  },
+
+  "flex-layout.row#footer__sectiontwo__hombre--brands":{
+    "title": "container footer row hombre",
+    "children": [
+      "flex-layout.col#footer__sectiontwo__hombre--brandscol"
+    ]
+  },
+
+  "flex-layout.col#footer__sectiontwo__hombre--brandscol":{
+    "title": "container footer links-hombre",
+    "children": [
+      "link#footer__sectiontwo__hombre--brandone",
+      "link#footer__sectiontwo__hombre--brandtwo",
+      "link#footer__sectiontwo__hombre--brandthree",
+      "link#footer__sectiontwo__hombre--brandfour"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__sectiontwo__hombre--brandone": {
+    "props": {
+      "href": "/",
+      "label": "Tenis"
+    }
+  },
+
+  "link#footer__sectiontwo__hombre--brandtwo": {
+    "props": {
+      "href": "/",
+      "label": "Camisas"
+    }
+  },
+
+  "link#footer__sectiontwo__hombre--brandthree": {
+    "props": {
+      "href": "/",
+      "label": "Belleza"
+    }
+  },
+
+  "link#footer__sectiontwo__hombre--brandfour": {
+    "props": {
+      "href": "/",
+      "label": "Accesorios"
+    }
+  },
+
+  //NIÑOS
+
+  "flex-layout.col#footer__sectiontwo--ninos":{
+    "title": "container footer col niños",
+    "children":[
+      "flex-layout.row#footer__sectiontwo__ninos--text",
+      "flex-layout.row#footer__sectiontwo__ninos--brands"
+    ]
+  },
+
+  "flex-layout.row#footer__sectiontwo__ninos--text":{
+    "title": "container footer row niños",
+    "children":[
+      "rich-text#footer__sectiontwo__ninos--text"
+    ]
+  },
+
+  "rich-text#footer__sectiontwo__ninos--text":{
+    "title": "texto footer row niños",
+    "props": {
+      "text": "NIÑOS",
+      "blockClass": "text__titulos__footer"
+    }
+  },
+
+  "flex-layout.row#footer__sectiontwo__ninos--brands":{
+    "title": "container footer row niños",
+    "children": [
+      "flex-layout.col#footer__sectiontwo__ninos--brandscol"
+    ]
+  },
+
+  "flex-layout.col#footer__sectiontwo__ninos--brandscol":{
+    "title": "container footer links-niños",
+    "children": [
+      "link#footer__sectiontwo__ninos--brandone",
+      "link#footer__sectiontwo__ninos--brandtwo",
+      "link#footer__sectiontwo__ninos--brandthree",
+      "link#footer__sectiontwo__ninos--brandfour"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__sectiontwo__ninos--brandone": {
+    "props": {
+      "href": "/",
+      "label": "Ropa de bebé"
+    }
+  },
+
+  "link#footer__sectiontwo__ninos--brandtwo": {
+    "props": {
+      "href": "/",
+      "label": "Ropa de niños de 2 a 7"
+    }
+  },
+
+  "link#footer__sectiontwo__ninos--brandthree": {
+    "props": {
+      "href": "/",
+      "label": "Ropa para Niños de 8 a 16"
+    }
+  },
+
+  "link#footer__sectiontwo__ninos--brandfour": {
+    "props": {
+      "href": "/",
+      "label": "Juguetes"
+    }
+  }
+
+
+  
+}

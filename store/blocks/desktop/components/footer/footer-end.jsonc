@@ -1,0 +1,78 @@
+{
+  "flex-layout.row#footer__desktop__end": {
+    "children": ["flex-layout.col#footer__desktop__end"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.col#footer__desktop__end": {
+    "children": [
+      "flex-layout.row#footer__desktop__end--text--politica",
+      "flex-layout.row#footer__desktop__end--addrees",
+      "flex-layout.row#footer__desktop__end--cel",
+      "flex-layout.row#footer__desktop__end--email",
+      "flex-layout.row#footer__desktop__end--horary"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "contenedor__footer__end"
+    }
+  },
+
+  "flex-layout.row#footer__desktop__end--text--politica": {
+    "children": ["rich-text#footer__desktop__end--politica"]
+  },
+
+  "rich-text#footer__desktop__end--politica": {
+    "props": {
+      "text": "© Dafiti 2011 - 2022 . Todos los derechos reservados. [-Conoce nuestra Política de privacidad.](/) [-Política de Datos.](/)",
+      "blockClass": "text__footer__end"
+    }
+  },
+
+  "flex-layout.row#footer__desktop__end--addrees": {
+    "children": ["rich-text#footer__desktop__end--addrees"]
+  },
+
+  "rich-text#footer__desktop__end--addrees": {
+    "props": {
+      "text": "a Bigfoot Colombia SAS.- NIT: 900.469.230-6. Carrera 58 No. 128A-35, Bogotá, Colombia.",
+      "blockClass": "text__footer__end"
+    }
+  },
+
+  "flex-layout.row#footer__desktop__end--cel": {
+    "children": ["rich-text#footer__desktop__end--cel"]
+  },
+
+  "rich-text#footer__desktop__end--cel": {
+    "props": {
+      "text": "Teléfono: 01 8000 942 434 o en Bogotá (601) 508 2244",
+      "blockClass": "text__footer__end"
+    }
+  },
+
+  "flex-layout.row#footer__desktop__end--email": {
+    "children": ["rich-text#footer__desktop__end--email"]
+  },
+
+  "rich-text#footer__desktop__end--email": {
+    "props": {
+      "text": "E-mail: [info@dafiti.com.co](/)",
+      "blockClass": "text__footer__end"
+    }
+  },
+
+  "flex-layout.row#footer__desktop__end--horary": {
+    "children": ["rich-text#footer__desktop__end--horary"]
+  },
+
+  "rich-text#footer__desktop__end--horary": {
+    "props": {
+      "text": "Horarios de atención: Lunes a sábado de 8:00 a.m. a 5:00 p.m. - Domingos y festivos estaremos recargando baterías",
+      "blockClass": "text__footer__end"
+    }
+  }
+}

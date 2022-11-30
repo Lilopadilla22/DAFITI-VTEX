@@ -1,0 +1,56 @@
+.flexColChild--footer__desktop--links :global(.vtex-store-link-0-x-link) {
+    text-decoration: none;
+    color          : #858585;
+    font-size      : 11px;
+}
+
+.flexColChild--footer__desktop--links :global(.vtex-store-link-0-x-link):hover {
+    color: black;
+}
+
+.flexRowContent--footer__desktop--sectiontwo {
+    padding-bottom: 45px;
+}
+
+.flexCol--footer__desktop__section__one {
+    margin-bottom: 10px;
+}
+
+.flexRow--footer__desktop__section {
+    border-top   : 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.flexCol--footer__middle__one {
+    padding-bottom: 160px;
+}
+
+.flexCol--footer__middle__two {
+    padding-bottom: 75px;
+}
+
+.flexCol--footer__middle__four {
+    padding-bottom: 90px;
+}
+
+.flexCol--footer__middle__five {
+    padding-bottom: 10px;
+}
+
+.flexRowContent--footer__middle__desktop {
+    border-bottom: 1px solid gray;
+    padding      : 10px
+}
+
+.flexRowContent--footer__image__desktop {
+    border-bottom : 1px solid gray;
+    padding-top   : 20px;
+    padding-bottom: 20px;
+}
+
+.flexCol--contenedor__footer__end {
+    padding-top   : 15px;
+    padding-bottom: 15px;
+    border-bottom : 1px solid gray;
+
+}
