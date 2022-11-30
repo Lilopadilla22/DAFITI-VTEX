@@ -1,0 +1,33 @@
+{
+    "list-context.product-list#slider-desktop": {
+        "blocks": ["product-summary.shelf#slider"],
+        "children": ["slider-layout#demo-products--mobile"],
+        "props": {
+            "blockClass": "vitrina-de-productos"
+        }
+      },
+
+      "slider-layout#demo-products--mobile":{
+        "title": "Slider section one phone",
+        "props":{
+        "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "home__slider--products--desktop",
+        "fullwidth": false,
+        "showPaginationDots": "never"
+        } 
+      },
+
+      "product-summary.shelf#slider": {
+        "children": [
+          "product-summary-image",
+          "product-summary-name",
+          "product-summary-price",
+          "add-to-cart-button"
+        ]
+      }
+}

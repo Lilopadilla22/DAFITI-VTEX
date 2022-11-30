@@ -22,5 +22,9 @@
       "placeholder": "Buscá por producto, marca, categorías...",
       "blockClass": "search__desktop__input"
     }
-  }
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+    }
 }
