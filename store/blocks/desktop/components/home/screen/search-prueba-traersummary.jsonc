@@ -12,7 +12,17 @@
   },
 
   "search-result-layout.desktop#home_search_desktop": {
-    "children": ["flex-layout.row#home_results_desktop"]
+    "children": [
+      // "flex-layout.row#home_results_desktop",
+      "breadcrumb.search",
+      "search-title.v2",
+      "total-products.v2",
+      "order-by.v2",
+      "search-fetch-previous",
+      "search-content",
+      "filter-navigator.v3",
+      "search-fetch-more"
+    ]
   },
 
   "flex-layout.row#home_results_desktop": {
@@ -30,27 +40,4 @@
   "gallery": {
     "blocks": ["product-summary.shelf"]
   }
-} // {
-//   "header-layout.desktop": {
-//     "children": [
-//       "flex-layout.row#header",
-//       "flex-layout.row#notificationbar",
-//       "flex-layout.row#desktop",
-//       "header-row#header__menu"
-//     ]
-//   },
-
-//   "responsive-layout.desktop#home": {
-//     "title": "Component desktop",
-//     "children": ["flex-layout.row"]
-//   },
-
-//   "flex-layout.row": {
-//     "children": ["flex-layout.col"],
-//     "props": {
-//       "horizontalAlign": "center",
-//       "colSizing": "auto"
-//     }
-//   }
-
-// }
+} 

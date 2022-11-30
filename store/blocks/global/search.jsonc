@@ -1,7 +1,82 @@
 {
   "store.search": {
     "blocks": [
-      
+      "search-result-layout#departament"
+    ],
+    "props":{
+      "context":{
+        "skusFilter":"ALL",
+        "simulationBehavior":"default"
+      }
+    }
+  },
+
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props":{
+      "context":{
+        "skusFilter":"ALL",
+        "simulationBehavior":"default"
+      }
+    }
+  },
+
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props":{
+      "context":{
+        "skusFilter":"ALL",
+        "simulationBehavior":"default"
+      }
+    }
+  },
+
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props":{
+      "context":{
+        "skusFilter":"ALL",
+        "simulationBehavior":"default"
+      }
+    }
+  },
+
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
     ]
-  }
+  },
+
+  "search-result-layout.desktop":{
+    "children": [
+        "rich-text#search__desktop"
+    ]
+},
+
+"rich-text#search__desktop": {
+    "props": {
+        "text": "hola desktop solo"
+    }
+},
+
+"search-result-layout.mobile":{
+    "children": [
+        "rich-text#search__mobile"
+    ]
+},
+
+"rich-text#search__mobile": {
+    "props": {
+        "text": "hola mobile solo"
+    }
+}
+
 }

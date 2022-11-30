@@ -51,7 +51,13 @@
     "vtex.store-image": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.search": "1.x",
-    "vtex.checkout-summary": "0.x"
+    "vtex.checkout-summary": "0.x",
+    "vtex.product-list": "0.x"
+  },
+  "peerDependencies": {
+    "vtex.reviews-and-ratings": "3.x",
+    "vtex.wish-list": "1.x",
+    "vtex.questions-and-answers": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
