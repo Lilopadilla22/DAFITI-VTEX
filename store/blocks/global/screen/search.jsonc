@@ -1,5 +1,6 @@
 {
   "store.search": {
+    "title": "container search-store",
     "blocks": [
       "store.search#departament"
     ],

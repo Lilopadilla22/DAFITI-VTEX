@@ -1,66 +1,92 @@
 {
   "flex-layout.row#product__tabs": {
-    "title": "Información adicional - Tabs",
-    "children": ["tab-layout#product__tabs"]
+    "title": "contaier información adicional-Tabs",
+    "children": [
+      "tab-layout#product__tabs"
+    ]
   },
+
   "tab-layout#product__tabs": {
+    "title": "container tab-layout list-content",
     "children": [
       "tab-list#product__tabs--list",
       "tab-content#product__tabs--content"
     ]
   },
+
   "tab-list#product__tabs--list": {
+    "title": "tab-list desktop container",
     "children": [
       "tab-list.item#tabs__list--reviews-and-ratings",
       "tab-list.item#tabs__list--product-specification",
       "tab-list.item#tabs__list--questions"
     ]
   },
+
   "tab-list.item#tabs__list--reviews-and-ratings": {
+    "title": "tab-list-items desktop calificaciones",
     "props": {
       "tabId": "reviews-and-ratings",
       "label": "Revisiones y calificaciones",
       "defaultActiveTab": true
     }
   },
+
   "tab-list.item#tabs__list--product-specification": {
+    "title": "tab-list-items desktop especificaciones",
     "props": {
       "tabId": "product-specification",
       "label": "Especificaciones de producto",
       "defaultActiveTab": true
     }
   },
+
   "tab-list.item#tabs__list--questions": {
+    "title": "tab-list-items desktop preguntas",
     "props": {
       "tabId": "questions",
       "label": "Preguntas y respuestas",
       "defaultActiveTab": true
     }
   },
+
   "tab-content#product__tabs--content": {
+    "title": "tab-content desktop container",
     "children": [
       "tab-content.item#tabs__content--reviews-and-ratings",
       "tab-content.item#tabs__content--product-specification",
       "tab-content.item#tabs__content--questions"
     ]
   },
+
   "tab-content.item#tabs__content--reviews-and-ratings": {
+    "title": "tab-content desktop container r&r",
     "props": {
       "tabId": "reviews-and-ratings"
     },
-    "children": ["product-reviews"]
+    "children": [
+      "product-reviews"
+    ]
   },
+
   "tab-content.item#tabs__content--product-specification": {
+    "title": "tab-content desktop container especificaciones",
     "props": {
       "tabId": "product-specification"
     },
-    "children": ["product-specifications"]
+    "children": [
+      "product-specifications"
+    ]
   },
+
   "tab-content.item#tabs__content--questions": {
+    "title": "tab-content desktop container question",
     "props": {
       "tabId": "questions",
       "blockClass": "tabs__content--questions"
     },
-    "children": ["questions-and-answers"]
+    "children": [
+      "questions-and-answers"
+    ]
   }
 }
