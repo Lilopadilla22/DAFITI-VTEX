@@ -4,7 +4,10 @@
     "children": [
       "flex-layout.col#product__info--img",
       "flex-layout.col#product__info--data"
-    ]
+    ],
+    "props": {
+      "blockClass": "pdp--container"
+    }
   },
 
   "flex-layout.col#product__info--img": {
@@ -18,7 +21,7 @@
   },
 
   "product-images#product__info--img":{
-    "title": "Imágenes",
+    "title": "Imágenes pdp desktop",
     "props":{
      "showNavigationArrows": false
     }
@@ -41,6 +44,7 @@
   },
 
   "rich-text#product__info--data": {
+    "title": "texto informacion adicional pdp", 
     "props": {
       "text": " ",
       "blockClass": "texto-adicional"
