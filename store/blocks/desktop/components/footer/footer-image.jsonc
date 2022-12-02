@@ -1,6 +1,9 @@
 {
   "flex-layout.row#footer__image": {
-    "children": ["image#footer__image"],
+    "title": "contenedor image footer medios de pago",
+    "children": [
+      "image#footer__image"
+    ],
     "props": {
       "blockClass": "footer__image__desktop"
     }

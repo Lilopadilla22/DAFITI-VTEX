@@ -14,6 +14,7 @@
   },
 
   "flex-layout.col#footer__middle__one": {
+    "title": "container footer-middle social-media",
     "children": [
       "flex-layout.row#footer__middle--newsocial-text",
       "flex-layout.row#footer__middle--newsocial-ico",
@@ -25,10 +26,14 @@
   },
 
   "flex-layout.row#footer__middle--newsocial-text": {
-    "children": ["rich-text#footer__middle--newsocial-text"]
+    "title": "container footer-middle titulo social-media",
+    "children": [
+      "rich-text#footer__middle--newsocial-text"
+    ]
   },
 
   "rich-text#footer__middle--newsocial-text": {
+    "title": "texto footer-middle titulo social-media",
     "props": {
       "text": "SÍGUENOS EN",
       "blockClass": "text__titulos__footer"
@@ -36,10 +41,14 @@
   },
 
   "flex-layout.row#footer__middle--newsocial-ico": {
-    "children": ["social-networks#firts"]
+    "title": "container social-media footer instagram ytwitter",
+    "children": [
+      "social-networks#firts"
+    ]
   },
 
   "social-networks#firts": {
+    "title": "social-media footer instagram-twitter",
     "props": {
       "socialNetworks": [
         {
@@ -56,10 +65,12 @@
   },
 
   "flex-layout.row#footer__middle--newsocial-icotwo": {
+    "title": "container social-media footer facebook-youtube",
     "children": ["social-networks#seconds"]
   },
 
   "social-networks#seconds": {
+    "title": "social-media footer facebook-youtube",
     "props": {
       "socialNetworks": [
         {
@@ -78,6 +89,7 @@
   //SEGUNDA COLUMNA
 
   "flex-layout.col#footer__middle__two": {
+    "title": "container footer-middle acerca de",
     "children": [
       "flex-layout.row#footer__middle__acercade",
       "flex-layout.col#footer__middle__acercade"
@@ -88,10 +100,14 @@
   },
 
   "flex-layout.row#footer__middle__acercade": {
-    "children": ["rich-text#footer__middle__acercade"]
+    "title": "container footer-middle acerca-de",
+    "children": [
+      "rich-text#footer__middle__acercade"
+    ]
   },
 
   "rich-text#footer__middle__acercade": {
+    "title": "text footer-middle acerca de",
     "props": {
       "text": "ACERCA DE DAFITI",
       "blockClass": "text__titulos__footer"
@@ -99,6 +115,7 @@
   },
 
   "flex-layout.col#footer__middle__acercade": {
+    "title": "container footer-middle links acerca de",
     "children": [
       "link#footer__middle__acercade--nosotros",
       "link#footer__middle__acercade--terminos",
@@ -115,6 +132,7 @@
   },
 
   "link#footer__middle__acercade--nosotros": {
+    "title": "links acerca de nosotros footer-desktop",
     "props": {
       "href": "/",
       "label": "Nosotros"
@@ -122,6 +140,7 @@
   },
 
   "link#footer__middle__acercade--terminos": {
+    "title": "links acerca de terminos y condiciones footer-desktop",
     "props": {
       "href": "/",
       "label": "Términos y condiciones"
@@ -129,6 +148,7 @@
   },
 
   "link#footer__middle__acercade--avisos": {
+    "title": "links acerca de aviso de cumplimiento footer-desktop",
     "props": {
       "href": "/",
       "label": "Aviso de cumplimiento"
@@ -136,6 +156,7 @@
   },
 
   "link#footer__middle__acercade--politica": {
+    "title": "links acerca de politicas privacidad footer-desktop",
     "props": {
       "href": "/",
       "label": "Politica de privacidad"
@@ -143,6 +164,7 @@
   },
 
   "link#footer__middle__acercade--politicadatos": {
+    "title": "links acerca de politicas de datos footer-desktop",
     "props": {
       "href": "/",
       "label": "Politica de datos"
@@ -150,6 +172,7 @@
   },
 
   "link#footer__middle__acercade--trabaja": {
+    "title": "links acerca de trabaja con nosotros footer-desktop",
     "props": {
       "href": "/",
       "label": "Trabaja con nosotros"
@@ -157,6 +180,7 @@
   },
 
   "link#footer__middle__acercade--registro": {
+    "title": "links acerca de registros footer-desktop",
     "props": {
       "href": "/",
       "label": "Registro"
@@ -164,6 +188,7 @@
   },
 
   "link#footer__middle__acercade--app": {
+    "title": "links acerca de app footer-desktop",
     "props": {
       "href": "/",
       "label": "app Dafiti"
@@ -173,6 +198,7 @@
   //TERCERA COLUMNA
 
   "flex-layout.col#footer__middle__three": {
+    "title": "container footer-desktop servicios",
     "children": [
       "flex-layout.row#footer__middle__serviciocliente",
       "flex-layout.col#footer__middle__serviciocliente"
@@ -183,10 +209,14 @@
   },
 
   "flex-layout.row#footer__middle__serviciocliente": {
-    "children": ["rich-text#footer__middle__serviciocliente"]
+    "title": "container footer-desktop servicio al cliente",
+    "children": [
+      "rich-text#footer__middle__serviciocliente"
+    ]
   },
 
   "rich-text#footer__middle__serviciocliente": {
+    "title": "texto footer-desktop servicio al cliente",
     "props": {
       "text": "SERVICIO AL CLIENTE",
       "blockClass": "text__titulos__footer"
@@ -194,6 +224,7 @@
   },
 
   "flex-layout.col#footer__middle__serviciocliente": {
+    "title": "container footer-desktop links servicio al cliente",
     "children": [
       "link#footer__middle__servicio--nuevos",
       "link#footer__middle__servicio--membresia",
@@ -214,6 +245,7 @@
   },
 
   "link#footer__middle__servicio--nuevos": {
+    "title": "link footer-desktop servicio al cliente centros",
     "props": {
       "href": "/",
       "label": "NUEVOS centros de experiencia"
@@ -221,6 +253,7 @@
   },
 
   "link#footer__middle__servicio--membresia": {
+    "title": "link footer-desktop servicio al cliente membresia",
     "props": {
       "href": "/",
       "label": "Membresia Dafiti PRIME"
@@ -228,6 +261,7 @@
   },
 
   "link#footer__middle__servicio--plazos": {
+    "title": "link footer-desktop servicio al cliente envios",
     "props": {
       "href": "/",
       "label": "Plazos y costos de Envío"
@@ -235,6 +269,7 @@
   },
 
   "link#footer__middle__servicio--cambios": {
+    "title": "link footer-desktop servicio al cliente cambios",
     "props": {
       "href": "/",
       "label": "Cambios y Devoluciones"
@@ -242,6 +277,7 @@
   },
 
   "link#footer__middle__servicio--usos": {
+    "title": "link footer-desktop servicio al cliente cupones",
     "props": {
       "href": "/",
       "label": "Uso de Cupones"
@@ -249,6 +285,7 @@
   },
 
   "link#footer__middle__servicio--medios": {
+    "title": "link footer-desktop servicio al cliente medios de pago",
     "props": {
       "href": "/",
       "label": "Medios de Pago"
@@ -256,6 +293,7 @@
   },
 
   "link#footer__middle__servicio--garantia": {
+    "title": "link footer-desktop servicio al cliente garantia",
     "props": {
       "href": "/",
       "label": "Garantías"
@@ -263,6 +301,7 @@
   },
 
   "link#footer__middle__servicio--seguimiento": {
+    "title": "link footer-desktop servicio al cliente seguimiento",
     "props": {
       "href": "/",
       "label": "Seguimiento de tu pedido"
@@ -270,6 +309,7 @@
   },
 
   "link#footer__middle__servicio--creditos": {
+    "title": "link footer-desktop servicio al cliente creditos",
     "props": {
       "href": "/",
       "label": "Créditos ADDI"
@@ -277,6 +317,7 @@
   },
 
   "link#footer__middle__servicio--contacto": {
+    "title": "link footer-desktop servicio al cliente contactos",
     "props": {
       "href": "/",
       "label": "Contacto"
@@ -284,6 +325,7 @@
   },
 
   "link#footer__middle__servicio--radicar": {
+    "title": "link footer-desktop servicio al cliente pqr",
     "props": {
       "href": "/",
       "label": "Radicar PQR's"
@@ -291,6 +333,7 @@
   },
 
   "link#footer__middle__servicio--tyc": {
+    "title": "link footer-desktop servicio al cliente eventos",
     "props": {
       "href": "/",
       "label": "T&C Eventos"
@@ -300,6 +343,7 @@
   //CUARTA COLUMNA
 
   "flex-layout.col#footer__middle__four": {
+    "title": "container footer-desktop novedades",
     "children": [
       "flex-layout.row#footer__middle__novedades",
       "flex-layout.col#footer__middle__novedades"
@@ -310,10 +354,14 @@
   },
 
   "flex-layout.row#footer__middle__novedades": {
-    "children": ["rich-text#footer__middle__novedades"]
+    "title": "container texto footer-desktop novedades",
+    "children": [
+      "rich-text#footer__middle__novedades"
+    ]
   },
 
   "rich-text#footer__middle__novedades": {
+    "title": "texto footer-desktop novedades",
     "props": {
       "text": "NOVEDADES Y EVENTOS",
       "blockClass": "text__titulos__footer"
@@ -321,6 +369,7 @@
   },
 
   "flex-layout.col#footer__middle__novedades": {
+    "title": "container footer-desktop links novedades",
     "children": [
       "link#footer__middle__novedades--blackfriday",
       "link#footer__middle__novedades--cyberlunes",
@@ -336,6 +385,7 @@
   },
 
   "link#footer__middle__novedades--blackfriday": {
+    "title": "links footer-desktop novedades blackfriday",
     "props": {
       "href": "/",
       "label": "Black Friday"
@@ -343,6 +393,7 @@
   },
 
   "link#footer__middle__novedades--cyberlunes": {
+    "title": "links footer-desktop novedades ciberlunes",
     "props": {
       "href": "/",
       "label": "Cyber Lunes"
@@ -350,6 +401,7 @@
   },
 
   "link#footer__middle__novedades--hotsale": {
+    "title": "links footer-desktop novedades hotssale",
     "props": {
       "href": "/",
       "label": "Hot Sale"
@@ -357,6 +409,7 @@
   },
 
   "link#footer__middle__novedades--diasiniva": {
+    "title": "links footer-desktop novedades sin iva",
     "props": {
       "href": "/",
       "label": "Días sin IVA"
@@ -364,6 +417,7 @@
   },
 
   "link#footer__middle__novedades--dafitisport": {
+    "title": "links footer-desktop novedades sport",
     "props": {
       "href": "/",
       "label": "Dafiti Sports"
@@ -371,6 +425,7 @@
   },
 
   "link#footer__middle__novedades--sneaker": {
+    "title": "links footer-desktop novedades sneaker",
     "props": {
       "href": "/",
       "label": "Sneakers"
@@ -378,6 +433,7 @@
   },
 
   "link#footer__middle__novedades--alizanbogota": {
+    "title": "links footer-desktop novedades banco bogota",
     "props": {
       "href": "/",
       "label": "Alianza Banco de Bogota"
@@ -387,6 +443,7 @@
   //QUINTA COLUMNA
 
   "flex-layout.col#footer__middle__five": {
+    "title": "container footer-desktop aliados",
     "children": [
       "flex-layout.row#footer__middle--aliados--text",
       "flex-layout.row#footer__middle--aliados--cam",
@@ -399,10 +456,14 @@
   },
 
   "flex-layout.row#footer__middle--aliados--text": {
-    "children": ["rich-text#footer__middle--aliados--text"]
+    "title": "container texto footer-desktop aliados",
+    "children": [
+      "rich-text#footer__middle--aliados--text"
+    ]
   },
 
   "rich-text#footer__middle--aliados--text": {
+    "title": "texto footer-desktop aliados",
     "props": {
       "text": "ALIADOS",
       "blockClass": "text__titulos__footer"
@@ -410,33 +471,42 @@
   },
 
   "flex-layout.row#footer__middle--aliados--cam": {
-    "children": ["image#cam"]
+    "title": "container footer-desktop aliados img camara",
+    "children": [
+      "image#cam"
+    ]
   },
 
   "image#cam": {
-    "title": "image footer medios de pago",
+    "title": "image footer camara de comercio",
     "props": {
       "src": "assets/logos/camaracomercio.png"
     }
   },
 
   "flex-layout.row#footer__middle--aliados--sic": {
-    "children": ["image#sic"]
+    "title": "container footer-desktop aliados img sic",
+    "children": [
+      "image#sic"
+    ]
   },
 
   "image#sic": {
-    "title": "image footer medios de pago",
+    "title": "image footer sic",
     "props": {
       "src": "assets/logos/logosic.jpg"
     }
   },
 
   "flex-layout.row#footer__middle--aliados--ids": {
-    "children": ["image#ids"]
+    "title": "container footer-desktop aliados img Industria y comercio",
+    "children": [
+      "image#ids"
+    ]
   },
 
   "image#ids": {
-    "title": "image footer medios de pago",
+    "title": "image footer Industria y comercio",
     "props": {
       "src": "assets/logos/logoindustria.png"
     }

@@ -1,0 +1,16 @@
+{
+  "store.search#departament": {
+    "title": "containes principal search-departamen",
+    "blocks": [
+      "search-result-layout#departament"
+    ]
+  },
+  "search-result-layout#departament": {
+    "title": "containes principal search-departamen-versiones",
+    "blocks": [
+      "search-result-layout.desktop#departament",
+      // "search-result-layout.mobile#deparmente",
+      "search-not-found-layout"
+    ]
+  }
+}
