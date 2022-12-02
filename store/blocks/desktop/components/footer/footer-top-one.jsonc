@@ -29,6 +29,7 @@
   },
 
   "rich-text#footer__desktop__todomarca": {
+    "title": "texto footer desktop primera seccion marcas principales",
     "props": {
       "text": "MARCAS PRINCIPALES",
       "blockClass": "text__titulos__footer"
@@ -36,7 +37,7 @@
   },
 
   "flex-layout.row#footer__desktop__marcas": {
-    "title": "container footer desktop primera seccion col-links",
+    "title": "container footer desktop primera seccion marcas principales",
     "children": [
       "flex-layout.col#footer__desktop__colone",
       "flex-layout.col#footer__desktop__coltwo",
@@ -62,6 +63,7 @@
   },
 
   "link#footer__marca__text--one": {
+    "title": "link footer desktop primera seccion nike",
     "props": {
       "href": "/",
       "label": "Nike"
@@ -69,6 +71,7 @@
   },
 
   "link#footer__marca__text--two": {
+    "title": "link footer desktop primera seccion adidas",
     "props": {
       "href": "/",
       "label": "Adidas"
@@ -76,6 +79,7 @@
   },
 
   "link#footer__marca__text--three": {
+    "title": "link footer desktop primera seccion under",
     "props": {
       "href": "/",
       "label": "Under Armour"
@@ -83,6 +87,7 @@
   },
 
   "link#footer__marca__text--four": {
+    "title": "link footer desktop primera seccion asics",
     "props": {
       "href": "/",
       "label": "Asics"
@@ -90,6 +95,7 @@
   },
 
   "link#footer__marca__text--five": {
+    "title": "link footer desktop primera seccion brahman",
     "props": {
       "href": "/",
       "label": "Brahman"
@@ -97,6 +103,7 @@
   },
 
   "link#footer__marca__text--six": {
+    "title": "link footer desktop primera seccion alpinestars",
     "props": {
       "href": "/",
       "label": "Alpinestars"
@@ -104,6 +111,7 @@
   },
 
   "flex-layout.col#footer__desktop__coltwo": {
+    "title": "container de marcar principales footer segunda columna",
     "children": [
       "link#footer__marca__textcoltwo--one",
       "link#footer__marca__textcoltwo--two",
@@ -118,6 +126,7 @@
   },
 
   "link#footer__marca__textcoltwo--one": {
+    "title": "link footer desktop primera seccion levis",
     "props": {
       "href": "/",
       "label": "Levi's"
@@ -125,6 +134,7 @@
   },
 
   "link#footer__marca__textcoltwo--two": {
+    "title": "link footer desktop primera seccion nautica",
     "props": {
       "href": "/",
       "label": "Nautica"
@@ -132,6 +142,7 @@
   },
 
   "link#footer__marca__textcoltwo--three": {
+    "title": "link footer desktop primera seccion diesel",
     "props": {
       "href": "/",
       "label": "Diesel"
@@ -139,6 +150,7 @@
   },
 
   "link#footer__marca__textcoltwo--four": {
+    "title": "link footer desktop primera seccion rcbpc",
     "props": {
       "href": "/",
       "label": "RCBPC"
@@ -146,6 +158,7 @@
   },
 
   "link#footer__marca__textcoltwo--five": {
+    "title": "link footer desktop primera seccion converse",
     "props": {
       "href": "/",
       "label": "Converse"
@@ -153,6 +166,7 @@
   },
 
   "link#footer__marca__textcoltwo--six": {
+    "title": "link footer desktop primera seccion quiksilver",
     "props": {
       "href": "/",
       "label": "Quiksilver"
@@ -160,6 +174,7 @@
   },
 
   "flex-layout.col#footer__desktop__colthree": {
+    "title": "container de marcar principales footer tercera columna",
     "children": [
       "link#footer__marca__textcolthree--one",
       "link#footer__marca__textcolthree--two",
@@ -174,6 +189,7 @@
   },
 
   "link#footer__marca__textcolthree--one": {
+    "title": "link footer desktop primera seccion timberland",
     "props": {
       "href": "/",
       "label": "Timberland"
@@ -181,6 +197,7 @@
   },
 
   "link#footer__marca__textcolthree--two": {
+    "title": "link footer desktop primera seccion UsPolo",
     "props": {
       "href": "/",
       "label": "Us Polo Assn"
@@ -188,6 +205,7 @@
   },
 
   "link#footer__marca__textcolthree--three": {
+    "title": "link footer desktop primera seccion beverlypolo",
     "props": {
       "href": "/",
       "label": "Beverly Hills Polo"
@@ -195,6 +213,7 @@
   },
 
   "link#footer__marca__textcolthree--four": {
+    "title": "link footer desktop primera seccion club",
     "props": {
       "href": "/",
       "label": "CLUB"
@@ -202,6 +221,7 @@
   },
 
   "link#footer__marca__textcolthree--five": {
+    "title": "link footer desktop primera seccion invicta",
     "props": {
       "href": "/",
       "label": "Invicta"
@@ -209,6 +229,7 @@
   },
 
   "link#footer__marca__textcolthree--six": {
+    "title": "link footer desktop primera seccion roxy",
     "props": {
       "href": "/",
       "label": "Roxy"
@@ -216,6 +237,7 @@
   },
 
   "flex-layout.col#footer__desktop__colfour": {
+    "title": "container de marcar principales footer cuarta columna",
     "children": [
       "link#footer__marca__textcolfour--one",
       "link#footer__marca__textcolfour--two",
@@ -230,6 +252,7 @@
   },
 
   "link#footer__marca__textcolfour--one": {
+    "title": "link footer desktop primera seccion mng",
     "props": {
       "href": "/",
       "label": "MNG"
@@ -237,6 +260,7 @@
   },
 
   "link#footer__marca__textcolfour--two": {
+    "title": "link footer desktop primera seccion moleca",
     "props": {
       "href": "/",
       "label": "Moleca"
@@ -244,6 +268,7 @@
   },
 
   "link#footer__marca__textcolfour--three": {
+    "title": "link footer desktop primera seccion qupid",
     "props": {
       "href": "/",
       "label": "Qupid"
@@ -251,6 +276,7 @@
   },
 
   "link#footer__marca__textcolfour--four": {
+    "title": "link footer desktop primera seccion koaj",
     "props": {
       "href": "/",
       "label": "Koaj"
@@ -258,6 +284,7 @@
   },
 
   "link#footer__marca__textcolfour--five": {
+    "title": "link footer desktop primera seccion paris",
     "props": {
       "href": "/",
       "label": "Paris District"
@@ -265,6 +292,7 @@
   },
 
   "link#footer__marca__textcolfour--six": {
+    "title": "link footer desktop primera seccion oakley",
     "props": {
       "href": "/",
       "label": "Oakley"
@@ -272,6 +300,7 @@
   },
 
   "flex-layout.col#footer__desktop__colfive": {
+    "title": "container de marcar principales footer quinta columna",
     "children": [
       "link#footer__marca__textcolfive--one",
       "link#footer__marca__textcolfive--two",
@@ -286,6 +315,7 @@
   },
 
   "link#footer__marca__textcolfive--one": {
+    "title": "link footer desktop primera seccion mp",
     "props": {
       "href": "/",
       "label": "MP"
@@ -293,6 +323,7 @@
   },
 
   "link#footer__marca__textcolfive--two": {
+    "title": "link footer desktop primera seccion mercedes",
     "props": {
       "href": "/",
       "label": "Mercedes"
@@ -300,6 +331,7 @@
   },
 
   "link#footer__marca__textcolfive--three": {
+    "title": "link footer desktop primera seccion campuzano",
     "props": {
       "href": "/",
       "label": "Campuzano"
@@ -307,6 +339,7 @@
   },
 
   "link#footer__marca__textcolfive--four": {
+    "title": "link footer desktop primera seccion croydon",
     "props": {
       "href": "/",
       "label": "Croydon"
@@ -314,6 +347,7 @@
   },
 
   "link#footer__marca__textcolfive--five": {
+    "title": "link footer desktop primera seccion velez",
     "props": {
       "href": "/",
       "label": "Velez"
@@ -321,6 +355,7 @@
   },
 
   "link#footer__marca__textcolfive--six": {
+    "title": "link footer desktop primera seccion Crocs",
     "props": {
       "href": "/",
       "label": "Crocs"

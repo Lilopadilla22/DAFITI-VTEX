@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__desktop__end": {
+    "title": "contenedor footer final informacion completa",
     "children": ["flex-layout.col#footer__desktop__end"],
     "props": {
       "horizontalAlign": "center"
@@ -7,6 +8,7 @@
   },
 
   "flex-layout.col#footer__desktop__end": {
+    "title": "contenedor footer final informacion",
     "children": [
       "flex-layout.row#footer__desktop__end--text--politica",
       "flex-layout.row#footer__desktop__end--addrees",
@@ -22,10 +24,14 @@
   },
 
   "flex-layout.row#footer__desktop__end--text--politica": {
-    "children": ["rich-text#footer__desktop__end--politica"]
+    "title": "contenedor footer final politicas",
+    "children": [
+      "rich-text#footer__desktop__end--politica"
+    ]
   },
 
   "rich-text#footer__desktop__end--politica": {
+    "title": "rich-text footer final politicas",
     "props": {
       "text": "© Dafiti 2011 - 2022 . Todos los derechos reservados. [-Conoce nuestra Política de privacidad.](/) [-Política de Datos.](/)",
       "blockClass": "text__footer__end"
@@ -33,10 +39,13 @@
   },
 
   "flex-layout.row#footer__desktop__end--addrees": {
-    "children": ["rich-text#footer__desktop__end--addrees"]
+    "title": "contenedor footer final direccion",
+    "children": [
+      "rich-text#footer__desktop__end--addrees"
+    ]
   },
-
   "rich-text#footer__desktop__end--addrees": {
+    "title": "rich-text footer final direccion",
     "props": {
       "text": "a Bigfoot Colombia SAS.- NIT: 900.469.230-6. Carrera 58 No. 128A-35, Bogotá, Colombia.",
       "blockClass": "text__footer__end"
@@ -44,10 +53,14 @@
   },
 
   "flex-layout.row#footer__desktop__end--cel": {
-    "children": ["rich-text#footer__desktop__end--cel"]
+    "title": "contenedor footer final lineas de atencion",
+    "children": [
+      "rich-text#footer__desktop__end--cel"
+    ]
   },
 
   "rich-text#footer__desktop__end--cel": {
+    "title": "rich-text footer final lineas de atencion",
     "props": {
       "text": "Teléfono: 01 8000 942 434 o en Bogotá (601) 508 2244",
       "blockClass": "text__footer__end"
@@ -55,10 +68,14 @@
   },
 
   "flex-layout.row#footer__desktop__end--email": {
-    "children": ["rich-text#footer__desktop__end--email"]
+    "title": "contenedor footer final lineas de atencion",
+    "children": [
+      "rich-text#footer__desktop__end--email"
+    ]
   },
 
   "rich-text#footer__desktop__end--email": {
+    "title": "rich-text footer final email",
     "props": {
       "text": "E-mail: [info@dafiti.com.co](/)",
       "blockClass": "text__footer__end"
@@ -66,10 +83,14 @@
   },
 
   "flex-layout.row#footer__desktop__end--horary": {
-    "children": ["rich-text#footer__desktop__end--horary"]
+    "title": "contenedor footer final horarios",
+    "children": [
+      "rich-text#footer__desktop__end--horary"
+    ]
   },
 
   "rich-text#footer__desktop__end--horary": {
+    "title": "rich-text footer final horarios",
     "props": {
       "text": "Horarios de atención: Lunes a sábado de 8:00 a.m. a 5:00 p.m. - Domingos y festivos estaremos recargando baterías",
       "blockClass": "text__footer__end"

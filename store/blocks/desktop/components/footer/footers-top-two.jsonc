@@ -37,6 +37,7 @@
   },
 
   "rich-text#footer__sectiontwo--text":{
+    "title": "texto footer col Mujer",
     "props": {
       "text": "MUJER",
       "blockClass": "text__titulos__footer"
@@ -64,6 +65,7 @@
   },
 
   "link#footer__sectiontwo--brandone": {
+    "title": "link footer segunda seccion mujer tenis",
     "props": {
       "href": "/",
       "label": "Tenis"
@@ -71,6 +73,7 @@
   },
 
   "link#footer__sectiontwo--brandtwo": {
+    "title": "link footer segunda seccion mujer camisas",
     "props": {
       "href": "/",
       "label": "Camisas"
@@ -78,6 +81,7 @@
   },
 
   "link#footer__sectiontwo--brandthree": {
+    "title": "link footer segunda seccion mujer belleza",
     "props": {
       "href": "/",
       "label": "Belleza"
@@ -85,6 +89,7 @@
   },
 
   "link#footer__sectiontwo--brandfour": {
+    "title": "link footer segunda seccion mujer accesorios",
     "props": {
       "href": "/",
       "label": "Accesorios de Mujer"
@@ -102,7 +107,7 @@
   },
 
   "flex-layout.row#footer__sectiontwo__hombre--text":{
-    "title": "container footer row hombre",
+    "title": "container texto footer row hombre",
     "children":[
       "rich-text#footer__sectiontwo__hombre--text"
     ]
@@ -137,6 +142,7 @@
   },
 
   "link#footer__sectiontwo__hombre--brandone": {
+    "title": "link footer segunda seccion hombre tenis",
     "props": {
       "href": "/",
       "label": "Tenis"
@@ -144,6 +150,7 @@
   },
 
   "link#footer__sectiontwo__hombre--brandtwo": {
+    "title": "link footer segunda seccion hombre camisas",
     "props": {
       "href": "/",
       "label": "Camisas"
@@ -151,6 +158,7 @@
   },
 
   "link#footer__sectiontwo__hombre--brandthree": {
+    "title": "link footer segunda seccion hombre belleza",
     "props": {
       "href": "/",
       "label": "Belleza"
@@ -158,6 +166,7 @@
   },
 
   "link#footer__sectiontwo__hombre--brandfour": {
+    "title": "link footer segunda seccion hombre accesorios",
     "props": {
       "href": "/",
       "label": "Accesorios"
@@ -210,6 +219,7 @@
   },
 
   "link#footer__sectiontwo__ninos--brandone": {
+    "title": "link footer segunda seccion niños ropa bebe",
     "props": {
       "href": "/",
       "label": "Ropa de bebé"
@@ -217,6 +227,7 @@
   },
 
   "link#footer__sectiontwo__ninos--brandtwo": {
+    "title": "link footer segunda seccion niños ropa niños medianos",
     "props": {
       "href": "/",
       "label": "Ropa de niños de 2 a 7"
@@ -224,6 +235,7 @@
   },
 
   "link#footer__sectiontwo__ninos--brandthree": {
+    "title": "link footer segunda seccion niños ropa niños grandes",
     "props": {
       "href": "/",
       "label": "Ropa para Niños de 8 a 16"
@@ -231,12 +243,12 @@
   },
 
   "link#footer__sectiontwo__ninos--brandfour": {
+    "title": "link footer segunda seccion niños juguetes",
     "props": {
       "href": "/",
       "label": "Juguetes"
     }
   }
-
 
   
 }
