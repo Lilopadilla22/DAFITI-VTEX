@@ -1,7 +1,82 @@
 {
   "store.search": {
     "blocks": [
-      
+      "store.search#departament"
+    ],
+    "props":{
+      "context":{
+        "skusFilter":"ALL",
+        "simulationBehavior":"default"
+      }
+    }
+  },
+
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
     ]
+  },
+
+  "search-result-layout.desktop":{
+    "children": [
+        "rich-text#search__desktop"
+    ]
+},
+
+"rich-text#search__desktop": {
+    "props": {
+        "text": "COMPONENTE DESKTOP "
+    }
+},
+
+"search-result-layout.mobile":{
+    "children": [
+        "rich-text#search__mobile"
+    ]
+},
+
+"rich-text#search__mobile": {
+    "props": {
+        "text": "COMPONENTE MOBILE"
+    }
+},
+
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props":{
+      "context":{
+        "skusFilter":"ALL",
+        "simulationBehavior":"default"
+      }
+    }
+  },
+
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props":{
+      "context":{
+        "skusFilter":"ALL",
+        "simulationBehavior":"default"
+      }
+    }
+  },
+
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props":{
+      "context":{
+        "skusFilter":"ALL",
+        "simulationBehavior":"default"
+      }
+    }
   }
+
 }

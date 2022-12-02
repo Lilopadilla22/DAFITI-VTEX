@@ -1,0 +1,13 @@
+{
+    "store.search#departament": {
+        "blocks": ["search-result-layout#departament"]
+      },
+      
+      "search-result-layout#departament": {
+        "blocks": [
+          "search-result-layout.desktop#departament",
+          // "search-result-layout.mobile#deparmente",
+          "search-not-found-layout"
+        ]
+      }
+}

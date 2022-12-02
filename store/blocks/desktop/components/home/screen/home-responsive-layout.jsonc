@@ -1,6 +1,6 @@
 {
   "responsive-layout.desktop#home": {
-    "title": "componente desktop-home",
+    "title": "component desktop-home",
     "children": ["flex-layout.row"]
   },
 
@@ -25,7 +25,8 @@
       "flex-layout.row#bannerayuda",
       "flex-layout.row#favoritos",
       "flex-layout.row#description",
-      "search-result-layout.customQuery#desktop_home"
+      // "search-result-layout.customQuery#desktop_home",
+      "list-context.product-list#slider-desktop"
       //"icon#homeprueba"
     ],
     "props": {

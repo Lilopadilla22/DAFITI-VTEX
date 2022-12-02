@@ -1,0 +1,444 @@
+{
+  "flex-layout.row#footer__desktop__middle": {
+    "title": "container footer-middle desktop",
+    "children": [
+      "flex-layout.col#footer__middle__one",
+      "flex-layout.col#footer__middle__two",
+      "flex-layout.col#footer__middle__three",
+      "flex-layout.col#footer__middle__four",
+      "flex-layout.col#footer__middle__five"
+    ],
+    "props": {
+      "blockClass": "footer__middle__desktop"
+    }
+  },
+
+  "flex-layout.col#footer__middle__one": {
+    "children": [
+      "flex-layout.row#footer__middle--newsocial-text",
+      "flex-layout.row#footer__middle--newsocial-ico",
+      "flex-layout.row#footer__middle--newsocial-icotwo"
+    ],
+    "props": {
+      "blockClass": "footer__middle__one"
+    }
+  },
+
+  "flex-layout.row#footer__middle--newsocial-text": {
+    "children": ["rich-text#footer__middle--newsocial-text"]
+  },
+
+  "rich-text#footer__middle--newsocial-text": {
+    "props": {
+      "text": "SÍGUENOS EN",
+      "blockClass": "text__titulos__footer"
+    }
+  },
+
+  "flex-layout.row#footer__middle--newsocial-ico": {
+    "children": ["social-networks#firts"]
+  },
+
+  "social-networks#firts": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/dafiti_colombia/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/Dafiti_Colombia"
+        }
+      ],
+      "showInColor": true
+    }
+  },
+
+  "flex-layout.row#footer__middle--newsocial-icotwo": {
+    "children": ["social-networks#seconds"]
+  },
+
+  "social-networks#seconds": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/DafitiColombia/"
+        },
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/user/dafiticolombia"
+        }
+      ],
+      "showInColor": true
+    }
+  },
+
+  //SEGUNDA COLUMNA
+
+  "flex-layout.col#footer__middle__two": {
+    "children": [
+      "flex-layout.row#footer__middle__acercade",
+      "flex-layout.col#footer__middle__acercade"
+    ],
+    "props": {
+      "blockClass": "footer__middle__two"
+    }
+  },
+
+  "flex-layout.row#footer__middle__acercade": {
+    "children": ["rich-text#footer__middle__acercade"]
+  },
+
+  "rich-text#footer__middle__acercade": {
+    "props": {
+      "text": "ACERCA DE DAFITI",
+      "blockClass": "text__titulos__footer"
+    }
+  },
+
+  "flex-layout.col#footer__middle__acercade": {
+    "children": [
+      "link#footer__middle__acercade--nosotros",
+      "link#footer__middle__acercade--terminos",
+      "link#footer__middle__acercade--avisos",
+      "link#footer__middle__acercade--politica",
+      "link#footer__middle__acercade--politicadatos",
+      "link#footer__middle__acercade--trabaja",
+      "link#footer__middle__acercade--registro",
+      "link#footer__middle__acercade--app"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__middle__acercade--nosotros": {
+    "props": {
+      "href": "/",
+      "label": "Nosotros"
+    }
+  },
+
+  "link#footer__middle__acercade--terminos": {
+    "props": {
+      "href": "/",
+      "label": "Términos y condiciones"
+    }
+  },
+
+  "link#footer__middle__acercade--avisos": {
+    "props": {
+      "href": "/",
+      "label": "Aviso de cumplimiento"
+    }
+  },
+
+  "link#footer__middle__acercade--politica": {
+    "props": {
+      "href": "/",
+      "label": "Politica de privacidad"
+    }
+  },
+
+  "link#footer__middle__acercade--politicadatos": {
+    "props": {
+      "href": "/",
+      "label": "Politica de datos"
+    }
+  },
+
+  "link#footer__middle__acercade--trabaja": {
+    "props": {
+      "href": "/",
+      "label": "Trabaja con nosotros"
+    }
+  },
+
+  "link#footer__middle__acercade--registro": {
+    "props": {
+      "href": "/",
+      "label": "Registro"
+    }
+  },
+
+  "link#footer__middle__acercade--app": {
+    "props": {
+      "href": "/",
+      "label": "app Dafiti"
+    }
+  },
+
+  //TERCERA COLUMNA
+
+  "flex-layout.col#footer__middle__three": {
+    "children": [
+      "flex-layout.row#footer__middle__serviciocliente",
+      "flex-layout.col#footer__middle__serviciocliente"
+    ],
+    "props": {
+      "blockClass": "footer__middle__three"
+    }
+  },
+
+  "flex-layout.row#footer__middle__serviciocliente": {
+    "children": ["rich-text#footer__middle__serviciocliente"]
+  },
+
+  "rich-text#footer__middle__serviciocliente": {
+    "props": {
+      "text": "SERVICIO AL CLIENTE",
+      "blockClass": "text__titulos__footer"
+    }
+  },
+
+  "flex-layout.col#footer__middle__serviciocliente": {
+    "children": [
+      "link#footer__middle__servicio--nuevos",
+      "link#footer__middle__servicio--membresia",
+      "link#footer__middle__servicio--plazos",
+      "link#footer__middle__servicio--cambios",
+      "link#footer__middle__servicio--usos",
+      "link#footer__middle__servicio--medios",
+      "link#footer__middle__servicio--garantia",
+      "link#footer__middle__servicio--seguimiento",
+      "link#footer__middle__servicio--creditos",
+      "link#footer__middle__servicio--contacto",
+      "link#footer__middle__servicio--radicar",
+      "link#footer__middle__servicio--tyc"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__middle__servicio--nuevos": {
+    "props": {
+      "href": "/",
+      "label": "NUEVOS centros de experiencia"
+    }
+  },
+
+  "link#footer__middle__servicio--membresia": {
+    "props": {
+      "href": "/",
+      "label": "Membresia Dafiti PRIME"
+    }
+  },
+
+  "link#footer__middle__servicio--plazos": {
+    "props": {
+      "href": "/",
+      "label": "Plazos y costos de Envío"
+    }
+  },
+
+  "link#footer__middle__servicio--cambios": {
+    "props": {
+      "href": "/",
+      "label": "Cambios y Devoluciones"
+    }
+  },
+
+  "link#footer__middle__servicio--usos": {
+    "props": {
+      "href": "/",
+      "label": "Uso de Cupones"
+    }
+  },
+
+  "link#footer__middle__servicio--medios": {
+    "props": {
+      "href": "/",
+      "label": "Medios de Pago"
+    }
+  },
+
+  "link#footer__middle__servicio--garantia": {
+    "props": {
+      "href": "/",
+      "label": "Garantías"
+    }
+  },
+
+  "link#footer__middle__servicio--seguimiento": {
+    "props": {
+      "href": "/",
+      "label": "Seguimiento de tu pedido"
+    }
+  },
+
+  "link#footer__middle__servicio--creditos": {
+    "props": {
+      "href": "/",
+      "label": "Créditos ADDI"
+    }
+  },
+
+  "link#footer__middle__servicio--contacto": {
+    "props": {
+      "href": "/",
+      "label": "Contacto"
+    }
+  },
+
+  "link#footer__middle__servicio--radicar": {
+    "props": {
+      "href": "/",
+      "label": "Radicar PQR's"
+    }
+  },
+
+  "link#footer__middle__servicio--tyc": {
+    "props": {
+      "href": "/",
+      "label": "T&C Eventos"
+    }
+  },
+
+  //CUARTA COLUMNA
+
+  "flex-layout.col#footer__middle__four": {
+    "children": [
+      "flex-layout.row#footer__middle__novedades",
+      "flex-layout.col#footer__middle__novedades"
+    ],
+    "props": {
+      "blockClass": "footer__middle__four"
+    }
+  },
+
+  "flex-layout.row#footer__middle__novedades": {
+    "children": ["rich-text#footer__middle__novedades"]
+  },
+
+  "rich-text#footer__middle__novedades": {
+    "props": {
+      "text": "NOVEDADES Y EVENTOS",
+      "blockClass": "text__titulos__footer"
+    }
+  },
+
+  "flex-layout.col#footer__middle__novedades": {
+    "children": [
+      "link#footer__middle__novedades--blackfriday",
+      "link#footer__middle__novedades--cyberlunes",
+      "link#footer__middle__novedades--hotsale",
+      "link#footer__middle__novedades--diasiniva",
+      "link#footer__middle__novedades--dafitisport",
+      "link#footer__middle__novedades--sneaker",
+      "link#footer__middle__novedades--alizanbogota"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__middle__novedades--blackfriday": {
+    "props": {
+      "href": "/",
+      "label": "Black Friday"
+    }
+  },
+
+  "link#footer__middle__novedades--cyberlunes": {
+    "props": {
+      "href": "/",
+      "label": "Cyber Lunes"
+    }
+  },
+
+  "link#footer__middle__novedades--hotsale": {
+    "props": {
+      "href": "/",
+      "label": "Hot Sale"
+    }
+  },
+
+  "link#footer__middle__novedades--diasiniva": {
+    "props": {
+      "href": "/",
+      "label": "Días sin IVA"
+    }
+  },
+
+  "link#footer__middle__novedades--dafitisport": {
+    "props": {
+      "href": "/",
+      "label": "Dafiti Sports"
+    }
+  },
+
+  "link#footer__middle__novedades--sneaker": {
+    "props": {
+      "href": "/",
+      "label": "Sneakers"
+    }
+  },
+
+  "link#footer__middle__novedades--alizanbogota": {
+    "props": {
+      "href": "/",
+      "label": "Alianza Banco de Bogota"
+    }
+  },
+
+  //QUINTA COLUMNA
+
+  "flex-layout.col#footer__middle__five": {
+    "children": [
+      "flex-layout.row#footer__middle--aliados--text",
+      "flex-layout.row#footer__middle--aliados--cam",
+      "flex-layout.row#footer__middle--aliados--sic",
+      "flex-layout.row#footer__middle--aliados--ids"
+    ],
+    "props": {
+      "blockClass": "footer__middle__five"
+    }
+  },
+
+  "flex-layout.row#footer__middle--aliados--text": {
+    "children": ["rich-text#footer__middle--aliados--text"]
+  },
+
+  "rich-text#footer__middle--aliados--text": {
+    "props": {
+      "text": "ALIADOS",
+      "blockClass": "text__titulos__footer"
+    }
+  },
+
+  "flex-layout.row#footer__middle--aliados--cam": {
+    "children": ["image#cam"]
+  },
+
+  "image#cam": {
+    "title": "image footer medios de pago",
+    "props": {
+      "src": "assets/logos/camaracomercio.png"
+    }
+  },
+
+  "flex-layout.row#footer__middle--aliados--sic": {
+    "children": ["image#sic"]
+  },
+
+  "image#sic": {
+    "title": "image footer medios de pago",
+    "props": {
+      "src": "assets/logos/logosic.jpg"
+    }
+  },
+
+  "flex-layout.row#footer__middle--aliados--ids": {
+    "children": ["image#ids"]
+  },
+
+  "image#ids": {
+    "title": "image footer medios de pago",
+    "props": {
+      "src": "assets/logos/logoindustria.png"
+    }
+  }
+}

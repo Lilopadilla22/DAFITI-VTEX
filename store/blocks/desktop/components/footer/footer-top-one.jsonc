@@ -1,0 +1,331 @@
+{
+  "flex-layout.row#footer__desktop__section--one": {
+    "title": "container footer-top desktop",
+    "children": [
+      "flex-layout.col#footer__desktop__section__one",
+      "flex-layout.col#footer__desktop__section__two"
+    ],
+    "props":{
+      "blockClass": "footer__desktop__section"
+    }
+  },
+
+  "flex-layout.col#footer__desktop__section__one": {
+    "title": "container footer desktop primera seccion",
+    "children": [
+      "flex-layout.row#footer__desktop__texto",
+      "flex-layout.row#footer__desktop__marcas"
+    ],
+    "props":{
+      "blockClass": "footer__desktop__section__one"
+    }
+  },
+
+  "flex-layout.row#footer__desktop__texto": {
+    "title": "container footer desktop primera seccion texto",
+    "children": [
+        "rich-text#footer__desktop__todomarca"
+    ]
+  },
+
+  "rich-text#footer__desktop__todomarca": {
+    "props": {
+      "text": "MARCAS PRINCIPALES",
+      "blockClass": "text__titulos__footer"
+    }
+  },
+
+  "flex-layout.row#footer__desktop__marcas": {
+    "title": "container footer desktop primera seccion col-links",
+    "children": [
+      "flex-layout.col#footer__desktop__colone",
+      "flex-layout.col#footer__desktop__coltwo",
+      "flex-layout.col#footer__desktop__colthree",
+      "flex-layout.col#footer__desktop__colfour",
+      "flex-layout.col#footer__desktop__colfive"
+    ]
+  },
+
+  "flex-layout.col#footer__desktop__colone": {
+    "title": "container footer desktop primera seccion links",
+    "children": [
+      "link#footer__marca__text--one",
+      "link#footer__marca__text--two",
+      "link#footer__marca__text--three",
+      "link#footer__marca__text--four",
+      "link#footer__marca__text--five",
+      "link#footer__marca__text--six"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__marca__text--one": {
+    "props": {
+      "href": "/",
+      "label": "Nike"
+    }
+  },
+
+  "link#footer__marca__text--two": {
+    "props": {
+      "href": "/",
+      "label": "Adidas"
+    }
+  },
+
+  "link#footer__marca__text--three": {
+    "props": {
+      "href": "/",
+      "label": "Under Armour"
+    }
+  },
+
+  "link#footer__marca__text--four": {
+    "props": {
+      "href": "/",
+      "label": "Asics"
+    }
+  },
+
+  "link#footer__marca__text--five": {
+    "props": {
+      "href": "/",
+      "label": "Brahman"
+    }
+  },
+
+  "link#footer__marca__text--six": {
+    "props": {
+      "href": "/",
+      "label": "Alpinestars"
+    }
+  },
+
+  "flex-layout.col#footer__desktop__coltwo": {
+    "children": [
+      "link#footer__marca__textcoltwo--one",
+      "link#footer__marca__textcoltwo--two",
+      "link#footer__marca__textcoltwo--three",
+      "link#footer__marca__textcoltwo--four",
+      "link#footer__marca__textcoltwo--five",
+      "link#footer__marca__textcoltwo--six"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__marca__textcoltwo--one": {
+    "props": {
+      "href": "/",
+      "label": "Levi's"
+    }
+  },
+
+  "link#footer__marca__textcoltwo--two": {
+    "props": {
+      "href": "/",
+      "label": "Nautica"
+    }
+  },
+
+  "link#footer__marca__textcoltwo--three": {
+    "props": {
+      "href": "/",
+      "label": "Diesel"
+    }
+  },
+
+  "link#footer__marca__textcoltwo--four": {
+    "props": {
+      "href": "/",
+      "label": "RCBPC"
+    }
+  },
+
+  "link#footer__marca__textcoltwo--five": {
+    "props": {
+      "href": "/",
+      "label": "Converse"
+    }
+  },
+
+  "link#footer__marca__textcoltwo--six": {
+    "props": {
+      "href": "/",
+      "label": "Quiksilver"
+    }
+  },
+
+  "flex-layout.col#footer__desktop__colthree": {
+    "children": [
+      "link#footer__marca__textcolthree--one",
+      "link#footer__marca__textcolthree--two",
+      "link#footer__marca__textcolthree--three",
+      "link#footer__marca__textcolthree--four",
+      "link#footer__marca__textcolthree--five",
+      "link#footer__marca__textcolthree--six"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__marca__textcolthree--one": {
+    "props": {
+      "href": "/",
+      "label": "Timberland"
+    }
+  },
+
+  "link#footer__marca__textcolthree--two": {
+    "props": {
+      "href": "/",
+      "label": "Us Polo Assn"
+    }
+  },
+
+  "link#footer__marca__textcolthree--three": {
+    "props": {
+      "href": "/",
+      "label": "Beverly Hills Polo"
+    }
+  },
+
+  "link#footer__marca__textcolthree--four": {
+    "props": {
+      "href": "/",
+      "label": "CLUB"
+    }
+  },
+
+  "link#footer__marca__textcolthree--five": {
+    "props": {
+      "href": "/",
+      "label": "Invicta"
+    }
+  },
+
+  "link#footer__marca__textcolthree--six": {
+    "props": {
+      "href": "/",
+      "label": "Roxy"
+    }
+  },
+
+  "flex-layout.col#footer__desktop__colfour": {
+    "children": [
+      "link#footer__marca__textcolfour--one",
+      "link#footer__marca__textcolfour--two",
+      "link#footer__marca__textcolfour--three",
+      "link#footer__marca__textcolfour--four",
+      "link#footer__marca__textcolfour--five",
+      "link#footer__marca__textcolfour--six"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__marca__textcolfour--one": {
+    "props": {
+      "href": "/",
+      "label": "MNG"
+    }
+  },
+
+  "link#footer__marca__textcolfour--two": {
+    "props": {
+      "href": "/",
+      "label": "Moleca"
+    }
+  },
+
+  "link#footer__marca__textcolfour--three": {
+    "props": {
+      "href": "/",
+      "label": "Qupid"
+    }
+  },
+
+  "link#footer__marca__textcolfour--four": {
+    "props": {
+      "href": "/",
+      "label": "Koaj"
+    }
+  },
+
+  "link#footer__marca__textcolfour--five": {
+    "props": {
+      "href": "/",
+      "label": "Paris District"
+    }
+  },
+
+  "link#footer__marca__textcolfour--six": {
+    "props": {
+      "href": "/",
+      "label": "Oakley"
+    }
+  },
+
+  "flex-layout.col#footer__desktop__colfive": {
+    "children": [
+      "link#footer__marca__textcolfive--one",
+      "link#footer__marca__textcolfive--two",
+      "link#footer__marca__textcolfive--three",
+      "link#footer__marca__textcolfive--four",
+      "link#footer__marca__textcolfive--five",
+      "link#footer__marca__textcolfive--six"
+    ],
+    "props": {
+      "blockClass": "footer__desktop--links"
+    }
+  },
+
+  "link#footer__marca__textcolfive--one": {
+    "props": {
+      "href": "/",
+      "label": "MP"
+    }
+  },
+
+  "link#footer__marca__textcolfive--two": {
+    "props": {
+      "href": "/",
+      "label": "Mercedes"
+    }
+  },
+
+  "link#footer__marca__textcolfive--three": {
+    "props": {
+      "href": "/",
+      "label": "Campuzano"
+    }
+  },
+
+  "link#footer__marca__textcolfive--four": {
+    "props": {
+      "href": "/",
+      "label": "Croydon"
+    }
+  },
+
+  "link#footer__marca__textcolfive--five": {
+    "props": {
+      "href": "/",
+      "label": "Velez"
+    }
+  },
+
+  "link#footer__marca__textcolfive--six": {
+    "props": {
+      "href": "/",
+      "label": "Crocs"
+    }
+  }
+
+
+}

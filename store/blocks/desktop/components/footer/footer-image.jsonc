@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#footer__image": {
+    "children": ["image#footer__image"],
+    "props": {
+      "blockClass": "footer__image__desktop"
+    }
+  },
+
+  "image#footer__image": {
+    "title": "image footer medios de pago",
+    "props": {
+      "src": "assets/img/bannerpagos.webp"
+    }
+  }
+}

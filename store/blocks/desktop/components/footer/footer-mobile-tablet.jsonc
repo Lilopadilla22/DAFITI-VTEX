@@ -1,0 +1,31 @@
+{
+
+    "flex-layout.row#footer__desktop__mobile__tablet": {
+        "children": ["flex-layout.col#footer__desktop__mobile__tablet"],
+        "props": {
+          "horizontalAlign": "center"
+        }
+      },
+    
+      "flex-layout.col#footer__desktop__mobile__tablet": {
+        "children": [
+          "flex-layout.row#footer__desktop__mobile--tablet"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "blockClass": "contenedor__footer__end"
+        }
+      },
+    
+      "flex-layout.row#footer__desktop__mobile--tablet": {
+        "children": ["rich-text#footer__desktop--mobile--tablet"]
+      },
+    
+      "rich-text#footer__desktop--mobile--tablet": {
+        "props": {
+          "text": "Cambiar a la versión [mobile](/) o [tablet](/)",
+          "blockClass": ["text__footer__end", "text__mobile__tablet"]
+        }
+      }
+}

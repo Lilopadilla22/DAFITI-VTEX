@@ -12,13 +12,13 @@
     "title": "cart desktop",
     "children": ["minicart-base-content"],
     "props": {
-      "variation": "popup",
       "blockClass": "minicart__desktop"
       // "itemCountMode": "Total",
       // "quantityDisplay": "always"
     }
     
   },
+
   "minicart-base-content": {
     "title": "cart desktop content",
     "blocks": ["minicart-empty-state"],
@@ -62,6 +62,60 @@
       "text": "Tu carrito esta vacio"
     }
   },
+
+  "minicart-product-list": {
+    "blocks": [
+      "product-list#minicart__desktop"
+    ]
+  },
+
+  "product-list#minicart__desktop": {
+    "blocks": [
+      "product-list-content-desktop"
+    ]
+  },
+
+  "product-list-content-desktop":{
+    "children": [
+      "flex-layout.row#minicart__desktop--listcontent"
+    ]
+  },
+
+  "flex-layout.row#minicart__desktop--listcontent": {
+    "children": [
+      "flex-layout.col#minicar__desktop--img",
+      "flex-layout.col#minicar__desktop--info",
+      "flex-layout.col#minicar__desktop--remove"
+    ]
+  },
+
+  "flex-layout.col#minicar__desktop--img":{
+    "children": [
+      "product-list-image"
+    ]
+  },
+
+  "flex-layout.col#minicar__desktop--info":{
+    "children": [
+      "vtex.product-list:product-name",
+      "quantity-selector#minicar__desktop",
+      "price"
+    ]
+  },
+
+  "quantity-selector#minicar__desktop": {
+    "props": {
+      "quantitySelectorStep": "singleUnit",
+      "mode": "stepper"
+    }
+  },
+
+  "flex-layout.col#minicar__desktop--remove": {
+    "children": [
+      "remove-button"
+    ]
+  },
+
 
   "flex-layout.row#minicart-footer": {
     "title": "container final carrito sumatoria",
