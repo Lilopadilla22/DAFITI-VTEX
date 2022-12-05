@@ -2,7 +2,7 @@
   "flex-layout.col#desktop__cart": {
     "title": "container cart desktop",
     "props": {
-      "width": "10%",
+      "width": "30%",
       "verticalAlign": "middle"
     },
     "children": ["minicart.v2#desktop"]
@@ -84,8 +84,8 @@
   "flex-layout.row#minicart__desktop--listcontent": {
     "children": [
       "flex-layout.col#minicar__desktop--img",
-      "flex-layout.col#minicar__desktop--info",
-      "flex-layout.col#minicar__desktop--remove"
+      "flex-layout.col#minicar__desktop--info"
+      // "flex-layout.col#minicar__desktop--remove"
     ]
   },
 
@@ -115,7 +115,6 @@
       "remove-button"
     ]
   },
-
 
   "flex-layout.row#minicart-footer": {
     "title": "container final carrito sumatoria",
