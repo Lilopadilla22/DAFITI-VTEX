@@ -3,7 +3,9 @@
     "title": "container final de header middle",
     "children": ["flex-layout.row#header__end"],
     "props": {
-      "width": "30%"
+      "width": "30%",
+      "horizontalAlign": "center",
+      "blockClass": "header__middle__endcol"
     }
   },
 
@@ -13,14 +15,21 @@
       "flex-layout.col#desktop__login",
       "flex-layout.col#desktop__icone",
       "flex-layout.col#desktop__cart"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__middle__endrow"
+      
+    }
   },
 
   "flex-layout.col#desktop__icone": {
     "title": "container de icono-heart",
     "children": ["icon#heard"],
     "props": {
-      "width": "10%"
+      "width": "20%",
+      "horizontalAlign": "center",
+      "blockClass": "header__middle__end--iconheard"
     }
   },
 
