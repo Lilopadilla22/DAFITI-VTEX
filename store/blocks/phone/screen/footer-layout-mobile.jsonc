@@ -1,0 +1,27 @@
+{
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer-mobile"]
+  },
+
+  "flex-layout.row#footer-mobile": {
+    "children": ["flex-layout.col#footer--mobile"],
+    "props": {
+        "horizontalAlign": "center",
+        "preserveLayoutOnMobile": true 
+    }
+  },
+  
+  "flex-layout.col#footer--mobile": {
+    "children": [
+      "disclosure-layout#footer__phone__contacto",
+      "flex-layout.row#footer__phone__quienes-somos",
+      "flex-layout.row#footer__phone__ayuda",
+      "flex-layout.row#footer__phone__redes",
+      "flex-layout.row#footer__mobile__end"
+    ],
+    "props": {
+        "horizontalAlign": "center"
+    }
+    
+  }
+}

@@ -1,0 +1,75 @@
+{
+    "flex-layout.row#footer__phone__redes": {
+        "children": [
+            "flex-layout.col#footer__phone__redes"
+        ],
+         "props": {
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true,
+            "blockClass": "footer__phone__redes--container"
+        }
+    },
+
+    "flex-layout.col#footer__phone__redes": {
+        "children":[
+            "flex-layout.row#footer__phone__redes-text",
+            "flex-layout.row#footer__phone__redes-icon"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "footer__phone__redes--container-col"
+        }
+    },
+
+    "flex-layout.row#footer__phone__redes-text":{
+        "children": [
+            "rich-text#footer__phone__redes-text"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "footer__phone__redes--text"
+        }
+    },
+
+    "rich-text#footer__phone__redes-text": {
+        "props": {
+            "text": "**SIGUENOS EN**",
+            "blockClass": "footer__phone--text"
+        }
+    },
+
+    "flex-layout.row#footer__phone__redes-icon":{
+        "children": [
+            "social-networks#footer__phone__redes-icon"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "footer__phone__redes--icon"
+        }
+    },
+
+    "social-networks#footer__phone__redes-icon": {
+        "title": "social-media footer instagram-twitter",
+        "props": {
+          "socialNetworks": [
+            {
+              "name": "Instagram",
+              "url": "https://www.instagram.com/dafiti_colombia/"
+            },
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/Dafiti_Colombia"
+            },
+            {
+                "name": "Facebook",
+                "url": "https://www.facebook.com/DafitiColombia/"
+            },
+            {
+                "name": "YouTube",
+                "url": "https://www.youtube.com/user/dafiticolombia"
+            }
+          ]
+        }
+      }
+
+}

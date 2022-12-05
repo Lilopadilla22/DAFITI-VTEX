@@ -1,0 +1,155 @@
+{
+  "flex-layout.row#footer__phone__contacto": {
+    "children": ["flex-layout.col#footer__phone__conyacto"],
+    "props": {
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "width": "100%",
+      "blockClass": "footer__phone__contacto-container-row"
+    }
+  },
+
+  "flex-layout.col#footer__phone__conyacto": {
+    "children": ["disclosure-layout#footer__phone__contacto"],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "100%",
+      "blockClass": "footer__phone__contacto-container-col"
+    }
+  },
+
+  "disclosure-layout#footer__phone__contacto": {
+    "children": [
+      "disclosure-trigger#footer__phone__contacto",
+      "disclosure-content#footer__phone__contacto"
+    ],
+    "props": {
+      "blockClass": "footer__phone__contacto--container"
+    }
+  },
+
+  "disclosure-trigger#footer__phone__contacto": {
+    "children": [
+      "rich-text#footer__phone__contacto"
+      // "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer__phone__contacto--tigger"
+    }
+  },
+
+  "rich-text#footer__phone__contacto": {
+    "props": {
+      "text": "**CONTACTO**",
+      "blockClass": ["footer__phone--text", "footer__phone--text--disclosure"]
+    }
+  },
+
+  "disclosure-state-indicator": {
+    "title": "component state-indicator icons",
+    "props": {
+      "Show": "icon#arrow-down-icon",
+      "Hide": "icon#arrow-up-icon"
+    }
+  },
+
+  "icon#arrow-up-icon": {
+    "title": "Arrow Up Icon",
+    "props": {
+      "id": "arrow-up"
+    }
+  },
+  "icon#arrow-down-icon": {
+    "title": "Arrow Down Icon",
+    "props": {
+      "id": "arrow-down"
+    }
+  },
+
+  "flex-layout.row#content__footer__phone__contacto": {
+    "children": ["flex-layout.col#content__footer__phone__contacto"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "content__footer__phone__contacto-row"
+    }
+  },
+
+  "flex-layout.col#content__footer__phone__contacto": {
+    "children": ["disclosure-content#footer__phone__contacto"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "content__footer__phone__contacto-col"
+    }
+  },
+
+  "disclosure-content#footer__phone__contacto": {
+    "children": [
+      "flex-layout.row#footer__phone__contacto--whatsapp",
+      "flex-layout.row#footer__phone__contacto--escribenos"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__phone--container--whatsapp"
+    }
+  },
+
+  "flex-layout.row#footer__phone__contacto--whatsapp": {
+    "children": [
+      "flex-layout.col#footer__phone__contacto--whatsapp--icon",
+      "flex-layout.col#footer__phone__contacto--whatsapp--text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "footer__phone-container-row-whatsapp"
+    }
+  },
+
+  "flex-layout.col#footer__phone__contacto--whatsapp--icon": {
+    "children": ["icon#footer__phone__contacto--iconowhatsapp"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__phone-container-col-whatsapp",
+      "width": "20%"
+    }
+  },
+
+  "icon#footer__phone__contacto--iconowhatsapp": {
+    "props": {
+      "id": "mpa-globe",
+      "size": 10
+    }
+  },
+
+  "flex-layout.col#footer__phone__contacto--whatsapp--text": {
+    "children": ["rich-text#footer__phone__contacto--numero"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__phone-container-col-whatsapp",
+      "width": "80%"
+    }
+  },
+
+  "rich-text#footer__phone__contacto--numero": {
+    "props": {
+      "text": "[300000000](/)",
+      "blockClass": "footer__phone--text"
+    }
+  },
+
+  "flex-layout.row#footer__phone__contacto--escribenos": {
+    "children": ["rich-text#footer__phone__contacto--escribenos"],
+    "props": {
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "footer__phone-container-row-whatsapp"
+    }
+  },
+
+  "rich-text#footer__phone__contacto--escribenos": {
+    "props": {
+      "text": "[Escribenos](/)",
+      "blockClass": "footer__phone--text"
+    }
+  }
+}

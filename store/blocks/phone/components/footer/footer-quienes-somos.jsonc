@@ -1,0 +1,101 @@
+{
+  "flex-layout.row#footer__phone__quienes-somos": {
+    "children": [
+      "flex-layout.col#footer__phone__quienes-somos"
+    ], 
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "blockClass": "footer__phone__quienes-somos--containerRow"
+    }
+  },
+
+  "flex-layout.col#footer__phone__quienes-somos": {
+    "children": [
+      "disclosure-layout#footer__phone__quienes-somos"
+    ], 
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__phone__quienes-somos--containerCol"      
+    }
+  },
+
+  "disclosure-layout#footer__phone__quienes-somos": {
+    "children": [
+      "disclosure-trigger#footer__phone__quienes-somos",
+      "flex-layout.row#content__footer__phone__quienes-somos"
+    ],
+    "props": {
+        "blockClass": "footer__phone__quienes-somos--container"
+    }
+  },
+
+
+
+  "disclosure-trigger#footer__phone__quienes-somos": {
+    "children": [
+        "rich-text#footer__phone__quienes-somos"
+    ],
+    "props": {
+        "blockClass": "footer__phone__quienes-somos--tigger"
+    }
+  },
+
+  "rich-text#footer__phone__quienes-somos" :{
+    "props": {
+        "text": "**QUIENES SOMOS**",
+        "blockClass": "footer__phone--text"
+    }
+  },
+
+  "flex-layout.row#content__footer__phone__quienes-somos":{
+    "children": [
+      "flex-layout.col#content__footer__phone__quienes-somos"
+    ], 
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "blockClass": "content__footer__phone__quienes-somos-containerRow"
+    }
+  },
+
+  "flex-layout.col#content__footer__phone__quienes-somos": {
+    "children":[
+      "disclosure-content#footer__phone__quienes-somos"
+    ], 
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "content__footer__phone__quienes-somos-containerCol"
+    }
+  },
+
+  "disclosure-content#footer__phone__quienes-somos": {
+    "children": [
+        "rich-text#footer__phone__quienes-aboutus",
+        "rich-text#footer__phone__quienes-trabaja"
+    ],
+    "props": {
+        "blockClass": "footer__phone__quienes-somos--aboutus"
+    }
+  },
+
+    "rich-text#footer__phone__quienes-aboutus":{
+        "props": {
+            "text": "[Dafiti](/)",
+            "textAlignment": "center", 
+            "textPosition": "center",
+            "blockClass": "footer__phone--text"
+        }
+    },
+
+    "rich-text#footer__phone__quienes-trabaja":{
+        "props": {
+            "text": "[Trabaja con Nosotros](/)",
+            "textAlignment": "center", 
+            "textPosition": "center",
+            "blockClass": "footer__phone--text"
+        }
+    }
+
+
+}
