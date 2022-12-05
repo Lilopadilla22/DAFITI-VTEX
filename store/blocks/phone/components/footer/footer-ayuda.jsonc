@@ -1,0 +1,74 @@
+{
+  "flex-layout.row#footer__phone__ayuda": {
+    "children": ["flex-layout.col#footer__phone__ayuda"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "blockClass": "footer__phone__ayuda--containerRow"
+    }
+  },
+
+  "flex-layout.col#footer__phone__ayuda": {
+    "children": ["disclosure-layout#footer__phone__ayuda"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__phone__ayuda--containerCol"
+    }
+  },
+
+  "disclosure-layout#footer__phone__ayuda": {
+    "children": [
+      "disclosure-trigger#footer__phone__ayuda",
+      "disclosure-content#footer__phone__ayuda"
+    ],
+    "props": {
+      "blockClass": "footer__phone__ayuda--container"
+    }
+  },
+
+  "disclosure-trigger#footer__phone__ayuda": {
+    "children": ["rich-text#footer__phone__ayuda"],
+    "props": {
+      "blockClass": "footer__phone__ayuda--tigger"
+    }
+  },
+
+  "rich-text#footer__phone__ayuda": {
+    "props": {
+      "text": "**AYUDA**",
+      "blockClass": "footer__phone--text"
+    }
+  },
+
+  "disclosure-content#footer__phone__ayuda": {
+    "children": [
+      "rich-text#footer__phone__ayuda-envio",
+      "rich-text#footer__phone__ayuda-cambios",
+      "rich-text#footer__phone__ayuda-preguntas"
+    ],
+    "props": {
+      "blockClass": "footer__phone__ayuda--interior"
+    }
+  },
+
+  "rich-text#footer__phone__ayuda-envio": {
+    "props": {
+      "text": "[Envios](/)",
+      "blockClass": "footer__phone--text"
+    }
+  },
+
+  "rich-text#footer__phone__ayuda-cambios": {
+    "props": {
+      "text": "[Cambios y garantías](/)",
+      "blockClass": "footer__phone--text"
+    }
+  },
+  
+  "rich-text#footer__phone__ayuda-preguntas": {
+    "props": {
+      "text": "[Preguntas frecuentes](/)",
+      "blockClass": "footer__phone--text"
+    }
+  }
+}

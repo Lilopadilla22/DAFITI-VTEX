@@ -1,0 +1,20 @@
+.link--footer__phone--text {
+    text-decoration: none;
+    color          : #787878;
+    margin         : 0;
+}
+
+.paragraph--footer__phone--text {
+    margin: 5px;
+    font-size: 12px;
+}
+
+
+.strong--footer__phone--text {
+    font-size: 14px;
+    
+}
+
+.container--footer__phone--text {
+    justify-content: center;
+}
