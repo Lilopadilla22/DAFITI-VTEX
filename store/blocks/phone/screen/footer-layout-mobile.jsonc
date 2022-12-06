@@ -1,9 +1,11 @@
 {
   "footer-layout.mobile": {
+    "title": "Footer full phone",
     "children": ["flex-layout.row#footer-mobile"]
   },
 
   "flex-layout.row#footer-mobile": {
+    "title": "container footer full",
     "children": ["flex-layout.col#footer--mobile"],
     "props": {
         "horizontalAlign": "center",
@@ -12,6 +14,7 @@
   },
   
   "flex-layout.col#footer--mobile": {
+    "title": "container footer full col",
     "children": [
       "disclosure-layout#footer__phone__contacto",
       "flex-layout.row#footer__phone__quienes-somos",

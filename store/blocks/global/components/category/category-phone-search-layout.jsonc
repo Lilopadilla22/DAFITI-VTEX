@@ -1,6 +1,6 @@
 {
     "search-result-layout.mobile#category": {
-        "title": "departament layout mobile-tablet",
+        "title": "category layout mobile-tablet",
         "children": [
           "flex-layout.row#departament__phone__breadcrumb",
           "flex-layout.row#departament__phone__header",

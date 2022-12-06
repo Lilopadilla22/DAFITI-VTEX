@@ -1,94 +1,95 @@
 {
-    "flex-layout.row#footer__mobile__end":{
-        "children": [
-            "flex-layout.col#footer__mobile__end"
-        ],
-        "props": {
-            "horizontalAlign": "center",
-            "preserveLayoutOnMobile": true,
-            "blockClass": "footer__mobile__end--container"
-        }
-    },
-
-    "flex-layout.col#footer__mobile__end": {
-        "children": [
-            "flex-layout.row#footer__mobile__end-terminos",
-            "flex-layout.row#footer__mobile__end-politicas",
-            "flex-layout.row#footer__mobile__end-aliados",
-            "flex-layout.row#footer__mobile__end-dafiti"
-        ],
-        "props": {
-            "horizontalAlign": "center",
-            "blockClass": "footer__mobile__end--container--col"
-        }
-    },
-
-    "flex-layout.row#footer__mobile__end-terminos":{
-        "children": [
-            "rich-text#footer__mobile__end-terminos"
-        ],
-        "props": {
-            "horizontalAlign": "center",
-            "blockClass": "footer__mobile__end--terminos"
-        }
-    },
-
-    "rich-text#footer__mobile__end-terminos": {
-        "props": {
-            "text": "[Terminos y condiciones](/)",
-            "blockClass": "footer__phone--text"
-        }
-    },
-
-    "flex-layout.row#footer__mobile__end-politicas":{
-        "children": [
-            "rich-text#footer__mobile__end-politicas"
-        ],
-        "props": {
-            "horizontalAlign": "center",
-            "blockClass": "footer__mobile__end--politicas"
-        }
-    },
-
-    "rich-text#footer__mobile__end-politicas": {
-        "props": {
-            "text": "[Politicas de privacidad](/)",
-            "blockClass": "footer__phone--text"
-        }
-    },
-
-    "flex-layout.row#footer__mobile__end-aliados":{
-        "children": [
-            "rich-text#footer__mobile__end-aliados"
-        ],
-        "props": {
-            "horizontalAlign": "center",
-            "blockClass": "footer__mobile__end--aliados"
-        }
-    },
-
-    "rich-text#footer__mobile__end-aliados": {
-        "props": {
-            "text": "[Aliados](/)",
-            "blockClass": "footer__phone--text"
-        }
-    },
-
-    "flex-layout.row#footer__mobile__end-dafiti":{
-        "children": [
-            "rich-text#footer__mobile__end-dafiti"
-        ],
-        "props": {
-            "horizontalAlign": "center",
-            "blockClass": "footer__mobile__end--dafiti"
-        }
-    },
-
-    "rich-text#footer__mobile__end-dafiti": {
-        "props": {
-            "text": "**© 2022 DAFITI S.A.S**",
-            "blockClass": "footer__phone--text"
-        }
+  "flex-layout.row#footer__mobile__end": {
+    "title": "container footer phone terminos de la tienda",
+    "children": [
+        "flex-layout.col#footer__mobile__end"
+    ],
+    "props": {
+        "horizontalAlign": "center",
+        "preserveLayoutOnMobile": true,
+        "blockClass": "footer__mobile__end--container"
     }
+},
 
+  "flex-layout.col#footer__mobile__end": {
+    "title": "container footer phone terminos de la tienda col",
+    "children": [
+      "flex-layout.row#footer__mobile__end-terminos",
+      "flex-layout.row#footer__mobile__end-politicas",
+      "flex-layout.row#footer__mobile__end-aliados",
+      "flex-layout.row#footer__mobile__end-dafiti"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__mobile__end--container--col"
+    }
+  },
+
+  "flex-layout.row#footer__mobile__end-terminos": {
+    "title": "container text footer phone terminos de la tienda",
+    "children": ["rich-text#footer__mobile__end-terminos"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__mobile__end--terminos"
+    }
+  },
+
+  "rich-text#footer__mobile__end-terminos": {
+    "title": "text footer phone terminos y condiciones",
+    "props": {
+      "text": "[Terminos y condiciones](/)",
+      "blockClass": "footer__phone--text"
+    }
+  },
+
+  "flex-layout.row#footer__mobile__end-politicas": {
+    "title": "container text footer phone politicas de la tienda",
+    "children": ["rich-text#footer__mobile__end-politicas"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__mobile__end--politicas"
+    }
+  },
+
+  "rich-text#footer__mobile__end-politicas": {
+    "title": "text footer phone politicas de privacidad",
+    "props": {
+      "text": "[Politicas de privacidad](/)",
+      "blockClass": "footer__phone--text"
+    }
+  },
+
+  "flex-layout.row#footer__mobile__end-aliados": {
+    "title": "container text footer phone aliados de la tienda",
+    "children": ["rich-text#footer__mobile__end-aliados"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__mobile__end--aliados"
+    }
+  },
+
+  "rich-text#footer__mobile__end-aliados": {
+    "title": "text footer phone aliados",
+    "props": {
+      "text": "[Aliados](/)",
+      "blockClass": "footer__phone--text"
+    }
+  },
+
+  "flex-layout.row#footer__mobile__end-dafiti": {
+    "title": "container text footer phone tienda",
+    "children": ["rich-text#footer__mobile__end-dafiti"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__mobile__end--dafiti"
+    }
+  },
+  
+  "rich-text#footer__mobile__end-dafiti": {
+    "title": "text footer phone dafiti",
+    "props": {
+      "text": "**© 2022 DAFITI S.A.S**",
+      "blockClass": "footer__phone--text"
+    }
+  }
 }
