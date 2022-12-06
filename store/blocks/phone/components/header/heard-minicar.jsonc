@@ -6,7 +6,8 @@
     ],
     "props":{
       "width": "20%",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "minicart__phone"
     }
   },
 

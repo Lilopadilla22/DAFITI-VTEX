@@ -6,7 +6,8 @@
     ],
     "props":{
       "width": "40%",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "logo__phone__dafiti"
     }
   },
 
@@ -28,7 +29,8 @@
     ],
     "props":{
       "width": "20%",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "header-icon__phone"
     }
   },
 
@@ -38,7 +40,6 @@
       "title": "Heart",
       "href": "/",
       "url": "assets/svg/heard.svg",
-      "width": "28",
       "blockClass": "header-icon"
   }
 },
@@ -48,7 +49,6 @@
       "title": "icono bagcart",
       "href": "/",
       "url": "assets/svg/cart.svg",
-      "width": "28",
       "blockClass": "bagcart-icon"
     }
   }
