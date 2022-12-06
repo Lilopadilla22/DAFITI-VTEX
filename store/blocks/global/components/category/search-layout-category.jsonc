@@ -1,0 +1,16 @@
+{
+    "store.search#category": {
+      "title": "containes principal search-category",
+      "blocks": [
+        "search-result-layout#category"
+      ]
+    },
+    "search-result-layout#category": {
+      "title": "containes principal search-departamen-versiones",
+      "blocks": [
+        "search-result-layout.desktop#category",
+        "search-result-layout.mobile#category",
+        "search-not-found-layout"
+      ]
+    }
+  }

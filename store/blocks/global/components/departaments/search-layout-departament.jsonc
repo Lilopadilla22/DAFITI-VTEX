@@ -9,7 +9,7 @@
     "title": "containes principal search-departamen-versiones",
     "blocks": [
       "search-result-layout.desktop#departament",
-      // "search-result-layout.mobile#deparmente",
+      "search-result-layout.mobile#deparment",
       "search-not-found-layout"
     ]
   }

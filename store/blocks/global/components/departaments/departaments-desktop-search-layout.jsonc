@@ -26,14 +26,14 @@
   "flex-layout.col#departament__desktop__breadcrumb": {
     "title": "BreadCrumb col desktop",
     "children": [
-      "breadcrumb.search"
+      "breadcrumb.search#desktop"
     ],
     "props": {
       "blockClass": "departament__desktop--col--breadcrumb"
     }
   },
 
-  "breadcrumb.search": {
+  "breadcrumb.search#desktop": {
     "title": "BreadCrumb desktop",
     "props": {
       "showOnMobile": true
@@ -62,7 +62,7 @@
     ],
     "props": {
       "width": "40%",
-      "horizontalAlign": "center",
+      "horizontalAlign": "left",
       "verticalAlign": "middle",
       "blockClass": "titulo__departament--desktop"
     }
@@ -197,7 +197,7 @@
       "filter-navigator.v3"
     ],
     "props": {
-      "width": "25%",
+      "width": "20%",
       "paddingLeft": 4,
       "blockClass": "container__departament__filtro"
     }
@@ -209,7 +209,7 @@
       "search-content#results__content--products"
     ],
     "props": {
-      "width": "75%",
+      "width": "80%",
       "paddingRight": 3,
       "blockClass": "container__departament__fltros--marca"
     }
@@ -233,7 +233,7 @@
           "itemsPerRow": {
             "desktop": 4,
             "tablet": 3,
-            "phone": 2
+            "phone": 1
           }
         },
         {
@@ -250,6 +250,7 @@
   "product-summary.shelf#image": {
     "children": [
       "product-summary-image",
+      "add-to-list-btn",
       "product-summary-name",
       "product-summary-price",
       "add-to-cart-button"

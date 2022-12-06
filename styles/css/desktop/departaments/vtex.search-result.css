@@ -1,0 +1,9 @@
+.galleryTitle--layout {
+    font-size   : 20px;
+    color       : gray;
+    padding-left: 45px;
+}
+
+.filter__container {
+    width: 50%;
+}
