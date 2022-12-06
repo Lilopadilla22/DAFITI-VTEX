@@ -1,9 +1,10 @@
 {
     "flex-layout.row#footer__phone__redes": {
+        "title": "container footer phone redes",
         "children": [
             "flex-layout.col#footer__phone__redes"
         ],
-         "props": {
+        "props": {
             "horizontalAlign": "center",
             "preserveLayoutOnMobile": true,
             "blockClass": "footer__phone__redes--container"
@@ -11,7 +12,8 @@
     },
 
     "flex-layout.col#footer__phone__redes": {
-        "children":[
+        "title": "container footer phone redes col",
+        "children": [
             "flex-layout.row#footer__phone__redes-text",
             "flex-layout.row#footer__phone__redes-icon"
         ],
@@ -21,7 +23,8 @@
         }
     },
 
-    "flex-layout.row#footer__phone__redes-text":{
+    "flex-layout.row#footer__phone__redes-text": {
+        "title": "container text footer phone redes-siguenos",
         "children": [
             "rich-text#footer__phone__redes-text"
         ],
@@ -32,13 +35,15 @@
     },
 
     "rich-text#footer__phone__redes-text": {
+        "title": "text footer phone redes-siguenos",
         "props": {
             "text": "**SIGUENOS EN**",
             "blockClass": "footer__phone--text"
         }
     },
 
-    "flex-layout.row#footer__phone__redes-icon":{
+    "flex-layout.row#footer__phone__redes-icon": {
+        "title": "container text footer phone redes-iconos",
         "children": [
             "social-networks#footer__phone__redes-icon"
         ],
@@ -51,25 +56,24 @@
     "social-networks#footer__phone__redes-icon": {
         "title": "social-media footer instagram-twitter",
         "props": {
-          "socialNetworks": [
-            {
-              "name": "Instagram",
-              "url": "https://www.instagram.com/dafiti_colombia/"
-            },
-            {
-              "name": "Twitter",
-              "url": "https://twitter.com/Dafiti_Colombia"
-            },
-            {
-                "name": "Facebook",
-                "url": "https://www.facebook.com/DafitiColombia/"
-            },
-            {
-                "name": "YouTube",
-                "url": "https://www.youtube.com/user/dafiticolombia"
-            }
-          ]
+            "socialNetworks": [
+                {
+                    "name": "Instagram",
+                    "url": "https://www.instagram.com/dafiti_colombia/"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/Dafiti_Colombia"
+                },
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/DafitiColombia/"
+                },
+                {
+                    "name": "YouTube",
+                    "url": "https://www.youtube.com/user/dafiticolombia"
+                }
+            ]
         }
-      }
-
+    }
 }

@@ -1,6 +1,9 @@
 {
   "flex-layout.row#footer__phone__ayuda": {
-    "children": ["flex-layout.col#footer__phone__ayuda"],
+    "title": "container footer phone ayuda",
+    "children": [
+      "flex-layout.col#footer__phone__ayuda"
+    ],
     "props": {
       "preserveLayoutOnMobile": true,
       "horizontalAlign": "center",
@@ -9,7 +12,10 @@
   },
 
   "flex-layout.col#footer__phone__ayuda": {
-    "children": ["disclosure-layout#footer__phone__ayuda"],
+    "title": "container footer phone ayuda col",
+    "children": [
+      "disclosure-layout#footer__phone__ayuda"
+    ],
     "props": {
       "horizontalAlign": "center",
       "blockClass": "footer__phone__ayuda--containerCol"
@@ -17,6 +23,7 @@
   },
 
   "disclosure-layout#footer__phone__ayuda": {
+    "title": "container disclosure footer phone ayuda",
     "children": [
       "disclosure-trigger#footer__phone__ayuda",
       "disclosure-content#footer__phone__ayuda"
@@ -27,13 +34,17 @@
   },
 
   "disclosure-trigger#footer__phone__ayuda": {
-    "children": ["rich-text#footer__phone__ayuda"],
+    "title": "container disclosure-tigger footer phone ayuda",
+    "children": [
+      "rich-text#footer__phone__ayuda"
+    ],
     "props": {
       "blockClass": "footer__phone__ayuda--tigger"
     }
   },
 
   "rich-text#footer__phone__ayuda": {
+    "title": "texto disclosure-tigger footer phone ayuda",
     "props": {
       "text": "**AYUDA**",
       "blockClass": "footer__phone--text"
@@ -41,6 +52,7 @@
   },
 
   "disclosure-content#footer__phone__ayuda": {
+    "title": "container disclosure-content footer phone ayuda",
     "children": [
       "rich-text#footer__phone__ayuda-envio",
       "rich-text#footer__phone__ayuda-cambios",
@@ -50,22 +62,22 @@
       "blockClass": "footer__phone__ayuda--interior"
     }
   },
-
   "rich-text#footer__phone__ayuda-envio": {
+    "title": "texto disclosure-content footer phone ayuda-envios",
     "props": {
       "text": "[Envios](/)",
       "blockClass": "footer__phone--text"
     }
   },
-
   "rich-text#footer__phone__ayuda-cambios": {
+    "title": "texto disclosure-content footer phone ayuda-cambio",
     "props": {
       "text": "[Cambios y garantías](/)",
       "blockClass": "footer__phone--text"
     }
   },
-  
   "rich-text#footer__phone__ayuda-preguntas": {
+    "title": "texto disclosure-content footer phone ayuda-preguntas",
     "props": {
       "text": "[Preguntas frecuentes](/)",
       "blockClass": "footer__phone--text"

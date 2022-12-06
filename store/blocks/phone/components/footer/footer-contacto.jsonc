@@ -1,6 +1,9 @@
 {
   "flex-layout.row#footer__phone__contacto": {
-    "children": ["flex-layout.col#footer__phone__conyacto"],
+    "title": "container footer contacto",
+    "children": [
+      "flex-layout.col#footer__phone__conyacto"
+    ],
     "props": {
       "horizontalAlign": "center",
       "preserveLayoutOnMobile": true,
@@ -10,7 +13,10 @@
   },
 
   "flex-layout.col#footer__phone__conyacto": {
-    "children": ["disclosure-layout#footer__phone__contacto"],
+    "title": "container footer contacto col",
+    "children": [
+      "disclosure-layout#footer__phone__contacto"
+    ],
     "props": {
       "horizontalAlign": "center",
       "width": "100%",
@@ -19,6 +25,7 @@
   },
 
   "disclosure-layout#footer__phone__contacto": {
+    "title": "container disclosure footer contacto",
     "children": [
       "disclosure-trigger#footer__phone__contacto",
       "disclosure-content#footer__phone__contacto"
@@ -29,6 +36,7 @@
   },
 
   "disclosure-trigger#footer__phone__contacto": {
+    "title": "container disclosure text footer contacto",
     "children": [
       "rich-text#footer__phone__contacto"
       // "disclosure-state-indicator"
@@ -39,9 +47,13 @@
   },
 
   "rich-text#footer__phone__contacto": {
+    "title": "disclosure text footer contacto",
     "props": {
       "text": "**CONTACTO**",
-      "blockClass": ["footer__phone--text", "footer__phone--text--disclosure"]
+      "blockClass": [
+        "footer__phone--text",
+        "footer__phone--text--disclosure"
+      ]
     }
   },
 
@@ -54,20 +66,24 @@
   },
 
   "icon#arrow-up-icon": {
-    "title": "Arrow Up Icon",
+    "title": "icono arrowup",
     "props": {
       "id": "arrow-up"
     }
   },
+
   "icon#arrow-down-icon": {
-    "title": "Arrow Down Icon",
+    "title": "icono arrow down",
     "props": {
       "id": "arrow-down"
     }
   },
 
   "flex-layout.row#content__footer__phone__contacto": {
-    "children": ["flex-layout.col#content__footer__phone__contacto"],
+    "title": "container disclosure contenido de footer contacto",
+    "children": [
+      "flex-layout.col#content__footer__phone__contacto"
+    ],
     "props": {
       "horizontalAlign": "center",
       "blockClass": "content__footer__phone__contacto-row"
@@ -75,7 +91,10 @@
   },
 
   "flex-layout.col#content__footer__phone__contacto": {
-    "children": ["disclosure-content#footer__phone__contacto"],
+    "title": "container disclosure contenido de footer contacto col",
+    "children": [
+      "disclosure-content#footer__phone__contacto"
+    ],
     "props": {
       "horizontalAlign": "center",
       "blockClass": "content__footer__phone__contacto-col"
@@ -83,6 +102,7 @@
   },
 
   "disclosure-content#footer__phone__contacto": {
+    "title": "container disclosure contenido de footer contacto elementos",
     "children": [
       "flex-layout.row#footer__phone__contacto--whatsapp",
       "flex-layout.row#footer__phone__contacto--escribenos"
@@ -94,6 +114,7 @@
   },
 
   "flex-layout.row#footer__phone__contacto--whatsapp": {
+    "title": "container disclosure contenido de footer contacto-whatsapp",
     "children": [
       "flex-layout.col#footer__phone__contacto--whatsapp--icon",
       "flex-layout.col#footer__phone__contacto--whatsapp--text"
@@ -106,7 +127,10 @@
   },
 
   "flex-layout.col#footer__phone__contacto--whatsapp--icon": {
-    "children": ["icon#footer__phone__contacto--iconowhatsapp"],
+    "title": "container disclosure contenido de footer contacto-whatsapp-icon",
+    "children": [
+      "icon#footer__phone__contacto--iconowhatsapp"
+    ],
     "props": {
       "horizontalAlign": "center",
       "blockClass": "footer__phone-container-col-whatsapp",
@@ -115,6 +139,7 @@
   },
 
   "icon#footer__phone__contacto--iconowhatsapp": {
+    "title": "icono de whatsapp footer",
     "props": {
       "id": "mpa-globe",
       "size": 10
@@ -122,7 +147,10 @@
   },
 
   "flex-layout.col#footer__phone__contacto--whatsapp--text": {
-    "children": ["rich-text#footer__phone__contacto--numero"],
+    "title": "container disclosure contenido de footer contacto-whatsapp-text",
+    "children": [
+      "rich-text#footer__phone__contacto--numero"
+    ],
     "props": {
       "horizontalAlign": "center",
       "blockClass": "footer__phone-container-col-whatsapp",
@@ -131,6 +159,7 @@
   },
 
   "rich-text#footer__phone__contacto--numero": {
+    "title": "texto de whatsapp footer contacto",
     "props": {
       "text": "[300000000](/)",
       "blockClass": "footer__phone--text"
@@ -138,15 +167,19 @@
   },
 
   "flex-layout.row#footer__phone__contacto--escribenos": {
-    "children": ["rich-text#footer__phone__contacto--escribenos"],
+    "title": "container disclosure contenido de footer contacto-escribenos",
+    "children": [
+      "rich-text#footer__phone__contacto--escribenos"
+    ],
     "props": {
       "horizontalAlign": "center",
       "preserveLayoutOnMobile": true,
       "blockClass": "footer__phone-container-row-whatsapp"
     }
   },
-
+  
   "rich-text#footer__phone__contacto--escribenos": {
+    "title": "texto de escribenos footer contacto",
     "props": {
       "text": "[Escribenos](/)",
       "blockClass": "footer__phone--text"
