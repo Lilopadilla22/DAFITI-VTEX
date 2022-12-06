@@ -1,0 +1,13 @@
+{
+    "search-result-layout.mobile#category": {
+        "title": "departament layout mobile-tablet",
+        "children": [
+          "flex-layout.row#departament__phone__breadcrumb",
+          "flex-layout.row#departament__phone__header",
+          "flex-layout.row#departament__desktop__results"
+        ],
+        "props": {
+          "blockClass": "category__phone"
+        }
+      }
+}

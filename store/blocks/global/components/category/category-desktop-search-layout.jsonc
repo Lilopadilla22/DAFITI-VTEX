@@ -1,0 +1,13 @@
+{
+    "search-result-layout.desktop#category": {
+      "title": "departament layout desktop ",
+      "children": [
+        "flex-layout.row#departament__desktop__breadcrumb",
+        "flex-layout.row#departament__desktop__header",
+        "flex-layout.row#departament__desktop__results"
+      ],
+      "props": {
+        "blockClass": "category__desktop"
+      }
+    }
+}

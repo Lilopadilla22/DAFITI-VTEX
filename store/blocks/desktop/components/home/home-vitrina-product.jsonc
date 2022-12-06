@@ -1,0 +1,130 @@
+{
+  "list-context.product-list#slider-desktop": {
+    "blocks": [
+      "product-summary.shelf#slider"
+    ],
+    "children": [
+      "slider-layout#vitrina__products"
+    ],
+    "props": {
+      "blockClass": "vitrina-de-productos"
+    }
+  },
+
+  "product-summary.shelf#slider": {
+    "children": [
+      "add-to-list-btn",
+      "product-summary-image",
+      "modal-trigger#vista__product__vitrina",
+      "product-summary-brand",
+      "product-summary-name",
+      "product-selling-price",
+      "product-rating-inline"
+    ]
+  },
+
+  "product-summary-image": {
+    "title": "Product Summary Image",
+    "props": {
+      "showBadge": true,
+      "height": 150
+    }
+  },
+
+  "slider-layout#vitrina__products": {
+    "title": "vitrina product home",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider--products--desktop",
+      "fullwidth": false,
+      "showPaginationDots": "never"
+    }
+  },
+
+  "modal-trigger#vista__product__vitrina": {
+    "title": "Modal Trigger vista previa ",
+    "children": [
+      "rich-text#vista__product__vitrina",
+      "modal-layout#vista__product__vitrina"
+    ]
+  },
+  
+  "rich-text#vista__product__vitrina": {
+    "title": "vitrina text vista previa",
+    "props": {
+      "text": "Vista previa",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-vista-previa-vitrina"
+    }
+  },
+
+  "modal-layout#vista__product__vitrina": {
+    "title": "vista previa modal layout",
+    "children": [
+      "modal-header#vista__product__vitrina",
+      "flex-layout.row#vista__product__vitrina"
+    ],
+    "props": {
+      "blockClass": "quick-view__modal"
+    }
+  },
+
+  "modal-header#vista__product__vitrina": {
+    "title": "Vitrina modal de vista previa",
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 18
+    }
+  },
+
+  "flex-layout.row#vista__product__vitrina": {
+    "title": "contenedor de vista previa",
+    "children": [
+      "flex-layout.col#vista__product__vitrina--image",
+      "flex-layout.col#vista__product__vitrina--info"
+    ]
+  },
+
+  "flex-layout.col#vista__product__vitrina--image": {
+    "title": "contenedor vista previa imagenes",
+    "children": [
+      "product-images#vista__previa"
+    ],
+    "props": {
+      "blockClass": "contenedor-vista-previa-imagen"
+    }
+  },
+
+  "product-images#vista__previa": {
+    "title": "Imagen vitrina",
+    "props": {
+      "maxHeight": 250,
+      "thumbnailVisibility": "hidden"
+    }
+  },
+
+  "flex-layout.col#vista__product__vitrina--info": {
+     "title": "contenedor vista previa informacion",
+    "children": [
+      "vtex.store-components:product-brand",
+      "vtex.store-components:product-name",
+      "product-list-price",
+      "product-selling-price",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-quantity",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "contenedor-vista-previa-info",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  }
+}

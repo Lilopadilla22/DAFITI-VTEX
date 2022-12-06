@@ -12,9 +12,9 @@
     "title": "cart desktop",
     "children": ["minicart-base-content"],
     "props": {
-      "blockClass": "minicart__desktop"
-      // "itemCountMode": "Total",
-      // "quantityDisplay": "always"
+      "blockClass": "minicart__desktop",
+      "itemCountMode": "Total",
+      "quantityDisplay": "always"
     }
     
   },
