@@ -1,8 +1,9 @@
 {
   "flex-layout.row#footer__phone__quienes-somos": {
+    "title": "container informacion quienes somos",
     "children": [
       "flex-layout.col#footer__phone__quienes-somos"
-    ], 
+    ],
     "props": {
       "preserveLayoutOnMobile": true,
       "horizontalAlign": "center",
@@ -11,47 +12,50 @@
   },
 
   "flex-layout.col#footer__phone__quienes-somos": {
+    "title": "container informacion quienes somos col",
     "children": [
       "disclosure-layout#footer__phone__quienes-somos"
-    ], 
+    ],
     "props": {
       "horizontalAlign": "center",
-      "blockClass": "footer__phone__quienes-somos--containerCol"      
+      "blockClass": "footer__phone__quienes-somos--containerCol"
     }
   },
 
   "disclosure-layout#footer__phone__quienes-somos": {
+    "title": "container disclosure informacion quienes somos",
     "children": [
       "disclosure-trigger#footer__phone__quienes-somos",
       "flex-layout.row#content__footer__phone__quienes-somos"
     ],
     "props": {
-        "blockClass": "footer__phone__quienes-somos--container"
+      "blockClass": "footer__phone__quienes-somos--container"
     }
   },
-
-
 
   "disclosure-trigger#footer__phone__quienes-somos": {
+    "title": "container disclosure-tigger informacion quienes somos",
     "children": [
-        "rich-text#footer__phone__quienes-somos"
+      "rich-text#footer__phone__quienes-somos"
     ],
     "props": {
-        "blockClass": "footer__phone__quienes-somos--tigger"
+      "blockClass": "footer__phone__quienes-somos--tigger"
     }
   },
 
-  "rich-text#footer__phone__quienes-somos" :{
+  "rich-text#footer__phone__quienes-somos": {
+    "title": "text disclosure-trigger informacion quienes somos",
     "props": {
-        "text": "**QUIENES SOMOS**",
-        "blockClass": "footer__phone--text"
+      "text": "**QUIENES SOMOS**",
+      "blockClass": "footer__phone--text"
     }
   },
 
-  "flex-layout.row#content__footer__phone__quienes-somos":{
+  "flex-layout.row#content__footer__phone__quienes-somos": {
+    "title": "container disclosure-contenido quienes somos",
     "children": [
       "flex-layout.col#content__footer__phone__quienes-somos"
-    ], 
+    ],
     "props": {
       "preserveLayoutOnMobile": true,
       "horizontalAlign": "center",
@@ -60,9 +64,10 @@
   },
 
   "flex-layout.col#content__footer__phone__quienes-somos": {
-    "children":[
+    "title": "container disclosure-contenido quienes somos row",
+    "children": [
       "disclosure-content#footer__phone__quienes-somos"
-    ], 
+    ],
     "props": {
       "horizontalAlign": "center",
       "blockClass": "content__footer__phone__quienes-somos-containerCol"
@@ -70,32 +75,33 @@
   },
 
   "disclosure-content#footer__phone__quienes-somos": {
+    "title": "container texto disclosure-contenido quienes somos",
     "children": [
-        "rich-text#footer__phone__quienes-aboutus",
-        "rich-text#footer__phone__quienes-trabaja"
+      "rich-text#footer__phone__quienes-aboutus",
+      "rich-text#footer__phone__quienes-trabaja"
     ],
     "props": {
-        "blockClass": "footer__phone__quienes-somos--aboutus"
+      "blockClass": "footer__phone__quienes-somos--aboutus"
     }
   },
 
-    "rich-text#footer__phone__quienes-aboutus":{
-        "props": {
-            "text": "[Dafiti](/)",
-            "textAlignment": "center", 
-            "textPosition": "center",
-            "blockClass": "footer__phone--text"
-        }
-    },
-
-    "rich-text#footer__phone__quienes-trabaja":{
-        "props": {
-            "text": "[Trabaja con Nosotros](/)",
-            "textAlignment": "center", 
-            "textPosition": "center",
-            "blockClass": "footer__phone--text"
-        }
+  "rich-text#footer__phone__quienes-aboutus": {
+    "title": "texto disclosure-contenido quienes somos-aboutas",
+    "props": {
+      "text": "[Dafiti](/)",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": "footer__phone--text"
     }
-
-
+  },
+  
+  "rich-text#footer__phone__quienes-trabaja": {
+    "title": "texto disclosure-contenido quienes somos-trabaja",
+    "props": {
+      "text": "[Trabaja con Nosotros](/)",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": "footer__phone--text"
+    }
+  }
 }

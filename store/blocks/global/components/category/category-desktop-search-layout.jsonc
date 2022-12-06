@@ -1,6 +1,6 @@
 {
     "search-result-layout.desktop#category": {
-      "title": "departament layout desktop ",
+      "title": "category layout desktop ",
       "children": [
         "flex-layout.row#departament__desktop__breadcrumb",
         "flex-layout.row#departament__desktop__header",
