@@ -1,5 +1,5 @@
 {
-  "header-layout.desktop": {
+  "header-layout.mobile": {
     "title": "container de todo el heider principal",
     "children": [
       "flex-layout.row#header__anuncio", 
