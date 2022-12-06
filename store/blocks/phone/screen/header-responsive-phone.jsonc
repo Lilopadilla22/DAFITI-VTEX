@@ -23,10 +23,12 @@
     ],
     "props": {
       "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
+      "width": "100%",
+      // "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true,
-      "colJustify": "around",
+      // "colSizing": "equal",
+      // "colJustify": "around",
       "paddingTop": 3,
       "horizontalAlign": "center",
       "verticalAlign": "center"

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#product__info": {
-    "title": "PDP product information",
+    "title": "container pagina de producto",
     "children": [
       "flex-layout.col#product__info--img",
       "flex-layout.col#product__info--data"
@@ -11,7 +11,7 @@
   },
 
   "flex-layout.col#product__info--img": {
-    "title": "container producto informacion imagen" ,
+    "title": "container producto informacion image" ,
     "children": [
       "product-images#product__info--img"
     ],
@@ -30,12 +30,12 @@
   "flex-layout.col#product__info--data": {
     "title": "container producto informacion" ,
     "children": [
-      "share",
       "vtex.store-components:product-brand",
       "vtex.store-components:product-name",
       "product-rating-inline",
       "product-price",
       "product-quantity",
+      "share",
       "rich-text#product__info--data"
     ],
     "props": {
