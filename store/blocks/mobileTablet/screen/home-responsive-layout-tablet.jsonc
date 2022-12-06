@@ -1,0 +1,44 @@
+{
+    "responsive-layout.tablet#home": {
+        "title": "component tablet-home",
+        "children": [
+            "flex-layout.row#home-tablet"
+        ]
+    },
+
+    "responsive-layout.mobile#home": {
+        "title": "component tablet-home",
+        "children": [
+            "flex-layout.row#home-tablet"
+        ]
+    },
+
+    "flex-layout.row#home-tablet": {
+        "title": "container del home desktop",
+        "children": [
+            "flex-layout.col#home-tablet"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "colSizing": "auto"
+        }
+    },
+
+    "flex-layout.col#home-tablet": {
+        "title": "container home",
+        "children": [
+          "flex-layout.row#bannerpublicitario",
+          "flex-layout.row#textfirst",
+          "flex-layout.row#bannersecundario",
+          "flex-layout.row#marcas",
+          "slider-layout#marcasbanner",
+          "flex-layout.row#bannerayuda",
+          "flex-layout.row#favoritos",
+          "flex-layout.row#description",
+          "list-context.product-list#slider-desktop"
+        ],
+        "props": {
+          "width": "90%"
+        }
+      }
+}
