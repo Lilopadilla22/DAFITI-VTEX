@@ -1,64 +1,105 @@
 {
-  // "search-result-layout.mobile#deparmente": {
-  //   "children": [
-  //     "flex-layout.row#breadcrumb__phone--departament",
-  //     "responsive-layout.phone#phone__departament"
-  //   ],
-  //   "props": {
-  //     "pagination": "show-more",
-  //     "preventRouteChange": false,
-  //     "defaultGalleryLayout": "grid"
-  //   }
-  // },
+  "search-result-layout.mobile#deparment": {
+    "title": "departament layout mobile-tablet",
+    "children": [
+      "flex-layout.row#departament__phone__breadcrumb",
+      "flex-layout.row#departament__phone__header",
+      "flex-layout.row#departament__desktop__results"
+    ],
+    "props": {
+      "blockClass": "departament__phone"
+    }
+  },
 
-  // "flex-layout.row#breadcrumb__phone--departament": {
-  //   "children": [
-  //       "flex-layout.col#breadcrumb__phone--departament"
-  //   ]
-  // },
+  "flex-layout.row#departament__phone__breadcrumb": {
+    "title": "BreadCrumb row mobile",
+    "children": [
+      "flex-layout.col#departament__phone__breadcrumb"
+    ],
+    "props": {
+      "blockClass": "departament__phone--row--breadcrumb"
+    }
+  },
 
-  // "flex-layout.col#breadcrumb__phone--departament": {
-  //   "children": [
-  //       "breadcrumb.search"
-  //   ],
-  //   "props":{
-  //       "blockClass": "container__breadcrumb__phone"
-  //   }
-  // },
+  "flex-layout.col#departament__phone__breadcrumb": {
+    "title": "BreadCrumb col phone",
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "blockClass": "departament__phone--col--breadcrumb"
+    }
+  },
 
-  // "responsive-layout.phone#phone__departament": {
-  //   "children": [
-  //       "flex-layout.row#result--departament"
-  //   ]
-  // },
+  "breadcrumb.search": {
+    "title": "BreadCrumb phone",
+    "props": {
+      "showOnMobile": true
+    }
+  },
 
-  // "flex-layout.row#result--departament": {
-  //   "title": " ",
-  //   "children": [
-  //     "flex-layout.col#result__departament--filter",
-  //     "flex-layout.col#result__departament--content",
-  //     "gallery-layout-switcher",
-  //     "search-content"
-  //   ]
-  // },
+  "flex-layout.row#departament__phone__header": {
+    "title": "Row titulo, order, estilo de pagina modelo mobile",
+    "children": [
+      "flex-layout.col#departament__phone__header--title",
+      "flex-layout.col#departament__phone__header--number",
+      "flex-layout.col#departament__phone__header--order",
+      "flex-layout.col#departament__phone__header--switcher"
+    ],
+    "props": {
+      "blockClass": "departament__phone__header"
+    }
+  },
 
-  // "flex-layout.col#result__departament--filter": {
-  //   "children": ["filter-navigator.v3"],
-  //   "props": {
-  //     "width": "25%",
-  //     "blockClass": "result--filter--phone"
-  //   }
-  // },
+  "flex-layout.col#departament__phone__header--title": {
+    "title": "titulo del departamento modelo mobile",
+    "children": [
+      "search-title.v2"
+    ],
+    "props": {
+      "width": "40%",
+      "horizontalAlign": "left",
+      "verticalAlign": "middle",
+      "blockClass": "titulo__departament--phone"
+    }
+  },
 
-  // "flex-layout.col#result__departament--content": {
-  //   "children": ["search-content#results--products"],
-  //   "props": {
-  //     "width": "75%",
-  //     "blockClass": "category__results--content"
-  //   }
-  // },
+  "flex-layout.col#departament__phone__header--number": {
+    "title": "Numero total de productos",
+    "children": [
+      "total-products.v2"
+    ],
+    "props": {
+      "width": "20%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "total__products__departaments--phone"
+    }
+  },
 
-  // "search-content#results--products": {
-  //   "blocks": ["gallery#department", "not-found"]
-  // }
+  "flex-layout.col#departament__phone__header--order": {
+    "title": "Orden de los productos",
+    "children": [
+      "order-by.v2"
+    ],
+    "props": {
+      "width": "20%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "order__products__departaments--phone"
+    }
+  },
+
+  "flex-layout.col#departament__phone__header--switcher": {
+    "title": "Switcher para la presentacion de los productos",
+    "children": [
+      "gallery-layout-switcher" //destktop llamado al mismo
+    ],
+    "props": {
+      "width": "20%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "switcher__departaments--phone"
+    }
+  }
 }
