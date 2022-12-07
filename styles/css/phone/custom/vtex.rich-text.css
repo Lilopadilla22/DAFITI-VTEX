@@ -1,0 +1,19 @@
+.strong--about__us__phone {
+    color    : #04c8c9;
+    font-size: 14px;
+
+}
+
+.paragraph--about__us__phone {
+    font-size: 12px;
+}
+
+.link--about__us__phone {
+    text-decoration: none;
+    color          : #04c8c9
+}
+
+.paragraph--about__us__title__phone {
+    font-size  : 20pt;
+    color      : black;
+}
