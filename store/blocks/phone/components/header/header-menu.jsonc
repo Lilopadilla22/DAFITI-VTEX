@@ -36,7 +36,7 @@
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
-        "href": "/",
+        "href": "/about-us",
         "type": "internal",
         "tagTitle": "home",
         "text": "Home"
