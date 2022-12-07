@@ -128,7 +128,7 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#D15050",
+      "action-primary": "#00000",
       "action-secondary": "#00000",
       "link": "#0F3E99",
       "emphasis": "#f71963",
@@ -271,10 +271,10 @@
   ],
   "borderRadius": [
     0,
-    0.125,
-    0.25,
-    0.5,
-    1
+    0,
+    0,
+    0,
+    0
   ],
   "widths": [
     1,
@@ -388,21 +388,21 @@
         "fontFamily": "roboto, arial, sans-serif, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, noto, segoe ui",
         "fontWeight": "500",
         "fontSize": "1rem",
-        "textTransform": "uppercase",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--small": {
         "fontFamily": "roboto, arial, sans-serif, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, noto, segoe ui",
         "fontWeight": "500",
         "fontSize": "0.875rem",
-        "textTransform": "uppercase",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--large": {
         "fontFamily": "roboto, arial, sans-serif, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, noto, segoe ui",
         "fontWeight": "500",
         "fontSize": "1.25rem",
-        "textTransform": "uppercase",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "code": {

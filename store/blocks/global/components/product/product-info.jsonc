@@ -6,7 +6,8 @@
       "flex-layout.col#product__info--data"
     ],
     "props": {
-      "blockClass": "pdp--container"
+      "blockClass": "pdp--container",
+      "horizontalAlign": "center"
     }
   },
 
@@ -16,7 +17,9 @@
       "product-images#product__info--img"
     ],
     "props": {
-        "blockClass": "container__info__image"
+        "blockClass": "container__info__image",
+        "horizontalAlign": "center",
+        "marginBottom": 10
     }
   },
 
@@ -39,7 +42,8 @@
       "rich-text#product__info--data"
     ],
     "props": {
-        "blockClass": "container__info__data"
+        "blockClass": "container__info__data",
+        "horizontalAlign": "center"
     }
   },
 
@@ -51,4 +55,5 @@
     }
   }
 
-}
+} 
+
