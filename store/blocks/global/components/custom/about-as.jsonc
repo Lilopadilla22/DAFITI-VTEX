@@ -1,0 +1,56 @@
+{
+
+    "responsive-layout.desktop#about-us-contenido": {
+        "title": "",
+        "children": ["flex-layout.row#about-us-contenido"],
+        "props": {
+            "blockClass": ""
+        }
+    },
+
+    "flex-layout.row#about-us-contenido": {
+        "title": "",
+        "children": [
+            "flex-layout.col#about-us-contenido-navbar",
+            "flex-layout.col#about-us-contenido-info"
+        ],
+        "props": {
+            "blockClass": " "
+        }
+    },
+    "flex-layout.col#about-us-contenido-navbar": {
+        "title": "",
+        "children": [
+            "rich-text#footer__desktop__end--politica"
+        ],
+        "props": {
+            "width": "35%",
+            "blockClass": " "
+        }
+    },
+    "flex-layout.col#about-us-contenido-info": {
+        "title": "",
+        "children": [
+            "rich-text#about-us-contenido-info-title",
+            "rich-text#about-us-contenido-info-content"
+        ],
+        "props": {
+            "width": "65%",
+            "blockClass": " "
+        }
+    },
+    "rich-text#about-us-contenido-info-title": {
+        "title": "",
+        "props": {
+            "text": "# __NOSOTROS__",
+            "blockClass": "about-us-contenido-info-title"
+        }
+    },
+    "rich-text#about-us-contenido-info-content": {
+        "title": "",
+        "props": {
+            "blockClass": "about-us-contenido-info-content",
+            "text": "**¿Qué es Dafiti?** \n \n Dafiti.com.co es un sitio de moda online, donde encontrarás las mejores marcas de zapatos, vestuario, deportes y accesorios. \n \n Te contamos algunas cosas sobre nosotros: \n \n * En Dafiti podrás encontrar más de 100.000 productos y más de 700 marcas reconocidas a nivel local y mundial.\n \n * Realizamos entregas a más de 1.100 ciudades y municipios de Colombia.\n \n * Tu costo de envío es GRATIS*, si tu pedido es por un valor superior a $179.900 sin importar la ciudad de entrega o si son productos vendidos y entregados por Dafiti o por tiendas asociadas. \n \n * ¡Compra tranquilo! si el producto no es lo que esperabas, no te quedó o simplemente quieres probar otro que te gustó mucho más, tenemos 90 DÍAS de cambios y devoluciones SIN COSTO. \n \n * Manejamos múltiples medios de pago para ti. Anímate, puedes pagar con tarjetas de crédito o débito PSE. Si lo prefieres puedes hacer tu pedido y pagarlo CONTRAENTREGA, o si tienes un punto Baloto puedes realizar allí tu pago. Fácil ¿Verdad?. \n \n * Contamos con servicios de entrega especiales para que tu pedido llegue al siguiente día o el mismo día, dependiendo de la zona en la cual vives. \n \n   **¿Cuál es la politica de privacidad de Dafiti?**  \n \n Puedes encontrar nuestra política de privacidad [aquí](/) y nuestro aviso de privacidad [aquí](/). \n \n  **¿Cuáles son los términos y condiciones generales de Dafiti?**  \n \n Puedes encontrar nuestros términos y condiciones generales [aquí](/). \n \n  **¿Cómo protegen mis datos?**  \n \n Para proteger todos tus datos, Dafiti cuenta con importantes sistemas de seguridad. \n \n  **Certificado de Seguridad SSL**. Este certificado garantiza que todos tus datos personales tales como dirección de envío, los detalles de tarjetas de crédito e historial de pedidos no serán divulgados. Esta tecnología también impide el acceso a la información por parte de terceros. \n \n  **Certificado de Site Blindado**. Esto demuestra que nuestro sitio es seguro a través de evaluaciones en tiempo real de posibles vulnerabilidades. \n \n Puedes encontrar nuestra política de datos [aquí](/) \n \n  **Intercambio de información**  \n\n Dafiti no venderá ni transferirá tus datos a terceros. Esta información será utilizada sólo internamente, con el fin de generar estadísticas, para poder tener una mejor comprensión del perfil de nuestros usuarios y perfeccionar de esta forma los productos y servicios ofrecidos en nuestro sitio. \n \n  **Propiedad de la información**.  \n \n Toda la información de este sitio es propiedad de Dafiti.com.co, por lo tanto, no se puede modificar, copiar, extraer o utilizar de otra manera sin el consentimiento expreso previo y por escrito. Por lo tanto, al acceder a www.dafiti.com.co, el usuario es consciente de que el mal uso de esta información puede resultar en sanciones civiles y penales. \n \n   **Newsletter de ofertas y servicios**.  \n \n El envío de e-mails será realizado sólo con tu consentimiento y podrás desactivar esta opción en cualquier momento. Dafiti contará con un plazo de hasta 3 días hábiles para poder procesar tu solicitud de cancelación. \n\n Dafiti está en contra del envío de e-mails sin autorización previa del receptor (spam). Conoce cómo activar y desactivar la suscripción al newsletter [aquí](/). "
+        }
+    }
+}
