@@ -1,0 +1,12 @@
+.flexColChild--container__col__info {
+    border: none
+}
+
+.flexRowContent--container__precio__pdp :global(.vtex-store-components-3-x-price_sellingPrice) {
+    font-size     : 20PX;
+    padding-bottom: 5px;
+}
+
+.flexCol--descripcion__product {
+    padding-top: 20px;
+}
