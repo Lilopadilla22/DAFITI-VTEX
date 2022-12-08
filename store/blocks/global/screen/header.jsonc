@@ -3,6 +3,7 @@
     "title": "container header",
     "blocks": [
       "header-layout.desktop",
+      "header-layout.mobile#tablet",
       "header-layout.mobile"
     ]
   },
@@ -11,6 +12,7 @@
     "title": "container header-full",
     "blocks": [
       "header-layout.desktop",
+      "header-layout.mobile#tablet",
       "header-layout.mobile"
     ]
   }

@@ -134,7 +134,7 @@
   "link#footer__middle__acercade--nosotros": {
     "title": "links acerca de nosotros footer-desktop",
     "props": {
-      "href": "/",
+      "href": "/about-us",
       "label": "Nosotros"
     }
   },

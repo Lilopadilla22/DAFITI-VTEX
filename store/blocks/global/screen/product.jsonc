@@ -21,6 +21,7 @@
     "children":[
       "flex-layout.row#product__breadcrumb",
       "responsive-layout.desktop#product__detail__page",
+      "responsive-layout.tablet#product__detail__page",
       "responsive-layout.phone#product__detail__page",
       // "flex-layout.row#product__info",
       "flex-layout.row#product__tabs"

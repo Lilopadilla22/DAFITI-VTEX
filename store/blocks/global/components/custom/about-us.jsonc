@@ -19,6 +19,7 @@
         "title": "",
         "children": [
             "responsive-layout.desktop#about-us-contenido",
+            "responsive-layout.tablet#about-us-contenido",
             "responsive-layout.phone#about-us-contenido"
         ],
         "props": {
