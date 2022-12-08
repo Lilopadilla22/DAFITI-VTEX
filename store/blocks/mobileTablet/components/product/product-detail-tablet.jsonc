@@ -1,0 +1,12 @@
+{
+    "responsive-layout.tablet#product__detail__page": {
+        "title": "pdp version phone",
+        "children": [
+            "flex-layout.row#product__detail",
+            "flex-layout.row#product__detail__two"
+        ],
+        "props": {
+            "blockClass": "pdp__phone"
+        }
+    }
+}

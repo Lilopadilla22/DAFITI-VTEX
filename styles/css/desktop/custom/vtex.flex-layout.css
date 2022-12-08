@@ -1,0 +1,13 @@
+.flexColChild--container__aboutus__left {
+    border-top   : 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    width        : 80%;
+}
+
+.flexColChild--container__aboutus__left:first-child {
+    border-top: none;
+}
+
+.flexCol--container__aboutus__left {
+    margin-bottom: 800px;
+}
