@@ -12,3 +12,12 @@
     text-decoration: none;
     color          : #04c8c9
 }
+
+.strong--about-us-contenido-info-title {
+    font-size: 35px;
+    color    : #404040
+}
+
+.heading--about-us-contenido-info-title {
+    margin-top: 80px;
+}
