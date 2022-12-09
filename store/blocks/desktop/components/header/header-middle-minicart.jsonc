@@ -16,14 +16,16 @@
       "MinicartIcon": "icon-cart#minicart-icon",
       "blockClass": "minicart__desktop",
       "itemCountMode": "Total",
-      "quantityDisplay": "always"
+      "quantityDisplay": "always",
+      "openOnHover": true
     }
   },
 
   "icon-cart#minicart-icon": {
     "title": "icono mini cart desktop",
     "props": {
-      "size": 20
+      "size": 20,
+      "viewBox": "0 0 20 20"
     }
   },
 
@@ -70,7 +72,13 @@
     "children": ["product-list-image"],
     "props": {
       "marginRight": "5",
-      "blockClass": ""
+      "blockClass": "container__minicar__img"
+    }
+  },
+
+  "product-list-image": {
+    "props": {
+      "width": 70
     }
   },
 
@@ -165,10 +173,12 @@
 
   "flex-layout.row#minicart-footer": {
     "title": "container final carrito sumatoria",
+    "children": ["flex-layout.col#minicart-footer"],
     "props": {
+      "preventVerticalStretch": true,
       "blockClass": "minicart-footer"
-    },
-    "children": ["flex-layout.col#minicart-footer"]
+    }
+    
   },
 
   "flex-layout.col#minicart-footer": {
@@ -184,7 +194,7 @@
 
   "minicart-checkout-button": {
     "props": {
-      "finishShoppingButtonLink": "/"
+      "finishShoppingButtonLink": "/checkout#/cart"
     }
   },
 
@@ -198,7 +208,8 @@
   "summary-totalizers#minicart": {
     "props": {
       "showTotal": true,
-      "showDeliveryTotal": false
+      "showDeliveryTotal": true,
+      "blockClass": "summary__total__envios__minicart"
     }
   },
 
