@@ -60,3 +60,7 @@
     background-color: none;
     border-color: none;
 } */
+
+.flexColChild--container__minicar__detail :global(.vtex-flex-layout-0-x-flexRow--container__quantity__Selecto) {
+    width: 50%;
+}

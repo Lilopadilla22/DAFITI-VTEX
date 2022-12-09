@@ -1,0 +1,16 @@
+/* .quantitySelectorContainer--quantity__selector__desktop {
+    width: 50%;
+} */
+
+.availabilityMessageText {
+    font-size: 10px;
+    color    : white;
+}
+
+.availabilityMessageContainer {
+    background-color: #b2e0dc;
+}  
+
+.availabilityMessageTextContainer {
+    padding         : 5px;
+}
