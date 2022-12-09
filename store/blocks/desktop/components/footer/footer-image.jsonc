@@ -14,5 +14,23 @@
     "props": {
       "src": "assets/img/bannerpagos.webp"
     }
+  },
+
+  "flex-layout.row#footer__text__img": {
+    "title": "",
+    "children": [
+      "rich-text#footer__text__img"
+    ],
+    "props": {
+      "blockClass": "footer__text__img__container"
+    }
+  },
+
+  "rich-text#footer__text__img": {
+    "title": "", 
+    "props": {
+      "blockClass": "footer__text__img",
+      "text": " **Compra segura** ![sitio blindado](assets/home/footer__seguridad.jpg) Sitio seguro con criptografia (SSL) · Homologado por la USERTrust Network ![sitio blindado](assets/home/footer__sitioblindado.jpg) Blindado contra robo de información y clonación de tarjetas "
+    }
   }
 }
