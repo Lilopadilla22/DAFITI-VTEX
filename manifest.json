@@ -55,7 +55,8 @@
     "vtex.product-list": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.product-price": "1.x",
-    "vtex.overlay-layout": "0.x"
+    "vtex.overlay-layout": "0.x",
+    "itgloberspartnercl.whatsapp-button": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",
