@@ -1,6 +1,6 @@
 {
   "header-layout.desktop": {
-    "title": "container de todo el heider principal",
+    "title": "container de todo el header principal",
     "children": [
       "flex-layout.row#header__anuncio", 
       "flex-layout.row#header__middle",
