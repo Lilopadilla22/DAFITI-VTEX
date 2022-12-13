@@ -1,0 +1,9 @@
+{
+    "whatsapp-button" :{
+        "props": {
+          "logo": "assets/logos/logo-whatsapp.png",
+          "phone": "22222", 
+          "message": "hola mundo"
+        }
+      }
+}
