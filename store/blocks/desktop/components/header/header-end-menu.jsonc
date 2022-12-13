@@ -827,7 +827,7 @@
       "blockClass": "department_name",
       "iconPosition": "right",
       "iconProps":{
-        "id": "hpa-arrow-back",
+        // "id": "hpa-arrow-back",
         "size": 14
       },
       "itemProps": {

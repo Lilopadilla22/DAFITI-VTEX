@@ -1,18 +1,14 @@
 {
-    "header-layout.mobile#tablet": {
-        "children": ["responsive-layout.tablet#header__tablet"]
-    },
 
-      "responsive-layout.tablet#header__tablet": {
-        "title": "container de todo el heider principal",
-        "children": [
-          "flex-layout.row#header__anuncio", 
-          "flex-layout.row#header__middle",
-          "flex-layout.row#header__desktop--menu"
-        ]
-        ,
-        "props": {
-          "blockClass": "header__desktop"
-        }
-      }
+  "responsive-layout.tablet#header__tablet": {
+    "title": "container de todo el header principal",
+    "children": [
+      "flex-layout.row#header__anuncio",
+      "flex-layout.row#header__middle",
+      "flex-layout.row#header__desktop--menu"
+    ],
+    "props": {
+      "blockClass": "header__desktop"
+    }
+  }
 }

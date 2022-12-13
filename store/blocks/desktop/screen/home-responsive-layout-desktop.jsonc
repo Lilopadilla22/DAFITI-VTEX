@@ -16,6 +16,7 @@
   "flex-layout.col": {
     "title": "container home",
     "children": [
+      "whatsapp-button",
       "flex-layout.row#bannerpublicitario",
       "flex-layout.row#textfirst",
       "flex-layout.row#bannerprincipal",

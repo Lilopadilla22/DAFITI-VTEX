@@ -1,15 +1,25 @@
 {
   "header-layout.mobile": {
     "title": "header version mobile",
-    "children": ["sticky-layout#mobile"]
+    "children": ["sticky-layout#mobile", "responsive-layout.tablet#header__tablet"]
   },
 
   "sticky-layout#mobile": {
     "title": "static del header version phone",
     "children": [
+      "responsive-layout.phone#header__phone"
+    ]
+  },
+
+  "responsive-layout.phone#header__phone": {
+    "title": "container de todo el header principal phone",
+    "children": [
       "flex-layout.row#mobile", 
       "flex-layout.row#mobile__two"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__phone"
+    }
   },
 
   "flex-layout.row#mobile": {
