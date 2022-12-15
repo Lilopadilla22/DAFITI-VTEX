@@ -3,7 +3,10 @@
     "title": "container version phone",
     "children": [
       "flex-layout.row#tablet--tablet"
-    ]
+    ],
+      "props": {
+        "blockClass": "Container__row__phone"
+    }
   },
 
   "flex-layout.row#tablet--tablet": {
@@ -13,19 +16,23 @@
     ],
     "props": {
       "horizontalAlign": "center",
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "blockClass": "Container__col__phone"
     }
   },
 
   "flex-layout.col#tablet": {
     "title": "container home version phone-img-slider",
     "children": [
+      "whatsapp-button",
       "flex-layout.row#section_phone",
       "flex-layout.row#section_phone__two",
-      "slider-layout#marcasbanner"
+      "list-context.bullet-group"
+
     ],
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "Container__col__phone--data"
     }
   }
 }
