@@ -1,0 +1,22 @@
+.bullet__item--link {
+    text-decoration: none;
+    color          : black;
+}
+
+.bullet__item--title {
+    color     : black;
+    font-size : 12px;
+    text-align: center;
+}
+
+.bullet__container::-webkit-scrollbar-track,
+.bullet__container::-webkit-scrollbar-thumb {
+    background-clip : padding-box;
+    background-color: gainsboro;
+    border-right    : 16px solid transparent;
+    border-left     : 16px solid transparent;
+}
+
+.bullet__container::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
