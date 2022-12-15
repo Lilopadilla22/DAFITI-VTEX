@@ -25,9 +25,12 @@
       "slider-layout#marcasbanner",
       "flex-layout.row#bannerayuda",
       "flex-layout.row#favoritos",
+      "flex-layout.row#bullet-group",
       "flex-layout.row#description",
       // "search-result-layout.customQuery#desktop_home",
       "list-context.product-list#slider-desktop"
+      // "list-context-bullet-group"
+      // "bullets-diagramation"
       //"icon#homeprueba"
     ],
     "props": {
