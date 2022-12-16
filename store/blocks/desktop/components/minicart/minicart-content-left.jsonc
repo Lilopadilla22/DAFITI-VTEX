@@ -1,0 +1,88 @@
+{
+  "flex-layout.col#container__carrito--left": {
+    "title": "container content left minicart",
+    "children": [
+      "flex-layout.row#left__minicart",
+      "flex-layout.row#left__minicart-total"
+    ],
+    "props": {
+      "blockClass": "container__carrito--left"
+    }
+  },
+
+  "flex-layout.row#left__minicart": {
+    "title": "container top content left minicart",
+    "children": [
+      "flex-layout.col#left__minicart--text",
+      "flex-layout.col#left__minicart--button"
+    ],
+    "props": {
+      "blockClass": "container__left__minicart"
+    }
+  },
+
+  "flex-layout.col#left__minicart--text": {
+    "title": "container text content minicart-left",
+    "children": ["rich-text#left__minicart--text"],
+    "props": {
+      "blockClass": "container__left__minicart--text",
+      "width": "30%"
+    }
+  },
+
+  "rich-text#left__minicart--text": {
+    "title": "text security minicart",
+    "props": {
+      "text": "**SITIO** \n  BLINDADO",
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "left__minicart--text"
+    }
+  },
+
+  "flex-layout.col#left__minicart--button": {
+    "title": "container button content left minicart",
+    "children": ["minicart-checkout-button"],
+    "props": {
+      "blockClass": "left__minicart--button",
+      "width": "70%"
+    }
+  },
+
+  "flex-layout.row#left__minicart-total": {
+    "title": "container summary content left minicart",
+    "children": ["minicart-summary"],
+    "props": {
+      "blockClass": "left__minicart-total"
+    }
+  },
+
+  "minicart-summary": {
+    "title": "minicart summary desktop",
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+
+  "minicart-checkout-button": {
+    "title": "minicart checkout desktop",
+    "props": {
+      "finishShoppingButtonLink": "/checkout#/cart"
+    }
+  },
+
+  "checkout-summary.compact#minicart": {
+    "title": "Checkout minicar desktop",
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+
+  "summary-totalizers#minicart": {
+    "title": "summatory total desktop minicart",
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": true,
+      "blockClass": "summary__total__minicart"
+    }
+  }
+}
