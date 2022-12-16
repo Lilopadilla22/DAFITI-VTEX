@@ -11,3 +11,8 @@
 .flexCol--container__aboutus__left {
     margin-bottom: 800px;
 }
+
+.flexColChild--Container__col__phone--data {
+    padding-top   : 20px;
+    padding-bottom: 20px;
+}
