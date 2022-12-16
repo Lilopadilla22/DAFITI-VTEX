@@ -1,0 +1,43 @@
+.minicartCheckoutButton :global(.vtex-button__label) {
+    visibility: hidden;
+    font-size : 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+    content    : "Proceder al pago";
+    display    : block;
+    font-size  : 18px;
+    color      : #fff;
+    text-align : center;
+    visibility : initial;
+    font-weight: bold;
+}
+
+.openIconContainer--minicartmobile {
+    padding: 0;
+}
+
+.minicartContainer--minicart__desktop :global(.vtex-button) {
+    /* background-color: transparent; */
+    border-color: none;
+    content     : prodecer al pago;
+
+}
+
+.openIconContainer--minicart__desktop {
+    padding-right: 80px;
+}
+
+
+.minicartWrapperContainer--minicart__desktop,
+.minicartContainer--minicart__desktop {
+    width: 100%;
+}
+
+.popupStyles {
+    max-height: none;
+}
+
+.minicartContainer--minicart__desktop {
+    margin-bottom: 10%;
+}

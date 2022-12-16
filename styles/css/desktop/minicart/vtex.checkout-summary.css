@@ -1,0 +1,7 @@
+.summaryItemContainer--summary__total__minicart :global(.vtex-checkout-summary-0-x-summaryItemLabel--summary__total__minicart) {
+    font-size: 14px;
+}
+
+.price--summary__total__minicart {
+    font-size: 14px;
+}

@@ -1,0 +1,21 @@
+.wrapper--left__minicart--text {
+    width: 100%;
+}
+
+.paragraph--left__minicart--text {
+    padding-left: 80px;
+}
+
+.paragraph--text__minicart__vendido {
+    color    : #858585;
+    font-size: 12px;
+}
+
+.link--text__minicart__vendido {
+    color          : #3cbdaf;
+    text-decoration: none;
+}
+
+.paragraph--text__carrito__vacio {
+    margin: 0
+}

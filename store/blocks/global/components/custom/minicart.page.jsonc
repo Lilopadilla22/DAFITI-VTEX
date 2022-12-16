@@ -1,0 +1,23 @@
+{
+  "store.custom#minicart": {
+    "title": "minicart custom page",
+    "blocks": ["flex-layout.row#container__minicart"]
+  },
+
+  "flex-layout.row#container__minicart": {
+    "title": "container tamaño minicart row",
+    "children": ["flex-layout.col#container__minicart"],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#container__minicart": {
+    "title": "container tamaño minicart col",
+    "children": ["minicart.v2#desktop"],
+    "props": {
+      "width": "70%"
+    }
+  }
+}
