@@ -1,7 +1,20 @@
 {
+
+  "responsive-layout.desktop#container__minicart": {
+    "children": ["minicart.v2#desktop"]
+  },
+
+  "responsive-layout.tablet#container__minicart": {
+    "children": [
+      "minicart.v2#desktop"
+    ]
+  },
+
   "minicart.v2#desktop": {
     "title": "minicart desktop",
-    "children": ["minicart-base-content"],
+    "children": [
+      "minicart-base-content#desktop"
+    ],
     "props": {
       "blockClass": "minicart__desktop",
       "openOnHover": true,
@@ -9,7 +22,7 @@
     }
   },
 
-  "minicart-base-content": {
+  "minicart-base-content#desktop": {
     "title": "minicart content desktop",
     "blocks": ["minicart-empty-state#desktop"],
     "children": [
@@ -131,7 +144,7 @@
       "buttonProps": {
         "size": "regular"
       },
-      "blockClass": "minicart__button--seguircomprando"
+      "blockClass": "minicart__button--seguircomprando" //aja2
     }
   },
 
@@ -197,7 +210,7 @@
       "buttonProps": {
         "size": "regular"
       },
-      "blockClass": "minicar__button__comprar--mas"
+      "blockClass": "minicar__button__comprar--mas" //aja
     }
   }
 }
