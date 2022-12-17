@@ -15,7 +15,11 @@
 
   "flex-layout.col#container__minicart": {
     "title": "container tamaño minicart col",
-    "children": ["minicart.v2#desktop"],
+    "children": [
+      "responsive-layout.desktop#container__minicart",
+      "responsive-layout.tablet#container__minicart",
+      "responsive-layout.phone#container__minicart"
+    ],
     "props": {
       "width": "70%"
     }

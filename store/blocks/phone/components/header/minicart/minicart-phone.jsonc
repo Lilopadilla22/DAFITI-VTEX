@@ -1,13 +1,20 @@
 {
-  // "minicart.v2": {
-  //   "title": "",
-  //   "children": ["minicart-base-content#phone"],
-  //   "props": {
-  //     "openOnHover": true,
-  //     "variation": "block",
-  //     "blockClass": "minicart__phone"
-  //   }
-  // },
+
+  "responsive-layout.phone#container__minicart": {
+    "children": [
+      "minicart.v2#phone"
+    ]
+  },
+  
+  "minicart.v2#phone": {
+    "title": "",
+    "children": ["minicart-base-content#phone"],
+    "props": {
+      "openOnHover": true,
+      "variation": "block",
+      "blockClass": "minicart__phone"
+    }
+  },
 
   "minicart-base-content#phone": {
     "title": "minicart content phone",
