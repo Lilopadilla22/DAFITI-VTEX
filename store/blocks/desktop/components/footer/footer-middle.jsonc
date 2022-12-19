@@ -142,7 +142,7 @@
   "link#footer__middle__acercade--terminos": {
     "title": "links acerca de terminos y condiciones footer-desktop",
     "props": {
-      "href": "/",
+      "href": "/terminos-condiciones",
       "label": "Términos y condiciones"
     }
   },

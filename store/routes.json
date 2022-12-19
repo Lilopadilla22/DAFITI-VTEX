@@ -5,5 +5,9 @@
 
   "store.custom#minicart": {
     "path": "/carrito-compras"
+  },
+
+  "store.custom#terminos": {
+    "path": "/terminos-condiciones"
   }
 }
