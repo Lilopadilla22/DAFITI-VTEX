@@ -6,13 +6,6 @@
         ]
     },
 
-    "responsive-layout.mobile#home": {
-        "title": "component tablet-home",
-        "children": [
-            "flex-layout.row#home-tablet"
-        ]
-    },
-
     "flex-layout.row#home-tablet": {
         "title": "container del home desktop",
         "children": [
