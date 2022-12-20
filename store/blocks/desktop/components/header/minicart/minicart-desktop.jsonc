@@ -1,20 +1,15 @@
 {
-
   "responsive-layout.desktop#container__minicart": {
     "children": ["minicart.v2#desktop"]
   },
 
   "responsive-layout.tablet#container__minicart": {
-    "children": [
-      "minicart.v2#desktop"
-    ]
+    "children": ["minicart.v2#desktop"]
   },
 
   "minicart.v2#desktop": {
     "title": "minicart desktop",
-    "children": [
-      "minicart-base-content#desktop"
-    ],
+    "children": ["minicart-base-content#desktop"],
     "props": {
       "blockClass": "minicart__desktop",
       "openOnHover": true,
