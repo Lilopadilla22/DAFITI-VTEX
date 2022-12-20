@@ -1,18 +1,19 @@
 {
   "header": {
     "title": "container header",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
 
   "header.full": {
     "title": "container header-full",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+
+  "header-layout.mobile": {
+    "title": "header version mobile",
+    "children": [
+      "sticky-layout#mobile",
+      "responsive-layout.tablet#header__tablet"
     ]
   }
-  
 }

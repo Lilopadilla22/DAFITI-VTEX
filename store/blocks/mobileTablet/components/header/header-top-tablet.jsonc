@@ -1,0 +1,294 @@
+{
+  "flex-layout.row#header__tablet__anuncio": {
+    "title": "container tablet header",
+    "children": ["flex-layout.col#header__tablet__anuncio"],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": "container__full__anuncio"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio": {
+    "title": "container header tablet col",
+    "children": ["flex-layout.row#header__tablet__anuncio_text-icon"],
+    "props": {
+      "width": "80%",
+      "blockClass": "container__full__anuncio__tablet"
+    }
+  },
+
+  "flex-layout.row#header__tablet__anuncio_text-icon": {
+    "title": "container de anuncio version tablet",
+    "children": [
+      "flex-layout.col#header__tablet__anuncio-envios",
+      "flex-layout.col#header__tablet__anuncio-cambios",
+      "flex-layout.col#header__tablet__anuncio-sigue",
+      "flex-layout.col#header__tablet__anuncio-nuevo",
+      "flex-layout.col#header__tablet__anuncio-conocenos"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "container__anuncios__tablet"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-envios": {
+    "title": "container de anuncio de envios tablet",
+    "children": ["flex-layout.row#header__tablet__anuncio-envios"],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "container__anuncio__envios"
+    }
+  },
+
+  "flex-layout.row#header__tablet__anuncio-envios": {
+    "title": "container de anuncio de envios tablet row",
+    "children": [
+      "flex-layout.col#header__tablet__anuncio-envios-ico",
+      "flex-layout.col#header__tablet__anuncio-envios-text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": "row_container__anuncio__envios"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-envios-ico": {
+    "title": "container anuncio envio iconos",
+    "children": ["logo#header__anuncio--envios"],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "anuncio__envio__icono"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-envios-text": {
+    "title": "container anuncio envio texto",
+    "children": ["rich-text#header__tablet__anuncio-envios-text"],
+    "props": {
+      "width": "80%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "anuncio__envio__text"
+    }
+  },
+  "rich-text#header__tablet__anuncio-envios-text": {
+    "title": "texto de anuncio version tablet",
+    "props": {
+      "text": "[Envios gratis desde $179.999*](/)",
+      "font": "t-mini",
+      "blockClass": "text-tablet-anuncio"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-cambios": {
+    "title": "container de anuncio de cambios tablet",
+    "children": ["flex-layout.row#header__tablet__anuncio-cambios"],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "container__anuncio__cambios"
+    }
+  },
+
+  "flex-layout.row#header__tablet__anuncio-cambios": {
+    "title": "container de anuncio de cambios tablet col",
+    "children": [
+      "flex-layout.col#header__tablet__anuncio-cambios-ico",
+      "flex-layout.col#header__tablet__anuncio-cambios-text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": "row_container__anuncio__cambios"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-cambios-ico": {
+    "title": "container anuncio cambio iconos",
+    "children": ["logo#header__anuncio--cambios"],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "anuncio__cambio__icono"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-cambios-text": {
+    "title": "container anuncio cambio texto",
+    "children": ["rich-text#header__tablet__anuncio-cambios-text"],
+    "props": {
+      "width": "80%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "anuncio__cambio__text"
+    }
+  },
+
+  "rich-text#header__tablet__anuncio-cambios-text": {
+    "title": "",
+    "props": {
+      "text": "[90 Días de cambio GRATIS](/)",
+      "font": "t-mini",
+      "blockClass": "text-tablet-anuncio"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-sigue": {
+    "title": "container de anuncio de seguimiento tablet",
+    "children": ["flex-layout.row#header__tablet__anuncio-sigue"],
+    "props": {
+      "width": "18%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "container__anuncio__seguimiento"
+    }
+  },
+
+  "flex-layout.row#header__tablet__anuncio-sigue": {
+    "title": "container de anuncio de seguimiento tablet col",
+    "children": [
+      "flex-layout.col#header__tablet__anuncio-sigue-ico",
+      "flex-layout.col#header__tablet__anuncio-sigue-text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": "row_container__anuncio__seguimiento"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-sigue-ico": {
+    "title": "container anuncio seguimiento iconos",
+    "children": ["logo#header__anuncio--sigue-icono"],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "anuncio__sigue__icono"
+    }
+  },
+  "flex-layout.col#header__tablet__anuncio-sigue-text": {
+    "title": "container anuncio seguimiento texto",
+    "children": ["rich-text#header__tablet__anuncio-sigue-text"],
+    "props": {
+      "width": "80%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "anuncio__sigue__text"
+    }
+  },
+
+  "rich-text#header__tablet__anuncio-sigue-text": {
+    "title": "texto de anuncio de sigue version tablet",
+    "props": {
+      "text": "[Sigue tu pedido](/)",
+      "font": "t-mini",
+      "blockClass": "text-tablet-anuncio"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-nuevo": {
+    "title": "container de anuncio de nuevo tablet",
+    "children": ["rich-text#header__tablet__anuncio-nuevo-text"],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "container__anuncio__nuevo"
+    }
+  },
+
+  "rich-text#header__tablet__anuncio-nuevo-text": {
+    "title": "texto de anuncio de nuevo version tablet",
+    "props": {
+      "text": "[¡NUEVO! centros de experiencias](/)",
+      "font": "t-mini",
+      "blockClass": "text-tablet-anuncio"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-conocenos": {
+    "title": "container de anuncio de conocenos tablet",
+    "children": ["flex-layout.row#header__tablet__anuncio-conocenos"],
+    "props": {
+      "width": "22%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "container__anuncio__conocenos"
+    }
+  },
+
+  "flex-layout.row#header__tablet__anuncio-conocenos": {
+    "title": "container de anuncio de envios tablet row",
+    "children": [
+      "flex-layout.col#header__tablet__anuncio-conocenos-text1",
+      "flex-layout.col#header__tablet__anuncio-conocenos-ico",
+      "flex-layout.col#header__tablet__anuncio-conocenos-text2"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": "row_container__anuncio__conocenos"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-conocenos-text1": {
+    "title": "container anuncio conocenos texto 1",
+    "children": ["rich-text#header__tablet__anuncio-conocenos-text1"],
+    "props": {
+      "width": "40%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "anuncio__envio__text-one"
+    }
+  },
+
+  "rich-text#header__tablet__anuncio-conocenos-text1": {
+    "title": "texto 1 de conocernos",
+    "props": {
+      "text": "[Conocenos](/)",
+      "font": "t-mini",
+      "blockClass": "text-tablet-anuncio"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-conocenos-ico": {
+    "title": "container anuncio conocenos iconos",
+    "children": ["logo#header__anuncio--conocenos"],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "anuncio__conocenos__icono"
+    }
+  },
+
+  "flex-layout.col#header__tablet__anuncio-conocenos-text2": {
+    "title": "container anuncio conocenos texto 2",
+    "children": ["rich-text#header__tablet__anuncio-conocenos-text2"],
+    "props": {
+      "width": "40%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "anuncio__conocenos__text-two"
+    }
+  },
+
+  "rich-text#header__tablet__anuncio-conocenos-text2": {
+    "title": "",
+    "props": {
+      "text": "[Servicio al Cliente](/)",
+      "font": "t-mini",
+      "blockClass": "text-tablet-anuncio"
+    }
+  }
+}
