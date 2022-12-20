@@ -37,7 +37,7 @@
   "rich-text#footer__mobile__end-terminos": {
     "title": "text footer phone terminos y condiciones",
     "props": {
-      "text": "[Terminos y condiciones](/)",
+      "text": "[Terminos y condiciones](/terminos-condiciones)",
       "blockClass": "footer__phone--text"
     }
   },

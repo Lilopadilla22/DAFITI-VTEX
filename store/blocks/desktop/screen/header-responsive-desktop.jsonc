@@ -4,8 +4,8 @@
     "children": [
       "flex-layout.row#header__anuncio", 
       "flex-layout.row#header__middle",
-      "department-search",
-      "flex-layout.row#header__desktop--menu"
+      "flex-layout.row#header__desktop--menu",
+      "department-search"
     ]
     ,
     "props": {

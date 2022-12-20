@@ -19,10 +19,10 @@
 
   "product-list-content-desktop#right": {
     "title": "product minicart container productlist desktop",
-    "children": ["flex-layout.row#list-row.desktop"]
+    "children": ["flex-layout.row#list__row__desktop"]
   },
 
-  "flex-layout.row#list-row.desktop": {
+  "flex-layout.row#list__row__desktop": {
     "title": "Container row right minicart product-description",
     "children": ["flex-layout.col#product_cart--right"],
     "props": {

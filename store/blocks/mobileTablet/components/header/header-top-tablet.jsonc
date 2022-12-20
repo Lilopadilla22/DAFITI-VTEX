@@ -13,7 +13,6 @@
     "title": "container header tablet col",
     "children": ["flex-layout.row#header__tablet__anuncio_text-icon"],
     "props": {
-      "width": "80%",
       "blockClass": "container__full__anuncio__tablet"
     }
   },
@@ -38,7 +37,7 @@
     "children": ["flex-layout.row#header__tablet__anuncio-envios"],
     "props": {
       "width": "20%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "container__anuncio__envios"
     }
@@ -62,7 +61,7 @@
     "children": ["logo#header__anuncio--envios"],
     "props": {
       "width": "20%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "anuncio__envio__icono"
     }
@@ -73,7 +72,7 @@
     "children": ["rich-text#header__tablet__anuncio-envios-text"],
     "props": {
       "width": "80%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "anuncio__envio__text"
     }
@@ -92,7 +91,7 @@
     "children": ["flex-layout.row#header__tablet__anuncio-cambios"],
     "props": {
       "width": "20%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "container__anuncio__cambios"
     }
@@ -116,7 +115,7 @@
     "children": ["logo#header__anuncio--cambios"],
     "props": {
       "width": "20%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "anuncio__cambio__icono"
     }
@@ -127,7 +126,7 @@
     "children": ["rich-text#header__tablet__anuncio-cambios-text"],
     "props": {
       "width": "80%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "anuncio__cambio__text"
     }
@@ -147,7 +146,7 @@
     "children": ["flex-layout.row#header__tablet__anuncio-sigue"],
     "props": {
       "width": "18%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "container__anuncio__seguimiento"
     }
@@ -171,7 +170,7 @@
     "children": ["logo#header__anuncio--sigue-icono"],
     "props": {
       "width": "20%",
-      "verticalAlign": "middle",
+      "verticalAlign": "tope",
       "horizontalAlign": "center",
       "blockClass": "anuncio__sigue__icono"
     }
@@ -181,7 +180,7 @@
     "children": ["rich-text#header__tablet__anuncio-sigue-text"],
     "props": {
       "width": "80%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "anuncio__sigue__text"
     }
@@ -201,7 +200,7 @@
     "children": ["rich-text#header__tablet__anuncio-nuevo-text"],
     "props": {
       "width": "20%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "container__anuncio__nuevo"
     }
@@ -221,7 +220,7 @@
     "children": ["flex-layout.row#header__tablet__anuncio-conocenos"],
     "props": {
       "width": "22%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "container__anuncio__conocenos"
     }
@@ -246,7 +245,7 @@
     "children": ["rich-text#header__tablet__anuncio-conocenos-text1"],
     "props": {
       "width": "40%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "anuncio__envio__text-one"
     }
@@ -266,7 +265,7 @@
     "children": ["logo#header__anuncio--conocenos"],
     "props": {
       "width": "20%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "anuncio__conocenos__icono"
     }
@@ -277,7 +276,7 @@
     "children": ["rich-text#header__tablet__anuncio-conocenos-text2"],
     "props": {
       "width": "40%",
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "anuncio__conocenos__text-two"
     }
