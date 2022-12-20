@@ -1,2 +1,12 @@
-
-{}
+{
+  "responsive-layout.tablet#header__tablet": {
+    "title": "container de todo el header principal",
+    "children": [
+      "flex-layout.row#header__tablet__anuncio",
+      "flex-layout.row#header__middle"
+    ],
+    "props": {
+      "blockClass": "header__desktop"
+    }
+  }
+}
