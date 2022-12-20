@@ -63,7 +63,7 @@
   "logo#header__anuncio--envios": {
     "title": "icono envios",
     "props": {
-      "title": "Heart",
+      "title": "camion de envios",
       "href": "/",
       "url": "assets/svg/truck.svg",
       "width": "11",
@@ -80,7 +80,7 @@
   },
 
   "rich-text#header__anuncio--envios": {
-    "title": "texto de envior", 
+    "title": "texto de envios", 
     "props": {
       "text": "[Envios gratis desde $179.999*](/)",
       "blockClass": "text__description__anuncio"
