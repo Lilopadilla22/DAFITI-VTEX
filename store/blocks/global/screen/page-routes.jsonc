@@ -50,6 +50,8 @@
       "responsive-layout.phone#container__minicart"
     ],
     "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
       "width": "70%"
     }
   },
@@ -63,11 +65,23 @@
 
   "flex-layout.row#terminos-condiciones": {
     "title": "",
-    "children": ["flex-layout.col#terminos-condiciones"]
+    "children": ["flex-layout.col#terminos-condiciones"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "preserveLayoutOnMobile": true
+    }
   },
 
   "flex-layout.col#terminos-condiciones": {
     "title": "",
-    "children": ["pdf-reader"]
+    "children": [
+      "responsive-layout.desktop#pdf-reader",
+      "responsive-layout.tablet#pdf-reader",
+      "responsive-layout.phone#pdf-reader"
+    ],
+    "props": {
+      "blockClass": "pdf_reader"
+    }
   }
 }

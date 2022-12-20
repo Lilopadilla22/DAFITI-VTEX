@@ -1,9 +1,37 @@
 {
+  "responsive-layout.desktop#pdf-reader": {
+    "children": ["pdf-reader"]
+  },
+
   "pdf-reader": {
     "props": {
       "pdfUrl": "assets/documents/dafiti.pdf",
       "width": 500,
-      "heigt": 800
+      "height": 800
+    }
+  },
+
+  "responsive-layout.tablet#pdf-reader": {
+    "children": ["pdf-reader#tablet"]
+  },
+
+  "pdf-reader#tablet": {
+    "props": {
+      "pdfUrl": "assets/documents/dafiti.pdf",
+      "width": 400,
+      "height": 600
+    }
+  },
+
+  "responsive-layout.phone#pdf-reader": {
+    "children": ["pdf-reader#phone"]
+  },
+
+  "pdf-reader#phone": {
+    "props": {
+      "pdfUrl": "assets/documents/dafiti.pdf",
+      "width": 300,
+      "height": 400
     }
   }
 }
