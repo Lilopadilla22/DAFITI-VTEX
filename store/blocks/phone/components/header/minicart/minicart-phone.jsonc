@@ -1,11 +1,8 @@
 {
-
   "responsive-layout.phone#container__minicart": {
-    "children": [
-      "minicart.v2#phone"
-    ]
+    "children": ["minicart.v2#phone"]
   },
-  
+
   "minicart.v2#phone": {
     "title": "",
     "children": ["minicart-base-content#phone"],
@@ -18,16 +15,79 @@
 
   "minicart-base-content#phone": {
     "title": "minicart content phone",
-    // "blocks": ["minicart-empty-state#phone"],
+    "blocks": ["minicart-empty-state#phone"],
     "children": [
       "flex-layout.row#content__minicart__phone-product",
-      "flex-layout.row#content__minicart__phone-pagos",
-      "flex-layout.row#bullet-group"
+      "flex-layout.row#content__minicart__phone-pagos"
     ],
     "props": {
+      "horizontalAlign": "center",
       "blockClass": "content__phone__container"
     }
   },
+
+  //carrito vacio
+
+  "minicart-empty-state#phone": {
+    "title": "container del estado del minicart version phone",
+    "children": ["flex-layout.row#empty-state-phone"]
+  },
+
+  "flex-layout.row#empty-state-phone": {
+    "title": "container del contenido, estado vacio del minicart version phone",
+    "children": ["flex-layout.col#empty-state-phone"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "blockClass": "container__empty__cart"
+    }
+  },
+
+  "flex-layout.col#empty-state-phone": {
+    "title": "container del contenido, estado vacio del minicart version phone icono-text",
+    "children": [
+      "icon-cart#minicart-empty-state-phone",
+      "rich-text#minicart-default-empty-state-phone",
+      "link#content__empty__button"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5,
+      "blockClass": "container__empty__cart__col"
+    }
+  },
+
+  "icon-cart#minicart-empty-state-phone": {
+    "title": "contenido, estado vacio del minicart version phone icono",
+    "props": {
+      "size": 100,
+      "blockClass": "minicart-empty-state"
+    }
+  },
+
+  "rich-text#minicart-default-empty-state-phone": {
+    "title": "contenido, estado vacio del minicart version phone text",
+    "props": {
+      "text": "Tu carrito esta vacio",
+      "blockClass": "text__carrito__vacio__phone"
+    }
+  },
+
+  "link#content__empty__button": {
+    "title": "botton minicart ver mas",
+    "props": {
+      "href": "/#",
+      "label": "CONTINUAR COMPRANDO",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      },
+      "blockClass": "container__button__empty"
+    }
+  },
+
+  // carrito
 
   "flex-layout.row#content__minicart__phone-product": {
     "title": "container de contenido carrito",
@@ -128,7 +188,7 @@
     "title": "text quantity selector",
     "props": {
       "text": "**cantidad:**",
-      "blockClass":"minicar__phone__quantity"
+      "blockClass": "minicar__phone__quantity"
     }
   },
 
