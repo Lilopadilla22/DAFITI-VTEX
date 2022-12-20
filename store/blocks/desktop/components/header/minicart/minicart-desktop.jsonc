@@ -3,10 +3,6 @@
     "children": ["minicart.v2#desktop"]
   },
 
-  "responsive-layout.tablet#container__minicart": {
-    "children": ["minicart.v2#desktop"]
-  },
-
   "minicart.v2#desktop": {
     "title": "minicart desktop",
     "children": ["minicart-base-content#desktop"],

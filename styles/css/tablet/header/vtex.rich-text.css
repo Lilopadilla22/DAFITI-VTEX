@@ -3,3 +3,8 @@
     color          : black;
     font-size      : 6px;
 }
+
+.paragraph--text-tablet-anuncio {
+    margin-top   : 0;
+    margin-bottom: 0;
+}
