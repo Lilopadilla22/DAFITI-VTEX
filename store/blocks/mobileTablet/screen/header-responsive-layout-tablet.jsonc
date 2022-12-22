@@ -1,2 +1,73 @@
+{
+  "responsive-layout.tablet#header__tablet": {
+    "title": "container de todo el header principal",
+    "children": [
+      "flex-layout.row#tablet__resposive__anuncio",
+      "flex-layout.row#tablet__resposive__anuncio__middile",
+      "flex-layout.row#tablet__resposive__anuncio__middile__menu"
+    ],
+    "props": {
+      "blockClass": "responsive__tablet__full"
+    }
+  },
 
-{}
+  "flex-layout.row#tablet__resposive__anuncio": {
+    "title": " ",
+    "children": ["flex-layout.col#tablet__resposive__anuncio"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "container__anuncio__tablet"
+    }
+  },
+
+  "flex-layout.col#tablet__resposive__anuncio": {
+    "title": " ",
+    "children": ["flex-layout.row#header__tablet__anuncio"],
+    "props": {
+      "width": "90%",
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "blockClass": "container__anuncio__tablet__col"
+    }
+  },
+
+  "flex-layout.row#tablet__resposive__anuncio__middile": {
+    "title": " ",
+    "children": ["flex-layout.col#tablet__resposive__anuncio__middile"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "container__middle__table"
+    }
+  },
+
+  "flex-layout.col#tablet__resposive__anuncio__middile": {
+    "title": " ",
+    "children": ["flex-layout.row#header__middle"],
+    "props": {
+      "width": "90%",
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "blockClass": "container__middle__table__col"
+    }
+  },
+
+  "flex-layout.row#tablet__resposive__anuncio__middile__menu": {
+    "title": " ",
+    "children": ["flex-layout.col#tablet__resposive__anuncio__middile__menu"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "container__menu__tablet"
+    }
+  },
+
+  "flex-layout.col#tablet__resposive__anuncio__middile__menu": {
+    "title": " ",
+    "children": ["flex-layout.row#header__tablet__menu"],
+    "props": {
+      "width": "90%",
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "blockClass": "container__menu__tablet__col"
+    }
+  }
+}

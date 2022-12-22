@@ -1,9 +1,4 @@
 {
-  "header-layout.mobile": {
-    "title": "header version mobile",
-    "children": ["sticky-layout#mobile", "responsive-layout.tablet#header__tablet"]
-  },
-
   "sticky-layout#mobile": {
     "title": "static del header version phone",
     "children": [

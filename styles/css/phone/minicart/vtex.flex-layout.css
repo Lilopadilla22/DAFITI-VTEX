@@ -46,7 +46,19 @@
 }
 
 .flexColChild--container__buttons__phone {
-    margin-left  : 12px;
-    margin-top   : 10px;
-    margin-bottom: 40px;
+    margin-top: 10px;
 }
+
+.flexColChild--container__buttons__phone :global(.vtex-store-link-0-x-link--content__minicart__button__continuar) {
+   margin-left: 12px;
+}
+
+.flexRow--container__empty__cart {
+    margin-top   : 40px;
+    margin-bottom: 100px;
+}
+
+.flexColChild--container__empty__cart__col {
+    padding-bottom: 0;
+}
+
