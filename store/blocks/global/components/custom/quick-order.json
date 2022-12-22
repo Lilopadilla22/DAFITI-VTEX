@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#quick-order": {
+        "title": "container del home desktop",
+        "children": ["flex-layout.col#quick-order"],
+        "props": {
+          "horizontalAlign": "center",
+          "colSizing": "auto"
+        }
+      },
+    
+      "flex-layout.col#quick-order": {
+        "title":"",
+        "children": ["quick-order",
+        "department-search"
+    ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center"
+        }
+      }
+}

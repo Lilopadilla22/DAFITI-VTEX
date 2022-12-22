@@ -60,7 +60,9 @@
     "itgloberspartnercl.bullets-diagramation-v2": "0.x",
     "itgloberspartnercl.add-to-cart-info": "0.x",
     "itgloberspartnercl.custom-department-search": "0.x",
-    "itgloberspartnercl.pdf-reader": "0.x"
+    "itgloberspartnercl.pdf-reader": "0.x",
+    "itgloberspartnercl.quick-order-v2": "0.x",
+    "itgloberspartnercl.special-diagramation": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",
