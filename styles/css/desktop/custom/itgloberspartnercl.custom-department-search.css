@@ -1,0 +1,11 @@
+/* .searchBarInnerContainer {
+    width: 80%;
+} */
+
+.searchIcon {
+    color:  aquamarine; 
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    height: 26px;
+}

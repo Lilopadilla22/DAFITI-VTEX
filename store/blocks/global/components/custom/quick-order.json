@@ -10,9 +10,7 @@
     
       "flex-layout.col#quick-order": {
         "title":"",
-        "children": ["quick-order",
-        "department-search"
-    ],
+        "children": ["quick-order"],
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center"
