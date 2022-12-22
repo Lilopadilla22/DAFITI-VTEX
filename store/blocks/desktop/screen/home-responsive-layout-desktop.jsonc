@@ -16,6 +16,8 @@
   "flex-layout.col": {
     "title": "container home",
     "children": [
+
+      "flex-layout.row#search-departament",
       "whatsapp-button",
       "flex-layout.row#bannerpublicitario",
       "flex-layout.row#textfirst",
@@ -30,7 +32,6 @@
       "flex-layout.row#description",
       // "search-result-layout.customQuery#desktop_home",
       "list-context.product-list#slider-desktop",
-      "department-search",
       "custom-grid"
       // "list-context-bullet-group"
       // "bullets-diagramation"

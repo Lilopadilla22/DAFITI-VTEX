@@ -10,8 +10,6 @@
     ]
   },
 
-
-
   "image#grid-one": {
     "title": "Imagen uno del grid",
     "props": {
