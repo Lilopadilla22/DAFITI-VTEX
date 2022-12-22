@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#search-departament": {
+    "title": "",
+    "children": ["flex-layout.col#search-departament"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "container__search__departament"
+    }
+  },
+
+  "flex-layout.col#search-departament": {
+    "title": "",
+    "children": ["rich-text#search-departament", "department-search"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "container__search__departament__col"
+    }
+  },
+
+  "rich-text#search-departament": {
+    "title": "",
+    "props": {
+      "text": "¡**Busca en tu departamento**!",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": "text__search__departament"
+    }
+  }
+}
