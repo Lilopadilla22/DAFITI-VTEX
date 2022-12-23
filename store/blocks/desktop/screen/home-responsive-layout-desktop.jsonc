@@ -16,14 +16,13 @@
   "flex-layout.col": {
     "title": "container home",
     "children": [
-
-      "flex-layout.row#search-departament",
       "whatsapp-button",
       "flex-layout.row#bannerpublicitario",
       "flex-layout.row#textfirst",
       "flex-layout.row#bannerprincipal",
       "flex-layout.row#bannersecundario",
       "flex-layout.row#quick-order",
+      "flex-layout.row#search-departament",
       "flex-layout.row#marcas",
       "slider-layout#marcasbanner",
       "flex-layout.row#bannerayuda",
