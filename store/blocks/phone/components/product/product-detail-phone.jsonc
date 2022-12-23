@@ -1,216 +1,194 @@
 {
-    "responsive-layout.phone#product__detail__page": {
-        "title": "pdp version phone",
-        "children": [
-            "flex-layout.row#product__detail__phone"
-        ],
-        "props": {
-            "blockClass": "pdp__phone"
-        }
-    },
-
-    "flex-layout.row#product__detail__phone": {
-        "title": "container total pdp phone row",
-        "children": [
-            "flex-layout.col#product__detail__phone"
-        ],
-        "props": {
-            "blockClass": "container__pdp__row"
-        }
-    },
-
-    "flex-layout.col#product__detail__phone": {
-        "title": "container total pdp phone col",
-        "children": [
-            "flex-layout.row#product__detail__phone__wishlist",
-            "flex-layout.row#product__detail__phone__image",
-            "flex-layout.row#product__detail__phone__info",
-            "flex-layout.row#product__detail__phone__imgpago",
-            "flex-layout.row#product__detail__phone__sku",
-            // "flex-layout.row#product__detail__phone__detalles",
-            "product-separator",
-            "disclosure-layout#product__detail__phone__detalles",
-            "product-separator",
-            "list-context.product-list#slider-desktop"
-        ],
-        "props": {
-            "blockClass": "container__pdp__col"
-        }
-    },
-
-    "flex-layout.row#product__detail__phone__wishlist": {
-        "title": "container wishlist phone",
-        "children": [
-            "flex-layout.col#product__detail__phone__wishlist"
-        ],
-        "props": {
-            "horizontalAlign": "right",
-            "blockClass": "container__wishtlist__phone"
-        }
-    },
-
-    "flex-layout.col#product__detail__phone__wishlist": {
-        "title": "icono de wishlist phone",
-        "children": [
-            "add-to-list-btn"
-        ],
-        "props": {
-            "horizontalAlign": "right",
-            "blockClass": "icono__wishlist__phone"
-        }
-    },
-
-    "flex-layout.row#product__detail__phone__image": {
-        "title": "container imagen pdp phone",
-        "children": [
-            "flex-layout.col#product__detail__phone__image"
-        ],
-        "props": {
-            "blockClass": "container__img__pdp__phone"
-        }
-    },
-
-    "flex-layout.col#product__detail__phone__image": {
-        "title":"container imagen pdp phone col",
-        "children": [
-            "product-images#product__detail__image"
-        ],
-        "props": {
-            "blockClass": "container__img__pdp__phone-col"
-        }
-    },
-
-    "flex-layout.row#product__detail__phone__info": {
-        "title": "container informacion pdp phone",
-        "children": [
-            "flex-layout.col#product__detail__phone__info"
-        ],
-        "props": {
-            "blockClass": "container__inf__pdp__phone"
-        }
-    },
-
-    "flex-layout.col#product__detail__phone__info": {
-        "title": "container informacion pdp phone col",
-        "children": [
-            "vtex.store-components:product-name",
-            "vtex.store-components:product-brand",
-            "product-identifier.product",
-            "rich-text#product-detail-vendido-phone"
-        ],
-        "props": {
-            "marginLeft": 5,
-            "blockClass": "container__phone__info"
-        }
-    },
-
-    "rich-text#product-detail-vendido-phone": {
-        "title": "text custom tienda de producto pdp",
-        "props": {
-          "text": "Vendido por [DAFITI](/)",
-          "font": "t-mini",
-          "blockClass": "text_pdp__tiendas"
-        }
-      },
-
-    "flex-layout.row#product__detail__phone__imgpago": {
-        "title": "container img pago phone",
-        "children": [
-            "flex-layout.col#product__detail__phone__imgpago"
-        ],
-        "props": {
-            "blockClass": "container__img__pago"
-        }
-    },
-
-    "flex-layout.col#product__detail__phone__imgpago": {
-        "title": "container img pago phone col",
-        "children": [
-            "image#product__detail__info-image"
-        ],
-        "props": {
-            "marginLeft": 3,
-            "blockClass": "img__container__pago"
-        }
-    },
-
-    "flex-layout.row#product__detail__phone__sku": {
-        "title": "container sku pdp phone",
-        "children": [
-            "sku-selector"
-        ],
-        "props": {
-            "blockClass": "sku__phone"
-        }
-    },
-
-    // "flex-layout.row#product__detail__phone__detalles": {
-    //     "title": "",
-    //     "children": [
-    //         "flex-layout.col#product__detail__phone__detalles"
-    //     ],
-    //     "props": {
-    //         "blockClass": ""
-    //     }
-    // },
-    // "flex-layout.col#product__detail__phone__detalles": {
-    //     "title": "",
-    //     "children": [
-    //         "product-description"
-    //     ],
-    //     "props": {
-    //         "blockClass": ""
-    //     }
-    // },
-
-    "disclosure-layout#product__detail__phone__detalles": {
-        "title": "container disclosure phone detalle",
-        "children": [
-            "disclosure-trigger#product__detail__phone__detalles",
-            "disclosure-content#product__detail__phone__detalles"
-        ],
-        "props": {
-            "blockClass": "container__disclosure__detalle"
-        }
-    },
-
-    "disclosure-trigger#product__detail__phone__detalles": {
-        "title": "container disclosure text phone detalle",
-        "children": [
-            "rich-text#product__detail__phone__detalles"
-            // "disclosure-state-indicator"
-        ],
-        "props": {
-            "blockClass": "container__text__tigger"
-        }
-    },
-
-    "rich-text#product__detail__phone__detalles": {
-        "title": "disclosure text phone detaller",
-        "props": {
-            "text": "Detalles del producto",
-            "blockClass": "text__tigger__phone"
-        }
-    },
-
-    "disclosure-content#product__detail__phone__detalles": {
-        "title": "container disclosure contenido de detalle phone",
-        "children": [
-            "flex-layout.row#disclosure__product__detail__phone__detalles"
-        ],
-        "props": {
-            "horizontalAlign": "center",
-            "blockClass": "content__disclosure__phone"
-        }
-    },
-
-    "flex-layout.row#disclosure__product__detail__phone__detalles": {
-        "title": "container descripcion del producto phone",
-        "children": [
-            "product-description"
-        ],
-        "props": {
-            "blockClass": "container__content__phone"
-        }
+  "responsive-layout.phone#product__detail__page": {
+    "title": "pdp version phone",
+    "children": ["flex-layout.row#product__detail__phone"],
+    "props": {
+      "blockClass": "pdp__phone"
     }
+  },
+
+  "flex-layout.row#product__detail__phone": {
+    "title": "container total pdp phone row",
+    "children": ["flex-layout.col#product__detail__phone"],
+    "props": {
+      "blockClass": "container__pdp__row"
+    }
+  },
+
+  "flex-layout.col#product__detail__phone": {
+    "title": "container total pdp phone col",
+    "children": [
+      "flex-layout.row#product__detail__phone__wishlist",
+      "flex-layout.row#product__detail__phone__image",
+      "flex-layout.row#product__detail__phone__info",
+      "flex-layout.row#product__detail__phone__imgpago",
+      "flex-layout.row#product__detail__phone__sku",
+      // "flex-layout.row#product__detail__phone__detalles",
+      "product-separator",
+      "disclosure-layout#product__detail__phone__detalles",
+      "product-separator",
+      "list-context.product-list#slider-desktop"
+    ],
+    "props": {
+      "blockClass": "container__pdp__col"
+    }
+  },
+
+  "flex-layout.row#product__detail__phone__wishlist": {
+    "title": "container wishlist phone",
+    "children": ["flex-layout.col#product__detail__phone__wishlist"],
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "container__wishtlist__phone"
+    }
+  },
+
+  "flex-layout.col#product__detail__phone__wishlist": {
+    "title": "icono de wishlist phone",
+    "children": ["add-to-list-btn"],
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "icono__wishlist__phone"
+    }
+  },
+
+  "flex-layout.row#product__detail__phone__image": {
+    "title": "container imagen pdp phone",
+    "children": ["flex-layout.col#product__detail__phone__image"],
+    "props": {
+      "blockClass": "container__img__pdp__phone"
+    }
+  },
+
+  "flex-layout.col#product__detail__phone__image": {
+    "title": "container imagen pdp phone col",
+    "children": ["product-images#product__detail__image"],
+    "props": {
+      "blockClass": "container__img__pdp__phone-col"
+    }
+  },
+
+  "flex-layout.row#product__detail__phone__info": {
+    "title": "container informacion pdp phone",
+    "children": ["flex-layout.col#product__detail__phone__info"],
+    "props": {
+      "blockClass": "container__inf__pdp__phone"
+    }
+  },
+
+  "flex-layout.col#product__detail__phone__info": {
+    "title": "container informacion pdp phone col",
+    "children": [
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "product-identifier.product",
+      "rich-text#product-detail-vendido-phone"
+    ],
+    "props": {
+      "marginLeft": 5,
+      "blockClass": "container__phone__info"
+    }
+  },
+
+  "rich-text#product-detail-vendido-phone": {
+    "title": "text custom tienda de producto pdp",
+    "props": {
+      "text": "Vendido por [DAFITI](/)",
+      "font": "t-mini",
+      "blockClass": "text_pdp__tiendas"
+    }
+  },
+
+  "flex-layout.row#product__detail__phone__imgpago": {
+    "title": "container img pago phone",
+    "children": ["flex-layout.col#product__detail__phone__imgpago"],
+    "props": {
+      "blockClass": "container__img__pago"
+    }
+  },
+
+  "flex-layout.col#product__detail__phone__imgpago": {
+    "title": "container img pago phone col",
+    "children": ["image#product__detail__info-image"],
+    "props": {
+      "marginLeft": 3,
+      "blockClass": "img__container__pago"
+    }
+  },
+
+  "flex-layout.row#product__detail__phone__sku": {
+    "title": "container sku pdp phone",
+    "children": ["sku-selector"],
+    "props": {
+      "blockClass": "sku__phone"
+    }
+  },
+
+  // "flex-layout.row#product__detail__phone__detalles": {
+  //     "title": "",
+  //     "children": [
+  //         "flex-layout.col#product__detail__phone__detalles"
+  //     ],
+  //     "props": {
+  //         "blockClass": ""
+  //     }
+  // },
+  // "flex-layout.col#product__detail__phone__detalles": {
+  //     "title": "",
+  //     "children": [
+  //         "product-description"
+  //     ],
+  //     "props": {
+  //         "blockClass": ""
+  //     }
+  // },
+
+  "disclosure-layout#product__detail__phone__detalles": {
+    "title": "container disclosure phone detalle",
+    "children": [
+      "disclosure-trigger#product__detail__phone__detalles",
+      "disclosure-content#product__detail__phone__detalles"
+    ],
+    "props": {
+      "blockClass": "container__disclosure__detalle"
+    }
+  },
+
+  "disclosure-trigger#product__detail__phone__detalles": {
+    "title": "container disclosure text phone detalle",
+    "children": [
+      "rich-text#product__detail__phone__detalles"
+      // "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "container__text__tigger"
+    }
+  },
+
+  "rich-text#product__detail__phone__detalles": {
+    "title": "disclosure text phone detaller",
+    "props": {
+      "text": "Detalles del producto",
+      "blockClass": "text__tigger__phone"
+    }
+  },
+
+  "disclosure-content#product__detail__phone__detalles": {
+    "title": "container disclosure contenido de detalle phone",
+    "children": [
+      "flex-layout.row#disclosure__product__detail__phone__detalles"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "content__disclosure__phone"
+    }
+  },
+
+  "flex-layout.row#disclosure__product__detail__phone__detalles": {
+    "title": "container descripcion del producto phone",
+    "children": ["product-description"],
+    "props": {
+      "blockClass": "container__content__phone"
+    }
+  }
 }

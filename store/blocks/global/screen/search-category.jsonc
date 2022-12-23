@@ -3,8 +3,15 @@
       "title": "containes principal search-category",
       "blocks": [
         "search-result-layout#category"
-      ]
+      ],
+      "props": {
+        "context": {
+          "skusFilter": "ALL",
+          "simulationBehavior": "default"
+        }
+      }
     },
+
     "search-result-layout#category": {
       "title": "containes principal search-categoryn-versiones",
       "blocks": [
