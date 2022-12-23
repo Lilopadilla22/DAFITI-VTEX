@@ -1,8 +1,18 @@
 // {
 //   "store.search": {
+//     "title": "",
+//     "blocks": [
+//       "search-result-layout#department",
+//       "search-result-layout#category"
+//     ]
+//   }
+// }
+
+{
+//   "store.search": {
 //     "title": "container search-store",
 //     "blocks": [
-//       "store.search#departament"
+//         "search-result-layout"
 //     ],
 //     "props":{
 //       "context":{
@@ -80,5 +90,4 @@
 //     }
 //   }
 
-// }
-{}
+}

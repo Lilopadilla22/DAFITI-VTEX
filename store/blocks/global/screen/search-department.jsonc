@@ -1,0 +1,21 @@
+{
+  "store.search#department": {
+    "title": "container search-department",
+    "blocks": ["search-result-layout#department"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+
+  "search-result-layout#department": {
+    "title": "container search-department",
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ]
+  }
+}

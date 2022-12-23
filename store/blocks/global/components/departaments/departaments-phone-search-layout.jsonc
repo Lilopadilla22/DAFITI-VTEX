@@ -1,5 +1,5 @@
 {
-  "search-result-layout.mobile#deparment": {
+  "search-result-layout.mobile#department": {
     "title": "departament layout mobile-tablet",
     "children": [
       "flex-layout.row#departament__phone__breadcrumb",
@@ -13,9 +13,7 @@
 
   "flex-layout.row#departament__phone__breadcrumb": {
     "title": "BreadCrumb row mobile",
-    "children": [
-      "flex-layout.col#departament__phone__breadcrumb"
-    ],
+    "children": ["flex-layout.col#departament__phone__breadcrumb"],
     "props": {
       "blockClass": "departament__phone--row--breadcrumb"
     }
@@ -23,9 +21,7 @@
 
   "flex-layout.col#departament__phone__breadcrumb": {
     "title": "BreadCrumb col phone",
-    "children": [
-      "breadcrumb.search"
-    ],
+    "children": ["breadcrumb.search"],
     "props": {
       "blockClass": "departament__phone--col--breadcrumb"
     }
@@ -53,9 +49,7 @@
 
   "flex-layout.col#departament__phone__header--title": {
     "title": "titulo del departamento modelo mobile",
-    "children": [
-      "search-title.v2"
-    ],
+    "children": ["search-title.v2"],
     "props": {
       "width": "40%",
       "horizontalAlign": "left",
@@ -66,9 +60,7 @@
 
   "flex-layout.col#departament__phone__header--number": {
     "title": "Numero total de productos",
-    "children": [
-      "total-products.v2"
-    ],
+    "children": ["total-products.v2"],
     "props": {
       "width": "20%",
       "horizontalAlign": "center",
@@ -79,9 +71,7 @@
 
   "flex-layout.col#departament__phone__header--order": {
     "title": "Orden de los productos",
-    "children": [
-      "order-by.v2"
-    ],
+    "children": ["order-by.v2"],
     "props": {
       "width": "20%",
       "horizontalAlign": "center",

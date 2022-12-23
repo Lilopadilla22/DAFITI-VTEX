@@ -1,0 +1,120 @@
+{
+  "responsive-layout.tablet#product__detail__page": {
+    "title": "pdp version tablet",
+    "children": [
+      "flex-layout.row#talet__product__detail",
+      "flex-layout.row#product__detail__two"
+    ],
+    "props": {
+      "blockClass": "pdp__tablet"
+    }
+  },
+
+  "flex-layout.row#talet__product__detail": {
+    "title": "container pdp version tablet",
+    "children": [
+      "flex-layout.col#product__detail__image",
+      "flex-layout.col#product__detail__info__tablet"
+    ],
+    "props": {
+      "blockClass": "container__tablet__pdp"
+    }
+  },
+
+  "flex-layout.col#product__detail__info__tablet": {
+    "title": "container col pdp version tablet",
+    "children": [
+      "flex-layout.row#product__detail__info-name",
+      "flex-layout.row#product__detail__info-sku",
+      "flex-layout.row#product__detail__info-botones-tablet",
+      "flex-layout.row#product__detail__info-adicional-tablet",
+      "flex-layout.row#product__detail__info-image"
+    ],
+    "props": {
+      "blockClass": "container__col__pdp__tablet"
+    }
+  },
+
+  "flex-layout.row#product__detail__info-botones-tablet": {
+    "title": "container botones tablet pdp",
+    "children": [
+      "flex-layout.col#product__detail__info-botones-tablet"
+    ],
+    "props": {
+      "width": "40%",
+      "blockClass": "contianer__botones__tablet"
+    }
+  },
+
+  "flex-layout.col#product__detail__info-botones-tablet": {
+    "title": "container quantity y add-to-cart", 
+    "children": [
+      "product-quantity",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "container__select__botones__tablet"
+    }
+  },
+
+  "flex-layout.row#product__detail__info-adicional-tablet": {
+    "title": "container informacion adicional pdp tablet",
+    "children": [
+      "flex-layout.col#product__detail__wishlist__tablet"
+    ],
+    "props": {
+      "blockClass": "container__info__tablet"
+    }
+  },
+
+  "flex-layout.col#product__detail__wishlist__tablet": {
+    "title": "container wishlist col pdp tablet",
+    "children": [
+      "flex-layout.row#product__detail__wishlist__tablet"
+    ],
+    "props": {
+      "blockClass": "container__tablet__wish__list"
+    }
+  },
+
+  "flex-layout.row#product__detail__wishlist__tablet": {
+    "title": "container wishlist pdp row tablet",
+    "children": [
+      "flex-layout.col#product__detail__wishlist__tablet-icon",
+      "flex-layout.col#product__detail__wishlist__tablet-text"
+    ],
+    "props": {
+      "blockClass": "wisht__ico__text__tablet"
+    }
+  },
+  "flex-layout.col#product__detail__wishlist__tablet-icon": {
+    "title": "container icon wishlist pdp tablet",
+    "children": [
+      "add-to-list-btn"
+    ],
+    "props": {
+      "width": "20%",
+      "blockClass": "wish__list__tablet"
+    }
+  },
+
+  "flex-layout.col#product__detail__wishlist__tablet-text": {
+    "title": "container text wishlist pdp",
+    "children": [
+      "rich-text#product__detail__wishlist__tablet-text"
+    ],
+    "props": {
+      "width": "80%",
+      "blockClass": "text__wish__list__tablet"
+    }
+  },
+
+  "rich-text#product__detail__wishlist__tablet-text": {
+    "title": "text wishlist pdp",
+    "props": {
+      "text": "Agregar a lista de deseos",
+      "font": "t-small",
+      "blockClass": "text__tablet__wish__list"
+    }
+  }
+}
