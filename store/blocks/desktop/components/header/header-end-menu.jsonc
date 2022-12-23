@@ -1,22 +1,17 @@
 {
   "flex-layout.row#header__desktop--menu": {
     "title": "container de menu principal version desktop",
-    "children": [
-      "flex-layout.col#header__menu"
-    ],
+    "children": ["flex-layout.col#header__menu"],
     "props": {
       "blockClass": "header_col_Desktop",
       "horizontalAlign": "center",
       "verticalAlign": "center"
-      
     }
-  },  
+  },
 
   "flex-layout.col#header__menu": {
     "title": "container de menu principal desktop",
-    "children": [
-      "header-row#header__menu"
-    ],
+    "children": ["header-row#header__menu"],
     "props": {
       "width": "80%",
       "blockClass": "header_col_desktop_menu"
@@ -126,7 +121,7 @@
     ],
     "props": {
       "blockClass": "departament__mujer__zapatos",
-      "colSizing":"auto" //nuevo
+      "colSizing": "auto" //nuevo
     }
   },
 
@@ -666,9 +661,6 @@
 
   //SEGUNDO ITEMS
 
-  
-
-
   "menu-item#departament__hombre": {
     "title": "departamento hombre menu principal desktop",
     "props": {
@@ -826,8 +818,8 @@
       "type": "custom",
       "blockClass": "department_name",
       "iconPosition": "right",
-      "iconProps":{
-        "id": "hpa-arrow-back",
+      "iconProps": {
+        // "id": "hpa-arrow-back",
         "size": 14
       },
       "itemProps": {

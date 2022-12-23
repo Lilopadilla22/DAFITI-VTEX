@@ -1,0 +1,85 @@
+.flexColChild--descripcion__product__tablet :global(.vtex-product-list-0-x-productBrandName) {
+    font-size: 8px;
+}
+
+.flexColChild--descripcion__product__tablet :global(.vtex-product-list-0-x-productName) {
+    font-size: 9px;
+}
+
+.flexColChild--descripcion__product__tablet :global(.vtex-rich-text-0-x-paragraph--text__minicart__vendido) {
+    font-size: 8px;
+}
+
+.flexColChild--descripcion__product__tablet :global(.vtex-button) {
+    background: none;
+    border    : none;
+    color     : black;
+    font-size : 8px;
+}
+
+.flexColChild--descripcion__product__tablet :global(.vtex-button__label) {
+    padding: 0
+}
+
+.flexRowContent--container__quantity__tablet :global(.vtex-dropdown__container) {
+    height   : 20px;
+    font-size: 8px;
+    width    : 80%;
+    border   : none;
+}
+
+.flexRowContent--container__quantity__tablet :global(.vtex-dropdown__arrow) {
+    font-size: 9px;
+    width    : 12px;
+    height   : 12px;
+
+}
+
+.flexRowContent--container__quantity__tablet :global(.vtex-dropdown__button) {
+    font-size: 9px;
+}
+
+.flexColChild--text__security__tablet :global(.vtex-rich-text-0-x-paragraph--left__minicart--text) {
+    padding-left: 12px;
+    font-size   : 10px;
+}
+
+.flexColChild--tablet__container__checkout :global(.vtex-button__label)::before {
+    font-size: 12px;
+}
+
+.flexRowContent--container__tablet__checkout :global(.vtex-button__label)::before {
+    font-size: 12px;
+}
+
+/* .flexRowContent--container__summary__tablet :global(.vtex-checkout-summary-0-x-summaryItemContainer--summary__total__minicart) {
+    font-size: 11px;
+}
+
+.flexRowContent--container__summary__tablet :global(.vtex-checkout-summary-0-x-summaryItemLabel--summary__total__minicart) {
+    font-size: 11px;
+} */
+
+.flexRowContent--container__summary__tablet :global(.vtex-checkout-summary-10-x-price--summary__total__minicart),
+.flexRowContent--container__summary__tablet :global(.vtex-checkout-summary-0-x-summaryItemLabel--summary__total__minicart),
+.flexRowContent--container__summary__tablet :global(.vtex-checkout-summary-0-x-summaryItemContainer--summary__total__minicart),
+.flexRowContent--container__summary__tablet :global(.vtex-checkout-summary-0-x-price--summary__total__minicart) {
+    font-size: 11px;
+}
+
+.flexRowContent--container__summary__tablet :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    font-size: 10px;
+    color    : gray;
+}
+
+/* .flexRowContent--container__link__tablet {
+    width: 95%;
+} */
+
+.flexRow--container__link__tablet {
+    margin-left: 12px;
+}
+
+.flexRowContent--container__link__tablet :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 95% !important;
+}

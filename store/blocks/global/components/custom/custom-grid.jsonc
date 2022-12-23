@@ -1,0 +1,52 @@
+{
+  "custom-grid": {
+    "title": "Container Custom Grid",
+    "children": [
+      "image#grid-one",
+      "image#grid-two",
+      "image#grid-three",
+      "image#grid-four",
+      "image#grid-five"
+    ]
+  },
+
+  "image#grid-one": {
+    "title": "Imagen uno del grid",
+    "props": {
+      "src": "assets/img/bannerprincipal1.jpg",
+      "maxHeight": 500
+    }
+  },
+
+  "image#grid-two": {
+    "title": "Imagen dos del grid",
+    "props": {
+      "src": "assets/custom/grid-two.png",
+      "maxHeight": 240
+    }
+  },
+
+  "image#grid-three": {
+    "title": "Imagen tres del grid",
+    "props": {
+      "src": "assets/custom/grid-one.png",
+      "maxHeight": 240
+    }
+  },
+
+  "image#grid-four": {
+    "title": "Imagen cuatro del grid",
+    "props": {
+      "src": "assets/img/bannerhome1.jpg",
+      "maxHeight": 240
+    }
+  },
+
+  "image#grid-five": {
+    "title": "Imagen quinto del grid",
+    "props": {
+      "src": "assets/img/bannerhome2.jpg",
+      "maxHeight": 240
+    }
+  }
+}

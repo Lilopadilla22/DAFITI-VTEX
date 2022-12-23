@@ -1,0 +1,206 @@
+{
+  "flex-layout.col#about-us-contenido-navbar": {
+    "title": "container about us left",
+    "children": [
+      "link#button__aboutus__nosotros",
+      "link#button__aboutus__centro",
+      "link#button__aboutus__protocolo",
+      "link#button__aboutus__registro",
+      "link#button__aboutus__compra",
+      "link#button__aboutus__cupones",
+      "link#button__aboutus__envios",
+      "link#button__aboutus__medios",
+      "link#button__aboutus__cambios",
+      "link#button__aboutus__garantias",
+      "link#button__aboutus__tiendas",
+      "link#button__aboutus__contactanos",
+      "link#button__aboutus__prime",
+      "link#button__aboutus__credito",
+      "link#button__aboutus__alianza"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container__aboutus__left"
+    }
+  },
+  "link#button__aboutus__nosotros": {
+    "title": "bottom nosotros",
+    "props": {
+      "blockClass": ["aboutus__bottom__nosotros", "aboutus__bottom"],
+      "href": "/",
+      "label": "Nosotros",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__centro": {
+    "title": "bottom centro",
+    "props": {
+      "blockClass": ["aboutus__bottom__centro", "aboutus__bottom"],
+      "href": "/",
+      "label": "Centro de experiencia",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__protocolo": {
+    "title": "bottom protocolo",
+    "props": {
+      "blockClass": ["aboutus__bottom__protocolo", "aboutus__bottom"],
+      "href": "/",
+      "label": "Protocolo de Bioseguridad",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__registro": {
+    "title": "bottom registro",
+    "props": {
+      "blockClass": ["aboutus__bottom__registro", "aboutus__bottom"],
+      "href": "/",
+      "label": "Registro",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__compra": {
+    "title": "bottom compra",
+    "props": {
+      "blockClass": ["aboutus__bottom__compra", "aboutus__bottom"],
+      "href": "/",
+      "label": "Compra",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__cupones": {
+    "title": "bottom cupones",
+    "props": {
+      "blockClass": ["aboutus__bottom__cupones", "aboutus__bottom"],
+      "href": "/",
+      "label": "Cupones",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__envios": {
+    "title": "bottom envios",
+    "props": {
+      "blockClass": ["aboutus__bottom__envios", "aboutus__bottom"],
+      "href": "/",
+      "label": "Envios y Transporte",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__medios": {
+    "title": "bottom medios de pago",
+    "props": {
+      "blockClass": ["aboutus__bottom__medios", "aboutus__bottom"],
+      "href": "/",
+      "label": "Medios de Pago",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__cambios": {
+    "title": "bottom cambios",
+    "props": {
+      "blockClass": ["aboutus__bottom__camhios", "aboutus__bottom"],
+      "href": "/",
+      "label": "cambios y devoluciones",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__garantias": {
+    "title": "bottom garantias",
+    "props": {
+      "blockClass": ["aboutus__bottom__garantias", "aboutus__bottom"],
+      "href": "/",
+      "label": "Garantias",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__tiendas": {
+    "title": "bottom tiendas",
+    "props": {
+      "blockClass": ["aboutus__bottom__tiendas", "aboutus__bottom"],
+      "href": "/",
+      "label": "Tiendas asociadas",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__contactanos": {
+    "title": "bottom contactanos",
+    "props": {
+      "blockClass": ["aboutus__bottom__contactanos", "aboutus__bottom"],
+      "href": "/",
+      "label": "Contáctanos",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__prime": {
+    "title": "bottom prime",
+    "props": {
+      "blockClass": ["aboutus__bottom__prime", "aboutus__bottom"],
+      "href": "/",
+      "label": "DAFITI prime",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__credito": {
+    "title": "bottom credito addi",
+    "props": {
+      "blockClass": ["aboutus__bottom__credito", "aboutus__bottom"],
+      "href": "/",
+      "label": "Crédito ADDI",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "link#button__aboutus__alianza": {
+    "title": "bottom alianza banco bogota",
+    "props": {
+      "blockClass": ["aboutus__bottom__alianza", "aboutus__bottom"],
+      "href": "/",
+      "label": "Alianza Banco de Bogotá",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  }
+}

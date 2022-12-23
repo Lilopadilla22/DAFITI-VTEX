@@ -1,0 +1,11 @@
+{
+    "responsive-layout.tablet#about-us-contenido": {
+        "title": "pagina about us",
+        "children": [
+            "flex-layout.row#about-us-contenido-info-phone"
+        ],
+        "props": {
+            "blockClass": "aboutus__tablet"
+        }
+    }
+}

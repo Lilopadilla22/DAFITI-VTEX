@@ -1,0 +1,23 @@
+.buttonLink--aboutus__bottom {
+    /* margin-top   : 4px;
+    margin-bottom: 4px; */
+    background: none;
+    border    : none;
+}
+
+.label--aboutus__bottom {
+    color: #858585
+}
+
+.buttonLink--aboutus__bottom:hover .label--aboutus__bottom {
+    color: white;
+}
+
+.label--aboutus__bottom__nosotros {
+    color      : #04c8c9;
+    font-weight: bold;
+}
+
+.label--aboutus__bottom__centro {
+    font-weight: bold;
+}

@@ -48,6 +48,12 @@
     padding-bottom: 20px;
 }
 
+.flexRowContent--footer__text__img__container {
+    border-bottom : 1px solid gray;
+    padding-top   : 15px;
+    padding-bottom: 20px;
+}
+
 .flexCol--contenedor__footer__end {
     padding-top   : 15px;
     padding-bottom: 15px;

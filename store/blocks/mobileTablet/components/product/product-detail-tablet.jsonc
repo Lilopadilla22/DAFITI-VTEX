@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "responsive-layout.tablet#product__detail__page": {
     "title": "pdp version tablet",
     "children": [
@@ -118,3 +119,16 @@
     }
   }
 }
+=======
+    "responsive-layout.tablet#product__detail__page": {
+        "title": "pdp version phone",
+        "children": [
+            "flex-layout.row#product__detail",
+            "flex-layout.row#product__detail__two"
+        ],
+        "props": {
+            "blockClass": "pdp__phone"
+        }
+    }
+}
+>>>>>>> e3bafbe0a06dc1209e9370d70c3880e838cd5df1

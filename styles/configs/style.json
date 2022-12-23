@@ -81,7 +81,7 @@
       "base--inverted": "#03044e",
       "action-primary": "#3cbdaf",
       "action-secondary": "#3cbdaf",
-      "emphasis": "#f71963",
+      "emphasis": "#3cbdaf",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -97,7 +97,7 @@
     },
     "hover-background": {
       "action-primary": "#34a89b",
-      "action-secondary": "#dbe9fd",
+      "action-secondary": "none",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -310,7 +310,7 @@
       "value": 2.5
     },
     {
-      "name": "large",
+      "name": "regular",
       "value": 3
     }
   ],
@@ -398,7 +398,7 @@
         "textTransform": "initial",
         "letterSpacing": "0"
       },
-      "action--large": {
+      "action--regular": {
         "fontFamily": "roboto, arial, sans-serif, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, noto, segoe ui",
         "fontWeight": "500",
         "fontSize": "1.25rem",

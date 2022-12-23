@@ -23,6 +23,7 @@
       "flex-layout.row#footer__desktop__section--one",
       "flex-layout.row#footer__desktop__middle",
       "flex-layout.row#footer__image",
+      "flex-layout.row#footer__text__img",
       "flex-layout.row#footer__desktop__end",
       "flex-layout.row#footer__desktop__mobile__tablet"
     ],

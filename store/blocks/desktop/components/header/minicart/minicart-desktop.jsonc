@@ -1,0 +1,207 @@
+{
+  "responsive-layout.desktop#container__minicart": {
+    "children": ["minicart.v2#desktop"]
+  },
+
+  "minicart.v2#desktop": {
+    "title": "minicart desktop",
+    "children": ["minicart-base-content#desktop"],
+    "props": {
+      "blockClass": "minicart__desktop",
+      "openOnHover": true,
+      "variation": "block"
+    }
+  },
+
+  "minicart-base-content#desktop": {
+    "title": "minicart content desktop",
+    "blocks": ["minicart-empty-state#desktop"],
+    "children": [
+      "flex-layout.row#content__minicart--top",
+      "flex-layout.row#content__minicart--end",
+      "flex-layout.row#bullet-group"
+    ],
+    "props": {
+      "blockClass": "container__minicart__full"
+    }
+  },
+
+  "flex-layout.row#content__minicart--top": {
+    "title": "container minicart content",
+    "children": [
+      "flex-layout.col#container__carrito--right",
+      "flex-layout.col#container__carrito--left"
+    ],
+    "props": {
+      "blockClass": "container__minicart__top"
+    }
+  },
+
+  //SECUND SECCION MINICART DESKTOP 2DO ROW
+
+  "flex-layout.row#content__minicart--end": {
+    "title": "container row seccion two minicart",
+    "children": [
+      "flex-layout.col#content__minicart--end--img",
+      "flex-layout.col#content__minicart--end--botton"
+    ],
+    "props": {
+      "blockClass": "container__content__minicart--end"
+    }
+  },
+
+  "flex-layout.col#content__minicart--end--img": {
+    "title": "container seccion two minicart-right",
+    "children": [
+      "flex-layout.row#content__minicart--end--img1",
+      "flex-layout.row#content__minicart--end--img2"
+    ],
+    "props": {
+      "blockClass": "container__content__minicart--end--img"
+    }
+  },
+
+  "flex-layout.row#content__minicart--end--img1": {
+    "title": "container seccion two minicart-image1",
+    "children": ["image#content__minicart__end--img1"],
+    "props": {
+      "blockClass": "container__content__minicart--img1"
+    }
+  },
+
+  "image#content__minicart__end--img1": {
+    "title": "image minicart ventas centro de experiencias",
+    "props": {
+      "src": "assets/home/pagos-minicart2.jpg",
+      "link": {
+        "url": "/#",
+        "newTab": true
+      }
+    }
+  },
+
+  "flex-layout.row#content__minicart--end--img2": {
+    "title": "container seccion two minicart-image2",
+    "children": ["image#content__minicart__end--img2"],
+    "props": {
+      "blockClass": "container__content__minicart--img2"
+    }
+  },
+
+  "image#content__minicart__end--img2": {
+    "title": "image minicart dafiti envios",
+    "props": {
+      "src": "assets/home/pagos-minicart.jpg",
+      "link": {
+        "url": "/#",
+        "newTab": true
+      }
+    }
+  },
+
+  "flex-layout.col#content__minicart--end--botton": {
+    "title": "container de botones minicar vermas-checkout",
+    "children": [
+      "flex-layout.row#content__minicart--end--botton1",
+      "flex-layout.row#content__minicart--end--botton2"
+    ],
+    "props": {
+      "blockClass": "container__content__minicart--end--botton"
+    }
+  },
+
+  "flex-layout.row#content__minicart--end--botton1": {
+    "title": "container de botones minicar checkout",
+    "children": ["minicart-checkout-button"],
+    "props": {
+      "blockClass": "container__minicart__botton--checkout"
+    }
+  },
+
+  "flex-layout.row#content__minicart--end--botton2": {
+    "title": "container de botones minicar vermas",
+    "children": ["link#content__minicart--end--botton2"],
+    "props": {
+      "blockClass": "container__minicart__botton--seguircomprando"
+    }
+  },
+
+  "link#content__minicart--end--botton2": {
+    "title": "botton minicart ver mas",
+    "props": {
+      "href": "/#",
+      "label": "Continuar comprando",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      },
+      "blockClass": "minicart__button--seguircomprando" //aja2
+    }
+  },
+
+  //MINICART VACIO
+
+  "minicart-empty-state#desktop": {
+    "title": "cart desktop empty state",
+    "children": ["flex-layout.row#empty-state"],
+    "props": {
+      "blockClass": "cart__empaty__state"
+    }
+  },
+
+  "flex-layout.row#empty-state": {
+    "title": "container cart empty state row",
+    "children": ["flex-layout.col#empty-state"],
+    "props": {
+      "blockClass": "container__cart__empaty__state"
+    }
+  },
+
+  "flex-layout.col#empty-state": {
+    "title": "container cart empty state y default",
+    "children": [
+      "rich-text#minicart-default-empty-state",
+      "rich-text#minicart-default-empty-state--text--two",
+      "link#content__minicart--button--comprar--mas"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5,
+      "blockClass": "container__empty__state"
+    }
+  },
+
+  "rich-text#minicart-default-empty-state": {
+    "title": "text carrito vacio",
+    "props": {
+      "text": "**TU CARRO ESTÁ VACÍO...**",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": "text__carrito__vacio"
+    }
+  },
+
+  "rich-text#minicart-default-empty-state--text--two": {
+    "title": "text de continuacion carrito vacio",
+    "props": {
+      "text": "Encuentre las mejores marcas de moda en indumentaria, \n calzado, accesorios, deportes y hogar.",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": "text__carrito__vacio"
+    }
+  },
+
+  "link#content__minicart--button--comprar--mas": {
+    "title": "botton minicart ver mas",
+    "props": {
+      "href": "/#",
+      "label": "Continuar comprando",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      },
+      "blockClass": "minicar__button__comprar--mas" //aja
+    }
+  }
+}

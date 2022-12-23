@@ -1,0 +1,13 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+
+  "store.custom#minicart": {
+    "path": "/carrito-compras"
+  },
+
+  "store.custom#terminos": {
+    "path": "/terminos-condiciones"
+  }
+}

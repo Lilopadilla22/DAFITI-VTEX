@@ -16,7 +16,7 @@
 }
 
 .link--text__footer__end:hover {
-    color    : black
+    color: black
 }
 
 .paragraph--text__mobile__tablet {
@@ -28,4 +28,19 @@
 .link--text__mobile__tablet {
     color    : #858585;
     font-size: 13px;
+}
+
+.paragraph--footer__text__img {
+    margin   : 0;
+    color    : #858585;
+    font-size: 10px;
+}
+
+.image--footer__text__img {
+    width: 8%;
+}
+
+.strong--footer__text__img {
+    color    : black;
+    font-size: 14px;
 }

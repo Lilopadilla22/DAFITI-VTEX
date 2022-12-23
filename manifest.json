@@ -55,7 +55,14 @@
     "vtex.product-list": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.product-price": "1.x",
-    "vtex.overlay-layout": "0.x"
+    "vtex.overlay-layout": "0.x",
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.bullets-diagramation-v2": "0.x",
+    "itgloberspartnercl.add-to-cart-info": "0.x",
+    "itgloberspartnercl.custom-department-search": "0.x",
+    "itgloberspartnercl.pdf-reader": "0.x",
+    "itgloberspartnercl.quick-order-v2": "0.x",
+    "itgloberspartnercl.special-diagramation": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",

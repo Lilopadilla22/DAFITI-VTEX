@@ -73,7 +73,8 @@
       "vtex.store-components:product-name",
       "product-identifier.product",
       "rich-text#product-detail-vendido",
-      "flex-layout.row#product__detail__price"
+      "flex-layout.row#product__detail__price",
+      "availability-subscriber"
     ],
     "props": {
       "blockClass": "container__col__info"
@@ -211,7 +212,9 @@
   "flex-layout.col#product__detail__info-image": {
     "title": "container imagen pago seguro pdp col",
     "children": [
-      "image#product__detail__info-image"
+      "image#product__detail__info-image",
+      "modal-trigger#add-to-cart-info"
+      //"add-to-cart-info"  //AQUI ESTA EL NUMERO COMPONENTE CUSTOM
     ],
     "props": {
       "blockClass": "container__image__pdp__col"

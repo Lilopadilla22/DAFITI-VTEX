@@ -42,15 +42,6 @@
       "url": "assets/svg/heard.svg",
       "blockClass": "header-icon"
   }
-},
-
-  "logo#bagcart": {
-    "props": {
-      "title": "icono bagcart",
-      "href": "/",
-      "url": "assets/svg/cart.svg",
-      "blockClass": "bagcart-icon"
-    }
-  }
+}
 
 }

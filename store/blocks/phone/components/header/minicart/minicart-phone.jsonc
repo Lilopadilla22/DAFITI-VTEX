@@ -1,0 +1,237 @@
+{
+  "responsive-layout.phone#container__minicart": {
+    "children": ["minicart.v2#phone"]
+  },
+
+  "minicart.v2#phone": {
+    "title": "",
+    "children": ["minicart-base-content#phone"],
+    "props": {
+      "openOnHover": true,
+      "variation": "block",
+      "blockClass": "minicart__phone"
+    }
+  },
+
+  "minicart-base-content#phone": {
+    "title": "minicart content phone",
+    "blocks": ["minicart-empty-state#phone"],
+    "children": [
+      "flex-layout.row#content__minicart__phone-product",
+      "flex-layout.row#content__minicart__phone-pagos"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "content__phone__container"
+    }
+  },
+
+  //carrito vacio
+
+  "minicart-empty-state#phone": {
+    "title": "container del estado del minicart version phone",
+    "children": ["flex-layout.row#empty-state-phone"]
+  },
+
+  "flex-layout.row#empty-state-phone": {
+    "title": "container del contenido, estado vacio del minicart version phone",
+    "children": ["flex-layout.col#empty-state-phone"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "blockClass": "container__empty__cart"
+    }
+  },
+
+  "flex-layout.col#empty-state-phone": {
+    "title": "container del contenido, estado vacio del minicart version phone icono-text",
+    "children": [
+      "icon-cart#minicart-empty-state-phone",
+      "rich-text#minicart-default-empty-state-phone",
+      "link#content__empty__button"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5,
+      "blockClass": "container__empty__cart__col"
+    }
+  },
+
+  "icon-cart#minicart-empty-state-phone": {
+    "title": "contenido, estado vacio del minicart version phone icono",
+    "props": {
+      "size": 100,
+      "blockClass": "minicart-empty-state"
+    }
+  },
+
+  "rich-text#minicart-default-empty-state-phone": {
+    "title": "contenido, estado vacio del minicart version phone text",
+    "props": {
+      "text": "Tu carrito esta vacio",
+      "blockClass": "text__carrito__vacio__phone"
+    }
+  },
+
+  "link#content__empty__button": {
+    "title": "botton minicart ver mas",
+    "props": {
+      "href": "/#",
+      "label": "CONTINUAR COMPRANDO",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      },
+      "blockClass": "container__button__empty"
+    }
+  },
+
+  // carrito
+
+  "flex-layout.row#content__minicart__phone-product": {
+    "title": "container de contenido carrito",
+    "children": ["flex-layout.col#content__minicart__phone-product"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "content__minicart__phone-product"
+    }
+  },
+
+  "flex-layout.col#content__minicart__phone-product": {
+    "title": "container col product carrito",
+    "children": ["minicart-product-list#phone"],
+    "props": {
+      "blockClass": "minicar__product__phone"
+    }
+  },
+  "minicart-product-list#phone": {
+    "title": "lista de productos carrito phone",
+    "blocks": ["product-list#phone"]
+  },
+
+  "product-list#phone": {
+    "title": "lista de producto phone",
+    "blocks": ["product-list-content-mobile#phone"]
+  },
+
+  "product-list-content-mobile#phone": {
+    "title": "contenedor de informacion carrito phone",
+    "children": ["flex-layout.row#list-row.phone"]
+  },
+
+  "flex-layout.row#list-row.phone": {
+    "title": "cotenedor de infromacion version phone",
+    "children": [
+      "flex-layout.col#list-col-img.phone",
+      "flex-layout.col#list-col-data.phone"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "marginTop": 6,
+      "marginBottom": 6
+    }
+  },
+
+  "flex-layout.col#list-col-img.phone": {
+    "title": "contenedor de imagen version phone",
+    "children": ["product-list-image"],
+    "props": {
+      "blockClass": "iamgen__carrito__phone"
+    }
+  },
+
+  "flex-layout.col#list-col-data.phone": {
+    "title": "contenedor descripcion producto carrito phone",
+    "children": [
+      "flex-layout.col#product-description",
+      "rich-text#list-col-data.phone",
+      "flex-layout.row#minicart__phone--quantity",
+      "price",
+      "remove-button#minicart"
+    ],
+    "props": {
+      "blockClass": "container__descripcion__phone"
+    }
+  },
+
+  "rich-text#list-col-data.phone": {
+    "title": "text vendido por dafiti minicart",
+    "props": {
+      "text": "vendido y entregado [dafiti](/)",
+      "blockClass": "text__minicart__vendido__phone"
+    }
+  },
+
+  "flex-layout.row#minicart__phone--quantity": {
+    "title": "container the quantity selector",
+    "children": [
+      "flex-layout.col#minicart__phone--rich",
+      "flex-layout.col#minicart__phone--quantity"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "container__quantity__phone"
+    }
+  },
+
+  "flex-layout.col#minicart__phone--rich": {
+    "title": "",
+    "children": ["rich-text#minicart__phone--quantity"],
+    "props": {
+      "width": "30%",
+      "blockClass": "container__text__quantity__phone"
+    }
+  },
+
+  "rich-text#minicart__phone--quantity": {
+    "title": "text quantity selector",
+    "props": {
+      "text": "**cantidad:**",
+      "blockClass": "minicar__phone__quantity"
+    }
+  },
+
+  "flex-layout.col#minicart__phone--quantity": {
+    "title": "",
+    "children": ["quantity-selector"],
+    "props": {
+      "width": "70%",
+      "blockClass": "container__phone__quantity"
+    }
+  },
+
+  "flex-layout.row#content__minicart__phone-pagos": {
+    "title": "container de botones de pago phone",
+    "children": ["flex-layout.col#content__minicart__phone-pagos"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "container__button__phone"
+    }
+  },
+
+  "flex-layout.col#content__minicart__phone-pagos": {
+    "title": "container col de botones phone",
+    "children": [
+      "minicart-summary",
+      "minicart-checkout-button",
+      "link#content__minicart__phone-pagos"
+    ],
+    "props": {
+      "blockClass": "container__buttons__phone"
+    }
+  },
+
+  "link#content__minicart__phone-pagos": {
+    "title": "botton minicart ver mas",
+    "props": {
+      "href": "/#",
+      "label": "CONTINUAR COMPRANDO",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "regular"
+      },
+      "blockClass": "content__minicart__button__continuar"
+    }
+  }
+}

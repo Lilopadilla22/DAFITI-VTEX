@@ -1,0 +1,62 @@
+.flexRow--container__tablet__header__row :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRow--container__full__anuncio {
+    /* background: gainsboro; */
+    height: 10%;
+}
+
+/* .flexColChild--anuncio__conocenos__icono :global(.vtex-store-components-3-x-logoContainer--phone-icon) {
+    padding-left: 7px;
+} */
+
+.flexColChild--anuncio__conocenos__icono :global(.vtex-store-components-3-x-logoImage--phone-icon) {
+    width: 8px !important;
+}
+
+.flexColChild--anuncio__envio__text-one :global(.vtex-rich-text-0-x-link--text-tablet-anuncio) {
+    padding-left: 30px;
+}
+
+.flexColChild--anuncio__sigue__icono :global(.vtex-store-components-3-x-logoContainer--truck-icon) {
+    padding-left: 3rem;
+}
+
+.flexColChild--anuncio__sigue__icono :global(.vtex-store-components-3-x-logoImage--truck-icon) {
+    width: 8px !important;
+}
+
+.flexColChild--anuncio__cambio__icono :global(.vtex-store-components-3-x-logoContainer--arrow-icon) {
+    padding-left: 2.5rem;
+
+}
+
+.flexColChild--anuncio__cambio__icono :global(.vtex-store-components-3-x-logoImage--arrow-icon) {
+    width: 8px !important;
+}
+
+.flexColChild--anuncio__envio__icono :global(.vtex-store-components-3-x-logoContainer--truck-icon-first) {
+    padding-left: 2rem;
+}
+
+.flexColChild--anuncio__envio__icono :global(.vtex-store-components-3-x-logoImage--truck-icon-first) {
+    width: 8px !important;
+}
+
+/* .flexRow--container__tablet__header__row {
+    background: #ececec;
+} */
+
+.flexRow--container__anuncio__tablet {
+    background: #ececec
+}
+
+.flexRow--container__menu__tablet {
+    border-top   : 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+
+.flexCol--container__menu__tablet__col {
+    margin: 10px;
+}

@@ -1,0 +1,58 @@
+// {
+//   "responsive-layout.tablet#header__tablet": {
+//     "title": "container de todo el header principal",
+//     "children": [
+//       "flex-layout.row#tablet__resposive__anuncio",
+//       "flex-layout.row#tablet__resposive__anuncio__middile"
+//     ],
+//     "props": {
+//       "blockClass": "header__tablet"
+//     }
+//   },
+
+//   "flex-layout.row#tablet__resposive__anuncio": {
+//     "title": " ",
+//     "children": ["flex-layout.col#tablet__resposive__anuncio"],
+//     "props": {
+//       "horizontalAlign": "center",
+//       "blockClass": "container__tablet__header__row"
+//     }
+//   },
+
+//   "flex-layout.col#tablet__resposive__anuncio": {
+//     "title": " ",
+//     "children": ["flex-layout.row#header__tablet__anuncio"],
+//     "props": {
+//       "width": "90%",
+//       "verticalAlign": "center",
+//       "horizontalAlign": "center",
+//       "blockClass": "container__tablet__header__col"
+//     }
+//   },
+
+//   "flex-layout.row#tablet__resposive__anuncio__middile": {
+//     "title": " ",
+//     "children": [
+//       "flex-layout.col#tablet__resposive__anuncio__middile"
+//     ],
+//     "props": {
+//       "horizontalAlign": "center",
+//       "blockClass": "container__tablet__header__col"
+//     }
+//   },
+
+//   "flex-layout.col#tablet__resposive__anuncio__middile": {
+//     "title": " ",
+//     "children": [
+//       "flex-layout.row#header__middle"
+//       "flex-layout.row#header__tablet__menu"
+//     ],
+//     "props": {
+//       "verticalAlign": "center",
+//       "horizontalAlign": "center",
+//       "blockClass": "container__tablet__header__col"
+//     }
+//   }
+// }
+
+{}

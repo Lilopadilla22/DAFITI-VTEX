@@ -1,0 +1,183 @@
+{
+  "flex-layout.row#header__tablet__menu": {
+    "title": "",
+    "children": ["flex-layout.col#header__tablet__menu"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__tablet__menu"
+    }
+  },
+
+  "flex-layout.col#header__tablet__menu": {
+    "title": "",
+    "children": ["flex-layout.row#header__menu__tablet"],
+    "props": {
+      "width": "90%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "header__tablet__menu__col"
+    }
+  },
+
+  "flex-layout.row#header__menu__tablet": {
+    "title": "",
+    "children": [
+      "menu-item#tablet__depart__mujer",
+      "menu-item#tablet__depart__hombre",
+      "menu-item#tablet__depart__deportes",
+      "menu-item#tablet__depart__ninos",
+      "menu-item#tablet__depart__belleza",
+      "menu-item#tablet__depart__marcar",
+      "menu-item#tablet__depart__hogar",
+      "menu-item#tablet__depart__eco",
+      "menu-item#tablet__depart__ofertas"
+    ],
+
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header__menu__tablet__row"
+    }
+  },
+
+  "rich-text#prueba": {
+    "props": {
+      "text": "me renderizo"
+    }
+  },
+
+  "menu-item#tablet__depart__mujer": {
+    "title": "",
+    "props": {
+      "id": "tablet__depart__mujer",
+      "type": "custom",
+      "blockClass": "tablet__menu__header",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true, 
+        "tagTitle": "",
+        "text": "MUJER",
+        "font": "t-mini"
+      }
+    }
+  },
+  "menu-item#tablet__depart__hombre": {
+    "title": "",
+    "props": {
+      "id": "tablet__depart__hombre",
+      "type": "custom",
+      "blockClass": "tablet__menu__header",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true, 
+        "tagTitle": "",
+        "text": "HOMBRE",
+        "font": "t-mini"
+      }
+    }
+  },
+  "menu-item#tablet__depart__deportes": {
+    "title": "",
+    "props": {
+      "id": "tablet__depart__deportes",
+      "type": "custom",
+      "blockClass": "tablet__menu__header",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true, 
+        "tagTitle": "",
+        "text": "DEPORTES",
+        "font": "t-mini"
+      }
+    }
+  },
+  "menu-item#tablet__depart__ninos": {
+    "title": "",
+    "props": {
+      "id": "tablet__depart__ninos",
+      "type": "custom",
+      "blockClass": "tablet__menu__header",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true, 
+        "tagTitle": "",
+        "text": "NIÑOS",
+        "font": "t-mini"
+      }
+    }
+  },
+  "menu-item#tablet__depart__belleza": {
+    "title": "",
+    "props": {
+      "id": "tablet__depart__belleza",
+      "type": "custom",
+      "blockClass": "tablet__menu__header",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true, 
+        "tagTitle": "",
+        "text": "BELLEZA",
+        "font": "t-mini"
+      }
+    }
+  },
+  "menu-item#tablet__depart__marcar": {
+    "title": "",
+    "props": {
+      "id": "tablet__depart__marcar",
+      "type": "custom",
+      "blockClass": "tablet__menu__header",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true, 
+        "tagTitle": "",
+        "text": "MARCA",
+        "font": "t-mini"
+      }
+    }
+  },
+  "menu-item#tablet__depart__hogar": {
+    "title": "",
+    "props": {
+      "id": "tablet__depart__hogar",
+      "type": "custom",
+      "blockClass": "tablet__menu__header",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true, 
+        "tagTitle": "",
+        "text": "HOGAR",
+        "font": "t-mini"
+      }
+    }
+  },
+  "menu-item#tablet__depart__eco": {
+    "title": "",
+    "props": {
+      "id": "tablet__depart__eco",
+      "type": "custom",
+      "blockClass": "tablet__menu__header",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true, 
+        "tagTitle": "",
+        "text": "ECO ♻",
+        "font": "t-mini"
+      }
+    }
+  },
+  "menu-item#tablet__depart__ofertas": {
+    "title": "",
+    "props": {
+      "id": "tablet__depart__ofertas",
+      "type": "custom",
+      "blockClass": "tablet__menu__header",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true, 
+        "tagTitle": "",
+        "text": "OFERTAS",
+        "font": "t-mini"
+      }
+    }
+  }
+}

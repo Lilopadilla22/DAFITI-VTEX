@@ -1,0 +1,147 @@
+{
+  "flex-layout.col#container__carrito--right": {
+    "title": "container minicart content-right",
+    "children": ["minicart-product-list#right"],
+    "props": {
+      "blockClass": "container__minicart__right"
+    }
+  },
+
+  "minicart-product-list#right": {
+    "title": "product minicart desktop",
+    "blocks": ["product-list#minicart--right"]
+  },
+
+  "product-list#minicart--right": {
+    "title": "product minicart container productlist",
+    "blocks": ["product-list-content-desktop#right"]
+  },
+
+  "product-list-content-desktop#right": {
+    "title": "product minicart container productlist desktop",
+    "children": ["flex-layout.row#list__row__desktop"]
+  },
+
+  "flex-layout.row#list__row__desktop": {
+    "title": "Container row right minicart product-description",
+    "children": ["flex-layout.col#product_cart--right"],
+    "props": {
+      "blockClass": "container__minicart__full--right"
+    }
+  },
+
+  "flex-layout.col#product_cart--right": {
+    "title": "Container col right minicart product-description",
+    "children": ["flex-layout.row#product_cart--right"],
+    "props": {
+      "blockClass": "container__minicart__right--descripcion"
+    }
+  },
+
+  "flex-layout.row#product_cart--right": {
+    "title": "Container col right minicart img-data-info",
+    "children": [
+      "flex-layout.col#product_cart_image",
+      "flex-layout.col#product_cart_data",
+      "flex-layout.col#product_cart_info"
+    ],
+    "props": {
+      "blockClass": "container__minicart__right--descripcion--row"
+    }
+  },
+
+  "flex-layout.col#product_cart_image": {
+    "title": "Container col right minicart img",
+    "children": ["product-list-image"],
+    "props": {
+      "width": "30%"
+    }
+  },
+
+  "product-list-image": {
+    "title": "propiedades imagen product-minicart",
+    "props": {
+      "width": 90,
+      "height": 90
+    }
+  },
+
+  "flex-layout.col#product_cart_data": {
+    "title": "Container col right minicart data",
+    "children": [
+      "flex-layout.col#product-description",
+      "rich-text#product_cart_data",
+      "flex-layout.row#product_cart_data--wish"
+    ],
+    "props": {
+      "width": "40%",
+      "blockClass": "container__minicart__right--descripcion--data"
+    }
+  },
+
+  "rich-text#product_cart_data": {
+    "title": "text vendido por dafiti minicart",
+    "props": {
+      "text": "vendido y entregado [dafiti](/)",
+      "blockClass": "text__minicart__vendido"
+    }
+  },
+
+  "flex-layout.row#product_cart_data--wish": {
+    "title": "container de wish list",
+    "children": [
+      "flex-layout.col#product_cart_data--delete",
+      "flex-layout.col#product_cart_data--wish"
+    ],
+    "props": {
+      "blockClass": "container__minicart__right--descripcion--wish"
+    }
+  },
+
+  "flex-layout.col#product_cart_data--delete": {
+    "title": "container the button remove",
+    "children": ["remove-button#minicart"],
+    "props": {
+      "blockClass": "button__remote__minicart"
+    }
+  },
+
+  "remove-button#minicart": {
+    "title": "button remove minicart desktop",
+    "props": {
+      "displayMode": "text-button"
+    }
+  },
+
+  "flex-layout.col#product_cart_data--wish": {
+    "title": "container icono wish-list",
+    "children": ["add-to-list-btn"],
+    "props": {
+      "blockClass": "button__wish__minicart"
+    }
+  },
+
+  "flex-layout.col#product_cart_info": {
+    "title": "container minicart info sku-quiatity ",
+    "children": ["sku-selector", "flex-layout.row#minicart__quantity-selector"],
+    "props": {
+      "width": "30",
+      "blockClass": "container__sku__quantity__minicart"
+    }
+  },
+
+  "flex-layout.row#minicart__quantity-selector": {
+    "title": "container the quiantity selector",
+    "children": ["rich-text#minicart__quantity-selector", "quantity-selector"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+
+  "rich-text#minicart__quantity-selector": {
+    "title": "text quiantity selector",
+    "props": {
+      "text": "**cantidad:**"
+    }
+  }
+}

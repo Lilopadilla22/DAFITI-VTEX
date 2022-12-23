@@ -1,0 +1,27 @@
+.strong--about-us-contenido-info-content {
+    color    : #04c8c9;
+    font-size: 18px;
+
+}
+
+.paragraph--about-us-contenido-info-content {
+    font-size: 16px;
+}
+
+.link--about-us-contenido-info-content {
+    text-decoration: none;
+    color          : #04c8c9
+}
+
+.strong--about-us-contenido-info-title {
+    font-size: 35px;
+    color    : #404040
+}
+
+.heading--about-us-contenido-info-title {
+    margin-top: 80px;
+}
+
+.strong--text__search__departament {
+    color: #04c8c9; 
+}

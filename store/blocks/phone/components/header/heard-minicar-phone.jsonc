@@ -1,0 +1,33 @@
+{
+  "flex-layout.col#minicart__phone": {
+    "title": "container minicart version phone",
+    "children": ["minicart.v2#phone-link"],
+    "props": {
+      "width": "20%",
+      "horizontalAlign": "center",
+      "blockClass": "minicart__phone"
+    }
+  },
+
+  "minicart.v2#phone-link": {
+    "title": "Minicart version phone",
+    "props": {
+      "MinicartIcon": "logo#bagcart",
+      "quantityDisplay": "always",
+      "itemCountMode": "Total",
+      "variation": "link",
+      "linkVariationUrl": "/carrito-compras",
+      "blockClass": "minicartmobile"
+    }
+  },
+
+  "logo#bagcart": {
+    "props": {
+      "title": "icono bagcart",
+      "url": "assets/svg/cart.svg",
+      "size": 20,
+      "viewBox": "0 0 20 20",
+      "blockClass": "bagcart-icon"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#bullet-group": {
+    "children": [
+      "list-context.bullet-group"
+    ],
+    "props": {
+      "blockClass": "bullet__container"
+    }
+  },
+
+  "list-context.bullet-group": {
+    "title": "Mi bullet, contexto de lista",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/custom/bullets-camisas.webp",
+          "titleBullet": "camisas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/custom/bullets-camisetas.webp",
+          "titleBullet": "camisetas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/custom/bullets-vestidos.webp",
+          "titleBullet": "Vestidos",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/custom/bullets-chequetas.webp",
+          "titleBullet": "Chaquetas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/custom/bullets-carteras.webp",
+          "titleBullet": "Carteras",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/custom/bullets-tennis.webp",
+          "titleBullet": "Tennis",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/custom/bullets-botas.webp",
+          "titleBullet": "botas",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "mobile": 2
+      },
+      "autoplay": {
+        "timeout": 4000
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "arrowSize": 10
+    }
+  }
+}

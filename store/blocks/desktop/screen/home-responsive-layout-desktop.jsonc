@@ -16,17 +16,25 @@
   "flex-layout.col": {
     "title": "container home",
     "children": [
+
+      "flex-layout.row#search-departament",
+      "whatsapp-button",
       "flex-layout.row#bannerpublicitario",
       "flex-layout.row#textfirst",
       "flex-layout.row#bannerprincipal",
       "flex-layout.row#bannersecundario",
+      "flex-layout.row#quick-order",
       "flex-layout.row#marcas",
       "slider-layout#marcasbanner",
       "flex-layout.row#bannerayuda",
       "flex-layout.row#favoritos",
+      "flex-layout.row#bullet-group",
       "flex-layout.row#description",
       // "search-result-layout.customQuery#desktop_home",
-      "list-context.product-list#slider-desktop"
+      "list-context.product-list#slider-desktop",
+      "custom-grid"
+      // "list-context-bullet-group"
+      // "bullets-diagramation"
       //"icon#homeprueba"
     ],
     "props": {
@@ -34,10 +42,10 @@
     }
   }
 
-//   "icon#homeprueba": {
-//     "props": {
-//       "id": "mpa-globe",
-//       "size": 20
-//     }
-//   }
+  //   "icon#homeprueba": {
+  //     "props": {
+  //       "id": "mpa-globe",
+  //       "size": 20
+  //     }
+  //   }
 }

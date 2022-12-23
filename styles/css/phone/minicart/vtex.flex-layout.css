@@ -1,0 +1,64 @@
+.flexColChild--container__descripcion__phone :global(.vtex-product-list-0-x-productBrandName) {
+    font-size: 12px;
+    color    : black;
+}
+
+.flexColChild--container__descripcion__phone :global(.vtex-product-list-0-x-productName) {
+    font-size: 10px;
+}
+
+.flexCol--container__descripcion__phone :global(.vtex-button) {
+    background: none;
+    border    : none;
+}
+
+.flexCol--container__descripcion__phone :global(.vtex-button__label) {
+    color        : gray;
+    font-size    : 11px;
+    padding-left : 0;
+    padding-right: 0;
+}
+
+.flexColChild--container__descripcion__phone :global(.vtex-flex-layout-0-x-flexRowContent) {
+    margin: 0
+}
+
+.flexColChild--container__phone__quantity :global(.vtex-dropdown__container) {
+    border-style : none;
+    border-bottom: 1px solid gainsboro;
+    font-size    : 11px;
+    width        : 80%;
+    height       : 30px;
+    margin-left  : 6px;
+}
+
+.flexColChild--container__descripcion__phone :global(.vtex-product-list-0-x-price) {
+    font-size  : 10px;
+    font-weight: lighter;
+
+}
+
+
+.flexColChild--container__buttons__phone :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    visibility: hidden;
+    margin    : 0;
+    font-size : 0
+}
+
+.flexColChild--container__buttons__phone {
+    margin-top: 10px;
+}
+
+.flexColChild--container__buttons__phone :global(.vtex-store-link-0-x-link--content__minicart__button__continuar) {
+   margin-left: 12px;
+}
+
+.flexRow--container__empty__cart {
+    margin-top   : 40px;
+    margin-bottom: 100px;
+}
+
+.flexColChild--container__empty__cart__col {
+    padding-bottom: 0;
+}
+
