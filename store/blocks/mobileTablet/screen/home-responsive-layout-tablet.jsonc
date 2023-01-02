@@ -22,7 +22,8 @@
         "children": [
           "flex-layout.row#bannerpublicitario",
           "flex-layout.row#textfirst",
-          "flex-layout.row#bannersecundario",
+        //   "flex-layout.row#bannersecundario",
+          "flex-layout.row#banner__tablet__home",
           "flex-layout.row#marcas",
           "slider-layout#marcasbanner",
           "flex-layout.row#bannerayuda",
