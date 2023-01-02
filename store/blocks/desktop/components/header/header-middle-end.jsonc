@@ -4,7 +4,8 @@
     "children": ["flex-layout.row#header__end"],
     "props": {
       "width": "30%",
-      "horizontalAlign": "center",
+      "horizontalAlign": "right",
+      "verticalAlign": "center",
       "blockClass": "header__middle__endcol"
     }
   },
@@ -17,9 +18,35 @@
       "flex-layout.col#desktop__cart"
     ],
     "props": {
-      "horizontalAlign": "center",
+      "horizontalAlign": "right",
       "blockClass": "header__middle__endrow"
-      
+    }
+  },
+
+  "flex-layout.col#desktop__login": {
+    "title": "container login en version desktop",
+    "children": ["login#desktop"],
+    "props": {
+      "width": "33%",
+      "horizontalAlign": "right",
+      "verticalAlign": "middle",
+      "marginLeft": 7,
+      "blockClass": "login__desktop"
+    }
+  },
+
+  "login#desktop": {
+    "title": "Login-desktop",
+    "props": {
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresa con código",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": false,
+      "iconLabel": "Registrate ENTRA",
+      "font": "t-small",
+      "labelClasses": "login__label_desktop"
     }
   },
 
@@ -27,8 +54,9 @@
     "title": "container de icono-heart",
     "children": ["icon#heard"],
     "props": {
-      "width": "20%",
-      "horizontalAlign": "center",
+      "width": "33%",
+      "horizontalAlign": "right",
+      "verticalAlign": "center",
       "blockClass": "header__middle__end--iconheard"
     }
   },
@@ -39,6 +67,36 @@
       "id": "mpa-heart",
       "size": 20,
       "blockClass": "icon__desktop--heard"
+    }
+  },
+
+  "flex-layout.col#desktop__cart": {
+    "title": "container cart desktop",
+    "children": ["minicart.v2#link"],
+    "props": {
+      "width": "33%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "minicart__desktop"
+    }
+  },
+
+  "minicart.v2#link": {
+    "props": {
+      "MinicartIcon": "icon-cart#minicart-icon",
+      "itemCountMode": "Total",
+      "quantityDisplay": "always",
+      "variation": "link",
+      "linkVariationUrl": "/carrito-compras",
+      "blockClass": "minicart__desktop"
+    }
+  },
+  
+  "icon-cart#minicart-icon": {
+    "title": "icono mini cart desktop",
+    "props": {
+      "size": 20
+      // "viewBox": "0 0 20 20"
     }
   }
 }

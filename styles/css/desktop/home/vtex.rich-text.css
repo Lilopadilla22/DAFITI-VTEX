@@ -1,5 +1,5 @@
 .paragraph--anuncio-desktop {
-    font-size     : 16px;
+    font-size     : 14px;
     text-align    : center;
     color         : #8a8a8a;
     text-transform: uppercase;
@@ -16,7 +16,7 @@
     border-bottom: 1px solid #d8d8d8;
     display      : inline-block;
     position     : relative;
-    top          : 40px
+    top          : 35px
 }
 
 .wrapper--anuncio-desktop {

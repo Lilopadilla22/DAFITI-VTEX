@@ -17,7 +17,7 @@
 }
 
 .submenuWrapper--container__submenu--isOpen {
-    width      : 1300px;
+    width      : 1900px;
     margin-left: 30px;
     margin-top : 15px;
 }
@@ -43,4 +43,9 @@
 
 .menuItem--department_name:hover .styledLinkContent--department_name {
     color: #fff;
+}
+
+.menuItem--department_name--isClosed {
+    padding-left : 13px;
+    padding-right: 13px;
 }

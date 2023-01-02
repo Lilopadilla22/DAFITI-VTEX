@@ -1,0 +1,12 @@
+.link--text__tablet__banner {
+    font-size      : 14px;
+    text-decoration: none;
+    color          : white;
+
+}
+
+.container--text__tablet__banner {
+    font-size    : 6px;
+    padding-right: 80px;
+    padding-left : 18px;
+}

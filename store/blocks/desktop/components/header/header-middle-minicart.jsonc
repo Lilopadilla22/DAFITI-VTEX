@@ -1,32 +1,5 @@
 {
-  "flex-layout.col#desktop__cart": {
-    "title": "container cart desktop",
-    "children": ["minicart.v2#link"],
-    "props": {
-      "width": "30%",
-      "verticalAlign": "middle",
-      "blockClass": "minicart__desktop"
-    }
-  },
 
-  "minicart.v2#link": {
-    "props": {
-      "MinicartIcon": "icon-cart#minicart-icon",
-      "itemCountMode": "Total",
-      "quantityDisplay": "always",
-      "variation": "link",
-      "linkVariationUrl": "/carrito-compras",
-      "blockClass": "minicart__desktop"
-    }
-  },
-  
-  "icon-cart#minicart-icon": {
-    "title": "icono mini cart desktop",
-    "props": {
-      "size": 20,
-      "viewBox": "0 0 20 20"
-    }
-  }
 
   // // "minicart.v2#desktop": {
   // //   "title": "minicart desktop",

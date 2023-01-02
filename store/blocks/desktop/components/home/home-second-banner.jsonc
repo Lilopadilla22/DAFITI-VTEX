@@ -9,8 +9,8 @@
     "props": {
       "colSizing": "auto",
       "colGap": 7,
-      "horizontalAlign": "center",
       "rowGap": 5,
+      "horizontalAlign": "center",
       "blockClass": "banner_secundario__home"
     }
   },
