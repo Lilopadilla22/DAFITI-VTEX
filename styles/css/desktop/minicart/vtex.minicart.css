@@ -41,3 +41,7 @@
 .minicartContainer--minicart__desktop {
     margin-bottom: 10%;
 }
+
+.minicartContainer--minicart__desktop :global(.vtex-button__label) {
+    padding: 0;
+}

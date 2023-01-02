@@ -6,7 +6,7 @@
     ],
     "props": {
       "width": "20%",
-      "verticalAlign": "middle",
+      "verticalAlign": "left",
       "rowGap": 1,
       "blockClass": "logo-desktop-home"
     }

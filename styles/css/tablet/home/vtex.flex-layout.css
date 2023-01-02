@@ -1,0 +1,24 @@
+.flexCol--banner__tablet__kids {
+    /*background-image: url('assets/img/bannerhome1.jpg');*/
+    background-image: url('/arquivos/bannerhome1.jpg');
+    height          : 220px;
+    background-size : cover;
+    ;
+}
+
+.flexCol--banner__tablet__premium {
+    background-image   : url('assets/img/bannerhome3.jpg');
+    height             : 220px;
+    background-size    : cover;
+    /* padding-bottom  : 320px; */
+}
+
+.flexCol--banner__tablet__sneaker {
+    background-image    : url('assets/img/bannerhome2.jpg');
+    height              : 220px;
+    background-size     : cover;
+    /* padding-bottom   : 320px; */
+    /* background-repeat: no-repeat;
+    background-size     : contain;
+    padding-bottom      : 320px; */
+}

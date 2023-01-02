@@ -20,6 +20,7 @@
 .flexColChild--login__desktop :global(.vtex-login-2-x-label) {
     text-transform: none;
     color         : black;
+    font-size     : 11px;
 
 }
 
@@ -62,4 +63,14 @@
 
 .flexColChild--container__minicar__detail :global(.vtex-flex-layout-0-x-flexRow--container__quantity__Selecto) {
     width: 50%;
+}
+
+
+.flexColChild--login__desktop :global(.vtex-button__label) {
+    padding: 0;
+}
+
+
+.flexColChild--search__desktop {
+    padding-right: 90px;
 }
